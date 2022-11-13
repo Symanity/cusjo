@@ -3,6 +3,7 @@ import datetime
 from datetime import date 
 
 DATE_FORMAT = '%m/%d/%y'
+theBeginnnig = datetime.datetime.strptime("01/01/86", DATE_FORMAT).date()
 
 
 class Evaluator:
@@ -93,18 +94,31 @@ class Evaluation:
         pass
 
 
-    # Get most recent price
+    # Get most recent job with a price
     def getPrice(self):
         today = date.today()
-        mostRecent = None
+        mostRecentJob = None
+        days = 0
         
-        for job in self.jobs:
+        effectiveJobs = self.__getJobsInRange(theBeginnnig, today)
+
+        for job in effectiveJobs:
             jobDate = datetime.datetime.strptime(job["date"], DATE_FORMAT).date()
 
-            if not mostRecent:
-                mostRecent = jobDate
-            
-            
+            if not mostRecentJob and float(job["price"]) > 0:
+                mostRecentJob = job
+                days = (today - jobDate).days
+
+            diffDays = (today - jobDate).days
+
+            if diffDays < days and float(job["price"]) > 0:
+                mostRecentJob = job
+                days = diffDays
+
+        if mostRecentJob:
+            return float(mostRecentJob["price"])
+        else:
+            return None
 
 
 # Converts into minutes

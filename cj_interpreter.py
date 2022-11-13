@@ -4,9 +4,6 @@ import io
 import os
 import json
 
-FILE_BASE = os.path.join(os.getcwd(), "res")
-CUSTOMER_DATA = os.path.join(FILE_BASE, "CF_exported.csv")
-
 CUSTOMER_ID = 'Id'
 CUSTOMER_NAME = 'Customer Name'
 COMPANY_NAME = 'Company Name'
@@ -21,7 +18,22 @@ ASSIGNED_TO = 'Assigned To'
 DURATION = 'Duration'
 INVOICE_NUMBER = 'Invoice Number'
 
-# Return dictionay
+
+def load():
+    directory = os.path.join(os.getcwd(), "res")
+    csv_dict = os.path.join(directory, "CF_exported.csv")
+    customerData = io.open(csv_dict, 'r', encoding="utf-8")
+
+    try:
+        rawData = csv.DictReader(customerData)
+        customers = consolidate(rawData)
+
+        return customers
+
+    finally:
+        customerData.close()
+        
+
 def consolidate(data):
     customer = None
     customers = []
@@ -34,7 +46,7 @@ def consolidate(data):
                 customer.jobHistory.append(job)
             else: 
                 # Save customer and continue to next
-                customers.append(customer)
+                customers.append(customer.toJson())
                 customer = Customer(row)
                 
         else: # For first pass through
@@ -54,6 +66,9 @@ class Job:
     def __str__(self):
         return self.date
 
+    def toJson(self):
+        return json.dumps(self, default=lambda o: o.__dict__, indent=4)
+
 
 class Customer:
     def __init__(self, data):
@@ -68,23 +83,5 @@ class Customer:
     def __str__(self):
         return self.name
 
-
-# --------------------MAIN--------------------
-customerData = io.open(CUSTOMER_DATA, 'r', encoding="utf-8")
-
-try:
-    rawData = csv.DictReader(customerData)
-    consolidate(rawData)
-
-finally:
-    print('end')
-
-
-
-    #Goal == get data into a json file 
-    # CUSTOMER_DB = {
-    #     customerKey: {
-    #         customerName: '',
-    #         'etc'
-    #     }
-    # }
+    def toJson(self):
+        return json.dumps(self, default=lambda o: o.__dict__, indent=4)

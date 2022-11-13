@@ -1,33 +1,44 @@
+import cj_interpreter as inter
+import json
+import datetime
+from datetime import date 
 
-# Get avg of Duration column
-#     - considerations => Job-age? Still active job?
+def evaluate(customerData):
+    customer = json.loads(customerData)
+    if isActive(customer):
+        print(customer["name"], ' => active')
+    else:
+        print(customer["name"], ' => inactive')
 
+    # --> CONSIDER JOB TYPE <---  For now, base on jobs done within two years
 
-# keyID = Customer + Id
-def evalJob(keyId):
-    x = 10
+        # DURATION 
 
+        # FREQUENCY 
 
-# def isActive(keyId):
-#     IF(keyID isActive)
-#         - get avg duration
-#         - get frequency
-
-
-#     function GET_DURATION(keyID)
-#         - get duration
-
-
-#     function IS_ACTIVE(Duration time)
-#      - If done by active empoloyee
-#      - Job Date?
-#         - What is the cut-off?
-
-#         -> Make this adjustable <-
-
-
-# Class Frequency:
+        # CURRENT PRICE 
     
+
+# DETERMINE IF ACTIVE - Determined based on 2+ years of nothing done
+def isActive(customer, effectiveDays = 730):
+    jobHistory = customer["jobHistory"]
+    dateFormat = '%m/%d/%y'
+    today = date.today()
+    print(today)
+
+    for job in jobHistory:
+        jobDateStr = job["date"]
+        jobDate = datetime.datetime.strptime(jobDateStr, dateFormat).date()
+
+        if abs(today-jobDate).days < effectiveDays:
+            return True
+
+    return False
+
+customers = inter.load()
+
+evaluate(customers[8])
+
 
 # OUTPUT:
 #  - KeyID => Avg. Duration, From: xx/xx/xxxx to xx/xx/xxxx

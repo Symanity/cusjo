@@ -1,0 +1,2392 @@
+ROYAL OAKS SENIOR APARTMENTS: 650 Woodward Street
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$300.00 		=> {'job': {'date': '09/10/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '300.00', 'assiged': '1 and 2', 'duration': '6 Hrs', 'invoice': '9757334'}, 'price': '300.00'}
+	 Average Duration:	360.00 mins 	=> {'avg duration in mins': 360.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$2650.00 		=> {'job': {'date': '09/10/21', 'type': 'Exterior Window Cleaning', 'price': '2650.00', 'assiged': '1 and 2', 'duration': '6 Hrs', 'invoice': '9757334'}, 'price': '2650.00'}
+	 Average Duration:	360.00 mins 	=> {'avg duration in mins': 360.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WATCHLIGHT CORPORATION: 111 S Marshall Ave
+	Exterior Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '10/11/22', 'type': 'Exterior Window Cleaning', 'price': '25.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9758767'}, 'price': '25.00'}
+	 Average Duration:	16.17 mins 	=> {'avg duration in mins': 16.17142857142857, 'jobs calculated': 14, 'total jobs': 193}
+
+
+
+TRAFALGER SQUARE: 1310 East Valley Parkway
+	Interior Only Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	160.00 mins 	=> {'avg duration in mins': 160.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$175.00 		=> {'job': {'date': '05/21/21', 'type': 'Exterior Window Cleaning', 'price': '175.00', 'assiged': 'Jose Perez', 'duration': '1 Hr 30 Mins', 'invoice': '9756834'}, 'price': '175.00'}
+	 Average Duration:	146.00 mins 	=> {'avg duration in mins': 146.0, 'jobs calculated': 5, 'total jobs': 14}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$320.00 		=> {'job': {'date': '12/02/20', 'type': 'Interior/Exterior Window Cleaning', 'price': '320.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '320.00'}
+	 Average Duration:	150.00 mins 	=> {'avg duration in mins': 150.0, 'jobs calculated': 1, 'total jobs': 7}
+
+	window cleaning
+	 Most Recent Price:	$107.00 		=> {'job': {'date': '06/21/19', 'type': 'window cleaning', 'price': '107.00', 'assiged': 'None', 'duration': '3 Hrs', 'invoice': '9755657'}, 'price': '107.00'}
+	 Average Duration:	180.00 mins 	=> {'avg duration in mins': 180.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+TRADER JOES #224: 5140 College Avenue
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$200.00 		=> {'job': {'date': '11/01/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '200.00', 'assiged': 'Isais', 'duration': '', 'invoice': ''}, 'price': '200.00'}
+	 Average Duration:	87.10 mins 	=> {'avg duration in mins': 87.1, 'jobs calculated': 20, 'total jobs': 147}
+
+
+
+SO-CAL COUNTERTOPS: 120 North Pacific Street
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+ROCCOFORTE HAIR: 8131 La Mesa Blvd
+	Exterior Window Cleaning
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '08/26/21', 'type': 'Exterior Window Cleaning', 'price': '20.00', 'assiged': 'Roberto Isais', 'duration': '.22 Hr', 'invoice': ''}, 'price': '20.00'}
+	 Average Duration:	13.13 mins 	=> {'avg duration in mins': 13.129268292682944, 'jobs calculated': 82, 'total jobs': 82}
+
+	Interior Only Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '08/02/16', 'type': 'Interior Only Window Cleaning', 'price': '25.00', 'assiged': 'Evans Richie', 'duration': '.22 Hr', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	13.20 mins 	=> {'avg duration in mins': 13.2, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+MTS INVESTMENTS: 703 16th Street
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$40.00 		=> {'job': {'date': '06/28/21', 'type': 'Exterior Window Cleaning', 'price': '40.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs', 'invoice': ''}, 'price': '40.00'}
+	 Average Duration:	180.00 mins 	=> {'avg duration in mins': 180.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	Aluminum frames wiped
+	 Most Recent Price:	$10.00 		=> {'job': {'date': '06/28/21', 'type': 'Aluminum frames wiped', 'price': '10.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs', 'invoice': ''}, 'price': '10.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+MOHNACKY ANIMAL HOSPITAL: 2250 S Escondido Blvd
+	Exterior Window Cleaning
+	 Most Recent Price:	$155.00 		=> {'job': {'date': '05/31/19', 'type': 'Exterior Window Cleaning', 'price': '155.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '155.00'}
+	 Average Duration:	104.83 mins 	=> {'avg duration in mins': 104.83333333333333, 'jobs calculated': 6, 'total jobs': 53}
+
+	Interior Only Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$155.00 		=> {'job': {'date': '11/11/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '155.00', 'assiged': 'Devony Dettman', 'duration': '', 'invoice': None}, 'price': '155.00'}
+	 Average Duration:	134.75 mins 	=> {'avg duration in mins': 134.75, 'jobs calculated': 20, 'total jobs': 44}
+
+
+
+MISSION HILLS FINANCIAL: 1633 W Lewis St
+	Exterior Window Cleaning
+	 Most Recent Price:	$22.00 		=> {'job': {'date': '10/19/22', 'type': 'Exterior Window Cleaning', 'price': '22.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9758801'}, 'price': '22.00'}
+	 Average Duration:	19.00 mins 	=> {'avg duration in mins': 19.0, 'jobs calculated': 4, 'total jobs': 90}
+
+
+
+MISSION HILLS FABRIC: 1604 W Lewis St
+	Exterior Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '06/19/20', 'type': 'Exterior Window Cleaning', 'price': '25.00', 'assiged': 'Roberto Isais', 'duration': '30 Mins', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	51.85 mins 	=> {'avg duration in mins': 51.854838709677416, 'jobs calculated': 62, 'total jobs': 62}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$80.00 		=> {'job': {'date': '09/21/16', 'type': 'Interior/Exterior Window Cleaning', 'price': '80.00', 'assiged': 'Evans Richie', 'duration': '1 Hr', 'invoice': ''}, 'price': '80.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	louvers
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '09/21/16', 'type': 'louvers', 'price': '35.00', 'assiged': 'Evans Richie', 'duration': '1 Hr', 'invoice': ''}, 'price': '35.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+MIRACLE EAR: 559 H St
+	Exterior Window Cleaning
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '03/21/22', 'type': 'Exterior Window Cleaning', 'price': '20.00', 'assiged': 'Roberto Isais', 'duration': '20 Mins', 'invoice': '9758046'}, 'price': '20.00'}
+	 Average Duration:	19.60 mins 	=> {'avg duration in mins': 19.6, 'jobs calculated': 5, 'total jobs': 6}
+
+
+
+MARCO'S JEWELRY: 7951 Broadway
+	Exterior Window Cleaning
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '09/26/22', 'type': 'Exterior Window Cleaning', 'price': '20.00', 'assiged': 'Roberto Isais', 'duration': '15 Mins', 'invoice': ''}, 'price': '20.00'}
+	 Average Duration:	15.00 mins 	=> {'avg duration in mins': 15.0, 'jobs calculated': 8, 'total jobs': 8}
+
+
+
+LEGENDS ATHLETIC PERFORMANCE: 1220 Broadway
+	Exterior Window Cleaning
+	 Most Recent Price:	$130.00 		=> {'job': {'date': '08/21/20', 'type': 'Exterior Window Cleaning', 'price': '130.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9756045'}, 'price': '130.00'}
+	 Average Duration:	63.00 mins 	=> {'avg duration in mins': 63.0, 'jobs calculated': 1, 'total jobs': 14}
+
+
+
+LANCETOWN INDUSTRIES  INC - POWERS PLUMBING: 1705 W Lewis St
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$32.00 		=> {'job': {'date': '10/19/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '32.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '32.00'}
+	 Average Duration:	38.57 mins 	=> {'avg duration in mins': 38.57142857142857, 'jobs calculated': 7, 'total jobs': 91}
+
+	Window Cleaning
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '10/18/17', 'type': 'Window Cleaning', 'price': '100.00', 'assiged': 'Skyler Gibbs', 'duration': '', 'invoice': ''}, 'price': '100.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$10.00 		=> {'job': {'date': '07/20/21', 'type': 'Exterior Window Cleaning', 'price': '10.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9757103'}, 'price': '10.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+INVISION BOUTIQUE: 3830 Valley Centre Dr
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$27.00 		=> {'job': {'date': '10/13/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '27.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758778'}, 'price': '27.00'}
+	 Average Duration:	24.06 mins 	=> {'avg duration in mins': 24.0625, 'jobs calculated': 16, 'total jobs': 89}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$13.00 		=> {'job': {'date': '11/08/22', 'type': 'Exterior Window Cleaning', 'price': '13.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9758842'}, 'price': '13.00'}
+	 Average Duration:	14.13 mins 	=> {'avg duration in mins': 14.127272727272727, 'jobs calculated': 22, 'total jobs': 97}
+
+	windows wash out only
+	 Most Recent Price:	$17.00 		=> {'job': {'date': '02/09/16', 'type': 'windows wash out only', 'price': '17.00', 'assiged': 'None', 'duration': '15min Hrs', 'invoice': ''}, 'price': '17.00'}
+	 Average Duration:	15.00 mins 	=> {'avg duration in mins': 15.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+HOT SEAT SALON: 1224 Broadway
+	Exterior Window Cleaning
+	 Most Recent Price:	$76.00 		=> {'job': {'date': '10/27/20', 'type': 'Exterior Window Cleaning', 'price': '76.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9756244'}, 'price': '76.00'}
+	 Average Duration:	46.50 mins 	=> {'avg duration in mins': 46.5, 'jobs calculated': 6, 'total jobs': 55}
+
+
+
+GTM STORE #3: 6021 Business Center Court
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$115.00 		=> {'job': {'date': '11/07/19', 'type': 'Interior/Exterior Window Cleaning', 'price': '115.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '115.00'}
+	 Average Duration:	62.33 mins 	=> {'avg duration in mins': 62.333333333333336, 'jobs calculated': 3, 'total jobs': 27}
+
+	Paint Removal
+	 Most Recent Price:	$90.00 		=> {'job': {'date': '01/08/21', 'type': 'Paint Removal', 'price': '90.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9756435'}, 'price': '90.00'}
+	 Average Duration:	150.00 mins 	=> {'avg duration in mins': 150.0, 'jobs calculated': 1, 'total jobs': 3}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$115.00 		=> {'job': {'date': '10/06/22', 'type': 'Exterior Window Cleaning', 'price': '115.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '115.00'}
+	 Average Duration:	86.33 mins 	=> {'avg duration in mins': 86.33333333333333, 'jobs calculated': 3, 'total jobs': 36}
+
+
+
+GTM DISCOUNT #4: 1315 3rd Avenue
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$90.00 		=> {'job': {'date': '07/07/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '90.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9757045'}, 'price': '90.00'}
+	 Average Duration:	34.00 mins 	=> {'avg duration in mins': 34.0, 'jobs calculated': 2, 'total jobs': 7}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$40.00 		=> {'job': {'date': '09/01/22', 'type': 'Exterior Window Cleaning', 'price': '40.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758632'}, 'price': '40.00'}
+	 Average Duration:	55.25 mins 	=> {'avg duration in mins': 55.25, 'jobs calculated': 4, 'total jobs': 38}
+
+	Paint Removal
+	 Most Recent Price:	$60.00 		=> {'job': {'date': '01/07/21', 'type': 'Paint Removal', 'price': '60.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9756433'}, 'price': '60.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 1, 'total jobs': 3}
+
+
+
+G.T.M DISCOUNT #1: 8967 Carlton Hills Blvd
+	Exterior Window Cleaning
+	 Most Recent Price:	$70.00 		=> {'job': {'date': '11/01/22', 'type': 'Exterior Window Cleaning', 'price': '70.00', 'assiged': 'Isais', 'duration': '.55 Hr', 'invoice': '9758860'}, 'price': '70.00'}
+	 Average Duration:	35.69 mins 	=> {'avg duration in mins': 35.68888888888889, 'jobs calculated': 90, 'total jobs': 90}
+
+	Paint Removal
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '01/06/21', 'type': 'Paint Removal', 'price': '100.00', 'assiged': 'Roberto Isais', 'duration': '.55 Hr', 'invoice': '9756424'}, 'price': '100.00'}
+	 Average Duration:	64.80 mins 	=> {'avg duration in mins': 64.8, 'jobs calculated': 5, 'total jobs': 6}
+
+	Window Coverings
+	 Most Recent Price:	$310.25 		=> {'job': {'date': '11/06/19', 'type': 'Window Coverings', 'price': '310.25', 'assiged': 'None', 'duration': '3 Hrs', 'invoice': '9755676'}, 'price': '310.25'}
+	 Average Duration:	180.00 mins 	=> {'avg duration in mins': 180.0, 'jobs calculated': 3, 'total jobs': 3}
+
+
+
+FITNESS DIRECT: 8063 Balboa Avenue
+	Mirror Cleaning
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '06/18/18', 'type': 'Mirror Cleaning', 'price': '35.00', 'assiged': '1 and 2', 'duration': '', 'invoice': ''}, 'price': '35.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$105.00 		=> {'job': {'date': '10/07/19', 'type': 'Exterior Window Cleaning', 'price': '105.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '105.00'}
+	 Average Duration:	54.00 mins 	=> {'avg duration in mins': 54.0, 'jobs calculated': 1, 'total jobs': 7}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$215.00 		=> {'job': {'date': '06/18/18', 'type': 'Interior/Exterior Window Cleaning', 'price': '215.00', 'assiged': '1 and 2', 'duration': '', 'invoice': ''}, 'price': '215.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+EDWARD D JONES: 12750 Carmel Country Rd
+	Exterior Window Cleaning
+	 Most Recent Price:	$17.00 		=> {'job': {'date': '12/06/21', 'type': 'Exterior Window Cleaning', 'price': '17.00', 'assiged': 'Brandon Foster', 'duration': '6 Mins', 'invoice': '9757881'}, 'price': '17.00'}
+	 Average Duration:	10.00 mins 	=> {'avg duration in mins': 10.0, 'jobs calculated': 12, 'total jobs': 83}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$17.00 		=> {'job': {'date': '11/08/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '17.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '17.00'}
+	 Average Duration:	10.00 mins 	=> {'avg duration in mins': 10.0, 'jobs calculated': 1, 'total jobs': 12}
+
+
+
+COMPASS REAL ESTATE: 1625 W Lewis St
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '05/19/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '30.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '30.00'}
+	 Average Duration:	18.50 mins 	=> {'avg duration in mins': 18.5, 'jobs calculated': 2, 'total jobs': 57}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '10/19/22', 'type': 'Exterior Window Cleaning', 'price': '20.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9758802'}, 'price': '20.00'}
+	 Average Duration:	9.33 mins 	=> {'avg duration in mins': 9.333333333333334, 'jobs calculated': 3, 'total jobs': 34}
+
+	Paint Removal
+	 Most Recent Price:	$10.00 		=> {'job': {'date': '01/20/21', 'type': 'Paint Removal', 'price': '10.00', 'assiged': 'Jose Perez', 'duration': '', 'invoice': '9756463'}, 'price': '10.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+COLDWELL BANKER WEST: 2382 Fletcher Parkway
+	Exterior Window Cleaning
+	 Most Recent Price:	$42.00 		=> {'job': {'date': '05/01/19', 'type': 'Exterior Window Cleaning', 'price': '42.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '42.00'}
+	 Average Duration:	26.00 mins 	=> {'avg duration in mins': 26.0, 'jobs calculated': 2, 'total jobs': 22}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$42.00 		=> {'job': {'date': '01/07/19', 'type': 'Interior/Exterior Window Cleaning', 'price': '42.00', 'assiged': 'Roberto Isais', 'duration': '25 Mins', 'invoice': ''}, 'price': '42.00'}
+	 Average Duration:	25.00 mins 	=> {'avg duration in mins': 25.0, 'jobs calculated': 1, 'total jobs': 3}
+
+
+
+CHAMPAGNE SPAS: 5710 Kearny Villa Rd
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$55.00 		=> {'job': {'date': '03/12/19', 'type': 'Interior/Exterior Window Cleaning', 'price': '55.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '55.00'}
+	 Average Duration:	12.00 mins 	=> {'avg duration in mins': 12.0, 'jobs calculated': 2, 'total jobs': 3}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '10/18/22', 'type': 'Exterior Window Cleaning', 'price': '30.00', 'assiged': 'Isais', 'duration': '.20 Hr', 'invoice': '9758793'}, 'price': '30.00'}
+	 Average Duration:	13.23 mins 	=> {'avg duration in mins': 13.23157894736842, 'jobs calculated': 95, 'total jobs': 96}
+
+	Interior Only Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '08/25/22', 'type': 'Interior Only Window Cleaning', 'price': '25.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758607'}, 'price': '25.00'}
+	 Average Duration:	29.00 mins 	=> {'avg duration in mins': 29.0, 'jobs calculated': 4, 'total jobs': 27}
+
+
+
+CAREFREE VACATIONS: 878 Eastlake Pkwy  Suite # 1310
+	Exterior Window Cleaning
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '08/31/21', 'type': 'Exterior Window Cleaning', 'price': '30.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '30.00'}
+	 Average Duration:	19.14 mins 	=> {'avg duration in mins': 19.142857142857142, 'jobs calculated': 7, 'total jobs': 81}
+
+
+
+CALIFORNIA LABOR FORCE: 5597 Clairemont Mesa Boulevard
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$22.00 		=> {'job': {'date': '03/12/19', 'type': 'Interior/Exterior Window Cleaning', 'price': '22.00', 'assiged': 'Roberto Isais', 'duration': '.17 Mins', 'invoice': ''}, 'price': '22.00'}
+	 Average Duration:	1.45 mins 	=> {'avg duration in mins': 1.452, 'jobs calculated': 10, 'total jobs': 11}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$22.00 		=> {'job': {'date': '12/18/19', 'type': 'Exterior Window Cleaning', 'price': '22.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '22.00'}
+	 Average Duration:	2.63 mins 	=> {'avg duration in mins': 2.6275, 'jobs calculated': 4, 'total jobs': 22}
+
+
+
+CALIFORNIA COAST CREDIT UNION - OCEANSIDE: 3485 Marron Rd
+	Exterior Window Cleaning
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '10/15/21', 'type': 'Exterior Window Cleaning', 'price': '65.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '65.00'}
+	 Average Duration:	30.00 mins 	=> {'avg duration in mins': 30.0, 'jobs calculated': 1, 'total jobs': 14}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$200.00 		=> {'job': {'date': '11/08/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '200.00', 'assiged': 'Devony Dettman', 'duration': '2 Hrs 30 Mins', 'invoice': '9758841'}, 'price': '200.00'}
+	 Average Duration:	133.33 mins 	=> {'avg duration in mins': 133.33333333333334, 'jobs calculated': 3, 'total jobs': 14}
+
+	Window Coverings
+	 Most Recent Price:	$375.30 		=> {'job': {'date': '02/06/20', 'type': 'Window Coverings', 'price': '375.30', 'assiged': 'None', 'duration': '2 Hrs', 'invoice': '9755685'}, 'price': '375.30'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 1, 'total jobs': 4}
+
+	Pressure washing
+	 Most Recent Price:	$550.00 		=> {'job': {'date': '08/22/21', 'type': 'Pressure washing', 'price': '550.00', 'assiged': 'None', 'duration': '5.5 Hrs', 'invoice': '9757268'}, 'price': '550.00'}
+	 Average Duration:	330.00 mins 	=> {'avg duration in mins': 330.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+C AND D CYCLES: 4927 Convoy St
+	Exterior Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '10/18/22', 'type': 'Exterior Window Cleaning', 'price': '25.00', 'assiged': 'Isais', 'duration': '15 Mins', 'invoice': '9758794'}, 'price': '25.00'}
+	 Average Duration:	15.46 mins 	=> {'avg duration in mins': 15.46376811594203, 'jobs calculated': 69, 'total jobs': 70}
+
+
+
+BOX GALAXY: 7465 Mission Gorge Rd
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$53.00 		=> {'job': {'date': '04/15/15', 'type': 'Interior/Exterior Window Cleaning', 'price': '53.00', 'assiged': 'Danny Steinweg', 'duration': '.27 Hr', 'invoice': ''}, 'price': '53.00'}
+	 Average Duration:	16.20 mins 	=> {'avg duration in mins': 16.200000000000003, 'jobs calculated': 1, 'total jobs': 1}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '10/23/19', 'type': 'Exterior Window Cleaning', 'price': '35.00', 'assiged': 'Roberto Isais', 'duration': '.27 Hr', 'invoice': ''}, 'price': '35.00'}
+	 Average Duration:	17.17 mins 	=> {'avg duration in mins': 17.172413793103466, 'jobs calculated': 58, 'total jobs': 59}
+
+
+
+BERGEN AND BRASIER: 5710 Kearny Villa Rd
+	Exterior Window Cleaning
+	 Most Recent Price:	$26.00 		=> {'job': {'date': '01/11/22', 'type': 'Exterior Window Cleaning', 'price': '26.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9757783'}, 'price': '26.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$48.00 		=> {'job': {'date': '10/18/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '48.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758792'}, 'price': '48.00'}
+	 Average Duration:	30.60 mins 	=> {'avg duration in mins': 30.6, 'jobs calculated': 10, 'total jobs': 75}
+
+
+
+AMERICAN LICENSING: 5232 Jackson Dr
+	back windows
+	 Most Recent Price:	$75.00 		=> {'job': {'date': '07/27/20', 'type': 'back windows', 'price': '75.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9755960'}, 'price': '75.00'}
+	 Average Duration:	35.15 mins 	=> {'avg duration in mins': 35.148387096774194, 'jobs calculated': 31, 'total jobs': 40}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$70.00 		=> {'job': {'date': '08/27/20', 'type': 'Interior/Exterior Window Cleaning', 'price': '70.00', 'assiged': 'Roberto Isais', 'duration': '.50 Hr', 'invoice': '9756053'}, 'price': '70.00'}
+	 Average Duration:	33.09 mins 	=> {'avg duration in mins': 33.092957746478874, 'jobs calculated': 71, 'total jobs': 72}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '02/13/17', 'type': 'Exterior Window Cleaning', 'price': '50.00', 'assiged': 'None', 'duration': '2 Hrs', 'invoice': ''}, 'price': '50.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	back back windows
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '03/13/18', 'type': 'back back windows', 'price': '45.00', 'assiged': 'None', 'duration': '.50 Hr', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	30.00 mins 	=> {'avg duration in mins': 30.0, 'jobs calculated': 6, 'total jobs': 6}
+
+	REMOVE VINYL SEE JOB NOTES
+	 Most Recent Price:	$75.00 		=> {'job': {'date': '03/13/18', 'type': 'REMOVE VINYL SEE JOB NOTES', 'price': '75.00', 'assiged': 'None', 'duration': '.50 Hr', 'invoice': ''}, 'price': '75.00'}
+	 Average Duration:	30.00 mins 	=> {'avg duration in mins': 30.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Paint Removal
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '04/13/18', 'type': 'Paint Removal', 'price': '15.00', 'assiged': 'Skyler Gibbs', 'duration': '.50 Hr', 'invoice': ''}, 'price': '15.00'}
+	 Average Duration:	30.00 mins 	=> {'avg duration in mins': 30.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+DONAHUE SCHRIBER REALTY GROUP: 12925 El Camino Real
+	Exterior Window Cleaning
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '02/04/20', 'type': 'Exterior Window Cleaning', 'price': '30.00', 'assiged': 'Justin Smith', 'duration': '15 Mins', 'invoice': ''}, 'price': '30.00'}
+	 Average Duration:	15.15 mins 	=> {'avg duration in mins': 15.15, 'jobs calculated': 4, 'total jobs': 52}
+
+	elevators
+	 Most Recent Price:	$250.00 		=> {'job': {'date': '05/30/18', 'type': 'elevators', 'price': '250.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '250.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Elevators
+	 Most Recent Price:	$350.00 		=> {'job': {'date': '05/01/19', 'type': 'Elevators', 'price': '350.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '350.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+DEL MAR HIGHLANDS TOWN CENTER: 12925 El Camino Real
+	Exterior Window Cleaning
+	 Most Recent Price:	$125.00 		=> {'job': {'date': '07/27/19', 'type': 'Exterior Window Cleaning', 'price': '125.00', 'assiged': 'Justin Smith', 'duration': '56 Mins', 'invoice': ''}, 'price': '125.00'}
+	 Average Duration:	56.00 mins 	=> {'avg duration in mins': 56.0, 'jobs calculated': 2, 'total jobs': 16}
+
+	elevator 1
+	 Most Recent Price:	$125.00 		=> {'job': {'date': '12/26/17', 'type': 'elevator 1', 'price': '125.00', 'assiged': 'Skyler Gibbs', 'duration': '', 'invoice': ''}, 'price': '125.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+AMK PROPERTY MANAGEMENT: 3435 Camino del Rio South
+	Window Coverings
+	 Most Recent Price:	$402.46 		=> {'job': {'date': '02/24/20', 'type': 'Window Coverings', 'price': '402.46', 'assiged': 'None', 'duration': '2 Hrs', 'invoice': '9755688'}, 'price': '402.46'}
+	 Average Duration:	225.00 mins 	=> {'avg duration in mins': 225.0, 'jobs calculated': 8, 'total jobs': 8}
+
+
+
+WINDANSEA PILATES: 504 Nautilus Street
+	Mirror Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '10/20/22', 'type': 'Mirror Cleaning', 'price': '25.00', 'assiged': 'Isais', 'duration': '30 Mins', 'invoice': '9758806'}, 'price': '25.00'}
+	 Average Duration:	30.00 mins 	=> {'avg duration in mins': 30.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+WESTMINSTER SEMINARY: 1725 Bear Valley Parkway
+	Exterior Window Cleaning
+	 Most Recent Price:	$1200.00 		=> {'job': {'date': '11/12/22', 'type': 'Exterior Window Cleaning', 'price': '1200.00', 'assiged': 'Justin Smith', 'duration': '7 Hrs', 'invoice': None}, 'price': '1200.00'}
+	 Average Duration:	519.46 mins 	=> {'avg duration in mins': 519.4615384615385, 'jobs calculated': 26, 'total jobs': 26}
+
+	discount
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	529.11 mins 	=> {'avg duration in mins': 529.1111111111111, 'jobs calculated': 9, 'total jobs': 9}
+
+
+
+VALLEY CENTER DENTAL: 28743 Valley Center Rd # A
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$125.00 		=> {'job': {'date': '11/02/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '125.00', 'assiged': 'None', 'duration': '1 Hr 15 Mins', 'invoice': ''}, 'price': '125.00'}
+	 Average Duration:	58.41 mins 	=> {'avg duration in mins': 58.411764705882355, 'jobs calculated': 85, 'total jobs': 85}
+
+
+
+THE DANCE ACADEMY DEL MAR: 12843 El Camino Real
+	Mirror Cleaning
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '11/08/22', 'type': 'Mirror Cleaning', 'price': '30.00', 'assiged': 'None', 'duration': '1 Hr 15 Mins', 'invoice': ''}, 'price': '30.00'}
+	 Average Duration:	75.00 mins 	=> {'avg duration in mins': 75.0, 'jobs calculated': 4, 'total jobs': 4}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '11/08/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '100.00', 'assiged': 'None', 'duration': '1 Hr 15 Mins', 'invoice': ''}, 'price': '100.00'}
+	 Average Duration:	75.00 mins 	=> {'avg duration in mins': 75.0, 'jobs calculated': 3, 'total jobs': 3}
+
+
+
+STUDIO BARRE MISSION HILLS: 321 West Washington Street
+	Invoice
+	 Most Recent Price:	$160.00 		=> {'job': {'date': '09/09/20', 'type': 'Invoice', 'price': '160.00', 'assiged': 'None', 'duration': '2 Hrs', 'invoice': ''}, 'price': '160.00'}
+	 Average Duration:	78.00 mins 	=> {'avg duration in mins': 78.0, 'jobs calculated': 20, 'total jobs': 20}
+
+	invoice $160 in/out or $55 out only
+	 Most Recent Price:	$160.00 		=> {'job': {'date': '03/24/21', 'type': 'invoice $160 in/out or $55 out only', 'price': '160.00', 'assiged': 'None', 'duration': '2 Hrs', 'invoice': ''}, 'price': '160.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 7, 'total jobs': 7}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$160.00 		=> {'job': {'date': '11/09/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '160.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs', 'invoice': '9758848'}, 'price': '160.00'}
+	 Average Duration:	118.67 mins 	=> {'avg duration in mins': 118.66666666666667, 'jobs calculated': 21, 'total jobs': 21}
+
+
+
+SALON ON 30TH: 2225 30th Street
+	Cash
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '04/02/21', 'type': 'Cash', 'price': '65.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '65.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '03/29/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '65.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '65.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$32.00 		=> {'job': {'date': '03/01/22', 'type': 'Exterior Window Cleaning', 'price': '32.00', 'assiged': '3 and 4', 'duration': '16 Mins', 'invoice': '9757983'}, 'price': '32.00'}
+	 Average Duration:	21.00 mins 	=> {'avg duration in mins': 21.0, 'jobs calculated': 2, 'total jobs': 2}
+
+
+
+MULLINS ORTHODONICS: 1116 1st Street
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$40.00 		=> {'job': {'date': '08/17/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '40.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9758572'}, 'price': '40.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+MERCER GROUP: 4071 Adams Avenue
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '11/09/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '20.00', 'assiged': 'Roberto Isais', 'duration': '15 Mins', 'invoice': '9758847'}, 'price': '20.00'}
+	 Average Duration:	15.00 mins 	=> {'avg duration in mins': 15.0, 'jobs calculated': 19, 'total jobs': 19}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$10.00 		=> {'job': {'date': '09/16/22', 'type': 'Exterior Window Cleaning', 'price': '10.00', 'assiged': 'Roberto Isais', 'duration': '15 Mins', 'invoice': '9758688'}, 'price': '10.00'}
+	 Average Duration:	15.00 mins 	=> {'avg duration in mins': 15.0, 'jobs calculated': 6, 'total jobs': 6}
+
+
+
+MERAKI CAFE: 1735 Adams Avenue
+	Cash/Check
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '03/25/21', 'type': 'Cash/Check', 'price': '45.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '04/21/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '45.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	31.00 mins 	=> {'avg duration in mins': 31.0, 'jobs calculated': 2, 'total jobs': 14}
+
+
+
+IE PACIFIC INC: 150 West Crest Street
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$150.00 		=> {'job': {'date': '10/06/22', 'type': 'Inside Partition Glass Cleaning', 'price': '150.00', 'assiged': 'Devony Dettman', 'duration': '3 Hrs 14 Mins', 'invoice': '9758757'}, 'price': '150.00'}
+	 Average Duration:	158.69 mins 	=> {'avg duration in mins': 158.69230769230768, 'jobs calculated': 13, 'total jobs': 27}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '10/06/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '100.00', 'assiged': 'Devony Dettman', 'duration': '3 Hrs 14 Mins', 'invoice': '9758757'}, 'price': '100.00'}
+	 Average Duration:	158.69 mins 	=> {'avg duration in mins': 158.69230769230768, 'jobs calculated': 13, 'total jobs': 27}
+
+
+
+DDH ENTERPRISE: 2220 Oak Ridge Way
+	Exterior Window Cleaning
+	 Most Recent Price:	$550.00 		=> {'job': {'date': '11/12/21', 'type': 'Exterior Window Cleaning', 'price': '550.00', 'assiged': 'Justin Smith', 'duration': '30 Hrs', 'invoice': '9757592'}, 'price': '550.00'}
+	 Average Duration:	1075.12 mins 	=> {'avg duration in mins': 1075.125, 'jobs calculated': 8, 'total jobs': 8}
+
+
+
+ASHEN SALON: 6903 La Jolla Boulevard
+	Exterior Window Cleaning
+	 Most Recent Price:	$60.00 		=> {'job': {'date': '10/20/22', 'type': 'Exterior Window Cleaning', 'price': '60.00', 'assiged': 'Isais', 'duration': '45 Mins', 'invoice': '9758813'}, 'price': '60.00'}
+	 Average Duration:	42.33 mins 	=> {'avg duration in mins': 42.333333333333336, 'jobs calculated': 18, 'total jobs': 18}
+
+
+
+QP TECHNOLOGIES: 2063 Wineridge Place
+	Exterior Window Cleaning
+	 Most Recent Price:	$150.00 		=> {'job': {'date': '08/26/22', 'type': 'Exterior Window Cleaning', 'price': '150.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr 44 Mins', 'invoice': '9758615'}, 'price': '150.00'}
+	 Average Duration:	107.00 mins 	=> {'avg duration in mins': 107.0, 'jobs calculated': 6, 'total jobs': 6}
+
+
+
+DR. PHILIP BOSCH: 651 East Pennsylvania Avenue
+	Coupon
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$170.00 		=> {'job': {'date': '11/11/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '170.00', 'assiged': 'Devony Dettman', 'duration': '', 'invoice': None}, 'price': '170.00'}
+	 Average Duration:	118.25 mins 	=> {'avg duration in mins': 118.25, 'jobs calculated': 4, 'total jobs': 18}
+
+
+
+CALIFORNIA FUNERAL ALTERNATIVES: 1020 East Pennsylvania Avenue
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '11/02/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '100.00', 'assiged': 'Devony Dettman', 'duration': '35 Mins', 'invoice': '9758827'}, 'price': '100.00'}
+	 Average Duration:	50.77 mins 	=> {'avg duration in mins': 50.76923076923077, 'jobs calculated': 13, 'total jobs': 13}
+
+	dicsount for middle suite
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	30.00 mins 	=> {'avg duration in mins': 30.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+PARKWEST CONDOMINIUMS: 2700 2nd Ave
+	Exterior Window Cleaning
+	 Most Recent Price:	$1295.00 		=> {'job': {'date': '06/29/22', 'type': 'Exterior Window Cleaning', 'price': '1295.00', 'assiged': '1 and 4', 'duration': '5 Hrs 10 Mins', 'invoice': '9758382'}, 'price': '1295.00'}
+	 Average Duration:	590.00 mins 	=> {'avg duration in mins': 590.0, 'jobs calculated': 5, 'total jobs': 8}
+
+	Screen Cleaning
+	 Most Recent Price:	$240.00 		=> {'job': {'date': '10/12/15', 'type': 'Screen Cleaning', 'price': '240.00', 'assiged': 'Danny Steinweg', 'duration': '10 Hrs', 'invoice': ''}, 'price': '240.00'}
+	 Average Duration:	600.00 mins 	=> {'avg duration in mins': 600.0, 'jobs calculated': 1, 'total jobs': 3}
+
+	Wind Wall Cleaning
+	 Most Recent Price:	$110.00 		=> {'job': {'date': '06/29/22', 'type': 'Wind Wall Cleaning', 'price': '110.00', 'assiged': '1 and 4', 'duration': '5 Hrs 10 Mins', 'invoice': '9758382'}, 'price': '110.00'}
+	 Average Duration:	587.50 mins 	=> {'avg duration in mins': 587.5, 'jobs calculated': 4, 'total jobs': 5}
+
+
+
+MISSION GROVE COMMUNITY ASSOCIATION: 440 Penelope Drive
+	Exterior Window Cleaning
+	 Most Recent Price:	$5750.00 		=> {'job': {'date': '08/11/22', 'type': 'Exterior Window Cleaning', 'price': '5750.00', 'assiged': 'Justin Smith', 'duration': '57 Hrs', 'invoice': '9758553'}, 'price': '5750.00'}
+	 Average Duration:	1905.00 mins 	=> {'avg duration in mins': 1905.0, 'jobs calculated': 6, 'total jobs': 12}
+
+
+
+CAMBRIDGE SQUARE HOA: 350 Nutmeg St
+	Exterior Window Cleaning
+	 Most Recent Price:	$3062.00 		=> {'job': {'date': '08/03/22', 'type': 'Exterior Window Cleaning', 'price': '3062.00', 'assiged': 'Everyone', 'duration': '25 Hrs', 'invoice': '9758523'}, 'price': '3062.00'}
+	 Average Duration:	1177.50 mins 	=> {'avg duration in mins': 1177.5, 'jobs calculated': 4, 'total jobs': 11}
+
+	Screen Cleaning
+	 Most Recent Price:	$500.00 		=> {'job': {'date': '08/03/22', 'type': 'Screen Cleaning', 'price': '500.00', 'assiged': 'Everyone', 'duration': '25 Hrs', 'invoice': '9758523'}, 'price': '500.00'}
+	 Average Duration:	1490.00 mins 	=> {'avg duration in mins': 1490.0, 'jobs calculated': 3, 'total jobs': 4}
+
+	Interior Only Window Cleaning
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '07/13/17', 'type': 'Interior Only Window Cleaning', 'price': '50.00', 'assiged': 'Skyler Gibbs', 'duration': '27 Hrs', 'invoice': ''}, 'price': '50.00'}
+	 Average Duration:	1620.00 mins 	=> {'avg duration in mins': 1620.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	1620.00 mins 	=> {'avg duration in mins': 1620.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	Screen cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	1620.00 mins 	=> {'avg duration in mins': 1620.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	screen cleaning
+	 Most Recent Price:	$425.00 		=> {'job': {'date': '10/16/20', 'type': 'screen cleaning', 'price': '425.00', 'assiged': '1 and 2', 'duration': '', 'invoice': '9756211'}, 'price': '425.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+VILLAGE VINO: 4095 Adams Avenue
+	Cash
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '04/01/21', 'type': 'Cash', 'price': '25.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '04/28/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '25.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+THREAD & SEED (SOUTH PARK): 2220 Fern Street
+	Invoice
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '04/02/21', 'type': 'Invoice', 'price': '65.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '65.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '10/14/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '65.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '65.00'}
+	 Average Duration:	31.00 mins 	=> {'avg duration in mins': 31.0, 'jobs calculated': 1, 'total jobs': 20}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '11/10/22', 'type': 'Exterior Window Cleaning', 'price': '30.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758857'}, 'price': '30.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+THREAD & SEED (BANKERS HILL): 2870 Fourth Avenue
+	Invoice
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '03/31/21', 'type': 'Invoice', 'price': '25.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '10/14/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '25.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	47.00 mins 	=> {'avg duration in mins': 47.0, 'jobs calculated': 3, 'total jobs': 20}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$13.00 		=> {'job': {'date': '11/10/22', 'type': 'Exterior Window Cleaning', 'price': '13.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758854'}, 'price': '13.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+THE LAW OFFICE OF TERRY J. CHAPKO: 120 C Avenue
+	Check
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '03/10/21', 'type': 'Check', 'price': '25.00', 'assiged': 'None', 'duration': '', 'invoice': '322'}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '02/07/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '25.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9757893'}, 'price': '25.00'}
+	 Average Duration:	11.00 mins 	=> {'avg duration in mins': 11.0, 'jobs calculated': 1, 'total jobs': 4}
+
+
+
+THE GIRL CAN'T HELP IT: 3806 Grim Avenue
+	Cash, or leave bill if not there
+	 Most Recent Price:	$13.00 		=> {'job': {'date': '03/12/21', 'type': 'Cash, or leave bill if not there', 'price': '13.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '13.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$13.00 		=> {'job': {'date': '02/09/22', 'type': 'Exterior Window Cleaning', 'price': '13.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9757906'}, 'price': '13.00'}
+	 Average Duration:	6.50 mins 	=> {'avg duration in mins': 6.5, 'jobs calculated': 2, 'total jobs': 12}
+
+
+
+THE GENSLER GROUP: 120 C Avenue
+	Invoice
+	 Most Recent Price:	$60.00 		=> {'job': {'date': '03/10/21', 'type': 'Invoice', 'price': '60.00', 'assiged': 'None', 'duration': '1 Hr', 'invoice': '323'}, 'price': '60.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 15, 'total jobs': 15}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$60.00 		=> {'job': {'date': '07/25/22', 'type': 'Exterior Window Cleaning', 'price': '60.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr', 'invoice': '9758484'}, 'price': '60.00'}
+	 Average Duration:	50.33 mins 	=> {'avg duration in mins': 50.333333333333336, 'jobs calculated': 6, 'total jobs': 6}
+
+
+
+THE BOOK CATAPULT: 3010 Juniper Street
+	Cash
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '04/02/21', 'type': 'Cash', 'price': '15.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '15.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '11/10/22', 'type': 'Exterior Window Cleaning', 'price': '15.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758858'}, 'price': '15.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '12/08/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '30.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9757687'}, 'price': '30.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+THAI TIME: 4102 30th Street
+	Check
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '03/11/21', 'type': 'Check', 'price': '25.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '09/22/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '25.00', 'assiged': 'Isais', 'duration': '', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+STUDIO BARRE: 5705 La Jolla Boulevard
+	windows and mirrors
+	 Most Recent Price:	$75.00 		=> {'job': {'date': '02/26/21', 'type': 'windows and mirrors', 'price': '75.00', 'assiged': 'None', 'duration': '1 Hr', 'invoice': ''}, 'price': '75.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 2, 'total jobs': 2}
+
+
+
+SALON1745: 2814 Adams Avenue
+	cash
+	 Most Recent Price:	$12.00 		=> {'job': {'date': '06/27/18', 'type': 'cash', 'price': '12.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '12.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Cash Collect next time $35
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Cash Collect next time $36
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$18.00 		=> {'job': {'date': '07/07/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '18.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '18.00'}
+	 Average Duration:	9.00 mins 	=> {'avg duration in mins': 9.0, 'jobs calculated': 1, 'total jobs': 4}
+
+
+
+SALON1745: 1745 Adams Avenue
+	cash
+	 Most Recent Price:	$36.00 		=> {'job': {'date': '04/01/21', 'type': 'cash', 'price': '36.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '36.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$18.00 		=> {'job': {'date': '11/09/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '18.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '18.00'}
+	 Average Duration:	21.00 mins 	=> {'avg duration in mins': 21.0, 'jobs calculated': 1, 'total jobs': 20}
+
+
+
+SALON ON FIRST: 1134 1st Street
+	Invoice
+	 Most Recent Price:	$55.00 		=> {'job': {'date': '03/10/21', 'type': 'Invoice', 'price': '55.00', 'assiged': 'None', 'duration': '', 'invoice': '324'}, 'price': '55.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$55.00 		=> {'job': {'date': '09/21/22', 'type': 'Exterior Window Cleaning', 'price': '55.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9758699'}, 'price': '55.00'}
+	 Average Duration:	29.50 mins 	=> {'avg duration in mins': 29.5, 'jobs calculated': 2, 'total jobs': 20}
+
+
+
+SALON INK: 3957 Goldfinch Street
+	cash
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '03/17/21', 'type': 'cash', 'price': '45.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Cash
+	 Most Recent Price:	$13.00 		=> {'job': {'date': '11/25/20', 'type': 'Cash', 'price': '13.00', 'assiged': 'None', 'duration': '', 'invoice': '242'}, 'price': '13.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '09/14/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '50.00', 'assiged': 'None', 'duration': '30 Mins', 'invoice': ''}, 'price': '50.00'}
+	 Average Duration:	31.00 mins 	=> {'avg duration in mins': 31.0, 'jobs calculated': 2, 'total jobs': 5}
+
+
+
+SALON BORDEAUX: 3393 Adams Avenue
+	Cash
+	 Most Recent Price:	$22.00 		=> {'job': {'date': '04/01/21', 'type': 'Cash', 'price': '22.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '22.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$22.00 		=> {'job': {'date': '11/09/22', 'type': 'Exterior Window Cleaning', 'price': '22.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9758845'}, 'price': '22.00'}
+	 Average Duration:	14.50 mins 	=> {'avg duration in mins': 14.5, 'jobs calculated': 2, 'total jobs': 20}
+
+
+
+SALON BORDEAUX: 3393 Adams Avenue
+	Cash
+	 Most Recent Price:	$32.00 		=> {'job': {'date': '03/19/21', 'type': 'Cash', 'price': '32.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '32.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$32.00 		=> {'job': {'date': '09/29/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '32.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758738'}, 'price': '32.00'}
+	 Average Duration:	25.67 mins 	=> {'avg duration in mins': 25.666666666666668, 'jobs calculated': 3, 'total jobs': 20}
+
+
+
+RIP CURRENT BREWING: 4101 30th Street
+	Cash
+	 Most Recent Price:	$75.00 		=> {'job': {'date': '03/26/21', 'type': 'Cash', 'price': '75.00', 'assiged': 'None', 'duration': '1 Hr', 'invoice': ''}, 'price': '75.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 54, 'total jobs': 54}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$75.00 		=> {'job': {'date': '10/07/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '75.00', 'assiged': 'None', 'duration': '1 Hr', 'invoice': ''}, 'price': '75.00'}
+	 Average Duration:	58.53 mins 	=> {'avg duration in mins': 58.53333333333333, 'jobs calculated': 15, 'total jobs': 15}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$32.00 		=> {'job': {'date': '11/03/22', 'type': 'Exterior Window Cleaning', 'price': '32.00', 'assiged': 'Isais', 'duration': '1 Hr', 'invoice': '9758837'}, 'price': '32.00'}
+	 Average Duration:	52.17 mins 	=> {'avg duration in mins': 52.166666666666664, 'jobs calculated': 6, 'total jobs': 6}
+
+
+
+RINSE SALON: 4201 30th Street
+	Check
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '03/17/17', 'type': 'Check', 'price': '65.00', 'assiged': 'None', 'duration': '1 Hr', 'invoice': ''}, 'price': '65.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Invoice
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '03/12/21', 'type': 'Invoice', 'price': '100.00', 'assiged': 'None', 'duration': '1 Hr', 'invoice': '327'}, 'price': '100.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 37, 'total jobs': 37}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '09/22/22', 'type': 'Exterior Window Cleaning', 'price': '100.00', 'assiged': 'Isais', 'duration': '1 Hr', 'invoice': '9758715'}, 'price': '100.00'}
+	 Average Duration:	59.70 mins 	=> {'avg duration in mins': 59.7, 'jobs calculated': 10, 'total jobs': 10}
+
+
+
+RELAX THE BACK (HILLREST): 1205 University Avenue
+	Invoice today for all locations
+	 Most Recent Price:	$153.00 		=> {'job': {'date': '02/05/20', 'type': 'Invoice today for all locations', 'price': '153.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '153.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Invoice today
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '03/31/21', 'type': 'Invoice today', 'price': '35.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '35.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Invoice Today
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '02/03/21', 'type': 'Invoice Today', 'price': '35.00', 'assiged': 'None', 'duration': '', 'invoice': '294'}, 'price': '35.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '09/14/21', 'type': 'Exterior Window Cleaning', 'price': '35.00', 'assiged': 'Justin Smith', 'duration': '27 Mins', 'invoice': '9757339'}, 'price': '35.00'}
+	 Average Duration:	28.50 mins 	=> {'avg duration in mins': 28.5, 'jobs calculated': 2, 'total jobs': 5}
+
+
+
+RAY STREET CUSTOM FRAMING: 3807 Ray Street
+	Window Cleaning
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '08/28/20', 'type': 'Window Cleaning', 'price': '20.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '20.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	invoice
+	 Most Recent Price:	$22.00 		=> {'job': {'date': '03/12/21', 'type': 'invoice', 'price': '22.00', 'assiged': 'None', 'duration': '', 'invoice': '326'}, 'price': '22.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Invoice
+	 Most Recent Price:	$22.00 		=> {'job': {'date': '01/15/21', 'type': 'Invoice', 'price': '22.00', 'assiged': 'None', 'duration': '', 'invoice': '286'}, 'price': '22.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$22.00 		=> {'job': {'date': '09/22/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '22.00', 'assiged': 'Isais', 'duration': '', 'invoice': ''}, 'price': '22.00'}
+	 Average Duration:	10.67 mins 	=> {'avg duration in mins': 10.666666666666666, 'jobs calculated': 3, 'total jobs': 11}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$10.00 		=> {'job': {'date': '07/25/22', 'type': 'Exterior Window Cleaning', 'price': '10.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9758487'}, 'price': '10.00'}
+	 Average Duration:	7.00 mins 	=> {'avg duration in mins': 7.0, 'jobs calculated': 1, 'total jobs': 8}
+
+
+
+POP PIE COMPANY: 4404 Park Boulevard
+	Invoice
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '03/25/21', 'type': 'Invoice', 'price': '45.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '11/03/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '45.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758836'}, 'price': '45.00'}
+	 Average Duration:	34.67 mins 	=> {'avg duration in mins': 34.666666666666664, 'jobs calculated': 3, 'total jobs': 19}
+
+
+
+PERRY'S CAFE: 4620 Pacific Highway
+	invoice
+	 Most Recent Price:	$160.00 		=> {'job': {'date': '06/01/20', 'type': 'invoice', 'price': '160.00', 'assiged': 'None', 'duration': '2 Hrs', 'invoice': ''}, 'price': '160.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 4, 'total jobs': 4}
+
+	Invoice
+	 Most Recent Price:	$180.00 		=> {'job': {'date': '03/26/21', 'type': 'Invoice', 'price': '180.00', 'assiged': 'None', 'duration': '2 Hrs', 'invoice': ''}, 'price': '180.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 11, 'total jobs': 11}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$180.00 		=> {'job': {'date': '11/03/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '180.00', 'assiged': 'Isais', 'duration': '2 Hrs', 'invoice': '9758833'}, 'price': '180.00'}
+	 Average Duration:	119.14 mins 	=> {'avg duration in mins': 119.14285714285714, 'jobs calculated': 21, 'total jobs': 21}
+
+	Coupon
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	140.00 mins 	=> {'avg duration in mins': 140.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+OPULENCE SALON: 7520 La Jolla Boulevard
+	Cash
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '03/18/21', 'type': 'Cash', 'price': '25.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$13.00 		=> {'job': {'date': '04/12/21', 'type': 'Exterior Window Cleaning', 'price': '13.00', 'assiged': 'Roberto Isais', 'duration': '9 Mins', 'invoice': ''}, 'price': '13.00'}
+	 Average Duration:	9.00 mins 	=> {'avg duration in mins': 9.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '08/05/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '25.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+M-THEORY RECORDS: 827 West Washington Street
+	Cash
+	 Most Recent Price:	$40.00 		=> {'job': {'date': '03/17/21', 'type': 'Cash', 'price': '40.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '40.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$40.00 		=> {'job': {'date': '01/20/22', 'type': 'Exterior Window Cleaning', 'price': '40.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9757821'}, 'price': '40.00'}
+	 Average Duration:	19.20 mins 	=> {'avg duration in mins': 19.2, 'jobs calculated': 5, 'total jobs': 11}
+
+
+
+LESTAT'S (UNIVERSITY HEIGHTS): 4496 Park Boulevard
+	Cash
+	 Most Recent Price:	$75.00 		=> {'job': {'date': '03/25/21', 'type': 'Cash', 'price': '75.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '75.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+LESTAT'S (NORMAL HEIGHTS): 3343 Adams Avenue
+	Cash
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '03/19/21', 'type': 'Cash', 'price': '45.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+LE STAT'S (HILLCREST): 1045 University Avenue
+	Cash
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '03/31/21', 'type': 'Cash', 'price': '65.00', 'assiged': 'None', 'duration': '1 Hr', 'invoice': ''}, 'price': '65.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 56, 'total jobs': 56}
+
+
+
+LA LOUPE VINTAGE: 3337 Adams Avenue
+	Cash, but collect at other store
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Cash
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '03/19/21', 'type': 'Cash', 'price': '15.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '15.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '09/29/22', 'type': 'Exterior Window Cleaning', 'price': '15.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758741'}, 'price': '15.00'}
+	 Average Duration:	7.00 mins 	=> {'avg duration in mins': 7.0, 'jobs calculated': 2, 'total jobs': 20}
+
+
+
+LA LOUPE VINTAGE: 4646 Park Boulevard
+	Collect $23 for both locations
+	 Most Recent Price:	$23.00 		=> {'job': {'date': '04/21/17', 'type': 'Collect $23 for both locations', 'price': '23.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '23.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Cash
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '03/25/21', 'type': 'Cash', 'price': '15.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '15.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '09/07/22', 'type': 'Exterior Window Cleaning', 'price': '15.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '15.00'}
+	 Average Duration:	9.33 mins 	=> {'avg duration in mins': 9.333333333333334, 'jobs calculated': 3, 'total jobs': 19}
+
+
+
+LA JOLLA GOLF CARTS: 7512 La Jolla Boulevard
+	Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Cash
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '03/18/21', 'type': 'Cash', 'price': '35.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '35.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '10/20/22', 'type': 'Exterior Window Cleaning', 'price': '35.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758812'}, 'price': '35.00'}
+	 Average Duration:	16.50 mins 	=> {'avg duration in mins': 16.5, 'jobs calculated': 2, 'total jobs': 20}
+
+
+
+KOI: 5632 La Jolla Boulevard
+	Invoice
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '03/18/21', 'type': 'Invoice', 'price': '30.00', 'assiged': 'None', 'duration': '', 'invoice': '318'}, 'price': '30.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '10/20/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '30.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758811'}, 'price': '30.00'}
+	 Average Duration:	17.33 mins 	=> {'avg duration in mins': 17.333333333333332, 'jobs calculated': 3, 'total jobs': 19}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '12/22/21', 'type': 'Exterior Window Cleaning', 'price': '15.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9757734'}, 'price': '15.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+KAIROA BREWING COMPANY: 4601 Park Boulevard
+	Check
+	 Most Recent Price:	$250.00 		=> {'job': {'date': '03/09/21', 'type': 'Check', 'price': '250.00', 'assiged': 'None', 'duration': '3 Hrs', 'invoice': ''}, 'price': '250.00'}
+	 Average Duration:	180.00 mins 	=> {'avg duration in mins': 180.0, 'jobs calculated': 17, 'total jobs': 17}
+
+	Window Cleaning
+	 Most Recent Price:	$495.00 		=> {'job': {'date': '02/02/21', 'type': 'Window Cleaning', 'price': '495.00', 'assiged': 'None', 'duration': '6 Hrs', 'invoice': '293'}, 'price': '495.00'}
+	 Average Duration:	360.00 mins 	=> {'avg duration in mins': 360.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$250.00 		=> {'job': {'date': '11/16/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '250.00', 'assiged': 'None', 'duration': '3 Hrs', 'invoice': ''}, 'price': '250.00'}
+	 Average Duration:	180.00 mins 	=> {'avg duration in mins': 180.0, 'jobs calculated': 6, 'total jobs': 6}
+
+
+
+JO'S DINER: 807 West Washington Street
+	Cash/Check
+	 Most Recent Price:	$28.00 		=> {'job': {'date': '03/17/21', 'type': 'Cash/Check', 'price': '28.00', 'assiged': 'None', 'duration': '', 'invoice': '319'}, 'price': '28.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$28.00 		=> {'job': {'date': '09/29/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '28.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758736'}, 'price': '28.00'}
+	 Average Duration:	27.67 mins 	=> {'avg duration in mins': 27.666666666666668, 'jobs calculated': 6, 'total jobs': 20}
+
+
+
+JEAN FARBOD DDS, INC: 120 C Avenue
+	check
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '08/27/20', 'type': 'check', 'price': '20.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '20.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	invoice
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '12/16/20', 'type': 'invoice', 'price': '25.00', 'assiged': 'None', 'duration': '', 'invoice': '263'}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Invoice
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '03/10/21', 'type': 'Invoice', 'price': '25.00', 'assiged': 'None', 'duration': '', 'invoice': '325'}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '07/25/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '25.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9758483'}, 'price': '25.00'}
+	 Average Duration:	9.00 mins 	=> {'avg duration in mins': 9.0, 'jobs calculated': 1, 'total jobs': 6}
+
+
+
+INTERGRITY PLUS: 3601 Adams Avenue
+	Leave Bill
+	 Most Recent Price:	$120.00 		=> {'job': {'date': '03/18/21', 'type': 'Leave Bill', 'price': '120.00', 'assiged': 'None', 'duration': '1 Hr', 'invoice': ''}, 'price': '120.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 23, 'total jobs': 25}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$130.00 		=> {'job': {'date': '05/07/21', 'type': 'Exterior Window Cleaning', 'price': '130.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr 10 Mins', 'invoice': '9756758'}, 'price': '130.00'}
+	 Average Duration:	70.00 mins 	=> {'avg duration in mins': 70.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	70.00 mins 	=> {'avg duration in mins': 70.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+HYDRED'S BIRTHDAY: 4526 Illinois Street, APT 4A
+	Happy Birthday Hydred
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	1440.00 mins 	=> {'avg duration in mins': 1440.0, 'jobs calculated': 4, 'total jobs': 4}
+
+
+
+HURST DENTAL CARE: 4690 Genesee Avenue
+	Trade for dental services
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 20, 'total jobs': 20}
+
+
+
+HOME CARE OF LA JOLLA: 5762 La Jolla Boulevard
+	Do not invoice yet
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Invoice today for $65.00
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '01/23/20', 'type': 'Invoice today for $65.00', 'price': '65.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '65.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Invoice today for $70.00
+	 Most Recent Price:	$70.00 		=> {'job': {'date': '03/18/21', 'type': 'Invoice today for $70.00', 'price': '70.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '70.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$70.00 		=> {'job': {'date': '09/22/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '70.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758707'}, 'price': '70.00'}
+	 Average Duration:	31.67 mins 	=> {'avg duration in mins': 31.666666666666668, 'jobs calculated': 3, 'total jobs': 19}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '10/20/22', 'type': 'Exterior Window Cleaning', 'price': '35.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758809'}, 'price': '35.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+HEARTWORK COFFEE BAR: 3993 Goldfinch Street
+	Check
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '02/10/17', 'type': 'Check', 'price': '25.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Do not invoice yet
+	 Most Recent Price:	$13.00 		=> {'job': {'date': '03/17/21', 'type': 'Do not invoice yet', 'price': '13.00', 'assiged': 'None', 'duration': '', 'invoice': '328'}, 'price': '13.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Window Cleaning
+	 Most Recent Price:	$13.00 		=> {'job': {'date': '02/04/21', 'type': 'Window Cleaning', 'price': '13.00', 'assiged': 'None', 'duration': '', 'invoice': '298'}, 'price': '13.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$13.00 		=> {'job': {'date': '08/06/21', 'type': 'Exterior Window Cleaning', 'price': '13.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9757185'}, 'price': '13.00'}
+	 Average Duration:	9.00 mins 	=> {'avg duration in mins': 9.0, 'jobs calculated': 1, 'total jobs': 5}
+
+
+
+HAIR DREZZERS ON FIRE: 3463 Adams Avenue
+	Cash
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '10/23/20', 'type': 'Cash', 'price': '25.00', 'assiged': 'None', 'duration': '42 Hrs', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	2520.00 mins 	=> {'avg duration in mins': 2520.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+GREEN FRESH FLORALS: 3993 Goldfinch Street
+	Check
+	 Most Recent Price:	$33.00 		=> {'job': {'date': '08/19/20', 'type': 'Check', 'price': '33.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '33.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	invoice
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '03/31/21', 'type': 'invoice', 'price': '35.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '35.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Invoice
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '02/03/21', 'type': 'Invoice', 'price': '35.00', 'assiged': 'None', 'duration': '', 'invoice': '299'}, 'price': '35.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '11/10/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '35.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758853'}, 'price': '35.00'}
+	 Average Duration:	34.00 mins 	=> {'avg duration in mins': 34.0, 'jobs calculated': 3, 'total jobs': 21}
+
+
+
+GOLD LEAF: 2225 30th Street
+	Invoice
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '04/02/21', 'type': 'Invoice', 'price': '35.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '35.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '11/10/22', 'type': 'Exterior Window Cleaning', 'price': '35.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758855'}, 'price': '35.00'}
+	 Average Duration:	21.00 mins 	=> {'avg duration in mins': 21.0, 'jobs calculated': 3, 'total jobs': 21}
+
+
+
+FROCK YOU: 4121 Park Boulevard
+	Cash
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '03/25/21', 'type': 'Cash', 'price': '20.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '20.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '11/03/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '20.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '20.00'}
+	 Average Duration:	19.00 mins 	=> {'avg duration in mins': 19.0, 'jobs calculated': 1, 'total jobs': 8}
+
+
+
+ESSENTIAL MEDICINE: 7522 La Jolla Boulevard
+	Invoice
+	 Most Recent Price:	$13.00 		=> {'job': {'date': '03/18/21', 'type': 'Invoice', 'price': '13.00', 'assiged': 'None', 'duration': '', 'invoice': '317'}, 'price': '13.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '07/08/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '25.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	14.00 mins 	=> {'avg duration in mins': 14.0, 'jobs calculated': 1, 'total jobs': 3}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$13.00 		=> {'job': {'date': '08/05/21', 'type': 'Exterior Window Cleaning', 'price': '13.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '13.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+ECLIPSE CHOCOLATE: 2145 Fern Street
+	Invoice
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '04/02/21', 'type': 'Invoice', 'price': '35.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '35.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '02/02/22', 'type': 'Exterior Window Cleaning', 'price': '35.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9757869'}, 'price': '35.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+DOUGLAS SABOE HAIR DESIGN: 3808 Grim Avenue
+	Pays with credit card
+	 Most Recent Price:	$23.00 		=> {'job': {'date': '03/12/21', 'type': 'Pays with credit card', 'price': '23.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '23.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$23.00 		=> {'job': {'date': '05/07/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '23.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9756757'}, 'price': '23.00'}
+	 Average Duration:	15.00 mins 	=> {'avg duration in mins': 15.0, 'jobs calculated': 1, 'total jobs': 2}
+
+
+
+DIESEL SALON: 4222 Adams Avenue
+	Cash
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '04/01/21', 'type': 'Cash', 'price': '30.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '30.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '11/09/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '30.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9758846'}, 'price': '30.00'}
+	 Average Duration:	27.00 mins 	=> {'avg duration in mins': 27.0, 'jobs calculated': 1, 'total jobs': 19}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '06/23/22', 'type': 'Exterior Window Cleaning', 'price': '15.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9758358'}, 'price': '15.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+COMMUNITY REALTY CO.: 2225 30th Street
+	Invoice for both in/out
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '04/02/21', 'type': 'Invoice for both in/out', 'price': '20.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '20.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Invoice $10 for out only or
+	 Most Recent Price:	$10.00 		=> {'job': {'date': '11/13/20', 'type': 'Invoice $10 for out only or', 'price': '10.00', 'assiged': 'None', 'duration': '', 'invoice': '248'}, 'price': '10.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$10.00 		=> {'job': {'date': '11/10/22', 'type': 'Exterior Window Cleaning', 'price': '10.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758856'}, 'price': '10.00'}
+	 Average Duration:	4.50 mins 	=> {'avg duration in mins': 4.5, 'jobs calculated': 2, 'total jobs': 12}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '10/14/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '20.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '20.00'}
+	 Average Duration:	4.00 mins 	=> {'avg duration in mins': 4.0, 'jobs calculated': 1, 'total jobs': 9}
+
+
+
+COMMUNAL COFFEE SOUTH PARK: 2221 Fern Street
+	Window Cleaning
+	 Most Recent Price:	$55.00 		=> {'job': {'date': '04/02/21', 'type': 'Window Cleaning', 'price': '55.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '55.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$55.00 		=> {'job': {'date': '09/18/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '55.00', 'assiged': 'Brandon Foster', 'duration': '37 Mins', 'invoice': '9757359'}, 'price': '55.00'}
+	 Average Duration:	30.00 mins 	=> {'avg duration in mins': 30.0, 'jobs calculated': 2, 'total jobs': 6}
+
+
+
+COMMUNAL COFFEE SOUTH PARK: 2335 University Avenue
+	Cash
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '05/29/20', 'type': 'Cash', 'price': '25.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Window Cleaning
+	 Most Recent Price:	$115.00 		=> {'job': {'date': '06/03/20', 'type': 'Window Cleaning', 'price': '115.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '115.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+COMMUNAL COFFEE NORTH PARK: 2335 University Avenue
+	Window Cleaning
+	 Most Recent Price:	$115.00 		=> {'job': {'date': '09/02/20', 'type': 'Window Cleaning', 'price': '115.00', 'assiged': 'None', 'duration': '1 Hr', 'invoice': ''}, 'price': '115.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 3, 'total jobs': 3}
+
+	Invoice
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '03/17/21', 'type': 'Invoice', 'price': '100.00', 'assiged': 'None', 'duration': '1 Hr', 'invoice': '329'}, 'price': '100.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 7, 'total jobs': 7}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '08/27/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '100.00', 'assiged': '3 and 4', 'duration': '1 Hr', 'invoice': '9757291'}, 'price': '100.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 6, 'total jobs': 6}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '09/23/21', 'type': 'Exterior Window Cleaning', 'price': '50.00', 'assiged': 'Brandon Foster', 'duration': '36 Mins', 'invoice': '9757381'}, 'price': '50.00'}
+	 Average Duration:	31.00 mins 	=> {'avg duration in mins': 31.0, 'jobs calculated': 6, 'total jobs': 6}
+
+
+
+CLIP ART SALON: 4155 Adams Avenue
+	Check
+	 Most Recent Price:	$24.00 		=> {'job': {'date': '04/19/19', 'type': 'Check', 'price': '24.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '24.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Cadh
+	 Most Recent Price:	$24.00 		=> {'job': {'date': '01/24/20', 'type': 'Cadh', 'price': '24.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '24.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Check or Cash
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '04/01/21', 'type': 'Check or Cash', 'price': '15.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '15.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '11/09/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '20.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '20.00'}
+	 Average Duration:	18.00 mins 	=> {'avg duration in mins': 18.0, 'jobs calculated': 1, 'total jobs': 20}
+
+
+
+CECILLIA'S FINE JEWELRY: 4669 Park Boulevard
+	Cash
+	 Most Recent Price:	$8.00 		=> {'job': {'date': '03/25/21', 'type': 'Cash', 'price': '8.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '8.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$8.00 		=> {'job': {'date': '10/18/22', 'type': 'Exterior Window Cleaning', 'price': '8.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758796'}, 'price': '8.00'}
+	 Average Duration:	11.75 mins 	=> {'avg duration in mins': 11.75, 'jobs calculated': 4, 'total jobs': 21}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '08/25/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '15.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758609'}, 'price': '15.00'}
+	 Average Duration:	16.50 mins 	=> {'avg duration in mins': 16.5, 'jobs calculated': 2, 'total jobs': 15}
+
+
+
+CAL-COAST BICYCLES: 3020 Adams Avenue
+	Leave Bill
+	 Most Recent Price:	$22.00 		=> {'job': {'date': '10/02/20', 'type': 'Leave Bill', 'price': '22.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '22.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	invoice once a month for both trips
+	 Most Recent Price:	$44.00 		=> {'job': {'date': '03/19/21', 'type': 'invoice once a month for both trips', 'price': '44.00', 'assiged': 'None', 'duration': '', 'invoice': '321'}, 'price': '44.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$22.00 		=> {'job': {'date': '08/06/21', 'type': 'Exterior Window Cleaning', 'price': '22.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '22.00'}
+	 Average Duration:	19.00 mins 	=> {'avg duration in mins': 19.0, 'jobs calculated': 1, 'total jobs': 5}
+
+
+
+CAL-COAST BICYCLES: 3020 Adams Avenue
+	Invoice
+	 Most Recent Price:	$22.00 		=> {'job': {'date': '12/10/20', 'type': 'Invoice', 'price': '22.00', 'assiged': 'None', 'duration': '', 'invoice': '275'}, 'price': '22.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$22.00 		=> {'job': {'date': '05/28/21', 'type': 'Exterior Window Cleaning', 'price': '22.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '22.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+BLACKTREE BARBERIA: 2227 Fern Street
+	Cash
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '04/02/21', 'type': 'Cash', 'price': '15.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '15.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '08/06/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '15.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '15.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+BELLE SIRENE: 7838 Herschel Avenue
+	Invoice
+	 Most Recent Price:	$38.00 		=> {'job': {'date': '03/18/21', 'type': 'Invoice', 'price': '38.00', 'assiged': 'None', 'duration': '', 'invoice': '316'}, 'price': '38.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$38.00 		=> {'job': {'date': '10/20/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '38.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758808'}, 'price': '38.00'}
+	 Average Duration:	15.67 mins 	=> {'avg duration in mins': 15.666666666666666, 'jobs calculated': 3, 'total jobs': 20}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '11/26/21', 'type': 'Exterior Window Cleaning', 'price': '20.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9757642'}, 'price': '20.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+BE SEEN OPTICS: 5702 La Jolla Boulevard
+	Bill/cash/invoice/?
+	 Most Recent Price:	$40.00 		=> {'job': {'date': '08/22/19', 'type': 'Bill/cash/invoice/?', 'price': '40.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '40.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Invoice
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '03/18/21', 'type': 'Invoice', 'price': '45.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '10/20/22', 'type': 'Exterior Window Cleaning', 'price': '45.00', 'assiged': 'Isais', 'duration': '', 'invoice': '9758810'}, 'price': '45.00'}
+	 Average Duration:	13.00 mins 	=> {'avg duration in mins': 13.0, 'jobs calculated': 4, 'total jobs': 21}
+
+
+
+BARKHOUSE: 323 West Washington Street
+	invoice
+	 Most Recent Price:	$40.00 		=> {'job': {'date': '05/19/20', 'type': 'invoice', 'price': '40.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '40.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Invoice
+	 Most Recent Price:	$40.00 		=> {'job': {'date': '03/16/21', 'type': 'Invoice', 'price': '40.00', 'assiged': 'None', 'duration': '1 Hr', 'invoice': '314'}, 'price': '40.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 11, 'total jobs': 14}
+
+	Window Cleaning
+	 Most Recent Price:	$120.00 		=> {'job': {'date': '01/05/21', 'type': 'Window Cleaning', 'price': '120.00', 'assiged': 'None', 'duration': '2 Hrs', 'invoice': '274'}, 'price': '120.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '06/10/21', 'type': 'Exterior Window Cleaning', 'price': '45.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	39.00 mins 	=> {'avg duration in mins': 39.0, 'jobs calculated': 1, 'total jobs': 3}
+
+
+
+BABYCAKES: 3795 Fourth Avenue
+	invoice
+	 Most Recent Price:	$85.00 		=> {'job': {'date': '03/31/21', 'type': 'invoice', 'price': '85.00', 'assiged': 'None', 'duration': '1 Hr', 'invoice': ''}, 'price': '85.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 14, 'total jobs': 14}
+
+	Invoice
+	 Most Recent Price:	$85.00 		=> {'job': {'date': '02/03/21', 'type': 'Invoice', 'price': '85.00', 'assiged': 'None', 'duration': '1 Hr', 'invoice': '297'}, 'price': '85.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$85.00 		=> {'job': {'date': '11/10/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '85.00', 'assiged': 'Isais', 'duration': '1 Hr', 'invoice': '9758852'}, 'price': '85.00'}
+	 Average Duration:	61.71 mins 	=> {'avg duration in mins': 61.714285714285715, 'jobs calculated': 21, 'total jobs': 21}
+
+
+
+ANTIQUE ROW CAFE: 3002 Adams Avenue
+	cash
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '03/19/21', 'type': 'cash', 'price': '25.00', 'assiged': 'None', 'duration': '', 'invoice': '320'}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '06/10/22', 'type': 'Exterior Window Cleaning', 'price': '25.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9758302'}, 'price': '25.00'}
+	 Average Duration:	16.25 mins 	=> {'avg duration in mins': 16.25, 'jobs calculated': 4, 'total jobs': 16}
+
+
+
+ANTIQUE ROW CAFE: 3002 Adams Avenue
+	Cash
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '04/01/21', 'type': 'Cash', 'price': '25.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '06/23/22', 'type': 'Exterior Window Cleaning', 'price': '25.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': '9758356'}, 'price': '25.00'}
+	 Average Duration:	20.50 mins 	=> {'avg duration in mins': 20.5, 'jobs calculated': 2, 'total jobs': 15}
+
+
+
+AB SPORTING GOODS: 3027 University Avenue
+	Cash
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '12/18/20', 'type': 'Cash', 'price': '20.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '20.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+WINDOW MAGIC: 740 Metcalf Street
+	Car pool
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	15.00 mins 	=> {'avg duration in mins': 15.0, 'jobs calculated': 4, 'total jobs': 4}
+
+	car pool
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	8.08 mins 	=> {'avg duration in mins': 8.076923076923077, 'jobs calculated': 13, 'total jobs': 22}
+
+	Van
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	5.33 mins 	=> {'avg duration in mins': 5.333333333333333, 'jobs calculated': 15, 'total jobs': 15}
+
+	Car Pool
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	5.00 mins 	=> {'avg duration in mins': 5.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Truck
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	5.00 mins 	=> {'avg duration in mins': 5.0, 'jobs calculated': 53, 'total jobs': 64}
+
+
+
+WINDOW MAGIC: 1940 Metcalf Street
+	Drive to first job
+	 Most Recent Price:	$1.00 		=> {'job': {'date': '11/03/22', 'type': 'Drive to first job', 'price': '1.00', 'assiged': 'Justin Smith', 'duration': '15 Mins', 'invoice': '9758832'}, 'price': '1.00'}
+	 Average Duration:	14.42 mins 	=> {'avg duration in mins': 14.422492401215806, 'jobs calculated': 329, 'total jobs': 329}
+
+
+
+WHEELIHAN CONSTRUCTION: 2598 Fortune Way
+	Exterior Window Cleaning
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '05/31/22', 'type': 'Exterior Window Cleaning', 'price': '65.00', 'assiged': 'Adam Ruiz', 'duration': '', 'invoice': '9758264'}, 'price': '65.00'}
+	 Average Duration:	29.00 mins 	=> {'avg duration in mins': 29.0, 'jobs calculated': 2, 'total jobs': 25}
+
+
+
+WEST TECH CONTR. INC: 568 N Tulip St
+	Exterior Window Cleaning
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '11/02/22', 'type': 'Exterior Window Cleaning', 'price': '30.00', 'assiged': 'Devony Dettman', 'duration': '28 Mins', 'invoice': '9758828'}, 'price': '30.00'}
+	 Average Duration:	27.36 mins 	=> {'avg duration in mins': 27.36, 'jobs calculated': 25, 'total jobs': 96}
+
+
+
+WELLS FARGO -SATURN BLVD: 685 Saturn Blvd
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$150.00 		=> {'job': {'date': '09/21/22', 'type': 'Inside Partition Glass Cleaning', 'price': '150.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 30 Mins', 'invoice': ''}, 'price': '150.00'}
+	 Average Duration:	196.67 mins 	=> {'avg duration in mins': 196.66666666666666, 'jobs calculated': 3, 'total jobs': 5}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$200.00 		=> {'job': {'date': '09/21/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '200.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 30 Mins', 'invoice': ''}, 'price': '200.00'}
+	 Average Duration:	196.67 mins 	=> {'avg duration in mins': 196.66666666666666, 'jobs calculated': 3, 'total jobs': 6}
+
+
+
+WELLS FARGO -SAN YSIDRO: 637 E San Ysidro Blvd
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$200.00 		=> {'job': {'date': '06/02/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '200.00', 'assiged': 'Roberto Isais', 'duration': '4 Hrs', 'invoice': ''}, 'price': '200.00'}
+	 Average Duration:	247.60 mins 	=> {'avg duration in mins': 247.6, 'jobs calculated': 5, 'total jobs': 8}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior Only Window Cleaning
+	 Most Recent Price:	$125.00 		=> {'job': {'date': '10/04/18', 'type': 'Interior Only Window Cleaning', 'price': '125.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '125.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$200.00 		=> {'job': {'date': '06/02/22', 'type': 'Inside Partition Glass Cleaning', 'price': '200.00', 'assiged': 'Roberto Isais', 'duration': '4 Hrs', 'invoice': ''}, 'price': '200.00'}
+	 Average Duration:	289.50 mins 	=> {'avg duration in mins': 289.5, 'jobs calculated': 4, 'total jobs': 6}
+
+
+
+WELLS FARGO - UTC LA JOLLA: 4315 La Jolla Village Drive
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$125.00 		=> {'job': {'date': '07/27/22', 'type': 'Inside Partition Glass Cleaning', 'price': '125.00', 'assiged': 'Roberto Isais', 'duration': '4 Hrs', 'invoice': ''}, 'price': '125.00'}
+	 Average Duration:	220.00 mins 	=> {'avg duration in mins': 220.0, 'jobs calculated': 3, 'total jobs': 3}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$300.00 		=> {'job': {'date': '07/27/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '300.00', 'assiged': 'Roberto Isais', 'duration': '4 Hrs', 'invoice': ''}, 'price': '300.00'}
+	 Average Duration:	210.00 mins 	=> {'avg duration in mins': 210.0, 'jobs calculated': 2, 'total jobs': 2}
+
+
+
+WELLS FARGO - SPORTS ARENA: 3505 Sports Arena Boulevard
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$60.00 		=> {'job': {'date': '11/07/22', 'type': 'Inside Partition Glass Cleaning', 'price': '60.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr 8 Mins', 'invoice': ''}, 'price': '60.00'}
+	 Average Duration:	68.00 mins 	=> {'avg duration in mins': 68.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$40.00 		=> {'job': {'date': '11/07/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '40.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr 8 Mins', 'invoice': ''}, 'price': '40.00'}
+	 Average Duration:	68.00 mins 	=> {'avg duration in mins': 68.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - SCRIPPS RANCH: 9996 Scripps Ranch Boulevard
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$75.00 		=> {'job': {'date': '07/28/22', 'type': 'Inside Partition Glass Cleaning', 'price': '75.00', 'assiged': 'Isais', 'duration': '4 Hrs', 'invoice': ''}, 'price': '75.00'}
+	 Average Duration:	240.00 mins 	=> {'avg duration in mins': 240.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - SANTEE: 9771 Mission Gorge Road
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$375.00 		=> {'job': {'date': '05/26/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '375.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 45 Mins', 'invoice': ''}, 'price': '375.00'}
+	 Average Duration:	202.50 mins 	=> {'avg duration in mins': 202.5, 'jobs calculated': 2, 'total jobs': 3}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	202.50 mins 	=> {'avg duration in mins': 202.5, 'jobs calculated': 2, 'total jobs': 2}
+
+
+
+WELLS FARGO - PROSPECT LA JOLLA: 888 Prospect Street
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '07/22/21', 'type': 'Inside Partition Glass Cleaning', 'price': '50.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr 30 Mins', 'invoice': ''}, 'price': '50.00'}
+	 Average Duration:	315.00 mins 	=> {'avg duration in mins': 315.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	Interior Only Window Cleaning
+	 Most Recent Price:	$70.00 		=> {'job': {'date': '07/22/21', 'type': 'Interior Only Window Cleaning', 'price': '70.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr 30 Mins', 'invoice': ''}, 'price': '70.00'}
+	 Average Duration:	90.00 mins 	=> {'avg duration in mins': 90.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - POINT LOMA: 1205 Rosecrans St
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$300.00 		=> {'job': {'date': '12/29/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '300.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs', 'invoice': ''}, 'price': '300.00'}
+	 Average Duration:	210.00 mins 	=> {'avg duration in mins': 210.0, 'jobs calculated': 2, 'total jobs': 5}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+WELLS FARGO - NAVAJO: 8898 Navajo Road
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '06/03/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '100.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr', 'invoice': ''}, 'price': '100.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - NATIONAL CITY: 1199 Highland Ave
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$350.00 		=> {'job': {'date': '04/08/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '350.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 26 Mins', 'invoice': ''}, 'price': '350.00'}
+	 Average Duration:	206.00 mins 	=> {'avg duration in mins': 206.0, 'jobs calculated': 1, 'total jobs': 3}
+
+
+
+WELLS FARGO - MIRA MESA: 10707 Camino Ruiz
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$75.00 		=> {'job': {'date': '08/01/22', 'type': 'Inside Partition Glass Cleaning', 'price': '75.00', 'assiged': '2 and 4', 'duration': '1 Hr 30 Mins', 'invoice': ''}, 'price': '75.00'}
+	 Average Duration:	165.00 mins 	=> {'avg duration in mins': 165.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$225.00 		=> {'job': {'date': '08/01/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '225.00', 'assiged': '2 and 4', 'duration': '1 Hr 30 Mins', 'invoice': ''}, 'price': '225.00'}
+	 Average Duration:	90.00 mins 	=> {'avg duration in mins': 90.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - LEMON GROVE: 7080 Broadway
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$250.00 		=> {'job': {'date': '07/06/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '250.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs 30 Mins', 'invoice': ''}, 'price': '250.00'}
+	 Average Duration:	150.00 mins 	=> {'avg duration in mins': 150.0, 'jobs calculated': 2, 'total jobs': 3}
+
+
+
+WELLS FARGO - LAKE MURRAY BLVD: 5610 Lake Murray Blvd
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$250.00 		=> {'job': {'date': '07/18/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '250.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs 30 Mins', 'invoice': ''}, 'price': '250.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 2, 'total jobs': 5}
+
+	Window Cleaning
+	 Most Recent Price:	$200.00 		=> {'job': {'date': '02/13/16', 'type': 'Window Cleaning', 'price': '200.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '200.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+WELLS FARGO - LA JOLLA (INSIDE RALPHS): 8657 Villa La Jolla Dr
+	Clean  plexi covid screens
+	 Most Recent Price:	$15.00 		=> {'job': {'date': '07/21/22', 'type': 'Clean  plexi covid screens', 'price': '15.00', 'assiged': 'Isais', 'duration': '1 Hr', 'invoice': ''}, 'price': '15.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - KEARNY MESA: 9360 Clairemont Mesa Blvd
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$300.00 		=> {'job': {'date': '10/18/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '300.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs', 'invoice': ''}, 'price': '300.00'}
+	 Average Duration:	180.00 mins 	=> {'avg duration in mins': 180.0, 'jobs calculated': 2, 'total jobs': 4}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$125.00 		=> {'job': {'date': '10/18/21', 'type': 'Inside Partition Glass Cleaning', 'price': '125.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs', 'invoice': ''}, 'price': '125.00'}
+	 Average Duration:	180.00 mins 	=> {'avg duration in mins': 180.0, 'jobs calculated': 2, 'total jobs': 3}
+
+
+
+WELLS FARGO - HILLCREST: 1220 Cleveland Avenue
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$140.00 		=> {'job': {'date': '09/29/22', 'type': 'Inside Partition Glass Cleaning', 'price': '140.00', 'assiged': 'Isais', 'duration': '2 Hrs 30 Mins', 'invoice': ''}, 'price': '140.00'}
+	 Average Duration:	150.00 mins 	=> {'avg duration in mins': 150.0, 'jobs calculated': 6, 'total jobs': 7}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$110.00 		=> {'job': {'date': '09/29/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '110.00', 'assiged': 'Isais', 'duration': '2 Hrs 30 Mins', 'invoice': ''}, 'price': '110.00'}
+	 Average Duration:	150.00 mins 	=> {'avg duration in mins': 150.0, 'jobs calculated': 6, 'total jobs': 6}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$85.00 		=> {'job': {'date': '10/17/19', 'type': 'Exterior Window Cleaning', 'price': '85.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr 30 Mins', 'invoice': ''}, 'price': '85.00'}
+	 Average Duration:	90.00 mins 	=> {'avg duration in mins': 90.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - GROSSMONT: 5500 Grossmont Center Dr
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$330.00 		=> {'job': {'date': '10/21/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '330.00', 'assiged': 'Roberto Isais', 'duration': '4 Hrs', 'invoice': ''}, 'price': '330.00'}
+	 Average Duration:	257.50 mins 	=> {'avg duration in mins': 257.5, 'jobs calculated': 4, 'total jobs': 7}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$70.00 		=> {'job': {'date': '10/21/22', 'type': 'Inside Partition Glass Cleaning', 'price': '70.00', 'assiged': 'Roberto Isais', 'duration': '4 Hrs', 'invoice': ''}, 'price': '70.00'}
+	 Average Duration:	260.00 mins 	=> {'avg duration in mins': 260.0, 'jobs calculated': 3, 'total jobs': 4}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior Only Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+WELLS FARGO - GIRARD AVE.: 7714 Girard Avenue
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$125.00 		=> {'job': {'date': '05/06/19', 'type': 'Inside Partition Glass Cleaning', 'price': '125.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs 45 Mins', 'invoice': ''}, 'price': '125.00'}
+	 Average Duration:	165.00 mins 	=> {'avg duration in mins': 165.0, 'jobs calculated': 2, 'total jobs': 3}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$125.00 		=> {'job': {'date': '05/06/19', 'type': 'Interior/Exterior Window Cleaning', 'price': '125.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs 45 Mins', 'invoice': ''}, 'price': '125.00'}
+	 Average Duration:	165.00 mins 	=> {'avg duration in mins': 165.0, 'jobs calculated': 2, 'total jobs': 2}
+
+
+
+WELLS FARGO - GARNET: 1302 Garnet Avenue
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '09/20/21', 'type': 'Inside Partition Glass Cleaning', 'price': '50.00', 'assiged': 'Justin Smith', 'duration': '3 Hrs 51 Mins', 'invoice': ''}, 'price': '50.00'}
+	 Average Duration:	215.33 mins 	=> {'avg duration in mins': 215.33333333333334, 'jobs calculated': 3, 'total jobs': 4}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$350.00 		=> {'job': {'date': '09/20/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '350.00', 'assiged': 'Justin Smith', 'duration': '3 Hrs 51 Mins', 'invoice': ''}, 'price': '350.00'}
+	 Average Duration:	215.33 mins 	=> {'avg duration in mins': 215.33333333333334, 'jobs calculated': 3, 'total jobs': 3}
+
+
+
+WELLS FARGO - FRIARS: 5624 Mission Center Road
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$200.00 		=> {'job': {'date': '11/02/22', 'type': 'Inside Partition Glass Cleaning', 'price': '200.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 11 Mins', 'invoice': ''}, 'price': '200.00'}
+	 Average Duration:	191.00 mins 	=> {'avg duration in mins': 191.0, 'jobs calculated': 3, 'total jobs': 4}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '11/02/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '100.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 11 Mins', 'invoice': ''}, 'price': '100.00'}
+	 Average Duration:	191.00 mins 	=> {'avg duration in mins': 191.0, 'jobs calculated': 3, 'total jobs': 4}
+
+
+
+WELLS FARGO - FLETCHER: 475 Fletcher Parkway
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	210.00 mins 	=> {'avg duration in mins': 210.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$300.00 		=> {'job': {'date': '12/23/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '300.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs', 'invoice': ''}, 'price': '300.00'}
+	 Average Duration:	180.00 mins 	=> {'avg duration in mins': 180.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - FASHION VALLEY: 1350 Fashion Valley Road
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	ATM Glass Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$750.00 		=> {'job': {'date': '09/10/19', 'type': 'Exterior Window Cleaning', 'price': '750.00', 'assiged': '1 and 3', 'duration': '8 Hrs', 'invoice': ''}, 'price': '750.00'}
+	 Average Duration:	345.00 mins 	=> {'avg duration in mins': 345.0, 'jobs calculated': 2, 'total jobs': 2}
+
+
+
+WELLS FARGO - EUCLID AVE: 346 Euclid Avenue
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '10/18/22', 'type': 'Inside Partition Glass Cleaning', 'price': '50.00', 'assiged': 'Isais', 'duration': '2 Hrs', 'invoice': ''}, 'price': '50.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 3, 'total jobs': 4}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$120.00 		=> {'job': {'date': '10/18/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '120.00', 'assiged': 'Isais', 'duration': '2 Hrs', 'invoice': ''}, 'price': '120.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 4, 'total jobs': 6}
+
+
+
+WELLS FARGO - EL CAJON BLVD: 3299 El Cajon Boulevard
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$400.00 		=> {'job': {'date': '02/01/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '400.00', 'assiged': 'Dallas Wright', 'duration': '4 Hrs 13 Mins', 'invoice': ''}, 'price': '400.00'}
+	 Average Duration:	248.67 mins 	=> {'avg duration in mins': 248.66666666666666, 'jobs calculated': 3, 'total jobs': 3}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	248.67 mins 	=> {'avg duration in mins': 248.66666666666666, 'jobs calculated': 3, 'total jobs': 3}
+
+
+
+WELLS FARGO - EL CAJON - JAMACHA RD: 2366 Jamacha Rd
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$225.00 		=> {'job': {'date': '06/07/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '225.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 30 Mins', 'invoice': ''}, 'price': '225.00'}
+	 Average Duration:	230.00 mins 	=> {'avg duration in mins': 230.0, 'jobs calculated': 3, 'total jobs': 4}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	225.00 mins 	=> {'avg duration in mins': 225.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '06/07/21', 'type': 'Inside Partition Glass Cleaning', 'price': '100.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 30 Mins', 'invoice': ''}, 'price': '100.00'}
+	 Average Duration:	210.00 mins 	=> {'avg duration in mins': 210.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - EL CAJON - AVOCADO AVE: 1201 Avocado Ave
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '02/06/19', 'type': 'Inside Partition Glass Cleaning', 'price': '25.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr 20 Mins', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	80.00 mins 	=> {'avg duration in mins': 80.0, 'jobs calculated': 1, 'total jobs': 3}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$150.00 		=> {'job': {'date': '02/06/19', 'type': 'Interior/Exterior Window Cleaning', 'price': '150.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr 20 Mins', 'invoice': ''}, 'price': '150.00'}
+	 Average Duration:	80.00 mins 	=> {'avg duration in mins': 80.0, 'jobs calculated': 1, 'total jobs': 3}
+
+
+
+WELLS FARGO - EL CAJON - 2ND ST: 250 N 2nd St
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$300.00 		=> {'job': {'date': '06/21/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '300.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 30 Mins', 'invoice': ''}, 'price': '300.00'}
+	 Average Duration:	210.00 mins 	=> {'avg duration in mins': 210.0, 'jobs calculated': 2, 'total jobs': 7}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '06/21/22', 'type': 'Inside Partition Glass Cleaning', 'price': '50.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 30 Mins', 'invoice': ''}, 'price': '50.00'}
+	 Average Duration:	210.00 mins 	=> {'avg duration in mins': 210.0, 'jobs calculated': 3, 'total jobs': 5}
+
+	interior partition glass
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$150.00 		=> {'job': {'date': '02/16/22', 'type': 'Exterior Window Cleaning', 'price': '150.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr 30 Mins', 'invoice': ''}, 'price': '150.00'}
+	 Average Duration:	150.00 mins 	=> {'avg duration in mins': 150.0, 'jobs calculated': 2, 'total jobs': 2}
+
+
+
+WELLS FARGO - DENNERY ROAD 92154: 640 Dennery Road
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$225.00 		=> {'job': {'date': '11/07/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '225.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs 15 Mins', 'invoice': ''}, 'price': '225.00'}
+	 Average Duration:	90.00 mins 	=> {'avg duration in mins': 90.0, 'jobs calculated': 4, 'total jobs': 5}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$105.00 		=> {'job': {'date': '08/13/18', 'type': 'Inside Partition Glass Cleaning', 'price': '105.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '105.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+WELLS FARGO - CORONADO: 829 Orange Ave
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$250.00 		=> {'job': {'date': '06/16/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '250.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 30 Mins', 'invoice': ''}, 'price': '250.00'}
+	 Average Duration:	180.00 mins 	=> {'avg duration in mins': 180.0, 'jobs calculated': 2, 'total jobs': 4}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '06/16/22', 'type': 'Inside Partition Glass Cleaning', 'price': '100.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 30 Mins', 'invoice': ''}, 'price': '100.00'}
+	 Average Duration:	180.00 mins 	=> {'avg duration in mins': 180.0, 'jobs calculated': 2, 'total jobs': 4}
+
+
+
+WELLS FARGO - CHULA VISTA -BIRCH: 2160 Birch Rd
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$150.00 		=> {'job': {'date': '10/12/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '150.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs 30 Mins', 'invoice': ''}, 'price': '150.00'}
+	 Average Duration:	187.50 mins 	=> {'avg duration in mins': 187.5, 'jobs calculated': 4, 'total jobs': 6}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$100.00 		=> {'job': {'date': '10/12/22', 'type': 'Inside Partition Glass Cleaning', 'price': '100.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs 30 Mins', 'invoice': ''}, 'price': '100.00'}
+	 Average Duration:	210.00 mins 	=> {'avg duration in mins': 210.0, 'jobs calculated': 3, 'total jobs': 4}
+
+
+
+WELLS FARGO - CHULA VISTA - THIRD AVE: 826 3rd Ave
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$250.00 		=> {'job': {'date': '01/19/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '250.00', 'assiged': 'Roberto Isais', 'duration': '4 Hrs', 'invoice': ''}, 'price': '250.00'}
+	 Average Duration:	240.00 mins 	=> {'avg duration in mins': 240.0, 'jobs calculated': 4, 'total jobs': 8}
+
+	Interior Only Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$150.00 		=> {'job': {'date': '01/19/22', 'type': 'Inside Partition Glass Cleaning', 'price': '150.00', 'assiged': 'Roberto Isais', 'duration': '4 Hrs', 'invoice': ''}, 'price': '150.00'}
+	 Average Duration:	240.00 mins 	=> {'avg duration in mins': 240.0, 'jobs calculated': 4, 'total jobs': 4}
+
+
+
+WELLS FARGO - CHULA VISTA - H ST.: 444 H Street
+	Exterior Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior Only Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$350.00 		=> {'job': {'date': '12/07/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '350.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs', 'invoice': ''}, 'price': '350.00'}
+	 Average Duration:	171.00 mins 	=> {'avg duration in mins': 171.0, 'jobs calculated': 5, 'total jobs': 6}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	180.00 mins 	=> {'avg duration in mins': 180.0, 'jobs calculated': 1, 'total jobs': 2}
+
+
+
+WELLS FARGO - CAMINO CANADA SQUARE: 13465 Camino Canada
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	20.00 mins 	=> {'avg duration in mins': 20.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$85.00 		=> {'job': {'date': '05/09/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '85.00', 'assiged': 'Roberto Isais', 'duration': '30 Mins', 'invoice': ''}, 'price': '85.00'}
+	 Average Duration:	30.00 mins 	=> {'avg duration in mins': 30.0, 'jobs calculated': 4, 'total jobs': 4}
+
+	Remove tape residue from entry door
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	30.00 mins 	=> {'avg duration in mins': 30.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - BROADWAY CHULA VISTA: 1232 Broadway
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$400.00 		=> {'job': {'date': '11/04/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '400.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 22 Mins', 'invoice': ''}, 'price': '400.00'}
+	 Average Duration:	202.00 mins 	=> {'avg duration in mins': 202.0, 'jobs calculated': 3, 'total jobs': 4}
+
+	exter
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior Only Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+WELLS FARGO - BONITA: 4180 Bonita Road
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$125.00 		=> {'job': {'date': '12/28/21', 'type': 'Inside Partition Glass Cleaning', 'price': '125.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs 30 Mins', 'invoice': ''}, 'price': '125.00'}
+	 Average Duration:	150.00 mins 	=> {'avg duration in mins': 150.0, 'jobs calculated': 2, 'total jobs': 4}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$200.00 		=> {'job': {'date': '12/28/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '200.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs 30 Mins', 'invoice': ''}, 'price': '200.00'}
+	 Average Duration:	140.00 mins 	=> {'avg duration in mins': 140.0, 'jobs calculated': 3, 'total jobs': 6}
+
+	Interior Only Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	63.00 mins 	=> {'avg duration in mins': 63.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - BLACK MOUNTAIN RD: 10788 Black Mountain Rd, Floor 04
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$75.00 		=> {'job': {'date': '08/13/21', 'type': 'Inside Partition Glass Cleaning', 'price': '75.00', 'assiged': '1 and 4', 'duration': '5 Hrs', 'invoice': ''}, 'price': '75.00'}
+	 Average Duration:	300.00 mins 	=> {'avg duration in mins': 300.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Hard Water Removal
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '08/13/21', 'type': 'Hard Water Removal', 'price': '50.00', 'assiged': '1 and 4', 'duration': '5 Hrs', 'invoice': ''}, 'price': '50.00'}
+	 Average Duration:	300.00 mins 	=> {'avg duration in mins': 300.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - BALBOA: 5522 Balboa Avenue
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$120.00 		=> {'job': {'date': '05/31/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '120.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs', 'invoice': ''}, 'price': '120.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$80.00 		=> {'job': {'date': '05/31/22', 'type': 'Inside Partition Glass Cleaning', 'price': '80.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs', 'invoice': ''}, 'price': '80.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 2, 'total jobs': 2}
+
+
+
+WELLS FARGO - AVOCADO - EL CAJON: 1235 Avocado Avenue
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '12/02/21', 'type': 'Inside Partition Glass Cleaning', 'price': '50.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs', 'invoice': ''}, 'price': '50.00'}
+	 Average Duration:	160.00 mins 	=> {'avg duration in mins': 160.0, 'jobs calculated': 3, 'total jobs': 3}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$150.00 		=> {'job': {'date': '12/02/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '150.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs', 'invoice': ''}, 'price': '150.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 2, 'total jobs': 2}
+
+
+
+WELLS FARGO - ALPINE: 1522 Highlands View Rd
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$450.00 		=> {'job': {'date': '08/10/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '450.00', 'assiged': '3 and 4', 'duration': '4 Hrs 30 Mins', 'invoice': ''}, 'price': '450.00'}
+	 Average Duration:	260.00 mins 	=> {'avg duration in mins': 260.0, 'jobs calculated': 3, 'total jobs': 6}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	240.00 mins 	=> {'avg duration in mins': 240.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	mineral spots and stains removed from frames and windows
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$175.00 		=> {'job': {'date': '11/29/21', 'type': 'Exterior Window Cleaning', 'price': '175.00', 'assiged': 'Justin Smith', 'duration': '1 Hr 39 Mins', 'invoice': ''}, 'price': '175.00'}
+	 Average Duration:	99.00 mins 	=> {'avg duration in mins': 99.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Hard Water Removal
+	 Most Recent Price:	$75.00 		=> {'job': {'date': '11/29/21', 'type': 'Hard Water Removal', 'price': '75.00', 'assiged': 'Justin Smith', 'duration': '1 Hr 39 Mins', 'invoice': ''}, 'price': '75.00'}
+	 Average Duration:	99.00 mins 	=> {'avg duration in mins': 99.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - 790 OTAY: 790 Otay Lakes Road
+	partition windows
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$155.00 		=> {'job': {'date': '10/25/19', 'type': 'Exterior Window Cleaning', 'price': '155.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs', 'invoice': ''}, 'price': '155.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$250.00 		=> {'job': {'date': '07/08/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '250.00', 'assiged': '2 and 3', 'duration': '2 Hrs 22 Mins', 'invoice': ''}, 'price': '250.00'}
+	 Average Duration:	187.33 mins 	=> {'avg duration in mins': 187.33333333333334, 'jobs calculated': 3, 'total jobs': 3}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '07/08/22', 'type': 'Inside Partition Glass Cleaning', 'price': '50.00', 'assiged': '2 and 3', 'duration': '2 Hrs 22 Mins', 'invoice': ''}, 'price': '50.00'}
+	 Average Duration:	187.33 mins 	=> {'avg duration in mins': 187.33333333333334, 'jobs calculated': 3, 'total jobs': 3}
+
+
+
+WELLS FARGO - 63RD ST: 4690 63rd Street
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '07/06/22', 'type': 'Inside Partition Glass Cleaning', 'price': '50.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 30 Mins', 'invoice': ''}, 'price': '50.00'}
+	 Average Duration:	190.00 mins 	=> {'avg duration in mins': 190.0, 'jobs calculated': 3, 'total jobs': 3}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$300.00 		=> {'job': {'date': '07/06/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '300.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 30 Mins', 'invoice': ''}, 'price': '300.00'}
+	 Average Duration:	195.00 mins 	=> {'avg duration in mins': 195.0, 'jobs calculated': 2, 'total jobs': 2}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$75.00 		=> {'job': {'date': '09/09/22', 'type': 'Exterior Window Cleaning', 'price': '75.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr', 'invoice': ''}, 'price': '75.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+WELLS FARGO - 2265 OTAY - CHULA VISTA: 2265 Otay Lakes Road
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$220.00 		=> {'job': {'date': '09/12/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '220.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 30 Mins', 'invoice': ''}, 'price': '220.00'}
+	 Average Duration:	227.14 mins 	=> {'avg duration in mins': 227.14285714285714, 'jobs calculated': 7, 'total jobs': 9}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$85.00 		=> {'job': {'date': '10/14/19', 'type': 'Exterior Window Cleaning', 'price': '85.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs', 'invoice': ''}, 'price': '85.00'}
+	 Average Duration:	120.00 mins 	=> {'avg duration in mins': 120.0, 'jobs calculated': 1, 'total jobs': 2}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$130.00 		=> {'job': {'date': '09/12/22', 'type': 'Inside Partition Glass Cleaning', 'price': '130.00', 'assiged': 'Roberto Isais', 'duration': '3 Hrs 30 Mins', 'invoice': ''}, 'price': '130.00'}
+	 Average Duration:	227.14 mins 	=> {'avg duration in mins': 227.14285714285714, 'jobs calculated': 7, 'total jobs': 8}
+
+
+
+WELLS FARGO - 1ST AVE: 610 1st Avenue
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$200.00 		=> {'job': {'date': '11/17/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '200.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs', 'invoice': ''}, 'price': '200.00'}
+	 Average Duration:	109.00 mins 	=> {'avg duration in mins': 109.0, 'jobs calculated': 3, 'total jobs': 4}
+
+
+
+WELLS FARGO: 3954 W Pt Loma Dr
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$200.00 		=> {'job': {'date': '04/19/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '200.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs 32 Mins', 'invoice': ''}, 'price': '200.00'}
+	 Average Duration:	152.00 mins 	=> {'avg duration in mins': 152.0, 'jobs calculated': 1, 'total jobs': 2}
+
+	Inside Partition Glass Cleaning
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '04/19/21', 'type': 'Inside Partition Glass Cleaning', 'price': '50.00', 'assiged': 'Roberto Isais', 'duration': '2 Hrs 32 Mins', 'invoice': ''}, 'price': '50.00'}
+	 Average Duration:	152.00 mins 	=> {'avg duration in mins': 152.0, 'jobs calculated': 1, 'total jobs': 2}
+
+
+
+WAYNE TYLER: 
+	fuel reimbursement
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '10/07/22', 'type': 'fuel reimbursement', 'price': '25.00', 'assiged': 'None', 'duration': '30 Mins', 'invoice': '9758758'}, 'price': '25.00'}
+	 Average Duration:	30.00 mins 	=> {'avg duration in mins': 30.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+VULCAN CONSTRUCTION: 305-1 Enterprise St
+	Exterior Window Cleaning
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '03/20/20', 'type': 'Exterior Window Cleaning', 'price': '45.00', 'assiged': 'Jose Perez', 'duration': '', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	20.00 mins 	=> {'avg duration in mins': 20.0, 'jobs calculated': 1, 'total jobs': 9}
+
+
+
+VISTA PAINT - VISTA: 611 Sycamore Ave
+	Exterior Window Cleaning
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '11/17/21', 'type': 'Exterior Window Cleaning', 'price': '50.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '50.00'}
+	 Average Duration:	38.40 mins 	=> {'avg duration in mins': 38.4, 'jobs calculated': 5, 'total jobs': 28}
+
+
+
+VISTA PAINT - MORENA BLVD: 1103 Morena Blvd
+	Exterior Window Cleaning
+	 Most Recent Price:	$20.00 		=> {'job': {'date': '11/09/21', 'type': 'Exterior Window Cleaning', 'price': '20.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '20.00'}
+	 Average Duration:	20.00 mins 	=> {'avg duration in mins': 20.0, 'jobs calculated': 4, 'total jobs': 27}
+
+
+
+VISTA PAINT - KEARNY MESA: 5700 Kearny Villa Road
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '08/05/21', 'type': 'Interior/Exterior Window Cleaning', 'price': '65.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '65.00'}
+	 Average Duration:	37.50 mins 	=> {'avg duration in mins': 37.5, 'jobs calculated': 2, 'total jobs': 11}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '11/04/21', 'type': 'Exterior Window Cleaning', 'price': '30.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '30.00'}
+	 Average Duration:	40.00 mins 	=> {'avg duration in mins': 40.0, 'jobs calculated': 1, 'total jobs': 13}
+
+
+
+VISTA PAINT - ESCONDIDO: 602 N Escondido Blvd
+	Exterior Window Cleaning
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '09/10/21', 'type': 'Exterior Window Cleaning', 'price': '65.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '65.00'}
+	 Average Duration:	52.50 mins 	=> {'avg duration in mins': 52.5, 'jobs calculated': 4, 'total jobs': 27}
+
+
+
+VISTA PAINT - EL CAJON: 1220 N Magnolia Ave
+	Exterior Window Cleaning
+	 Most Recent Price:	$75.00 		=> {'job': {'date': '11/15/21', 'type': 'Exterior Window Cleaning', 'price': '75.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '75.00'}
+	 Average Duration:	61.25 mins 	=> {'avg duration in mins': 61.25, 'jobs calculated': 4, 'total jobs': 28}
+
+
+
+VISTA PAINT - CHULA VISTA: 15 N 4th Ave
+	Exterior Window Cleaning
+	 Most Recent Price:	$70.00 		=> {'job': {'date': '08/31/21', 'type': 'Exterior Window Cleaning', 'price': '70.00', 'assiged': 'None', 'duration': '', 'invoice': ''}, 'price': '70.00'}
+	 Average Duration:	34.67 mins 	=> {'avg duration in mins': 34.666666666666664, 'jobs calculated': 3, 'total jobs': 27}
+
+
+
+U.P.S STORE: 302 Washington St
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$22.00 		=> {'job': {'date': '10/19/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '22.00', 'assiged': 'Roberto Isais', 'duration': '.18 Hr', 'invoice': '9758798'}, 'price': '22.00'}
+	 Average Duration:	18.52 mins 	=> {'avg duration in mins': 18.51868131868128, 'jobs calculated': 91, 'total jobs': 91}
+
+
+
+TURLEY LAW FIRM: 7428 Trade Place
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$125.00 		=> {'job': {'date': '04/23/19', 'type': 'Interior/Exterior Window Cleaning', 'price': '125.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '125.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+TRADER JOES #25: 115 N El Camino Real
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$85.00 		=> {'job': {'date': '11/10/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '85.00', 'assiged': 'Devony Dettman', 'duration': '', 'invoice': ''}, 'price': '85.00'}
+	 Average Duration:	58.39 mins 	=> {'avg duration in mins': 58.392857142857146, 'jobs calculated': 56, 'total jobs': 98}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$42.00 		=> {'job': {'date': '10/27/22', 'type': 'Exterior Window Cleaning', 'price': '42.00', 'assiged': 'Justin Smith', 'duration': '29 Mins', 'invoice': ''}, 'price': '42.00'}
+	 Average Duration:	32.08 mins 	=> {'avg duration in mins': 32.075471698113205, 'jobs calculated': 53, 'total jobs': 98}
+
+	Window Cleaning
+	 Most Recent Price:	$70.00 		=> {'job': {'date': '10/12/21', 'type': 'Window Cleaning', 'price': '70.00', 'assiged': 'Brandon Foster', 'duration': '', 'invoice': ''}, 'price': '70.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+TRADER JOES #24: 5495 Grossmont Blvd
+	Exterior Window Cleaning
+	 Most Recent Price:	$43.00 		=> {'job': {'date': '11/09/22', 'type': 'Exterior Window Cleaning', 'price': '43.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '43.00'}
+	 Average Duration:	22.84 mins 	=> {'avg duration in mins': 22.83684210526315, 'jobs calculated': 76, 'total jobs': 195}
+
+	In/Out entry ways
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '05/22/15', 'type': 'In/Out entry ways', 'price': '35.00', 'assiged': 'Danny Steinweg', 'duration': '', 'invoice': ''}, 'price': '35.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$43.00 		=> {'job': {'date': '07/25/17', 'type': 'Interior/Exterior Window Cleaning', 'price': '43.00', 'assiged': "Marlene A'ndaluz", 'duration': '', 'invoice': ''}, 'price': '43.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+TRADER JOES #222: 1072 Camino Del Rio North
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+TRADER JOES #221: 9850 Hibert St
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$90.00 		=> {'job': {'date': '11/08/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '90.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '90.00'}
+	 Average Duration:	43.94 mins 	=> {'avg duration in mins': 43.94, 'jobs calculated': 20, 'total jobs': 101}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '11/02/22', 'type': 'Exterior Window Cleaning', 'price': '45.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	28.41 mins 	=> {'avg duration in mins': 28.40740740740741, 'jobs calculated': 27, 'total jobs': 95}
+
+
+
+TRADER JOES #220: 2629 Gateway Road
+	In/Out entry ways
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '11/01/22', 'type': 'In/Out entry ways', 'price': '65.00', 'assiged': 'Devony Dettman', 'duration': '44 Mins', 'invoice': ''}, 'price': '65.00'}
+	 Average Duration:	40.14 mins 	=> {'avg duration in mins': 40.13939393939393, 'jobs calculated': 33, 'total jobs': 96}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$175.00 		=> {'job': {'date': '10/18/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '175.00', 'assiged': 'Devony Dettman', 'duration': '2 Hrs 11 Mins', 'invoice': ''}, 'price': '175.00'}
+	 Average Duration:	189.95 mins 	=> {'avg duration in mins': 189.9512195121951, 'jobs calculated': 41, 'total jobs': 101}
+
+	Touch up
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	15.00 mins 	=> {'avg duration in mins': 15.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+TRADER JOES #22: 2570 Vista Way
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$95.00 		=> {'job': {'date': '11/08/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '95.00', 'assiged': 'Devony Dettman', 'duration': '', 'invoice': ''}, 'price': '95.00'}
+	 Average Duration:	58.12 mins 	=> {'avg duration in mins': 58.12, 'jobs calculated': 100, 'total jobs': 198}
+
+	remove paint
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	30.00 mins 	=> {'avg duration in mins': 30.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+TRADER JOES #188: 2401 Truxtun Rd
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$140.00 		=> {'job': {'date': '11/07/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '140.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '140.00'}
+	 Average Duration:	65.59 mins 	=> {'avg duration in mins': 65.58888888888889, 'jobs calculated': 54, 'total jobs': 198}
+
+
+
+TRADER JOES #120: 878 Eastlake Pkwy
+	Window Cleaning
+	 Most Recent Price:	$77.00 		=> {'job': {'date': '11/11/22', 'type': 'Window Cleaning', 'price': '77.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': None}, 'price': '77.00'}
+	 Average Duration:	51.98 mins 	=> {'avg duration in mins': 51.97910447761194, 'jobs calculated': 67, 'total jobs': 198}
+
+	Window Cleaning - in/out
+	 Most Recent Price:	$85.00 		=> {'job': {'date': '04/06/15', 'type': 'Window Cleaning - in/out', 'price': '85.00', 'assiged': 'Justin Smith', 'duration': '', 'invoice': ''}, 'price': '85.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$77.00 		=> {'job': {'date': '06/09/17', 'type': 'Interior/Exterior Window Cleaning', 'price': '77.00', 'assiged': 'Skyler Gibbs', 'duration': '', 'invoice': ''}, 'price': '77.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+TRADER JOES #105: 1885 Centre City Pkwy
+	Exterior Window Cleaning
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '05/25/16', 'type': 'Exterior Window Cleaning', 'price': '65.00', 'assiged': 'Jose Perez', 'duration': '.61 Hr', 'invoice': ''}, 'price': '65.00'}
+	 Average Duration:	36.60 mins 	=> {'avg duration in mins': 36.6, 'jobs calculated': 6, 'total jobs': 58}
+
+	Window Cleaning Out
+	 Most Recent Price:	$65.00 		=> {'job': {'date': '02/24/16', 'type': 'Window Cleaning Out', 'price': '65.00', 'assiged': 'None', 'duration': '30min Hrs', 'invoice': ''}, 'price': '65.00'}
+	 Average Duration:	37.50 mins 	=> {'avg duration in mins': 37.5, 'jobs calculated': 2, 'total jobs': 2}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$120.00 		=> {'job': {'date': '10/20/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '120.00', 'assiged': 'Devony Dettman', 'duration': '48 Mins', 'invoice': ''}, 'price': '120.00'}
+	 Average Duration:	58.98 mins 	=> {'avg duration in mins': 58.975, 'jobs calculated': 32, 'total jobs': 131}
+
+	Paint Removal
+	 Most Recent Price:	$500.00 		=> {'job': {'date': '10/06/17', 'type': 'Paint Removal', 'price': '500.00', 'assiged': 'Justin Smith', 'duration': '', 'invoice': ''}, 'price': '500.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+TRADER JOES # 26: 1190 University Ave
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$200.00 		=> {'job': {'date': '11/10/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '200.00', 'assiged': 'Isais', 'duration': '', 'invoice': ''}, 'price': '200.00'}
+	 Average Duration:	91.33 mins 	=> {'avg duration in mins': 91.33225806451614, 'jobs calculated': 62, 'total jobs': 171}
+
+
+
+TRADER JOES # 23: 11955 Carmel Mountain Rd
+	Exterior Window Cleaning
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '12/27/21', 'type': 'Exterior Window Cleaning', 'price': '45.00', 'assiged': 'Brandon Foster', 'duration': '15 Mins', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	47.33 mins 	=> {'avg duration in mins': 47.32835820895517, 'jobs calculated': 67, 'total jobs': 130}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$90.00 		=> {'job': {'date': '01/12/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '90.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '90.00'}
+	 Average Duration:	43.73 mins 	=> {'avg duration in mins': 43.728571428571435, 'jobs calculated': 14, 'total jobs': 39}
+
+
+
+TRADER JOES # 223: 13480 Highlands Place
+	Window Cleaning
+	 Most Recent Price:	$70.00 		=> {'job': {'date': '11/08/22', 'type': 'Window Cleaning', 'price': '70.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '70.00'}
+	 Average Duration:	72.20 mins 	=> {'avg duration in mins': 72.20227272727273, 'jobs calculated': 88, 'total jobs': 197}
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$70.00 		=> {'job': {'date': '06/07/17', 'type': 'Interior/Exterior Window Cleaning', 'price': '70.00', 'assiged': 'Jose Perez', 'duration': '', 'invoice': ''}, 'price': '70.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '10/13/21', 'type': 'Exterior Window Cleaning', 'price': '45.00', 'assiged': 'Brandon Foster', 'duration': '52 Mins', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	52.00 mins 	=> {'avg duration in mins': 52.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+TRADER JOES # 222: 1072 Camino Del Rio N
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$95.00 		=> {'job': {'date': '11/09/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '95.00', 'assiged': 'Roberto Isais', 'duration': '', 'invoice': ''}, 'price': '95.00'}
+	 Average Duration:	129.37 mins 	=> {'avg duration in mins': 129.37435897435898, 'jobs calculated': 39, 'total jobs': 103}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '10/25/22', 'type': 'Exterior Window Cleaning', 'price': '45.00', 'assiged': 'Devony Dettman', 'duration': '', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	31.17 mins 	=> {'avg duration in mins': 31.17142857142857, 'jobs calculated': 14, 'total jobs': 98}
+
+	Paint Removal
+	 Most Recent Price:	$45.00 		=> {'job': {'date': '02/25/19', 'type': 'Paint Removal', 'price': '45.00', 'assiged': 'Skyler Gibbs', 'duration': '', 'invoice': ''}, 'price': '45.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	APP Check in/out
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	15.00 mins 	=> {'avg duration in mins': 15.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+TRADER JOES # 21: 1211 Garnet Ave
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$145.00 		=> {'job': {'date': '11/03/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '145.00', 'assiged': 'Isais', 'duration': '', 'invoice': ''}, 'price': '145.00'}
+	 Average Duration:	69.66 mins 	=> {'avg duration in mins': 69.65957446808511, 'jobs calculated': 47, 'total jobs': 171}
+
+
+
+TRADER JOES # 20: 8657 La Jolla Village Dr
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$55.00 		=> {'job': {'date': '11/03/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '55.00', 'assiged': 'Isais', 'duration': '', 'invoice': ''}, 'price': '55.00'}
+	 Average Duration:	31.88 mins 	=> {'avg duration in mins': 31.88235294117647, 'jobs calculated': 17, 'total jobs': 91}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$40.00 		=> {'job': {'date': '10/20/22', 'type': 'Exterior Window Cleaning', 'price': '40.00', 'assiged': 'Isais', 'duration': '', 'invoice': ''}, 'price': '40.00'}
+	 Average Duration:	23.53 mins 	=> {'avg duration in mins': 23.53333333333333, 'jobs calculated': 27, 'total jobs': 136}
+
+	Window Cleaning Out
+	 Most Recent Price:	$30.00 		=> {'job': {'date': '02/03/16', 'type': 'Window Cleaning Out', 'price': '30.00', 'assiged': 'None', 'duration': '15min Hrs', 'invoice': ''}, 'price': '30.00'}
+	 Average Duration:	15.00 mins 	=> {'avg duration in mins': 15.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+TIO LEOS: 5302 Napa Street
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$85.00 		=> {'job': {'date': '10/11/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '85.00', 'assiged': 'Roberto Isais', 'duration': '1 Hr', 'invoice': '9758770'}, 'price': '85.00'}
+	 Average Duration:	50.60 mins 	=> {'avg duration in mins': 50.6, 'jobs calculated': 10, 'total jobs': 10}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$42.00 		=> {'job': {'date': '05/02/22', 'type': 'Exterior Window Cleaning', 'price': '42.00', 'assiged': '2 and 3', 'duration': '1 Hr', 'invoice': '9758157'}, 'price': '42.00'}
+	 Average Duration:	60.00 mins 	=> {'avg duration in mins': 60.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+TIM NO WORK: 
+	back windows
+	 Most Recent Price:	$40.00 		=> {'job': {'date': '12/03/19', 'type': 'back windows', 'price': '40.00', 'assiged': 'Tim Grant', 'duration': '', 'invoice': ''}, 'price': '40.00'}
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior Only Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	In/Out entry ways
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+	non - cleaning, Pick up merchandise
+	 Most Recent Price:	NO PRICE AVAILABLE
+	 Average Duration:	NO DURATION AVAILABLE
+
+
+
+THE RELATIONSHIP PLACE: 2729 Fourth Avenue
+	Exterior Window Cleaning
+	 Most Recent Price:	$195.00 		=> {'job': {'date': '06/15/22', 'type': 'Exterior Window Cleaning', 'price': '195.00', 'assiged': '1 and 3', 'duration': '2 Hrs 12 Mins', 'invoice': '9758317'}, 'price': '195.00'}
+	 Average Duration:	128.00 mins 	=> {'avg duration in mins': 128.0, 'jobs calculated': 3, 'total jobs': 3}
+
+
+
+THE LODGE AT TORREY PINES: 11480 N Torrey Pines Rd
+	Exterior Window Cleaning
+	 Most Recent Price:	$900.00 		=> {'job': {'date': '09/04/19', 'type': 'Exterior Window Cleaning', 'price': '900.00', 'assiged': 'Justin Smith', 'duration': '5 Hrs', 'invoice': ''}, 'price': '900.00'}
+	 Average Duration:	330.00 mins 	=> {'avg duration in mins': 330.0, 'jobs calculated': 2, 'total jobs': 6}
+
+	Exterior Window Cleaning - high windows
+	 Most Recent Price:	$1200.00 		=> {'job': {'date': '09/24/18', 'type': 'Exterior Window Cleaning - high windows', 'price': '1200.00', 'assiged': '1 and 2', 'duration': '7 Hrs', 'invoice': ''}, 'price': '1200.00'}
+	 Average Duration:	420.00 mins 	=> {'avg duration in mins': 420.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+
+THE BARBECUE PIT: 2388 Fletcher Pkwy
+	Interior/Exterior Window Cleaning
+	 Most Recent Price:	$35.00 		=> {'job': {'date': '10/11/22', 'type': 'Interior/Exterior Window Cleaning', 'price': '35.00', 'assiged': 'Roberto Isais', 'duration': '.3 Hr', 'invoice': '9758766'}, 'price': '35.00'}
+	 Average Duration:	19.08 mins 	=> {'avg duration in mins': 19.081865284974093, 'jobs calculated': 193, 'total jobs': 193}
+
+	Window Cleaning
+	 Most Recent Price:	$32.00 		=> {'job': {'date': '02/23/16', 'type': 'Window Cleaning', 'price': '32.00', 'assiged': 'Jose Perez', 'duration': '30min Hrs', 'invoice': ''}, 'price': '32.00'}
+	 Average Duration:	30.00 mins 	=> {'avg duration in mins': 30.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Exterior Window Cleaning
+	 Most Recent Price:	$25.00 		=> {'job': {'date': '08/07/18', 'type': 'Exterior Window Cleaning', 'price': '25.00', 'assiged': 'Roberto Isais', 'duration': '.3 Hr', 'invoice': ''}, 'price': '25.00'}
+	 Average Duration:	18.00 mins 	=> {'avg duration in mins': 18.0, 'jobs calculated': 1, 'total jobs': 1}
+
+	Paint Removal
+	 Most Recent Price:	$50.00 		=> {'job': {'date': '01/05/21', 'type': 'Paint Removal', 'price': '50.00', 'assiged': 'Roberto Isais', 'duration': '.3 Hr', 'invoice': '9756418'}, 'price': '50.00'}
+	 Average Duration:	18.00 mins 	=> {'avg duration in mins': 18.0, 'jobs calculated': 1, 'total jobs': 1}
+
+
+

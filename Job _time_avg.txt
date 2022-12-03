@@ -1,37 +1,18 @@
-keyID = Customer + Id
+Make program take filters
 
-Get avg of Duration column
-    - considerations => Job-age? Still active job?
+-> empoloyee(s)
+-> date range
+-> Job Frequency
 
+Make Program Consider
 
-    IF(keyID isActive)
-        - get avg duration
-        - get frequency
-
-
-    function GET_DURATION(keyID)
-        - get duration
+-> Minimun Price per hour
 
 
-    function IS_ACTIVE(Duration time)
-     - If done by active empoloyee
-     - Job Date?
-        - What is the cut-off?
-
-        -> Make this adjustable <-
-
-
-Class Frequency:
-    
-
-OUTPUT:
- - KeyID => Avg. Duration, From: xx/xx/xxxx to xx/xx/xxxx
-    ** Frequency    - at least once every 2 years, 
-                    - 1x per year
-                    - 2x per year
-                    - 3x per year
-                    - 4x per year
-                    - xx per year
-
-
-
+Filters:
+    job frequency
+        - Requested filter
+    empoloyee
+        - Break down the analytics on an empoloyee
+    date range
+        - Consider time between two dates

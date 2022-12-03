@@ -9,6 +9,7 @@ CUSTOMER_NAME = 'Customer Name'
 COMPANY_NAME = 'Company Name'
 DATE_ADDED = 'Date Added'
 CUSTOMER_TYPE = 'Customer Type'
+ADDRESS = "Address"
 
 # JOB 
 JOB_DATE = 'Job Date'
@@ -77,6 +78,7 @@ class Customer:
         self.company = data[COMPANY_NAME]
         self.dateAdded = data[DATE_ADDED]
         self.cType = data[CUSTOMER_TYPE]
+        self.address = data[ADDRESS]
         self.jobHistory = []
 
 

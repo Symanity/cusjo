@@ -3,7 +3,7 @@ import datetime
 from datetime import date 
 
 DATE_FORMAT = '%m/%d/%y'
-theBeginnnig = datetime.datetime.strptime("01/01/86", DATE_FORMAT).date()
+theBegining = datetime.datetime.strptime("01/01/86", DATE_FORMAT).date()
 
 
 class Evaluator:
@@ -12,6 +12,7 @@ class Evaluator:
         self.evaluatations = Evaluator.__evals__(customer["jobHistory"])
         
 
+    # Sorts by jobType
     def __evals__(jobHistory):
         evalDict = {}
 
@@ -69,7 +70,7 @@ class Evaluation:
 
 
     # Get avg duration of this job type
-    def getAvgDuration(self, startDate = datetime.datetime.strptime("01/01/86", DATE_FORMAT).date(), 
+    def getDuration(self, startDate = theBegining, 
                         endDate = date.today()):
         
         effectiveJobs = self.__getJobsInRange(startDate, endDate)
@@ -84,7 +85,8 @@ class Evaluation:
                 avgDuration += duration
 
         if jobWithTimes > 0:
-            return avgDuration/jobWithTimes
+            avgDuration = avgDuration / jobWithTimes
+            return {"avg duration in mins": avgDuration, "jobs calculated": jobWithTimes, "total jobs": len(effectiveJobs)}
         else:
             return None
 
@@ -100,7 +102,7 @@ class Evaluation:
         mostRecentJob = None
         days = 0
         
-        effectiveJobs = self.__getJobsInRange(theBeginnnig, today)
+        effectiveJobs = self.__getJobsInRange(theBegining, today)
 
         for job in effectiveJobs:
             jobDate = datetime.datetime.strptime(job["date"], DATE_FORMAT).date()
@@ -116,7 +118,7 @@ class Evaluation:
                 days = diffDays
 
         if mostRecentJob:
-            return float(mostRecentJob["price"])
+            return {"job":mostRecentJob, "price": mostRecentJob["price"]}
         else:
             return None
 

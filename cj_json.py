@@ -9,7 +9,7 @@ theBegining = datetime.datetime.strptime("01/01/86", DATE_FORMAT).date()
 class Evaluator:
     def __init__(self, customer) -> None:
         self.customerName = customer["name"]
-        self.evaluatations = Evaluator.__evals__(customer["jobHistory"])
+        self.services = Evaluator.__evals__(customer["jobHistory"])
         
 
     # Sorts by jobType
@@ -28,7 +28,7 @@ class Evaluator:
 
 
     # Active status if job completed within x amount of days [defaults to 2 years]
-    def isActive(customer, effectiveDays = 730):
+    def isActive(customer, effectiveDays = 10000):
         jobHistory = customer["jobHistory"]
         dateFormat = '%m/%d/%y'
         today = date.today()

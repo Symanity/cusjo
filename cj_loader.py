@@ -4,6 +4,7 @@ import io
 import os
 import json
 
+# Columns pulled
 CUSTOMER_ID = 'Id'
 CUSTOMER_NAME = 'Customer Name'
 COMPANY_NAME = 'Company Name'
@@ -20,9 +21,9 @@ DURATION = 'Duration'
 INVOICE_NUMBER = 'Invoice Number'
 
 
-def load():
+def readOnly(fileName):
     directory = os.path.join(os.getcwd(), "res")
-    csv_dict = os.path.join(directory, "CF_exported.csv")
+    csv_dict = os.path.join(directory, fileName)
     customerData = io.open(csv_dict, 'r', encoding="utf-8")
 
     try:

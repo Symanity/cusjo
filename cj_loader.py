@@ -3,23 +3,7 @@ import csv
 import io
 import os
 import json
-
-# Columns pulled
-CUSTOMER_ID = 'Id'
-CUSTOMER_NAME = 'Customer Name'
-COMPANY_NAME = 'Company Name'
-DATE_ADDED = 'Date Added'
-CUSTOMER_TYPE = 'Customer Type'
-ADDRESS = "Address"
-
-# JOB 
-JOB_DATE = 'Job Date'
-JOB_TYPE = 'Job Type'
-PRICE = 'Price'
-ASSIGNED_TO = 'Assigned To'
-DURATION = 'Duration'
-INVOICE_NUMBER = 'Invoice Number'
-
+import resources as r
 
 def readOnly(fileName):
     directory = os.path.join(os.getcwd(), "res")
@@ -42,7 +26,7 @@ def consolidate(data):
 
     for row in data:
         if customer:
-            if(customer.id == row[CUSTOMER_ID]):
+            if(customer.id == row[r.id]):
                 # consolidate job history
                 job = Job(row)
                 customer.jobHistory.append(job)
@@ -58,12 +42,12 @@ def consolidate(data):
 
 class Job:
     def __init__(self, data):
-        self.date = data[JOB_DATE]
-        self.type = data[JOB_TYPE]
-        self.price = data[PRICE]
-        self.assiged = data[ASSIGNED_TO]
-        self.duration = data[DURATION]
-        self.invoice = data[INVOICE_NUMBER]
+        self.date = data[r.jobDate]
+        self.type = data[r.jobType]
+        self.price = data[r.price]
+        self.assiged = data[r.assignedTo]
+        self.duration = data[r.duration]
+        self.invoice = data[r.invoiceNumber]
 
     def __str__(self):
         return self.date
@@ -74,12 +58,12 @@ class Job:
 
 class Customer:
     def __init__(self, data):
-        self.id  = data[CUSTOMER_ID]
-        self.name = data[CUSTOMER_NAME]
-        self.company = data[COMPANY_NAME]
-        self.dateAdded = data[DATE_ADDED]
-        self.cType = data[CUSTOMER_TYPE]
-        self.address = data[ADDRESS]
+        self.id  = data[r.id]
+        self.name = data[r.name]
+        self.company = data[r.companyName]
+        self.dateAdded = data[r.dateAdded]
+        self.cType = data[r.cType]
+        self.address = data[r.address]
         self.jobHistory = []
 
 

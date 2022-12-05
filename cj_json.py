@@ -1,6 +1,7 @@
 import json
 import datetime
-from datetime import date 
+from datetime import date
+import resources as r
 
 DATE_FORMAT = '%m/%d/%y'
 theBegining = datetime.datetime.strptime("01/01/86", DATE_FORMAT).date()
@@ -8,6 +9,7 @@ theBegining = datetime.datetime.strptime("01/01/86", DATE_FORMAT).date()
 
 class Evaluator:
     def __init__(self, customer) -> None:
+        self.customerID = customer["id"]
         self.customerName = customer["name"]
         self.services = Evaluator.__evals__(customer["jobHistory"])
         

@@ -7,6 +7,10 @@ def assessCommericalJobs(startDate, endDate):
     customerData = interpreter.read(data)
 
     # SQL Queries
+    # 1. Filter by date range
+    # 2. filter by employee
+    # 3. filter by frequency
+    # 4. search by name
 
 
 

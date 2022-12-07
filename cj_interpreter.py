@@ -100,7 +100,7 @@ class Evaluation:
 
     # Get frequency of this job type. This takes the average of time between jobs.
     # Returns only if done 3 times or more
-    def getAvgFrequency(self):
+    def getFrequency(self):
         count = 1
         total = 0
 

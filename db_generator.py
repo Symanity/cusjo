@@ -7,50 +7,61 @@
 
 import cj_interpreter as interpreter
 import json
-import resources as r
 
 import sqlite3
 
 DATE_FORMAT = '%m/%d/%y'
-mCustomerDb = "Customers.db"
-mJobDb = "JobHistory.db"
+CustomerDb = "Customers.db"
+JobsDb = "JobHistory.db"
+
+CustomerTable = "CUSTOMERS"
+JobTable = "JOB_HISTORY"
 
 def create(data):
     # Create necessary tables
     __createCustomerTable()
     __createJobTable()
 
+    print("[STATUS] sql tables created")
+    print("[STATUS] beginning CustomerFactor raw data processing")
     __generateDB(data)
-    printTable("JOB_HISTORY", mJobDb)
+    print("[STATUS] successfully processed CustomerFactor data")
 
 
 def __generateDB(data):
-    customers_connection = sqlite3.connect(mCustomerDb)
+    customers_connection = sqlite3.connect(CustomerDb)
     customers_cursor = customers_connection.cursor()
 
-    job_connection = sqlite3.connect(mJobDb)
+    job_connection = sqlite3.connect(JobsDb)
     job_cursor = job_connection.cursor()
 
     for customerData in data:
-        customerJson =  json.loads(customerData)
-        customerEvaluator = interpreter.Evaluator(customerJson)
+        customer =  json.loads(customerData)
+        customerEvaluator = interpreter.Evaluator(customer)
 
         services = customerEvaluator.services
         
         # Insert Customer Data row into Customers.db
-        customers_cursor.execute("INSERT INTO CUSTOMERS VALUES(?,?,?,?,?,?)", (customerJson["id"], customerJson["name"], customerJson["company"], customerJson["dateAdded"], customerJson["cType"], customerJson["address"]))
+        customers_cursor.execute("INSERT INTO CUSTOMERS VALUES(?,?,?,?,?,?)", (customer["id"], customer["name"], customer["company"], customer["dateAdded"], customer["cType"], customer["address"]))
 
-        for job in customerJson["jobHistory"]:
+        print("processing {}...".format(customer["name"]))
+        for job in customer["jobHistory"]:
             duration = interpreter.toMinutes(job["duration"])
-            
-            job_cursor.execute("INSERT INTO JOB_HISTORY VALUES(?,?,?,?,?,?,?)", (
-                customerJson["id"], 
+            serviceName = job["type"]
+
+            # print("{} GETS {} DONE EVERY {} DAYS".format(customerJson["name"], job["type"], services[serviceName].getFrequency()))
+            job_cursor.execute("INSERT INTO JOB_HISTORY VALUES(?,?,?,?,?,?,?,?)", (
+                customer["id"], 
                 job["date"], 
                 job["type"],
                 job["price"],
                 job["assigned"],
                 duration,
-                job["invoice"]))
+                job["invoice"],
+                services[serviceName].getFrequency()
+                ))
+            
+        print('\tdone')
 
     job_connection.commit()
     job_connection.close()
@@ -62,10 +73,10 @@ def __generateDB(data):
 
 #   Row: Customer id, customer name, company name, date added, cType, customer address
 def __createCustomerTable():
-    connection = sqlite3.connect(mCustomerDb)
+    connection = sqlite3.connect(CustomerDb)
     cursor = connection.cursor()
 
-    cursor.execute("DROP TABLE IF EXISTS {}".format(r.customerTable))
+    cursor.execute("DROP TABLE IF EXISTS {}".format(CustomerTable))
     
     tableCommand = """ CREATE TABLE {} (
                     customer_id integer PRIMARY KEY,
@@ -75,18 +86,18 @@ def __createCustomerTable():
                     customer_type text,
                     address text NOT NULL
                 )
-                """.format(r.customerTable)
+                """.format(CustomerTable)
 
     cursor.execute(tableCommand)
     connection.close()
 
     
-#   Row: Customer Id, jobType, jobPrice, jobDate, employee, duration, invoice 
+#   Row: Customer Id, jobType, jobPrice, jobDate, employee, duration, invoice, frequency
 def __createJobTable():
-    connection = sqlite3.connect(mJobDb)
+    connection = sqlite3.connect(JobsDb)
     cursor = connection.cursor()
 
-    cursor.execute("DROP TABLE IF EXISTS {}".format(r.jobTable))
+    cursor.execute("DROP TABLE IF EXISTS {}".format(JobTable))
     
     tableCommand = """ CREATE TABLE {} (
                     customer_id integer NOT NULL,
@@ -95,9 +106,10 @@ def __createJobTable():
                     job_price real,
                     employee text,
                     duration real,
-                    invoice integer
+                    invoice integer,
+                    job_frequency real
                 )
-                """.format(r.jobTable)
+                """.format(JobTable)
 
     cursor.execute(tableCommand)
     connection.close()

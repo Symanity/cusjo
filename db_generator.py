@@ -33,6 +33,9 @@ def __generateDB(data):
 
     for customerData in data:
         customerJson =  json.loads(customerData)
+        customerEvaluator = interpreter.Evaluator(customerJson)
+
+        services = customerEvaluator.services
         
         # Insert Customer Data row into Customers.db
         customers_cursor.execute("INSERT INTO CUSTOMERS VALUES(?,?,?,?,?,?)", (customerJson["id"], customerJson["name"], customerJson["company"], customerJson["dateAdded"], customerJson["cType"], customerJson["address"]))

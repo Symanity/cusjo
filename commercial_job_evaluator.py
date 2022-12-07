@@ -9,17 +9,19 @@ def assessCommericalJobs(startDate, endDate):
     
     for cData in data:
         customerJson = json.loads(cData)
-        evals = inter.Evaluator(customerJson)
+        customerEvaluator = inter.Evaluator(customerJson)
 
-        print(evals)
-        for key in evals.services:
-            frequency = evals.services[key].getFrequency()
-            print("\t{} every {} days".format(key, frequency))
-            
+        services = customerEvaluator.services
+
+        for service in services:
+            frequency = customerEvaluator.services[service].getAvgFrequency()
+            print("\t{} every {} days".format(service, frequency))
+
         # target = customerJson["name"]
         # if target == "Watchlight Corporation":
         #     for key in evals.services:
-        #         evals.services[key].getFrequency()
+        #         print(key)
+        #         evals.services[key].getAvgFrequency()
 
 
     # Create SQLite database/tables

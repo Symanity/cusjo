@@ -89,35 +89,45 @@ class Evaluation:
 
         if jobWithTimes > 0:
             avgDuration = avgDuration / jobWithTimes
-            return {"avg duration in mins": avgDuration, "jobs calculated": jobWithTimes, "total jobs": len(effectiveJobs)}
+            return {
+                    "avg duration in mins": avgDuration, 
+                    "jobs calculated": jobWithTimes, 
+                    "total jobs": len(effectiveJobs)
+                }
         else:
             return None
 
+
     # Get frequency of this job type. This takes the average of time between jobs.
+    # Returns only if done 3 times or more
     def getAvgFrequency(self):
         count = 1
         total = 0
-        jobs = copy.deepcopy(self.jobs)
 
-        job = jobs.pop()
-        while(len(jobs) > 1):
-            job2 = jobs.pop()
+        if len(self.jobs) >= 3:
+            jobs = copy.deepcopy(self.jobs)
 
-            if job and job2:
-                delta = self.__getDeltaDays(job2["date"],job["date"])
-                # KEEP FOR REFERENCE
-                # print("compared: {} & {}".format(job["date"], job2["date"]))
+            job = jobs.pop()
+            while(len(jobs) > 1):
+                job2 = jobs.pop()
 
-                total = total + delta
-                count = count + 1
+                if job and job2:
+                    delta = self.__getDeltaDays(job2["date"],job["date"])
+                    # KEEP FOR REFERENCE
+                    # print("compared: {} & {}".format(job["date"], job2["date"]))
 
-                job = job2 
+                    total = total + delta
+                    count = count + 1
 
+                    job = job2 
 
-        average = total/count
-        # KEEP FOR REFERENCE
-        # print("[{}]".format(count) + str(self.jobType) + " @ " + str(round(average, 1)) + " days")
-        return round(average, 1)
+            average = total/count
+            # KEEP FOR REFERENCE
+            # print("[{}]".format(count) + str(self.jobType) + " @ " + str(round(average, 1)) + " days")
+            return round(average, 1)
+        
+        else:
+            return None
 
     def __getDeltaDays(self, date1, date2):
          # Define the start and end dates
@@ -131,7 +141,7 @@ class Evaluation:
 
 
     # Get most recent job with a price
-    def getLatestPrice(self):
+    def getLatestJob(self):
         today = date.today()
         mostRecentJob = None
         days = 0
@@ -152,7 +162,7 @@ class Evaluation:
                 days = diffDays
 
         if mostRecentJob:
-            return {"job":mostRecentJob, "price": mostRecentJob["price"]}
+            return mostRecentJob
         else:
             return None
 

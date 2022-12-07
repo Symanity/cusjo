@@ -2,6 +2,7 @@ import json
 import datetime
 from datetime import date
 import resources as r
+import numpy as np
 
 DATE_FORMAT = '%m/%d/%y'
 theBegining = datetime.datetime.strptime("01/01/86", DATE_FORMAT).date()
@@ -151,7 +152,13 @@ def toMinutes(timeStr):
     else:
         timeDict = None
 
-    return dictToMins(timeDict)
+    timeInMinutes = dictToMins(timeDict)
+
+    if timeInMinutes:
+        return np.math.ceil(timeInMinutes)
+    else:
+        return None
+
 
 
 def dictToMins(timeDict):

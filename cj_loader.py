@@ -45,7 +45,7 @@ class Job:
         self.date = data[r.jobDate]
         self.type = data[r.jobType]
         self.price = data[r.price]
-        self.assiged = data[r.assignedTo]
+        self.assigned = data[r.assignedTo]
         self.duration = data[r.duration]
         self.invoice = data[r.invoiceNumber]
 

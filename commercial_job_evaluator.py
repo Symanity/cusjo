@@ -1,10 +1,11 @@
 import cj_loader as customerFactor
-import sql_converter as interpreter
+import db_generator as db
 
 def assessCommericalJobs(startDate, endDate):
     exportedFileName = "CF_exported.csv"
     data = customerFactor.readOnly(exportedFileName)
-    customerData = interpreter.read(data)
+    customerData = db.create(data)
+    
 
     # SQL Queries
     # 1. Filter by date range

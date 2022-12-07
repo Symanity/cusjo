@@ -7,6 +7,7 @@
 
 import cj_interpreter as interpreter
 import json
+import resources as r
 
 import sqlite3
 
@@ -61,9 +62,9 @@ def __createCustomerTable():
     connection = sqlite3.connect(mCustomerDb)
     cursor = connection.cursor()
 
-    cursor.execute("DROP TABLE IF EXISTS CUSTOMERS")
+    cursor.execute("DROP TABLE IF EXISTS {}".format(r.customerTable))
     
-    tableCommand = """ CREATE TABLE CUSTOMERS (
+    tableCommand = """ CREATE TABLE {} (
                     customer_id integer PRIMARY KEY,
                     name text NOT NULL,
                     company_name text,
@@ -71,7 +72,7 @@ def __createCustomerTable():
                     customer_type text,
                     address text NOT NULL
                 )
-                """
+                """.format(r.customerTable)
 
     cursor.execute(tableCommand)
     connection.close()
@@ -82,9 +83,9 @@ def __createJobTable():
     connection = sqlite3.connect(mJobDb)
     cursor = connection.cursor()
 
-    cursor.execute("DROP TABLE IF EXISTS JOB_HISTORY")
+    cursor.execute("DROP TABLE IF EXISTS {}".format(r.jobTable))
     
-    tableCommand = """ CREATE TABLE JOB_HISTORY (
+    tableCommand = """ CREATE TABLE {} (
                     customer_id integer NOT NULL,
                     job_date text,
                     job_type text,
@@ -93,7 +94,7 @@ def __createJobTable():
                     duration real,
                     invoice integer
                 )
-                """
+                """.format(r.jobTable)
 
     cursor.execute(tableCommand)
     connection.close()

@@ -1,8 +1,7 @@
-import json
 import datetime
 from datetime import date
-import resources as r
 import numpy as np
+import copy
 
 DATE_FORMAT = '%m/%d/%y'
 theBegining = datetime.datetime.strptime("01/01/86", DATE_FORMAT).date()
@@ -13,7 +12,7 @@ class Evaluator:
         self.customerID = customer["id"]
         self.customerName = customer["name"]
         self.services = Evaluator.__evals__(customer["jobHistory"])
-        
+
 
     # Sorts by jobType
     def __evals__(jobHistory):
@@ -31,7 +30,7 @@ class Evaluator:
 
 
     # Active status if job completed within x amount of days [defaults to 2 years]
-    def isActive(customer, effectiveDays = 10000):
+    def isActive(customer, effectiveDays = 730):
         jobHistory = customer["jobHistory"]
         dateFormat = '%m/%d/%y'
         today = date.today()
@@ -45,9 +44,9 @@ class Evaluator:
 
         return False
 
+
     def __str__(self) -> str:
         return self.customerName
-
 
 
 class Evaluation:
@@ -62,6 +61,7 @@ class Evaluation:
         else:
             return False
 
+
     def __getJobsInRange(self, startDate, endDate):
         jobList = []
         for job in self.jobs:
@@ -73,7 +73,7 @@ class Evaluation:
 
 
     # Get avg duration of this job type
-    def getDuration(self, startDate = theBegining, 
+    def getAvgDuration(self, startDate = theBegining, 
                         endDate = date.today()):
         
         effectiveJobs = self.__getJobsInRange(startDate, endDate)
@@ -93,14 +93,45 @@ class Evaluation:
         else:
             return None
 
+    # Get frequency of this job type. This takes the average of time between jobs.
+    def getAvgFrequency(self):
+        count = 1
+        total = 0
+        jobs = copy.deepcopy(self.jobs)
 
-    # Get frequency of this job type
-    def getFrequency():
-        pass
+        job = jobs.pop()
+        while(len(jobs) > 1):
+            job2 = jobs.pop()
+
+            if job and job2:
+                delta = self.__getDeltaDays(job2["date"],job["date"])
+                # KEEP FOR REFERENCE
+                # print("compared: {} & {}".format(job["date"], job2["date"]))
+
+                total = total + delta
+                count = count + 1
+
+                job = job2 
+
+
+        average = total/count
+        # KEEP FOR REFERENCE
+        # print("[{}]".format(count) + str(self.jobType) + " @ " + str(round(average, 1)) + " days")
+        return round(average, 1)
+
+    def __getDeltaDays(self, date1, date2):
+         # Define the start and end dates
+        start_date = datetime.datetime.strptime(date1, DATE_FORMAT).date()
+        end_date = datetime.datetime.strptime(date2, DATE_FORMAT).date()
+
+        # Calculate the difference between the dates
+        difference = end_date - start_date
+
+        return difference.days
 
 
     # Get most recent job with a price
-    def getPrice(self):
+    def getLatestPrice(self):
         today = date.today()
         mostRecentJob = None
         days = 0
@@ -160,7 +191,6 @@ def toMinutes(timeStr):
         return None
 
 
-
 def dictToMins(timeDict):
     mins = 0
     hrs = 0
@@ -179,6 +209,7 @@ def dictToMins(timeDict):
             return None
 
     return None
+
 
 # OUTPUT:
 #  - Name => Avg. Duration, From: xx/xx/xxxx to xx/xx/xxxx

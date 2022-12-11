@@ -30,48 +30,6 @@ def create(data):
     print("[STATUS] successfully processed CustomerFactor data")
 
 
-# def __generateDB(data):
-#     customers_connection = sqlite3.connect(CF_db)
-#     customers_cursor = customers_connection.cursor()
-
-#     job_connection = sqlite3.connect(CF_db)
-#     job_cursor = job_connection.cursor()
-
-#     for customerData in data:
-#         customer =  json.loads(customerData)
-#         customerEvaluator = interpreter.Evaluator(customer)
-
-#         services = customerEvaluator.services
-        
-#         # Insert Customer Data row into Customers.db
-#         customers_cursor.execute("INSERT INTO CUSTOMERS VALUES(?,?,?,?,?,?)", (customer["id"], customer["name"], customer["company"], customer["dateAdded"], customer["cType"], customer["address"]))
-
-#         print("processing {}...".format(customer["name"]))
-#         for job in customer["jobHistory"]:
-#             duration = interpreter.toMinutes(job["duration"])
-#             serviceName = job["type"]
-
-#             # print("{} GETS {} DONE EVERY {} DAYS".format(customerJson["name"], job["type"], services[serviceName].getFrequency()))
-#             job_cursor.execute("INSERT INTO JOB_HISTORY VALUES(?,?,?,?,?,?,?,?)", (
-#                 customer["id"], 
-#                 job["date"], 
-#                 job["type"],
-#                 job["price"],
-#                 job["assigned"],
-#                 duration,
-#                 job["invoice"],
-#                 services[serviceName].getFrequency()
-#                 ))
-            
-#         print('\tdone')
-
-#     job_connection.commit()
-#     job_connection.close()
-
-#     customers_connection.commit()
-#     customers_connection.close()
-
-
 def __generateDB(data):
     connection = sqlite3.connect(CF_db)
     cursor = connection.cursor()

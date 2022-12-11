@@ -29,22 +29,6 @@ class Evaluator:
         return evalDict
 
 
-    # Active status if job completed within x amount of days [defaults to 2 years]
-    def isActive(customer, effectiveDays = 730):
-        jobHistory = customer["jobHistory"]
-        dateFormat = '%m/%d/%y'
-        today = date.today()
-
-        for job in jobHistory:
-            jobDateStr = job["date"]
-            jobDate = datetime.datetime.strptime(jobDateStr, dateFormat).date()
-
-            if abs(today-jobDate).days < effectiveDays:
-                return True
-
-        return False
-
-
     def __str__(self) -> str:
         return self.customerName
 

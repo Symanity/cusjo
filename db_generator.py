@@ -5,17 +5,19 @@
 #   TABLE2: Job History
 #   Row: Customer Id, jobType, jobPrice, jobDate, employee, duration, invoice 
 
-import cj_interpreter as interpreter
+import cf_interpreter as interpreter
 import json
 
 import sqlite3
 
 DATE_FORMAT = '%m/%d/%y'
-CustomerDb = "Customers.db"
-JobsDb = "JobHistory.db"
+# CF_db = "Customers.db"
+# CF_db = "JobHistory.db"
 
-CustomerTable = "CUSTOMERS"
-JobTable = "JOB_HISTORY"
+CF_db = "CF_sql.db"
+
+tbl_Customers = "CUSTOMERS"
+tbl_jobHistory = "JOB_HISTORY"
 
 def create(data):
     # Create necessary tables
@@ -28,12 +30,51 @@ def create(data):
     print("[STATUS] successfully processed CustomerFactor data")
 
 
-def __generateDB(data):
-    customers_connection = sqlite3.connect(CustomerDb)
-    customers_cursor = customers_connection.cursor()
+# def __generateDB(data):
+#     customers_connection = sqlite3.connect(CF_db)
+#     customers_cursor = customers_connection.cursor()
 
-    job_connection = sqlite3.connect(JobsDb)
-    job_cursor = job_connection.cursor()
+#     job_connection = sqlite3.connect(CF_db)
+#     job_cursor = job_connection.cursor()
+
+#     for customerData in data:
+#         customer =  json.loads(customerData)
+#         customerEvaluator = interpreter.Evaluator(customer)
+
+#         services = customerEvaluator.services
+        
+#         # Insert Customer Data row into Customers.db
+#         customers_cursor.execute("INSERT INTO CUSTOMERS VALUES(?,?,?,?,?,?)", (customer["id"], customer["name"], customer["company"], customer["dateAdded"], customer["cType"], customer["address"]))
+
+#         print("processing {}...".format(customer["name"]))
+#         for job in customer["jobHistory"]:
+#             duration = interpreter.toMinutes(job["duration"])
+#             serviceName = job["type"]
+
+#             # print("{} GETS {} DONE EVERY {} DAYS".format(customerJson["name"], job["type"], services[serviceName].getFrequency()))
+#             job_cursor.execute("INSERT INTO JOB_HISTORY VALUES(?,?,?,?,?,?,?,?)", (
+#                 customer["id"], 
+#                 job["date"], 
+#                 job["type"],
+#                 job["price"],
+#                 job["assigned"],
+#                 duration,
+#                 job["invoice"],
+#                 services[serviceName].getFrequency()
+#                 ))
+            
+#         print('\tdone')
+
+#     job_connection.commit()
+#     job_connection.close()
+
+#     customers_connection.commit()
+#     customers_connection.close()
+
+
+def __generateDB(data):
+    connection = sqlite3.connect(CF_db)
+    cursor = connection.cursor()
 
     for customerData in data:
         customer =  json.loads(customerData)
@@ -42,7 +83,7 @@ def __generateDB(data):
         services = customerEvaluator.services
         
         # Insert Customer Data row into Customers.db
-        customers_cursor.execute("INSERT INTO CUSTOMERS VALUES(?,?,?,?,?,?)", (customer["id"], customer["name"], customer["company"], customer["dateAdded"], customer["cType"], customer["address"]))
+        cursor.execute("INSERT INTO CUSTOMERS VALUES(?,?,?,?,?,?)", (customer["id"], customer["name"], customer["company"], customer["dateAdded"], customer["cType"], customer["address"]))
 
         print("processing {}...".format(customer["name"]))
         for job in customer["jobHistory"]:
@@ -50,7 +91,7 @@ def __generateDB(data):
             serviceName = job["type"]
 
             # print("{} GETS {} DONE EVERY {} DAYS".format(customerJson["name"], job["type"], services[serviceName].getFrequency()))
-            job_cursor.execute("INSERT INTO JOB_HISTORY VALUES(?,?,?,?,?,?,?,?)", (
+            cursor.execute("INSERT INTO JOB_HISTORY VALUES(?,?,?,?,?,?,?,?)", (
                 customer["id"], 
                 job["date"], 
                 job["type"],
@@ -63,20 +104,16 @@ def __generateDB(data):
             
         print('\tdone')
 
-    job_connection.commit()
-    job_connection.close()
-
-    customers_connection.commit()
-    customers_connection.close()
-
+    connection.commit()
+    connection.close()
 
 
 #   Row: Customer id, customer name, company name, date added, cType, customer address
 def __createCustomerTable():
-    connection = sqlite3.connect(CustomerDb)
+    connection = sqlite3.connect(CF_db)
     cursor = connection.cursor()
 
-    cursor.execute("DROP TABLE IF EXISTS {}".format(CustomerTable))
+    cursor.execute("DROP TABLE IF EXISTS {}".format(tbl_Customers))
     
     tableCommand = """ CREATE TABLE {} (
                     customer_id integer PRIMARY KEY,
@@ -86,7 +123,7 @@ def __createCustomerTable():
                     customer_type text,
                     address text NOT NULL
                 )
-                """.format(CustomerTable)
+                """.format(tbl_Customers)
 
     cursor.execute(tableCommand)
     connection.close()
@@ -94,10 +131,10 @@ def __createCustomerTable():
     
 #   Row: Customer Id, jobType, jobPrice, jobDate, employee, duration, invoice, frequency
 def __createJobTable():
-    connection = sqlite3.connect(JobsDb)
+    connection = sqlite3.connect(CF_db)
     cursor = connection.cursor()
 
-    cursor.execute("DROP TABLE IF EXISTS {}".format(JobTable))
+    cursor.execute("DROP TABLE IF EXISTS {}".format(tbl_jobHistory))
     
     tableCommand = """ CREATE TABLE {} (
                     customer_id integer NOT NULL,
@@ -109,7 +146,7 @@ def __createJobTable():
                     invoice integer,
                     job_frequency real
                 )
-                """.format(JobTable)
+                """.format(tbl_jobHistory)
 
     cursor.execute(tableCommand)
     connection.close()

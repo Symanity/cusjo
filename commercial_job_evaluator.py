@@ -18,8 +18,10 @@ def assessCommericalJobs(startDate, endDate):
 
     customers = customerFactor.getCustomers()
     for customer in customers:
-        customerJSON = customer.toJson()
-        
+        if customer.isActive():
+            print("[ACTIVE] {}".format(customer.name))
+        else:
+            print("[-] {}".format(customer.name))
 
     
     # SQL Queries () 

@@ -5,6 +5,9 @@ import os
 import json
 import resources as r
 
+import datetime
+from datetime import date
+
 TARGET_FILE = None
 
 def init(fileName):
@@ -131,4 +134,15 @@ class Customer:
 
     
     def isActive(self):
-        print('hello')
+        dateFormat = '%m/%d/%y'
+        today = date.today()
+
+        for job in self.jobHistory:
+            jobDateStr = job["date"]
+            jobDate = datetime.datetime.strptime(jobDateStr, dateFormat).date()
+
+            if jobDate > today:
+                return True
+
+        return False
+

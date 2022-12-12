@@ -133,6 +133,7 @@ class Customer:
         return json.dumps(self, default=lambda o: o.__dict__, indent=4)
 
     
+    # Considered active if Customers have jobs scheduled in the future
     def isActive(self):
         dateFormat = '%m/%d/%y'
         today = date.today()

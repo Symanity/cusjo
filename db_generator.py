@@ -121,6 +121,30 @@ def __createJobTable():
     connection.close()
 
 
+def ask(sqlite_query):
+    response = []
+# Connect to the database
+    conn = sqlite3.connect(CF_db)
+
+    # Create a cursor to execute SQL commands
+    cursor = conn.cursor()
+
+    # Execute the SQL command
+    cursor.execute(sqlite_query)
+
+    # Fetch the results
+    results = cursor.fetchall()
+
+    # Print the results
+    for row in results:
+        response.append(row)
+
+    # Close the cursor and connection
+    cursor.close()
+    conn.close()
+
+    return response
+
 def printTable(tableName, filename):
     connection = sqlite3.connect(filename)
     cursor = connection.cursor()

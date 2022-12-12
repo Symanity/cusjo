@@ -14,14 +14,14 @@ def assessCommericalJobs(startDate, endDate):
     # Create SQLite database/tables
     # database.create(data)
 
-    # database.printTable(database.tbl_jobHistory, database.CF_db)
+    database.printTable(database.tbl_Customers, database.CF_db)
 
-    customers = customerFactor.getCustomers()
-    for customer in customers:
-        if customer.isActive():
-            print("[ACTIVE] {}".format(customer.name))
-        else:
-            print("[-] {}".format(customer.name))
+    # customers = customerFactor.getCustomers()
+    # for customer in customers:
+    #     if customer.isActive():
+    #         print("[ACTIVE] {}".format(customer.name))
+    #     else:
+    #         print("[-] {}".format(customer.name))
 
     
     # SQL Queries () 

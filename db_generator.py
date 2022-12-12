@@ -6,6 +6,7 @@
 #   Row: Customer Id, jobType, jobPrice, jobDate, employee, duration, invoice 
 
 import cf_interpreter as interpreter
+import cf_loader as customerFactor
 import json
 
 import sqlite3
@@ -36,12 +37,21 @@ def __generateDB(data):
 
     for customerData in data:
         customer =  json.loads(customerData)
+        customerObj = customerFactor.Customer(json=customer)
         customerEvaluator = interpreter.Evaluator(customer)
 
         services = customerEvaluator.services
         
         # Insert Customer Data row into Customers.db
-        cursor.execute("INSERT INTO CUSTOMERS VALUES(?,?,?,?,?,?)", (customer["id"], customer["name"], customer["company"], customer["dateAdded"], customer["cType"], customer["address"]))
+        cursor.execute("INSERT INTO CUSTOMERS VALUES(?,?,?,?,?,?,?)", (
+            customer["id"],
+            customer["name"],
+            customer["company"],
+            customer["dateAdded"],
+            customer["cType"],
+            customer["address"],
+            customerObj.isActive()
+            ))
 
         print("processing {}...".format(customer["name"]))
         for job in customer["jobHistory"]:
@@ -66,7 +76,7 @@ def __generateDB(data):
     connection.close()
 
 
-#   Row: Customer id, customer name, company name, date added, cType, customer address
+#   Row: Customer id, customer name, company name, date added, cType, customer address, customer active status
 def __createCustomerTable():
     connection = sqlite3.connect(CF_db)
     cursor = connection.cursor()
@@ -74,12 +84,13 @@ def __createCustomerTable():
     cursor.execute("DROP TABLE IF EXISTS {}".format(tbl_Customers))
     
     tableCommand = """ CREATE TABLE {} (
-                    customer_id integer PRIMARY KEY,
-                    name text NOT NULL,
-                    company_name text,
-                    date_added text,
-                    customer_type text,
-                    address text NOT NULL
+                    customer_id INTEGER PRIMARY KEY,
+                    name TEXT NOT NULL,
+                    company_name TEXT,
+                    date_added TEXT,
+                    customer_type TEXT,
+                    address TEXT NOT NULL,
+                    status INTEGER NOT NULL
                 )
                 """.format(tbl_Customers)
 

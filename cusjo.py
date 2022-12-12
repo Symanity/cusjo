@@ -3,6 +3,9 @@ import cf_loader as customerFactor
 import cf_interpreter as inter
 import db_generator as database
 import resources as r
+# import os
+import sys
+
 
 # SQL Queries () 
 #### [** ONLY DO FROM LAST 12 JOBS ***]
@@ -16,11 +19,22 @@ import resources as r
 
 SAMPLE_FILE = "CF_exported.csv"
 
-def printResponse(query):
-    response = database.ask(query)
 
-    for res in response:
-        print(res)
+def playground():
+    question = "SELECT * FROM CUSTOMERS"
+
+    res = database.ask(question)
+    printRes(res)
+
+
+def printRes(response = None, query=None):
+    if response:
+        for r in response:
+            print(r)
+
+    else:
+        print('[STATUS] ... no response')
+
 
 # Returns RAW file data without building the database
 def previewFile(fileName):
@@ -41,10 +55,26 @@ def searchForCustomers(customersName):
     return database.ask(question)
 
 
-build(SAMPLE_FILE)
+if len(sys.argv) > 1:
+    theCase = sys.argv[1]
+
+    if str(sys.argv[1]) == "build":
+        if len(sys.argv) > 2:
+            try:
+                build(str(sys.argv[2]))
+            except:
+                print("[FATAL-ERROR] invalid file")
+
+        else:
+            build(SAMPLE_FILE)
+
+    elif sys.argv[1] == "search":
+        printRes(searchForCustomers(str(sys.argv[2])))
+
+    else:
+        playground()
 
 
-    # data = customerFactor.fetchData()
 # Usefull snippets
     # Create SQLite database/tables
     # database.create(data)

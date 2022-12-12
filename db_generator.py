@@ -25,10 +25,10 @@ def create(data):
     __createCustomerTable()
     __createJobTable()
 
-    print("[STATUS] sql tables created")
-    print("[STATUS] beginning CustomerFactor raw data processing")
+    print("[BUILD] sql tables created")
+    print("[BUILD] beginning CustomerFactor raw data processing")
     __generateDB(data)
-    print("[STATUS] successfully processed CustomerFactor data")
+    print("[BUILD] database built successfully")
 
 
 def __generateDB(data):

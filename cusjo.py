@@ -19,14 +19,33 @@ import sys
 
 SAMPLE_FILE = "CF_exported.csv"
 
+ACTIVE_JOB_HISTORY = """
+        SELECT c.name, j.*
+        FROM JOB_HISTORY j
+        INNER JOIN CUSTOMERS c ON c.customer_id = j.customer_id
+        WHERE c.active_status = 1
+        """
+
+EMPLOYEE_JOB_HISTORY = ''' 
+    SELECT * 
+    FROM CUSTOMERS 
+    INNER JOIN JOB_HISTORY ON CUSTOMERS.customer_id = JOB_HISTORY.customer_id 
+    WHERE JOB_HISTORY.employee = 'Jose Perez' '''
+
 
 def playground():
-    question = ''' SELECT * FROM CUSTOMERS INNER JOIN JOB_HISTORY ON CUSTOMERS.customer_id = JOB_HISTORY.customer_id WHERE JOB_HISTORY.employee = 'Jose Perez' '''
+    question = """
+        SELECT j.*
+        FROM CUSTOMERS c
+        INNER JOIN JOB_HISTORY j ON c.customer_id = j.customer_id
+        WHERE j.employee = ''
+        """
 
     print('[STATUS] asking, {}'.format(question))
 
     res = database.ask(question)
     printRes(res)
+
 
 
 def printRes(response = None, query=None):
@@ -60,6 +79,14 @@ def searchForCustomers(customersName):
     return database.ask(question)
 
 
+def getActiveCustomers():
+        question = """
+            SELECT *
+            FROM CUSTOMERS
+            WHERE active_status = 1
+            """ 
+        return database.ask(question)
+
 if len(sys.argv) > 1:
     theCase = sys.argv[1]
 
@@ -76,8 +103,13 @@ if len(sys.argv) > 1:
     elif sys.argv[1] == "search":
         printRes(searchForCustomers(str(sys.argv[2])))
 
-    elif sys.argv[1] == "employees":
-        printRes(showEmployees())
+    elif sys.argv[1] == "print":
+        if len(sys.argv) > 2:
+            if sys.argv[2] == "employees":
+                printRes(showEmployees())
+
+            elif sys.argv[2] == "active_customers":
+                printRes(getActiveCustomers())
 
 else:
     playground()
@@ -95,4 +127,10 @@ else:
     #         print("[ACTIVE] {}".format(customer.name))
     #     else:
     #         print("[-] {}".format(customer.name))
+
+
+
+# QUESTION HISTORY
+    # ** show me the list of Customers where Jose is the employee
+    # question = ''' SELECT * FROM CUSTOMERS INNER JOIN JOB_HISTORY ON CUSTOMERS.customer_id = JOB_HISTORY.customer_id WHERE JOB_HISTORY.employee = 'Jose Perez' '''
     

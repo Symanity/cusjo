@@ -90,7 +90,7 @@ def __createCustomerTable():
                     date_added TEXT,
                     customer_type TEXT,
                     address TEXT NOT NULL,
-                    status INTEGER NOT NULL
+                    active_status INTEGER NOT NULL
                 )
                 """.format(tbl_Customers)
 
@@ -123,10 +123,7 @@ def __createJobTable():
 
 def ask(sqlite_query):
     response = []
-# Connect to the database
     conn = sqlite3.connect(CF_db)
-
-    # Create a cursor to execute SQL commands
     cursor = conn.cursor()
 
     # Execute the SQL command

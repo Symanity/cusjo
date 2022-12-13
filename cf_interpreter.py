@@ -104,12 +104,12 @@ class Evaluation:
                     if delta > 0:
                         total = total + delta
                         count = count + 1
+                        # print("comparing {}, {}".format(job["date"], job2["date"]) + "[{}]".format(count) + str(self.jobType))
 
                     job = job2 
 
             average = total/count
             # KEEP FOR REFERENCE
-            # print("[{}]".format(count) + str(self.jobType) + " @ " + str(round(average, 1)) + " days")
 
             return round(average, 1)
         
@@ -183,7 +183,7 @@ def toMinutes(timeStr):
     else:
         timeDict = None
 
-    timeInMinutes = dictToMins(timeDict)
+    timeInMinutes = dictToMins(timeDict, timeStr)
 
     if timeInMinutes:
         return np.math.ceil(timeInMinutes)
@@ -191,7 +191,7 @@ def toMinutes(timeStr):
         return None
 
 
-def dictToMins(timeDict):
+def dictToMins(timeDict, ogString):
     mins = 0
     hrs = 0
 
@@ -205,7 +205,7 @@ def dictToMins(timeDict):
             
             return mins + (hrs*60)
         except:
-            print('[FATAL] Error occured converting to decimal')
+            print('[FATAL] Error occured converting to decimal. Unrecognized - {}'.format(ogString))
             return None
 
     return None

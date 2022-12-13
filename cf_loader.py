@@ -7,6 +7,7 @@ import resources as r
 
 import datetime
 from datetime import date
+from datetime import datetime as dt
 
 TARGET_FILE = None
 

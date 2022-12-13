@@ -1,10 +1,11 @@
 import datetime
 from datetime import date
+from datetime import datetime as dt
 import numpy as np
 import copy
 
-DATE_FORMAT = '%m/%d/%y'
-theBegining = datetime.datetime.strptime("01/01/86", DATE_FORMAT).date()
+DATE_FORMAT = '%Y-%m-%d'
+# theBegining = datetime.datetime.strptime("01/01/86", DATE_FORMAT).date()
 
 
 class Evaluator:
@@ -57,29 +58,29 @@ class Evaluation:
 
 
     # Get avg duration of this job type
-    def getAvgDuration(self, startDate = theBegining, 
-                        endDate = date.today()):
+    # def getAvgDuration(self, startDate = theBegining, 
+    #                     endDate = date.today()):
         
-        effectiveJobs = self.__getJobsInRange(startDate, endDate)
+    #     effectiveJobs = self.__getJobsInRange(startDate, endDate)
 
-        avgDuration = 0
-        jobWithTimes = 0
+    #     avgDuration = 0
+    #     jobWithTimes = 0
 
-        for job in effectiveJobs:
-            duration = toMinutes(job["duration"])
-            if duration:
-                jobWithTimes += 1
-                avgDuration += duration
+    #     for job in effectiveJobs:
+    #         duration = toMinutes(job["duration"])
+    #         if duration:
+    #             jobWithTimes += 1
+    #             avgDuration += duration
 
-        if jobWithTimes > 0:
-            avgDuration = avgDuration / jobWithTimes
-            return {
-                    "avg duration in mins": avgDuration, 
-                    "jobs calculated": jobWithTimes, 
-                    "total jobs": len(effectiveJobs)
-                }
-        else:
-            return None
+    #     if jobWithTimes > 0:
+    #         avgDuration = avgDuration / jobWithTimes
+    #         return {
+    #                 "avg duration in mins": avgDuration, 
+    #                 "jobs calculated": jobWithTimes, 
+    #                 "total jobs": len(effectiveJobs)
+    #             }
+    #     else:
+    #         return None
 
 
     # Get frequency of this job type. This takes the average of time between jobs.
@@ -116,8 +117,8 @@ class Evaluation:
 
     def __getDeltaDays(self, date1, date2):
          # Define the start and end dates
-        start_date = datetime.datetime.strptime(date1, DATE_FORMAT).date()
-        end_date = datetime.datetime.strptime(date2, DATE_FORMAT).date()
+        start_date = dt.strptime(date1, DATE_FORMAT).date()
+        end_date = dt.strptime(date2, DATE_FORMAT).date()
 
         # Calculate the difference between the dates
         difference = end_date - start_date
@@ -126,30 +127,30 @@ class Evaluation:
 
 
     # Get most recent job with a price
-    def getLatestJob(self):
-        today = date.today()
-        mostRecentJob = None
-        days = 0
+    # def getLatestJob(self):
+    #     today = date.today()
+    #     mostRecentJob = None
+    #     days = 0
         
-        effectiveJobs = self.__getJobsInRange(theBegining, today)
+    #     effectiveJobs = self.__getJobsInRange(theBegining, today)
 
-        for job in effectiveJobs:
-            jobDate = datetime.datetime.strptime(job["date"], DATE_FORMAT).date()
+    #     for job in effectiveJobs:
+    #         jobDate = datetime.datetime.strptime(job["date"], DATE_FORMAT).date()
 
-            if not mostRecentJob and float(job["price"]) > 0:
-                mostRecentJob = job
-                days = (today - jobDate).days
+    #         if not mostRecentJob and float(job["price"]) > 0:
+    #             mostRecentJob = job
+    #             days = (today - jobDate).days
 
-            diffDays = (today - jobDate).days
+    #         diffDays = (today - jobDate).days
 
-            if diffDays < days and float(job["price"]) > 0:
-                mostRecentJob = job
-                days = diffDays
+    #         if diffDays < days and float(job["price"]) > 0:
+    #             mostRecentJob = job
+    #             days = diffDays
 
-        if mostRecentJob:
-            return mostRecentJob
-        else:
-            return None
+    #     if mostRecentJob:
+    #         return mostRecentJob
+    #     else:
+    #         return None
 
 
 # Converts into minutes
@@ -205,6 +206,13 @@ def dictToMins(timeDict):
 
     return None
 
+def convertDate(datestring):
+    date = dt.strptime(datestring, '%m/%d/%y')  # parse the date string
+
+    # format the date in ISO8601 format
+    iso8601_date = date.strftime('%Y-%m-%d')
+
+    return iso8601_date
 
 # OUTPUT:
 #  - Name => Avg. Duration, From: xx/xx/xxxx to xx/xx/xxxx

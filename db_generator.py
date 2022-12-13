@@ -11,10 +11,6 @@ import json
 
 import sqlite3
 
-DATE_FORMAT = '%m/%d/%y'
-# CF_db = "Customers.db"
-# CF_db = "JobHistory.db"
-
 CF_db = "CF_sql.db"
 
 tbl_Customers = "CUSTOMERS"

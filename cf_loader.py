@@ -5,6 +5,8 @@ import os
 import json
 import resources as r
 
+import cf_interpreter as inter
+
 import datetime
 from datetime import date
 from datetime import datetime as dt
@@ -83,7 +85,7 @@ def __consolidate(data):
 
 class Job:
     def __init__(self, data):
-        self.date = data[r.jobDate]
+        self.date = inter.convertDate(data[r.jobDate])
         self.type = data[r.jobType]
         self.price = data[r.price]
         self.assigned = data[r.assignedTo]
@@ -136,12 +138,15 @@ class Customer:
     
     # Considered active if Customers have jobs scheduled in the future
     def isActive(self):
-        dateFormat = '%m/%d/%y'
+        dateFormat = '%Y-%m-%d'
         today = date.today()
+
+        today = dt.today().date()  # get the current date
+        iso_date = today.strftime(dateFormat)
 
         for job in self.jobHistory:
             jobDateStr = job["date"]
-            jobDate = datetime.datetime.strptime(jobDateStr, dateFormat).date()
+            jobDate = dt.strptime(jobDateStr, dateFormat).date()
 
             if jobDate > today:
                 return True

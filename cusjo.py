@@ -21,7 +21,9 @@ SAMPLE_FILE = "CF_exported.csv"
 
 
 def playground():
-    question = "SELECT * FROM CUSTOMERS"
+    question = ''' SELECT * FROM CUSTOMERS INNER JOIN JOB_HISTORY ON CUSTOMERS.customer_id = JOB_HISTORY.customer_id WHERE JOB_HISTORY.employee = 'Jose Perez' '''
+
+    print('[STATUS] asking, {}'.format(question))
 
     res = database.ask(question)
     printRes(res)
@@ -49,9 +51,12 @@ def build(fileName):
     data = customerFactor.fetchData()
     database.create(data)
 
+def showEmployees():
+    question = "SELECT DISTINCT employee FROM {}".format(database.tbl_jobHistory)
+    return database.ask(question)
 
 def searchForCustomers(customersName):
-    question = "SELECT * FROM CUSTOMERS WHERE NAME LIKE '{}%'".format(customersName)
+    question = "SELECT * FROM CUSTOMERS WHERE name LIKE '{}%'".format(customersName)
     return database.ask(question)
 
 
@@ -71,8 +76,11 @@ if len(sys.argv) > 1:
     elif sys.argv[1] == "search":
         printRes(searchForCustomers(str(sys.argv[2])))
 
-    else:
-        playground()
+    elif sys.argv[1] == "employees":
+        printRes(showEmployees())
+
+else:
+    playground()
 
 
 # Usefull snippets
@@ -87,3 +95,4 @@ if len(sys.argv) > 1:
     #         print("[ACTIVE] {}".format(customer.name))
     #     else:
     #         print("[-] {}".format(customer.name))
+    

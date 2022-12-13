@@ -108,6 +108,7 @@ class Evaluation:
             average = total/count
             # KEEP FOR REFERENCE
             # print("[{}]".format(count) + str(self.jobType) + " @ " + str(round(average, 1)) + " days")
+
             return round(average, 1)
         
         else:

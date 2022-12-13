@@ -121,13 +121,18 @@ def __createJobTable():
     connection.close()
 
 
-def ask(sqlite_query):
+# args must be of type Tuble
+def ask(sqlite_query, args=None):
     response = []
     conn = sqlite3.connect(CF_db)
     cursor = conn.cursor()
 
-    # Execute the SQL command
-    cursor.execute(sqlite_query)
+    if args:
+        # Execute the query with the parameter
+        cursor.execute(sqlite_query, args)
+    else:
+        # Execute the SQL command
+        cursor.execute(sqlite_query)
 
     # Fetch the results
     results = cursor.fetchall()
@@ -141,13 +146,3 @@ def ask(sqlite_query):
     conn.close()
 
     return response
-
-def printTable(tableName, filename):
-    connection = sqlite3.connect(filename)
-    cursor = connection.cursor()
-
-    data = cursor.execute(f'''SELECT * FROM {tableName}''')
-    for row in data:
-        print(row)
-
-    connection.close()

@@ -34,18 +34,69 @@ EMPLOYEE_JOB_HISTORY = '''
 
 
 def playground():
-    question = """
-        SELECT j.*
-        FROM CUSTOMERS c
-        INNER JOIN JOB_HISTORY j ON c.customer_id = j.customer_id
-        WHERE j.employee = ''
-        """
 
-    print('[STATUS] asking, {}'.format(question))
 
-    res = database.ask(question)
+    # print('[STATUS] asking, {}'.format(query))
+
+    # res = database.ask(query, args=params)
+    res = filterByFrequency(21)
     printRes(res)
 
+
+def filterByFrequency(frequency):
+    if not frequency:
+        query = """
+            SELECT c.name, j.*
+            FROM JOB_HISTORY j
+            INNER JOIN CUSTOMERS c ON c.customer_id = j.customer_id
+            """
+        return database.ask(query)
+    
+    else:
+        # Daily
+        if frequency > 0 and frequency < 3:
+            params = (0,3)
+        # weekly
+        elif frequency >= 3 and frequency < 10:
+            params = (3, 10)
+        # two weeks
+        elif frequency >= 10 and frequency < 18:
+            params = (10, 18)
+        # three weeks
+        elif frequency >= 18 and frequency < 25:
+            params = (18, 25)
+        # monthly
+        elif frequency >= 25 and frequency < 40:
+            params = (25, 40)
+        # 6 weeks
+        elif frequency >= 40 and frequency < 48:
+            params = (40, 48)
+        # bi-monthly
+        elif frequency >= 48 and frequency < 75:
+            params = (48, 75)
+        # quarterly
+        elif frequency >= 80 and frequency < 130:
+            params = (80, 130)
+        # bi-yearly
+        elif frequency >= 130 and frequency < 250:
+            params = (130, 250)
+        # Yearly
+        elif frequency >= 250 and frequency < 500:
+            params = (250, 500)
+
+        # bi-yearly
+        elif frequency >= 500 and frequency < 800:
+            params = (500, 800)
+
+        # Select the jobs with a job frequency in the specified range
+        query = """
+        SELECT c.name, j.*
+        FROM CUSTOMERS c
+        INNER JOIN JOB_HISTORY j ON c.customer_id = j.customer_id
+        WHERE j.job_frequency >= ? AND j.job_frequency <= ?
+        """
+
+        return database.ask(query, args=params)
 
 
 def printRes(response = None, query=None):

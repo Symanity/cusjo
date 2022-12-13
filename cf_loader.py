@@ -113,7 +113,7 @@ class Customer:
             self.id  = csvRow[r.id]
             self.name = csvRow[r.name]
             self.company = csvRow[r.companyName]
-            self.dateAdded = csvRow[r.dateAdded]
+            self.dateAdded = inter.convertDate(csvRow[r.dateAdded])
             self.cType = csvRow[r.cType]
             self.address = csvRow[r.address]
             self.jobHistory = []

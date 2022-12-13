@@ -34,6 +34,14 @@ EMPLOYEE_JOB_HISTORY = '''
     WHERE JOB_HISTORY.employee = 'Jose Perez' '''
 
 
+def playground2():
+    # query = """ SELECT * FROM {} """.format(database.tbl_Customers)
+    # res = database.ask(query)
+    res = getActiveCustomers()
+
+    printRes(res)
+
+
 def playground():
     # activeJobHistory = database.ask(ACTIVE_JOB_HISTORY)
     # employees = ['Jose Perez', 'Justin Smith', 'Devony Dettman']
@@ -57,14 +65,11 @@ def playground():
 
     # printRes(filteredList)
 
+
 def getCustomerHistory(customer_id):
     today = datetime.today().date()
-    formatted_date = today.strftime('%m/%d/%y')
-
-    currentDate = datetime.today().date()
-    print(currentDate)
     # retrieve rows from the JOB_HISTORY table for the given customer_id
-    return database.ask('SELECT * FROM JOB_HISTORY WHERE customer_id = ? AND job_date < ? LIMIT 12', (customer_id, formatted_date))
+    return database.ask('SELECT * FROM JOB_HISTORY WHERE customer_id = ? AND job_date < ? ORDER BY job_date DESC LIMIT 12', (customer_id, today))
 
 # Frequency is a integer represeninting the amount of days we do a job
 # Only filters out active jobs
@@ -178,7 +183,12 @@ if len(sys.argv) > 1:
             build(SAMPLE_FILE)
 
     elif sys.argv[1] == "search":
-        printRes(searchForCustomers(str(sys.argv[2])))
+        if len(sys.argv) > 2:
+            if(sys.argv[2] == "history"):
+                printRes(getCustomerHistory(str(sys.argv[3])))
+
+        else:
+            printRes(searchForCustomers(str(sys.argv[2])))
 
     elif sys.argv[1] == "print":
         if len(sys.argv) > 2:
@@ -187,6 +197,18 @@ if len(sys.argv) > 1:
 
             elif sys.argv[2] == "active_customers":
                 printRes(getActiveCustomers())
+
+            elif sys.argv[2] == "customers":
+                query = """ SELECT * FROM {} """.format(database.tbl_Customers)
+                res = database.ask(query)
+                printRes(res)
+
+            elif sys.arg[2] == "job_history":
+                query = """ SELECT * FROM {} """.format(database.tbl_jobHistory)
+                res = database.ask(query)
+                printRes(res)
+    else:
+        print('[ERROR] command not recognized')
 
 else:
     playground()

@@ -101,8 +101,9 @@ class Evaluation:
                     # KEEP FOR REFERENCE
                     # print("compared: {} & {}".format(job["date"], job2["date"]))
 
-                    total = total + delta
-                    count = count + 1
+                    if delta > 0:
+                        total = total + delta
+                        count = count + 1
 
                     job = job2 
 
@@ -117,14 +118,17 @@ class Evaluation:
 
     def __getDeltaDays(self, date1, date2):
          # Define the start and end dates
-        start_date = dt.strptime(date1, DATE_FORMAT).date()
-        end_date = dt.strptime(date2, DATE_FORMAT).date()
+        firstDate = dt.strptime(date1, DATE_FORMAT).date()
+        secondDate = dt.strptime(date2, DATE_FORMAT).date()
 
-        # Calculate the difference between the dates
-        difference = end_date - start_date
+        today = dt.today().date()
 
-        return difference.days
+        if firstDate > today and secondDate > today:
+            difference = secondDate - firstDate
+            return difference.days
 
+        else:
+            return 0
 
     # Get most recent job with a price
     # def getLatestJob(self):

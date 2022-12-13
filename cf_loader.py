@@ -139,8 +139,6 @@ class Customer:
     # Considered active if Customers have jobs scheduled in the future
     def isActive(self):
         dateFormat = '%Y-%m-%d'
-        today = date.today()
-
         today = dt.today().date()  # get the current date
         iso_date = today.strftime(dateFormat)
 

@@ -187,8 +187,9 @@ if len(sys.argv) > 1:
             if(sys.argv[2] == "history"):
                 printRes(getCustomerHistory(str(sys.argv[3])))
 
-        else:
-            printRes(searchForCustomers(str(sys.argv[2])))
+            else:
+                print("Searching ....")
+                printRes(searchForCustomers(str(sys.argv[2])))
 
     elif sys.argv[1] == "print":
         if len(sys.argv) > 2:

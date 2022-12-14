@@ -23,87 +23,56 @@ Service_Frequency = 7
 
 
 ## Service Object
-class OurService:
+class OurServiceOf:
     def __init__(self, customer_id):
         self.customer_id          = customer_id
         self.employeesInvolved    = []
-        self.prices               = []
-        self.durations            = []
-        self.serviceNames         = []
-        self.services             = []
+        self.prices               = defaultdict(list)
+        self.durations            = defaultdict(list)
+        self.serviceNames         = defaultdict(list)
+        self.services             = defaultdict(list)
 
-        print('Verifying {} ...'.format(customer_id))
+        ## How the service gets defined
         self.__justinsStandard()
-        try:
-            self.__validateSelf()
-            print('clean')
-        except:
-            print('error has occured during evaluation of {}'.format(customer_id))
 
 
-    def __justinsStandard(self, maxHistory = 12, ommitEmployees = None):
+    def __justinsStandard(self, maxHistory = 12, ommitEmployees = []):
         entireServiceHistory = serviceHistory(self.customer_id)
         i = 0
+
+        # Iterate through service history from latest to oldest, as far back as maxHistory
+        # "services" are grouped by services performed on the same day
         for service_date, services in entireServiceHistory.items():
             employee = self.__extractEmployees(services)
-            totalPrice = self.__extractPrice(services)
-            totalDuration = self.__extractDuration(services)
-            serviceNames = self.__extractServices(services)
 
-            # Iterate through service history from latest to oldest, as far back as maxHistory
-            # Only consider if totalDuration and totalPrice has been identified
-            if i < maxHistory:
-                if totalDuration and totalPrice:
-                    i = i+1
-                    # Record services performed
-                    self.services.append(services)
+            # Only consider if totalDuration and totalPrice have been identified
+            if employee not in ommitEmployees:
+                if i < maxHistory:
+                    totalPrice = self.__extractPrice(services)
+                    totalDuration = self.__extractDuration(services)
+                    serviceNames = self.__extractServices(services)
 
-                    # Capture employee if needed
-                    if employee not in self.employeesInvolved:
-                        self.employeesInvolved.append(employee)    
-                    
-                    # Store totalPrice
-                    if totalPrice not in self.prices:
-                        self.prices.append(totalPrice)
-                    
-                    # Store duration
-                    self.durations.append(totalDuration)
+                    if totalDuration and totalPrice:
+                        i = i+1
+                        # Record services performed
+                        self.services[service_date].append(services)
 
-                    # Strore Service Names
-                    if serviceNames not in self.serviceNames:
-                        self.serviceNames.append(serviceNames)
+                        # Capture employee if needed
+                        if employee not in self.employeesInvolved:
+                            self.employeesInvolved.append(employee)
+                        
+                        # Store totalPrice
+                        self.prices[service_date].append(totalPrice)
+                        
+                        # Store duration
+                        self.durations[service_date].append(totalDuration)
 
-            else:
-                break
+                        # Store Service Names
+                        self.serviceNames[service_date].append(serviceNames)
 
+                else:
+                    return
     
-    def getPrice(self):
-        if len(self.prices) == 1:
-            return self.prices[0]
-        else:
-            print('[!] Multiple prices detected for {}... returning latest price'.format(self.customer_Id))
-            return self.prices[0]
-
-    def getAvgDuration(self):
-        total = 0
-        for duration in self.durations:
-            total = total + duration
-
-        return total/len(self.durations)
-
-    def getHourlyRate(self):
-        timeMins = self.getAvgDuration()
-        price = self.getPrice()
-        timeHr = timeMins/60
-
-        return price/timeHr
-
-    def __validateSelf(self):
-        if not len(self.durations) == len(self.services):
-            raise Exception("Unable to validate. Job unsyncronized.")
-
-        if len(self.prices) > 1:
-            raise Exception("Multiple prices detected.")
 
     ## Get the employee(s) that were assigned to be on site.
     def __extractEmployees(self, servicesPerformed):
@@ -111,15 +80,15 @@ class OurService:
         for service in servicesPerformed:
             sus = service[Employee]
 
-            if not employee:
+            if not employee and sus:
                 employee = sus
+                break
 
-            elif employee != sus:
-                print("[ERROR] check employee params for service on {} for {}".format(service[Service_Date], service[Customer_Id]))
-                return None
+        if employee:
+            return employee
 
-        return employee
-
+        else:
+            return "Unknown"
 
     def __extractPrice(self, servicesPerformed):
         totalPrice = 0
@@ -128,11 +97,11 @@ class OurService:
 
             if servicePrice:
                 totalPrice += servicePrice
-            else:
-                print("[ERROR] check price params for service on {} for {}".format(service[Service_Date], service[Customer_Id]))
-                return None
 
-        return totalPrice
+        if totalPrice > 0:
+            return totalPrice
+        
+        return None
 
     # Duration gets applied equally to all services performed at the same time.
     # For example, if three services were performed for a total of 1hr. CF applies 1hr to all three services. 

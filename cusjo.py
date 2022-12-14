@@ -81,7 +81,7 @@ def playground():
         id = customer[0]
         name = customer[1]
 
-        theJob = serv.OurService(id)
+        theJob = serv.OurServiceOf(id)
         # print(theJob)
 
 

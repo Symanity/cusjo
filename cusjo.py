@@ -1,11 +1,44 @@
-import json
 import cf_loader as customerFactor
-import cf_interpreter as inter
 import db_generator as database
-import resources as r
 from datetime import datetime
-# import os
 import sys
+import services_attributor as serv
+
+# # Import the required modules
+# import sqlite3
+
+# # Connect to the database
+# conn = sqlite3.connect('my_database.db')
+
+# # Define a dictionary to store the data
+# data = defaultdict(list)
+
+# # Query the CUSTOMERS table
+# query = "SELECT * FROM CUSTOMERS"
+# customers = conn.execute(query).fetchall()
+
+# # Loop over the customers
+# for customer in customers:
+#     # Check if the customer is active
+#     if customer[6]:
+#         # Query the JOB_HISTORY table
+#         query = "SELECT * FROM JOB_HISTORY WHERE customer_id = ?"
+#         jobs = conn.execute(query, (customer[0],)).fetchall()
+
+#         # Group the jobs by job_date
+#         jobs_by_date = defaultdict(list)
+#         for job in jobs:
+#             jobs_by_date[job[1]].append(job)
+
+#         # Add the data to the dictionary
+#         data[customer[1]] = jobs_by_date
+
+# # Print the dictionary
+# print(data)
+
+# # Close the connection
+# conn.close()
+
 
 
 # SQL Queries () 
@@ -33,15 +66,6 @@ EMPLOYEE_JOB_HISTORY = '''
     INNER JOIN JOB_HISTORY ON CUSTOMERS.customer_id = JOB_HISTORY.customer_id 
     WHERE JOB_HISTORY.employee = 'Jose Perez' '''
 
-
-def playground2():
-    # query = """ SELECT * FROM {} """.format(database.tbl_Customers)
-    # res = database.ask(query)
-    res = getActiveCustomers()
-
-    printRes(res)
-
-
 def playground():
     # activeJobHistory = database.ask(ACTIVE_JOB_HISTORY)
     # employees = ['Jose Perez', 'Justin Smith', 'Devony Dettman']
@@ -53,23 +77,14 @@ def playground():
     #         filteredList.append(line)
 
     activeCustomers = getActiveCustomers()
-
     for customer in activeCustomers:
-        customer_id = customer[0]
-        customerName = customer[1]
-        jobHistory = getCustomerHistory(customer_id)
+        id = customer[0]
+        name = customer[1]
 
-        for job in jobHistory:
-            print("{} -> {}".format(customerName, job))
-        
-
-    # printRes(filteredList)
+        theJob = serv.OurService(id)
+        # print(theJob)
 
 
-def getCustomerHistory(customer_id):
-    today = datetime.today().date()
-    # retrieve rows from the JOB_HISTORY table for the given customer_id
-    return database.ask('SELECT * FROM JOB_HISTORY WHERE customer_id = ? AND job_date < ? ORDER BY job_date DESC LIMIT 12', (customer_id, today))
 
 # Frequency is a integer represeninting the amount of days we do a job
 # Only filters out active jobs
@@ -105,8 +120,8 @@ def filterByFrequency(frequency = None):
         elif frequency >= 48 and frequency < 75:
             params = (48, 75)
         # quarterly
-        elif frequency >= 80 and frequency < 130:
-            params = (80, 130)
+        elif frequency >= 75 and frequency < 130:
+            params = (75, 130)
         # bi-yearly
         elif frequency >= 130 and frequency < 250:
             params = (130, 250)
@@ -185,7 +200,7 @@ if len(sys.argv) > 1:
     elif sys.argv[1] == "search":
         if len(sys.argv) > 2:
             if(sys.argv[2] == "history"):
-                printRes(getCustomerHistory(str(sys.argv[3])))
+                printRes(database.getCustomerHistory(str(sys.argv[3])))
 
             else:
                 print("Searching ....")

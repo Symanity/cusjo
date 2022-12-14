@@ -7,6 +7,7 @@
 
 import cf_interpreter as interpreter
 import cf_loader as customerFactor
+from datetime import datetime
 import json
 
 import sqlite3
@@ -142,3 +143,9 @@ def ask(sqlite_query, args=None):
     conn.close()
 
     return response
+
+
+def getCustomerHistory(customer_id):
+    today = datetime.today().date()
+    # retrieve rows from the JOB_HISTORY table for the given customer_id
+    return ask('SELECT * FROM JOB_HISTORY WHERE customer_id = ? AND job_date < ? ORDER BY job_date DESC', (customer_id, today))

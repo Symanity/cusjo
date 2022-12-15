@@ -27,6 +27,7 @@ class OurServiceOf:
     def __init__(self, customer_id):
         self.customer_id          = customer_id
         self.employeesInvolved    = []
+        # For the below dictionaries, Service_date serves as the key
         self.prices               = defaultdict(list)
         self.durations            = defaultdict(list)
         self.serviceNames         = defaultdict(list)
@@ -55,20 +56,20 @@ class OurServiceOf:
                     if totalDuration and totalPrice:
                         i = i+1
                         # Record services performed
-                        self.services[service_date].append(services)
+                        self.services[service_date] = services
 
                         # Capture employee if needed
                         if employee not in self.employeesInvolved:
                             self.employeesInvolved.append(employee)
                         
                         # Store totalPrice
-                        self.prices[service_date].append(totalPrice)
+                        self.prices[service_date] = totalPrice
                         
                         # Store duration
-                        self.durations[service_date].append(totalDuration)
+                        self.durations[service_date] = totalDuration
 
                         # Store Service Names
-                        self.serviceNames[service_date].append(serviceNames)
+                        self.serviceNames[service_date] = serviceNames
 
                 else:
                     return
@@ -149,6 +150,46 @@ class OurServiceOf:
         return printString
 
 
+# What service do we do for the customer?
+# How long does it take us to do it?
+# How much are we charging them for it?
+def evaluate(OurService, customerName=""):
+    toService = defaultdict(list)
+    for date, services in OurService.serviceNames.items():
+        key = str(services)
+        price = OurService.prices[date]
+        duration = OurService.durations[date]
+
+        # Set the different jobs specifications if not set yet
+        val = toService[key]
+        if not val: # (price, duration, service_count)
+            toService[key]= (price, duration, 1)
+            # print("added {} -> {}".format(key, toService[key]))
+            continue
+
+        else:
+            # Add new info to services
+            pdq = toService[key]
+
+            if price == pdq[0]:
+                nDuration = pdq[1] + duration
+                serviceCount =  pdq[2] + 1
+
+                toService[key] = (pdq[0], nDuration, serviceCount)
+            else:
+                print('[!]Price mismatch: {} - ${}, incoming -> ${}'.format(key, pdq[0], price))
+
+    print("{} gets the following done: ".format(customerName))
+    for title, job in toService.items():
+        price = job[0]
+        allDuration = job[1]
+        jobCount = job[2]
+
+        avgDuration = allDuration/jobCount
+        rate = price/(avgDuration/60)
+
+        print("{} for ${} and takes an avg. {}mins".format(title, price, round(avgDuration)))
+        print("That is ${} per hour".format(round(rate, 2)))
 
 # Combines Services which were done at the same time for the same customer.
 # Example: Interior/Exterior and partitions.

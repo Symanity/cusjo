@@ -76,12 +76,20 @@ def playground():
     #     if any(employee in line for employee in employees):
     #         filteredList.append(line)
 
+    # iePacific = serv.OurServiceOf(731)
+
+    # serv.evaluate(iePacific)
+    # serv.evaluate(traderJoes)
     activeCustomers = getActiveCustomers()
     for customer in activeCustomers:
         id = customer[0]
         name = customer[1]
+        theService = serv.OurServiceOf(id)
+        serv.evaluate(theService, name)
 
-        theJob = serv.OurServiceOf(id)
+        print("\t According to: {}".format(theService.employeesInvolved))
+        print("\n")
+
         # print(theJob)
 
 

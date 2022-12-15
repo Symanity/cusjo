@@ -13,20 +13,28 @@ import json
 import sqlite3
 
 CF_db = "CF_sql.db"
+WM_db = "WM_sql.db"
 
 tbl_Customers = "CUSTOMERS"
 tbl_jobHistory = "JOB_HISTORY"
 
-def create(data):
+def create(data, databaseName = CF_db):
     # Create necessary tables
     __createCustomerTable()
     __createJobTable()
 
-    print("[BUILD] sql tables created")
-    print("[BUILD] beginning CustomerFactor raw data processing")
-    __generateDB(data)
-    print("[BUILD] database built successfully")
+    if databaseName == CF_db:
+        print("[BUILD] sql tables created")
+        print("[BUILD] beginning CustomerFactor raw data processing")
+        __generateDB(data)
+        print("[BUILD] database built successfully")
 
+    elif databaseName == WM_db:
+        print("[BUILD] sql tables created")
+        print("[BUILD] beginning WM Data processing")
+        ## TODO: If necessary add the data here
+        print("[BUILD] database built successfully")
+         
 
 def __generateDB(data):
     connection = sqlite3.connect(CF_db)

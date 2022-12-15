@@ -2,7 +2,7 @@ import cf_loader as customerFactor
 import db_generator as database
 from datetime import datetime
 import sys
-import services_attributor as serv
+import services_attributor as WindowMagic
 
 # # Import the required modules
 # import sqlite3
@@ -83,73 +83,14 @@ def playground():
     activeCustomers = getActiveCustomers()
     for customer in activeCustomers:
         id = customer[0]
-        name = customer[1]
-        theService = serv.OurServiceOf(id)
-        serv.evaluate(theService, name)
+        customerName = customer[1]
+        theService = WindowMagic.ServiceOf(id)
+        WindowMagic.evaluate(theService, customerName)
 
         print("\t According to: {}".format(theService.employeesInvolved))
         print("\n")
 
         # print(theJob)
-
-
-
-# Frequency is a integer represeninting the amount of days we do a job
-# Only filters out active jobs
-def filterByFrequency(frequency = None):
-    if not frequency:
-        query = """
-            SELECT c.name, j.*
-            FROM JOB_HISTORY j
-            INNER JOIN CUSTOMERS c ON c.customer_id = j.customer_id AND c.active_status = 1
-            """
-        return database.ask(query)
-    
-    else:
-        # Daily
-        if frequency > 0 and frequency < 3:
-            params = (0,3)
-        # weekly
-        elif frequency >= 3 and frequency < 10:
-            params = (3, 10)
-        # two weeks
-        elif frequency >= 10 and frequency < 18:
-            params = (10, 18)
-        # three weeks
-        elif frequency >= 18 and frequency < 25:
-            params = (18, 25)
-        # monthly
-        elif frequency >= 25 and frequency < 40:
-            params = (25, 40)
-        # 6 weeks
-        elif frequency >= 40 and frequency < 48:
-            params = (40, 48)
-        # bi-monthly
-        elif frequency >= 48 and frequency < 75:
-            params = (48, 75)
-        # quarterly
-        elif frequency >= 75 and frequency < 130:
-            params = (75, 130)
-        # bi-yearly
-        elif frequency >= 130 and frequency < 250:
-            params = (130, 250)
-        # Yearly
-        elif frequency >= 250 and frequency < 500:
-            params = (250, 500)
-
-        # bi-yearly
-        elif frequency >= 500 and frequency < 800:
-            params = (500, 800)
-
-        # Select the jobs with a job frequency in the specified range
-        query = """
-        SELECT c.name, j.*
-        FROM CUSTOMERS c
-        INNER JOIN JOB_HISTORY j ON c.customer_id = j.customer_id
-        WHERE j.job_frequency >= ? AND j.job_frequency <= ? AND c.active_status = 1
-        """
-
-        return database.ask(query, args=params)
 
 
 def printRes(response = None, query=None):

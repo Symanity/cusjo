@@ -21,9 +21,103 @@ Service_Duration = 5
 # Invoice = 6
 Service_Frequency = 7
 
+_daily          = 'daily'
+_weekly         = 'weekly'
+_2weeks         = '2 weeks'
+_3weeks         = '3 weeks'
+_monthly        = 'monthly'
+_6weeks         = '6 weeks'
+_2months        = '2 months'
+_quarterly      = 'quarterly'
+_semi_annually  = 'semi-annually'
+_yearly         = 'yearly'
+_2years         = '2 years'
+
+
+class CompleteService:
+    def __init__(self, serviceDate, completedJob) -> None:
+        self.job        = completedJob
+
+        self.title      = self.__extractServiceTitles(completedJob)
+        self.price      = self.__extractPrice(completedJob)
+        self.duration   = self.__extractDuration(completedJob)
+        self.employee   = self.__extractEmployees(completedJob)
+        self.date       = serviceDate
+        self.frequency  = self.__determineFrequency()
+
+
+
+  ## ** For the Following function -> Extraction of data takes in servicesPerformed on a single day **
+    # Get the employee(s) that were assigned to be on site.
+    def __extractEmployees(self, job):
+        employee = None
+        for service in job:
+            sus = service[Employee]
+
+            if not employee and sus:
+                employee = sus
+                break
+
+        if employee:
+            return employee
+
+        else:
+            return "Unknown"
+
+    def __extractPrice(self, job):
+        totalPrice = 0
+        for service in job:
+            servicePrice = service[Service_Price]
+
+            if servicePrice:
+                totalPrice += servicePrice
+
+        if totalPrice > 0:
+            return totalPrice
+        
+        return None
+
+    # Duration gets applied equally to all services performed at the same time.
+    # For example, if three services were performed for a total of 1hr. CF applies 1hr to all three services. 
+    def __extractDuration(self, job):
+        totalDuration = None
+        for service in job:
+            duration = service[Service_Duration]
+
+            if duration:
+                if not totalDuration:
+                    totalDuration = duration
+
+                if totalDuration != duration:
+                    print("[ERROR] check duration params for {} service on {} for {}".format(
+                        service[Service_Type], 
+                        service[Service_Date], 
+                        service[Customer_Id]))
+                    return None
+            
+        return totalDuration
+
+
+    def __extractServiceTitles(self, job):
+        serviceNames = []
+        for service in job:
+            name = service[Service_Type]
+
+            if service not in serviceNames:
+                serviceNames.append(name)
+
+        return serviceNames
+
+
+    def __determineFrequency(self):
+        return None
+    
+
+    
+
 
 ## Service Object
-class OurServiceOf:
+class ServiceOf:
     def __init__(self, customer_id):
         self.customer_id          = customer_id
         self.employeesInvolved    = []
@@ -36,22 +130,50 @@ class OurServiceOf:
         ## How the service gets defined
         self.__justinsStandard()
 
+    considerEmp = [
+        'Devony Dettman',
+        'Justin Smith',
+        # 'Roberto Isais',
+        'Jose Perez',
+        # 'Isais'
+    ]
 
-    def __justinsStandard(self, maxHistory = 12, ommitEmployees = []):
+    considerFreq = [
+        _daily, 
+        _weekly,
+        _2weeks, 
+        _3weeks,
+        _monthly,
+        _6weeks,
+        _2months,
+        _quarterly,
+        _semi_annually,
+        _yearly,
+        _2years
+    ]
+
+
+
+    def __justinsStandard(self, maxHistory = 12, considerEmployees = considerEmp, considerFrequency = considerFreq):
         entireServiceHistory = serviceHistory(self.customer_id)
         i = 0
 
         # Iterate through service history from latest to oldest, as far back as maxHistory
         # "services" are grouped by services performed on the same day
         for service_date, services in entireServiceHistory.items():
-            employee = self.__extractEmployees(services)
+            completeService = CompleteService(service_date, services)
+            employee = completeService.employee
+            # serviceFq = self.__extractFrequency(services)
 
             # Only consider if totalDuration and totalPrice have been identified
-            if employee not in ommitEmployees:
+            if employee in considerEmployees and employee != 'None':
+            # if employee in considerEmployees and employee != 'None' and serviceFq in considerFrequency:
                 if i < maxHistory:
-                    totalPrice = self.__extractPrice(services)
-                    totalDuration = self.__extractDuration(services)
-                    serviceNames = self.__extractServices(services)
+                    totalPrice = completeService.price
+                    totalDuration = completeService.duration
+                    serviceNames = completeService.title
+
+                    print("considering job on {}".format(service_date))
 
                     if totalDuration and totalPrice:
                         i = i+1
@@ -74,67 +196,6 @@ class OurServiceOf:
                 else:
                     return
     
-
-    ## Get the employee(s) that were assigned to be on site.
-    def __extractEmployees(self, servicesPerformed):
-        employee = None
-        for service in servicesPerformed:
-            sus = service[Employee]
-
-            if not employee and sus:
-                employee = sus
-                break
-
-        if employee:
-            return employee
-
-        else:
-            return "Unknown"
-
-    def __extractPrice(self, servicesPerformed):
-        totalPrice = 0
-        for service in servicesPerformed:
-            servicePrice = service[Service_Price]
-
-            if servicePrice:
-                totalPrice += servicePrice
-
-        if totalPrice > 0:
-            return totalPrice
-        
-        return None
-
-    # Duration gets applied equally to all services performed at the same time.
-    # For example, if three services were performed for a total of 1hr. CF applies 1hr to all three services. 
-    def __extractDuration(self, servicesPerformed):
-        totalDuration = None
-        for service in servicesPerformed:
-            duration = service[Service_Duration]
-
-            if duration:
-                if not totalDuration:
-                    totalDuration = duration
-
-                if totalDuration != duration:
-                    print("[ERROR] check duration params for {} service on {} for {}".format(
-                        service[Service_Type], 
-                        service[Service_Date], 
-                        service[Customer_Id]))
-                    return None
-            
-        return totalDuration
-
-
-    def __extractServices(self, servicesPerformed):
-        serviceNames = []
-        for service in servicesPerformed:
-            name = service[Service_Type]
-
-            if service not in serviceNames:
-                serviceNames.append(name)
-
-        return serviceNames
-
 
     def __str__(self):
         price = self.getPrice()
@@ -188,7 +249,7 @@ def evaluate(OurService, customerName=""):
         avgDuration = allDuration/jobCount
         rate = price/(avgDuration/60)
 
-        print("{} for ${} and takes an avg. {}mins".format(title, price, round(avgDuration)))
+        print("{} for ${} and takes an avg. {}mins - Data count: {}".format(title, price, round(avgDuration), jobCount))
         print("That is ${} per hour".format(round(rate, 2)))
 
 # Combines Services which were done at the same time for the same customer.
@@ -196,7 +257,7 @@ def evaluate(OurService, customerName=""):
 # Returns key/value pair. {service_date:[list of services_performed]}
 def serviceHistory(customer_id):
     # Get complete customer history in descending order according to date.
-    # Latest to oldest
+    # Latest to oldest (*Only gets history from past jobs. Does NOT consider upcoming jobs)
     serviceHistory = database.getCustomerHistory(customer_id) 
     
     # Group jobs
@@ -207,3 +268,40 @@ def serviceHistory(customer_id):
 
 
     return completeService
+
+
+def convertFrequency(frequencyNum):
+        # Daily
+        if frequencyNum > 0 and frequencyNum < 3:
+            return 'daily'
+        # weekly
+        elif frequencyNum >= 3 and frequencyNum < 10:
+            return 'weekly'
+        # two weeks
+        elif frequencyNum >= 10 and frequencyNum < 18:
+            return '2 weeks'
+        # three weeks
+        elif frequencyNum >= 18 and frequencyNum < 25:
+            return '3 weeks'
+        # monthly
+        elif frequencyNum >= 25 and frequencyNum < 40:
+            return 'monthly'
+        # 6 weeks
+        elif frequencyNum >= 40 and frequencyNum < 48:
+            return '6 weeks'
+        # bi-monthly
+        elif frequencyNum >= 48 and frequencyNum < 75:
+            return '2 months'
+        # quarterly
+        elif frequencyNum >= 75 and frequencyNum < 130:
+            return 'quarterly'
+        # semi-yearly
+        elif frequencyNum >= 130 and frequencyNum < 250:
+            return 'semi-annually'
+        # Yearly
+        elif frequencyNum >= 250 and frequencyNum < 500:
+            return 'yearly'
+
+        # bi-yearly
+        elif frequencyNum >= 500 and frequencyNum < 800:
+            return '2 years'

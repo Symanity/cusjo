@@ -13,7 +13,6 @@ import json
 import sqlite3
 
 CF_db = "CF_sql.db"
-WM_db = "WM_sql.db"
 
 tbl_Customers = "CUSTOMERS"
 tbl_jobHistory = "JOB_HISTORY"
@@ -27,12 +26,6 @@ def create(data, databaseName = CF_db):
         print("[BUILD] sql tables created")
         print("[BUILD] beginning CustomerFactor raw data processing")
         __generateDB(data)
-        print("[BUILD] database built successfully")
-
-    elif databaseName == WM_db:
-        print("[BUILD] sql tables created")
-        print("[BUILD] beginning WM Data processing")
-        ## TODO: If necessary add the data here
         print("[BUILD] database built successfully")
          
 
@@ -151,6 +144,26 @@ def ask(sqlite_query, args=None):
     conn.close()
 
     return response
+
+
+def getCustomerName(customer_id: int):
+  # connect to the database
+  conn = sqlite3.connect(CF_db)
+
+  # create a cursor
+  cursor = conn.cursor()
+
+  # execute a SELECT query to retrieve the customer name
+  cursor.execute("SELECT name FROM CUSTOMERS WHERE customer_id = ?", (customer_id,))
+
+  # fetch the result
+  result = cursor.fetchone()
+
+  # close the connection
+  conn.close()
+
+  # return the customer name, or None if not found
+  return result[0] if result else None
 
 
 def getCustomerHistory(customer_id):

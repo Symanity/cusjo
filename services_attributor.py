@@ -120,6 +120,7 @@ class Service:
 class ServiceOf:
     def __init__(self, customer_id):
         self.customer_id          = customer_id
+        self.customer_name        = database.getCustomerName(customer_id)
         self.services             = []   # List of CompleteService object
         self.serviceHistory       = defaultdict(list)   # List of considered jobs, according to __justinsStandard()
 
@@ -189,13 +190,13 @@ class ServiceOf:
         printString = ""
 
         i = 1
-        print("For {}:".format(self.customer_id))
+        print("For {} - {}:".format(self.customer_id, self.customer_name))
 
         if len(self.services) > 0:
             for service in self.services:
                 service: Service = service
 
-                printString = printString + "\t{}. {} completed {} on {} for {} and took {}mins.\n".format(
+                printString = printString + "\t{}. {} completed {} on {} for ${} and took {}mins.\n".format(
                     i,
                     service.employee,
                     service.title,
@@ -208,13 +209,13 @@ class ServiceOf:
             return printString
 
         else:
-            return "No valuable data :("
+            return "\tNo valuable data :("
 
 
     # What service do we do for the customer?
     # How long does it take us to do it?
     # How much are we charging them for it?
-    def evaluate(self, customerName=""):
+    def evaluate(self):
         evaluations = defaultdict(list)
 
         for service in self.services:
@@ -227,9 +228,9 @@ class ServiceOf:
             # Begin grouping by similar jobs
             if not evaluations[key]: # (price, duration, service_count)
                 evaluations[key]= (price, duration, 1)
-                # print("added {} -> {}".format(key, toService[key]))
                 continue
 
+            # Combine to existing
             else:
                 # Add new info to services
                 pdq = evaluations[key]
@@ -242,7 +243,7 @@ class ServiceOf:
                 else:
                     print('[!]Price mismatch: {} - ${}, incoming -> ${}'.format(key, pdq[0], price))
 
-        print("{} gets the following done: ".format(customerName))
+        print("{} gets the following done: ".format(self.customer_name))
         for title, job in evaluations.items():
             price = job[0]
             allDuration = job[1]

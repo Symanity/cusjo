@@ -87,8 +87,9 @@ def playground():
         theService = WindowMagic.ServiceOf(id)
 
         print(theService)
+        theService.evaluate()
 
-        # print("\n")
+        print("\n")
 
         # print(theJob)
 

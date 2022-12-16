@@ -90,7 +90,9 @@ class Service:
                     totalDuration = duration
 
                 if totalDuration != duration:
-                    print("[ERROR] check duration params for {} service on {} for {}".format(
+                    print("[ERROR] {} vs. {} -- check duration for {} service on {} for {}".format(
+                        totalDuration,
+                        duration,
                         service[Service_Type], 
                         service[Service_Date], 
                         service[Customer_Id]))
@@ -156,6 +158,7 @@ class ServiceOf:
 
         ## How the service gets defined
         self.__justinsStandard()
+        self.evaluations          = self.evaluate()
 
     considerEmp = [
         'Devony Dettman',
@@ -189,7 +192,6 @@ class ServiceOf:
         # "servicesDetails" are grouped by services performed on the same day, 
             # For example, Windows and partions were performed on 1-1-2020.  
         # Only retrieves jobs from the past.
-        print('[Status] Evaluating {}...'.format(self.customer_name))
         for service_date, serviceDetails in entireServiceHistory.items():
             # Defines Window Magic's contract, how long it took, and which employees were involved.
             completedService = Service(service_date, serviceDetails)
@@ -214,8 +216,7 @@ class ServiceOf:
 
                 else:
                     break
-    
-        print("\tready.")
+
 
     def __str__(self):
         printString = ""
@@ -258,35 +259,63 @@ class ServiceOf:
             frequency = service.frequency
 
             # Begin grouping by similar jobs
-            if not evaluations[key]: # (price, duration, service_count)
-                evaluations[key]= (price, duration, 1, frequency)
+            
+            eval: Evaluation = evaluations[key]
+            if not eval: # (price, duration, service_count)
+                eval = Evaluation(service.title, price, frequency)
+                eval.addDuration(duration)
+                eval.addEmployee(service.employee)
+                evaluations[key] = eval
                 continue
 
             # Combine to existing
             else:
                 # Add new info to services
-                pdqf = evaluations[key]
 
-                if price == pdqf[0]:
-                    nDuration = pdqf[1] + duration
-                    serviceCount =  pdqf[2] + 1
+                if price == eval.price:
+                    eval.addDuration(duration)
+                    eval.addEmployee(service.employee)
 
-                    evaluations[key] = (pdqf[0], nDuration, serviceCount, frequency)
-                else:
-                    print('[!]Price mismatch: {} - ${}, incoming -> ${}'.format(key, pdqf[0], price))
+                elif price > eval.price:
+                    print('[!]{} Price mismatch: {} - ${}, incoming -> ${}. Performed {}'.format(self.customer_name, key, eval.price, price, service.date))
 
-        print("{} gets the following done: ".format(self.customer_name))
-        for title, job in evaluations.items():
-            price = job[0]
-            allDuration = job[1]
-            jobCount = job[2]
-            frequency = job[3]
+        vals = evaluations.values()
+        return vals if vals else []
 
-            avgDuration = allDuration/jobCount
-            rate = price/(avgDuration/60)
 
-            print("{} {} for ${} and takes an avg. {}mins - Data count: {}".format(title, frequency if frequency else "infrequently", price, round(avgDuration), jobCount))
-            print("That is ${} per hour".format(round(rate, 2)))
+class Evaluation:
+    def __init__(self, title, price, frequency) -> None:
+        self.serviceTitle = title
+        self.price = price           
+        self.__duration = 0          
+        self.dataCount = 0
+        self.frequency = frequency
+        self.employees = [] 
+
+    def addDuration(self, val):
+        self.__duration = self.__duration + val
+        self.dataCount = self.dataCount + 1
+    
+    def addEmployee(self, val):
+        self.employees.append(val)
+        
+
+    def getAvgDuration(self):
+        return round(self.__duration/self.dataCount)
+
+    def getRate(self):
+        return round(self.price/(self.getAvgDuration()/60), 2)
+
+    def __str__(self) -> str:
+        string = "\tAccording to: {}\n".format(self.employees)
+        string = string + "\t{} {} and takes an avg. {}mins - Data count: {}\n".format(
+            self.serviceTitle, 
+            self.frequency, 
+            self.getAvgDuration(), 
+            self.dataCount)
+
+        string = string+"\tThat is ${} per hour.".format(self.getRate())
+        return string
 
 
 # Combines Services which were done at the same time for the same customer.

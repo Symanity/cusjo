@@ -80,16 +80,20 @@ def playground():
 
     # serv.evaluate(iePacific)
     # serv.evaluate(traderJoes)
+    wmJobs = []
     activeCustomers = getActiveCustomers()
+    print("[STATUS] Beginning Evalulations...")
     for customer in activeCustomers:
         id = customer[0]
-        customerName = customer[1]
         theService = WindowMagic.ServiceOf(id)
+        wmJobs.append(theService.evaluations)
 
-        print(theService)
-        theService.evaluate()
-
-        print("\n")
+    print('\tdone.')
+    for evaluations in wmJobs:
+        for eval in evaluations:
+            eval: WindowMagic.Evaluation = eval
+            print(eval)
+            print("\n")
 
         # print(theJob)
 

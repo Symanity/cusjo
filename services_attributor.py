@@ -34,8 +34,8 @@ _yearly         = 'yearly'
 _2years         = '2 years'
 
 
-class CompleteService:
-    def __init__(self, serviceDate, completedJob) -> None:
+class Service:
+    def __init__(self, serviceDate, completedJob):
         self.job        = completedJob
 
         self.title      = self.__extractServiceTitles(completedJob)
@@ -120,12 +120,8 @@ class CompleteService:
 class ServiceOf:
     def __init__(self, customer_id):
         self.customer_id          = customer_id
-        self.employeesInvolved    = []
-        # For the below dictionaries, Service_date serves as the key
-        self.prices               = defaultdict(list)
-        self.durations            = defaultdict(list)
-        self.serviceNames         = defaultdict(list)
-        self.services             = defaultdict(list)
+        self.services             = []   # List of CompleteService object
+        self.serviceHistory       = defaultdict(list)   # List of considered jobs, according to __justinsStandard()
 
         ## How the service gets defined
         self.__justinsStandard()
@@ -154,103 +150,110 @@ class ServiceOf:
 
 
 
-    def __justinsStandard(self, maxHistory = 12, considerEmployees = considerEmp, considerFrequency = considerFreq):
+    def __justinsStandard(self, maxHistoryQty = 12, considerEmployees = considerEmp, considerFrequency = considerFreq):
         entireServiceHistory = serviceHistory(self.customer_id)
         i = 0
 
         # Iterate through service history from latest to oldest, as far back as maxHistory
-        # "services" are grouped by services performed on the same day
-        for service_date, services in entireServiceHistory.items():
-            completeService = CompleteService(service_date, services)
-            employee = completeService.employee
-            # serviceFq = self.__extractFrequency(services)
+        # "servicesDetails" are grouped by services performed on the same day, 
+            # For example, Windows and partions were performed on 1-1-2020.  
+        # Only retrieves jobs from the past.
+        for service_date, serviceDetails in entireServiceHistory.items():
 
-            # Only consider if totalDuration and totalPrice have been identified
+            # Defines Window Magic's contract, how long it took, and which employees were involved.
+            completedService = Service(service_date, serviceDetails)
+
+            # [FILTER] Employee is a considered employee.
+            # [FILTER] Get a max of maxHistoryQty jobs. Continue gathering data until maxHistoryQty or history runs out.
+            employee = completedService.employee
             if employee in considerEmployees and employee != 'None':
-            # if employee in considerEmployees and employee != 'None' and serviceFq in considerFrequency:
-                if i < maxHistory:
-                    totalPrice = completeService.price
-                    totalDuration = completeService.duration
-                    serviceNames = completeService.title
+                if i < maxHistoryQty:
+                    totalPrice = completedService.price
+                    totalDuration = completedService.duration
 
-                    print("considering job on {}".format(service_date))
-
+                    # [DATA QUALITY FILTER] Only consider if totalDuration and totalPrice have been identified
                     if totalDuration and totalPrice:
                         i = i+1
-                        # Record services performed
-                        self.services[service_date] = services
 
-                        # Capture employee if needed
-                        if employee not in self.employeesInvolved:
-                            self.employeesInvolved.append(employee)
-                        
-                        # Store totalPrice
-                        self.prices[service_date] = totalPrice
-                        
-                        # Store duration
-                        self.durations[service_date] = totalDuration
+                        # Archive service details performed on given date
+                        self.serviceHistory[service_date] = serviceDetails
 
-                        # Store Service Names
-                        self.serviceNames[service_date] = serviceNames
+                        # Save Service for evaluation
+                        self.services.append(completedService)
 
                 else:
                     return
     
 
     def __str__(self):
-        price = self.getPrice()
-        avgDuration = self.getAvgDuration()
-        printString = "{} pays {} and takes \n{} \nan average of \n{} mins to complete\n{}.\nThat is a rate of ${} per hour".format(
-            self.customer_id,
-            price,
-            self.employeesInvolved,
-            round(avgDuration),
-            self.serviceNames,
-            round(self.getHourlyRate(), 2))
+        printString = ""
 
-        return printString
+        i = 1
+        print("For {}:".format(self.customer_id))
 
+        if len(self.services) > 0:
+            for service in self.services:
+                service: Service = service
 
-# What service do we do for the customer?
-# How long does it take us to do it?
-# How much are we charging them for it?
-def evaluate(OurService, customerName=""):
-    toService = defaultdict(list)
-    for date, services in OurService.serviceNames.items():
-        key = str(services)
-        price = OurService.prices[date]
-        duration = OurService.durations[date]
+                printString = printString + "\t{}. {} completed {} on {} for {} and took {}mins.\n".format(
+                    i,
+                    service.employee,
+                    service.title,
+                    service.date,
+                    service.price,
+                    service.duration
+                )
+                i = i+1
 
-        # Set the different jobs specifications if not set yet
-        val = toService[key]
-        if not val: # (price, duration, service_count)
-            toService[key]= (price, duration, 1)
-            # print("added {} -> {}".format(key, toService[key]))
-            continue
+            return printString
 
         else:
-            # Add new info to services
-            pdq = toService[key]
+            return "No valuable data :("
 
-            if price == pdq[0]:
-                nDuration = pdq[1] + duration
-                serviceCount =  pdq[2] + 1
 
-                toService[key] = (pdq[0], nDuration, serviceCount)
+    # What service do we do for the customer?
+    # How long does it take us to do it?
+    # How much are we charging them for it?
+    def evaluate(self, customerName=""):
+        evaluations = defaultdict(list)
+
+        for service in self.services:
+            service: Service = service # Type casting
+
+            key = str(service.title)
+            price = service.price
+            duration = service.duration
+
+            # Begin grouping by similar jobs
+            if not evaluations[key]: # (price, duration, service_count)
+                evaluations[key]= (price, duration, 1)
+                # print("added {} -> {}".format(key, toService[key]))
+                continue
+
             else:
-                print('[!]Price mismatch: {} - ${}, incoming -> ${}'.format(key, pdq[0], price))
+                # Add new info to services
+                pdq = evaluations[key]
 
-    print("{} gets the following done: ".format(customerName))
-    for title, job in toService.items():
-        price = job[0]
-        allDuration = job[1]
-        jobCount = job[2]
+                if price == pdq[0]:
+                    nDuration = pdq[1] + duration
+                    serviceCount =  pdq[2] + 1
 
-        avgDuration = allDuration/jobCount
-        rate = price/(avgDuration/60)
+                    evaluations[key] = (pdq[0], nDuration, serviceCount)
+                else:
+                    print('[!]Price mismatch: {} - ${}, incoming -> ${}'.format(key, pdq[0], price))
 
-        print("{} for ${} and takes an avg. {}mins - Data count: {}".format(title, price, round(avgDuration), jobCount))
-        print("That is ${} per hour".format(round(rate, 2)))
+        print("{} gets the following done: ".format(customerName))
+        for title, job in evaluations.items():
+            price = job[0]
+            allDuration = job[1]
+            jobCount = job[2]
+
+            avgDuration = allDuration/jobCount
+            rate = price/(avgDuration/60)
+
+            print("{} for ${} and takes an avg. {}mins - Data count: {}".format(title, price, round(avgDuration), jobCount))
+            print("That is ${} per hour".format(round(rate, 2)))
+
 
 # Combines Services which were done at the same time for the same customer.
 # Example: Interior/Exterior and partitions.

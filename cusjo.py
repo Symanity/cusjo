@@ -85,10 +85,10 @@ def playground():
         id = customer[0]
         customerName = customer[1]
         theService = WindowMagic.ServiceOf(id)
-        WindowMagic.evaluate(theService, customerName)
 
-        print("\t According to: {}".format(theService.employeesInvolved))
-        print("\n")
+        print(theService)
+
+        # print("\n")
 
         # print(theJob)
 

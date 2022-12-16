@@ -1,6 +1,7 @@
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timedelta
 import db_generator as database
+import cf_interpreter as inter
 
 
 ## REFERENCE Job object as returned from SQL queries
@@ -43,7 +44,7 @@ class Service:
         self.duration   = self.__extractDuration(completedJob)
         self.employee   = self.__extractEmployees(completedJob)
         self.date       = serviceDate
-        self.frequency  = self.__determineFrequency()
+        self.frequency  = convertFrequency(self.__determineFrequency())
 
 
 
@@ -110,10 +111,39 @@ class Service:
 
 
     def __determineFrequency(self):
-        return None
-    
+        customer_id = self.job[0][Customer_Id]
+        deltas = []
 
-    
+        futureServices = database.ask(''' SELECT * FROM JOB_HISTORY WHERE customer_id = ? AND job_date > CURRENT_DATE ''', (customer_id,))
+
+        # Group jobs
+        jobs = defaultdict(list)
+        for job in futureServices:
+            service_date = job[Service_Date]
+            jobs[service_date].append(job)
+
+        futureJobs = []
+        for job in jobs.values():
+            futureJobs.append(job[0])
+
+
+        # Iterate over the jobs
+        for i in range(1, len(futureJobs)):
+            # Parse the job dates as datetime objects
+            job_date1 = datetime.fromisoformat(futureJobs[i][1])
+            job_date2 = datetime.fromisoformat(futureJobs[i-1][1])
+            # Calculate the delta between the current job and the previous job
+            delta = job_date1 - job_date2
+            deltas.append(delta)
+
+        # Calculate the average delta
+        if len(deltas) > 0:
+            total_seconds = sum(delta.total_seconds() for delta in deltas)
+            average_delta = timedelta(seconds=total_seconds / len(deltas)).days
+        else:
+            average_delta = None
+
+        return average_delta
 
 
 ## Service Object
@@ -159,8 +189,8 @@ class ServiceOf:
         # "servicesDetails" are grouped by services performed on the same day, 
             # For example, Windows and partions were performed on 1-1-2020.  
         # Only retrieves jobs from the past.
+        print('[Status] Evaluating {}...'.format(self.customer_name))
         for service_date, serviceDetails in entireServiceHistory.items():
-
             # Defines Window Magic's contract, how long it took, and which employees were involved.
             completedService = Service(service_date, serviceDetails)
 
@@ -183,8 +213,9 @@ class ServiceOf:
                         self.services.append(completedService)
 
                 else:
-                    return
+                    break
     
+        print("\tready.")
 
     def __str__(self):
         printString = ""
@@ -224,35 +255,37 @@ class ServiceOf:
             key = str(service.title)
             price = service.price
             duration = service.duration
+            frequency = service.frequency
 
             # Begin grouping by similar jobs
             if not evaluations[key]: # (price, duration, service_count)
-                evaluations[key]= (price, duration, 1)
+                evaluations[key]= (price, duration, 1, frequency)
                 continue
 
             # Combine to existing
             else:
                 # Add new info to services
-                pdq = evaluations[key]
+                pdqf = evaluations[key]
 
-                if price == pdq[0]:
-                    nDuration = pdq[1] + duration
-                    serviceCount =  pdq[2] + 1
+                if price == pdqf[0]:
+                    nDuration = pdqf[1] + duration
+                    serviceCount =  pdqf[2] + 1
 
-                    evaluations[key] = (pdq[0], nDuration, serviceCount)
+                    evaluations[key] = (pdqf[0], nDuration, serviceCount, frequency)
                 else:
-                    print('[!]Price mismatch: {} - ${}, incoming -> ${}'.format(key, pdq[0], price))
+                    print('[!]Price mismatch: {} - ${}, incoming -> ${}'.format(key, pdqf[0], price))
 
         print("{} gets the following done: ".format(self.customer_name))
         for title, job in evaluations.items():
             price = job[0]
             allDuration = job[1]
             jobCount = job[2]
+            frequency = job[3]
 
             avgDuration = allDuration/jobCount
             rate = price/(avgDuration/60)
 
-            print("{} for ${} and takes an avg. {}mins - Data count: {}".format(title, price, round(avgDuration), jobCount))
+            print("{} {} for ${} and takes an avg. {}mins - Data count: {}".format(title, frequency if frequency else "infrequently", price, round(avgDuration), jobCount))
             print("That is ${} per hour".format(round(rate, 2)))
 
 
@@ -275,6 +308,9 @@ def serviceHistory(customer_id):
 
 
 def convertFrequency(frequencyNum):
+    if not frequencyNum:
+        return None
+    else:
         # Daily
         if frequencyNum > 0 and frequencyNum < 3:
             return 'daily'

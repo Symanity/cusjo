@@ -106,13 +106,17 @@ class Service:
                     totalDuration = duration
 
                 if totalDuration != duration:
-                    print("[ERROR] {} vs. {} -- check duration for {} service on {} for {}".format(
-                        totalDuration,
-                        duration,
-                        service[Service_Type], 
-                        service[Service_Date], 
-                        service[Customer_Id]))
-                    return None
+                    customerName = database.getCustomerName(service[Customer_Id])
+                    address = database.getCustomerAddress(service[Customer_Id])
+                    # print("[!] {} vs. {} -- check duration for {} service on {} for {}:{}".format(
+                    #     totalDuration,
+                    #     duration,
+                    #     service[Service_Type], 
+                    #     service[Service_Date], 
+                    #     customerName,
+                    #     address))
+                    # print('\t[RECOVERY METHOD] Adding the durations together: {} mins\n'.format(totalDuration))
+                    totalDuration = totalDuration + duration
             
         return totalDuration
 
@@ -267,25 +271,24 @@ class ServiceOf:
             frequency = service.frequency
 
             # Begin grouping by similar jobs
-            
             eval: Evaluation = evaluations[key]
-            if not eval: # (price, duration, service_count)
+            if not eval: # Initiate if incountering a new service requirement
                 eval = Evaluation(service.title, price, frequency)
                 eval.addDuration(duration)
                 eval.addEmployee(service.employee)
                 evaluations[key] = eval
                 continue
 
-            # Combine to existing
-            else:
-                # Add new info to services
+            else: # Combine to existing service
+                priceOnRecord = eval.price
 
-                if price == eval.price:
+                if price == priceOnRecord:
                     eval.addDuration(duration)
                     eval.addEmployee(service.employee)
 
-                elif price > eval.price:
-                    print('[!]{} Price mismatch: {} - ${}, incoming -> ${}. Performed {}'.format(self.customer_name, key, eval.price, price, service.date))
+                elif price > priceOnRecord:
+                    print('[PRICE MISMATCH] {} : {} we charge ${} now, we used to charge ${}. Price changed since {}\n'.format(self.customer_name, key, eval.price, price, service.date))
+                    eval.price = price
 
         vals = evaluations.values()
         return vals if vals else []

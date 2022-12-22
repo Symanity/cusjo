@@ -87,8 +87,8 @@
 
 66 - San Diego Shade: 7354 Trade St
 	According to ['Devony Dettman', 'Justin Smith', 'Jose Perez']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $20.0 and takes an average of 14 minutes
-	That is $85.71 per hour - Data Count 12
+	['Exterior Window Cleaning'] on a MONTHLY basis for $20.0 and takes an average of 15 minutes
+	That is $80.0 per hour - Data Count 12
 
 67 - Trader Joes #188: 2401 Truxtun Rd
 	According to ['Devony Dettman', 'Justin Smith', 'Jose Perez']
@@ -137,8 +137,8 @@
 
 76 - Hyde Edwards: 2308 Kettner Blvd
 	According to ['Jose Perez']
-	['Exterior Window Cleaning', 'Interior Only Window Cleaning'] on a MONTHLY basis for $60.0 and takes an average of 39 minutes
-	That is $92.31 per hour - Data Count 1
+	['Exterior Window Cleaning', 'Interior Only Window Cleaning'] on a MONTHLY basis for $65.0 and takes an average of 773 minutes
+	That is $5.05 per hour - Data Count 3
 
 78 - Edward D. Jones: 1111 Fort Stockton Dr
 	According to ['Jose Perez']
@@ -162,8 +162,8 @@
 
 95 - G.T.M Office: Gillespie Way
 	According to ['Justin Smith']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $35.0 and takes an average of 90 minutes
-	That is $23.33 per hour - Data Count 1
+	['Exterior Window Cleaning'] on a MONTHLY basis for $70.0 and takes an average of 44 minutes
+	That is $95.45 per hour - Data Count 4
 
 97 - Bit Company: 8085 La Mesa Blvd
 	According to ['Jose Perez']
@@ -306,8 +306,8 @@
 
 247 - Acacia Animal Health Center: 655 W Citracado Pkwy
 	According to ['Devony Dettman', 'Justin Smith', 'Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a 2 MONTHS basis for $55.0 and takes an average of 33 minutes
-	That is $100.0 per hour - Data Count 8
+	['Interior/Exterior Window Cleaning'] on a 2 MONTHS basis for $100.0 and takes an average of 37 minutes
+	That is $162.16 per hour - Data Count 8
 
 
 	According to ['Jose Perez', 'Justin Smith']
@@ -416,9 +416,9 @@
 	That is $128.0 per hour - Data Count 1
 
 2913 - California Coast - Murrieta: 24716 Madison Avenue
-	According to ['Devony Dettman', 'Jose Perez', 'Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a QUARTERLY basis for $200.0 and takes an average of 133 minutes
-	That is $90.23 per hour - Data Count 5
+	According to ['Devony Dettman']
+	['Interior/Exterior Window Cleaning'] on a QUARTERLY basis for $225.0 and takes an average of 152 minutes
+	That is $88.82 per hour - Data Count 2
 
 
 	According to ['Justin Smith']
@@ -427,13 +427,13 @@
 
 3598 - California Coast - Menifee: 30015 Haun Road
 	According to ['Devony Dettman']
-	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning', 'ATM Glass Cleaning'] on a QUARTERLY basis for $145.0 and takes an average of 97 minutes
-	That is $89.69 per hour - Data Count 1
+	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning', 'ATM Glass Cleaning'] on a QUARTERLY basis for $170.0 and takes an average of 97 minutes
+	That is $105.15 per hour - Data Count 1
 
 
-	According to ['Justin Smith', 'Jose Perez']
-	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] on a QUARTERLY basis for $125.0 and takes an average of 68 minutes
-	That is $110.29 per hour - Data Count 5
+	According to ['Justin Smith']
+	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] on a QUARTERLY basis for $230.0 and takes an average of 70 minutes
+	That is $197.14 per hour - Data Count 1
 
 3603 - California Coast - Scripps Ranch: 9825 Mira Mesa Boulevard INSUFFICENT RESULTS :(
 

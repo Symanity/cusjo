@@ -35,6 +35,22 @@ _yearly         = 'yearly'
 _2years         = '2 years'
 
 
+considerEmp = [
+    "Justin Smith",
+    "Devony Dettman",
+    # "Roberto Isais",
+    # "Isais",
+    "Jose Perez",
+    # "Nolan Barraza",
+    # "Dallas Wright",
+    # "Skyler Gibbs",
+    # "Adam Ruiz",
+    # "Brandon Foster",
+    # "Evans Richie",
+    # "Danny Steinweg",
+    # "Oliver Munroe",
+    # "Tim Grant"
+]
 class Service:
     def __init__(self, serviceDate, completedJob):
         self.job        = completedJob
@@ -147,12 +163,12 @@ class Service:
 
         return average_delta
 
-
 ## Service Object
 class ServiceOf:
     def __init__(self, customer_id):
         self.customer_id          = customer_id
         self.customer_name        = database.getCustomerName(customer_id)
+        self.customer_address     = database.getCustomerAddress(customer_id)
         self.services             = []   # List of CompleteService object
         self.serviceHistory       = defaultdict(list)   # List of considered jobs, according to __justinsStandard()
 
@@ -160,14 +176,7 @@ class ServiceOf:
         self.__justinsStandard()
         self.evaluations          = self.evaluate()
 
-    considerEmp = [
-        'Devony Dettman',
-        'Justin Smith',
-        # 'Roberto Isais',
-        'Jose Perez',
-        # 'Isais'
-    ]
-
+    
     considerFreq = [
         _daily, 
         _weekly,
@@ -181,7 +190,6 @@ class ServiceOf:
         _yearly,
         _2years
     ]
-
 
 
     def __justinsStandard(self, maxHistoryQty = 12, considerEmployees = considerEmp, considerFrequency = considerFreq):
@@ -297,7 +305,8 @@ class Evaluation:
         self.dataCount = self.dataCount + 1
     
     def addEmployee(self, val):
-        self.employees.append(val)
+        if not val in self.employees:
+            self.employees.append(val)
         
 
     def getAvgDuration(self):

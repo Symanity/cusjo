@@ -16,3 +16,8 @@ Filters:
         - Break down the analytics on an empoloyee
     date range
         - Consider time between two dates
+
+# Requirements
+1. filters
+2. Output job pool into csv filter
+3. output results

@@ -170,3 +170,22 @@ def getCustomerHistory(customer_id):
     today = datetime.today().date()
     # retrieve rows from the JOB_HISTORY table for the given customer_id
     return ask('SELECT * FROM JOB_HISTORY WHERE customer_id = ? AND job_date < ? ORDER BY job_date DESC', (customer_id, today))
+
+    
+def getCustomerAddress(customer_id: int):
+  # connect to the database
+  conn = sqlite3.connect(CF_db)
+
+  # create a cursor
+  cursor = conn.cursor()
+
+  # execute a SELECT query to retrieve the customer name
+  cursor.execute("SELECT address FROM CUSTOMERS WHERE customer_id = ?", (customer_id,))
+
+  # fetch the result
+  result = cursor.fetchone()
+
+  # close the connection
+  conn.close()
+
+  return result[0] if result else None

@@ -67,35 +67,62 @@ EMPLOYEE_JOB_HISTORY = '''
     WHERE JOB_HISTORY.employee = 'Jose Perez' '''
 
 def playground():
-    # activeJobHistory = database.ask(ACTIVE_JOB_HISTORY)
-    # employees = ['Jose Perez', 'Justin Smith', 'Devony Dettman']
+    WM_commerical_jobs = initEvaluations()
 
-    # filteredList = []
+    with open('output.txt', 'w') as results:
 
-    # for line in activeJobHistory:
-    #     if any(employee in line for employee in employees):
-    #         filteredList.append(line)
+        for job in WM_commerical_jobs:
+            job: WindowMagic.ServiceOf = job
+            customerId = job.customer_id
+            customerName = job.customer_name
+            customerAddress = job.customer_address
 
-    # iePacific = serv.OurServiceOf(731)
+            results.write("{} - {}: {}".format(customerId, customerName, customerAddress))
 
-    # serv.evaluate(iePacific)
-    # serv.evaluate(traderJoes)
-    wmJobs = []
+            if job.evaluations:
+                for evaluation in job.evaluations:
+                    outputText = "\n"
+                    jobPoolQty = evaluation.dataCount
+                    evaluation: WindowMagic.Evaluation = evaluation
+                    services = evaluation.serviceTitle
+                    totalPrice = evaluation.price
+                    avgDuration = evaluation.getAvgDuration()
+                    jobFrequency = evaluation.frequency
+                    contributingEmployees = evaluation.employees
+                    rate = evaluation.getRate()
+
+                    outputText = outputText + "\tAccording to {}\n".format(contributingEmployees)
+                    outputText = outputText + "\t{} on a {} basis for ${} and takes an average of {} minutes\n".format(
+                        services,
+                        jobFrequency.upper() if jobFrequency else "Infrequently",
+                        totalPrice,
+                        avgDuration)
+
+                    outputText = outputText + "\tThat is ${} per hour - Data Count {}\n\n".format(rate, jobPoolQty)
+                    
+                    # else:
+                    #     outputText = "INSUFFICENT DATA :(\n"
+
+                    results.write(outputText)
+
+            else:
+                results.write(" INSUFFICENT RESULTS :(\n\n")
+
+    results.close()
+
+
+def initEvaluations():
+    WM_commerical_jobs = []
     activeCustomers = getActiveCustomers()
     print("[STATUS] Beginning Evalulations...")
     for customer in activeCustomers:
         id = customer[0]
         theService = WindowMagic.ServiceOf(id)
-        wmJobs.append(theService.evaluations)
+        WM_commerical_jobs.append(theService)
 
     print('\tdone.')
-    for evaluations in wmJobs:
-        for eval in evaluations:
-            eval: WindowMagic.Evaluation = eval
-            print(eval)
-            print("\n")
+    return WM_commerical_jobs
 
-        # print(theJob)
 
 
 def printRes(response = None, query=None):

@@ -201,11 +201,17 @@ def dictToMins(timeDict, ogString):
                 mins = float(timeDict["m"])
 
             if(timeDict["h"]):
+                specialCase = '.'
+                if timeDict["h"] == specialCase:
+                    timeDict["h"] = 0
+
                 hrs = float(timeDict["h"])
+
             
             return mins + (hrs*60)
         except:
-            print('[FATAL] Error occured converting to decimal. Unrecognized - {}'.format(ogString))
+            print('[ERROR] Error occured converting to decimal. Unrecognized - {}'.format(ogString))
+            print(timeDict)
             return None
 
     return None

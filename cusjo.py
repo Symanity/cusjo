@@ -1,5 +1,5 @@
-import cf_loader as customerFactor
-import db_generator as database
+import cf_interpreters.cf_loader as customerFactor
+import cf_interpreters.db_generator as database
 from datetime import datetime
 import sys
 import services_attributor as WindowMagic
@@ -69,7 +69,7 @@ EMPLOYEE_JOB_HISTORY = '''
 def playground():
     WM_commerical_jobs = initEvaluations()
 
-    with open('output.txt', 'w') as results:
+    with open('res/output.txt', 'w') as results:
 
         for job in WM_commerical_jobs:
             job: WindowMagic.ServiceOf = job

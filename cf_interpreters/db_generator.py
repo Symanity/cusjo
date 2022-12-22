@@ -5,14 +5,14 @@
 #   TABLE2: Job History
 #   Row: Customer Id, jobType, jobPrice, jobDate, employee, duration, invoice 
 
-import cf_interpreter as interpreter
-import cf_loader as customerFactor
+import cf_interpreters.cf_converter as interpreter
+import cf_interpreters.cf_loader as customerFactor
 from datetime import datetime
 import json
 
 import sqlite3
 
-CF_db = "CF_sql.db"
+CF_db = "databases/CF_complete_history.db"
 
 tbl_Customers = "CUSTOMERS"
 tbl_jobHistory = "JOB_HISTORY"

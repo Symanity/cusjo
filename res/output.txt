@@ -299,8 +299,6 @@
 	['Exterior Window Cleaning'] on a MONTHLY basis for $225.0 and takes an average of 103 minutes
 	That is $131.07 per hour - Data Count 7
 
-245 - Wells Fargo - Lemon Grove: 7080 Broadway INSUFFICENT RESULTS :(
-
 246 - Mohnacky Animal Hospital: 2250 S Escondido Blvd
 	According to ['Devony Dettman', 'Justin Smith', 'Jose Perez']
 	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $155.0 and takes an average of 130 minutes
@@ -379,11 +377,6 @@
 	According to ['Justin Smith']
 	['Exterior Window Cleaning'] on a SEMI-ANNUALLY basis for $525.0 and takes an average of 224 minutes
 	That is $140.62 per hour - Data Count 6
-
-516 - Wells Fargo - Grossmont: 5500 Grossmont Center Dr
-	According to ['Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a Infrequently basis for $425.0 and takes an average of 250 minutes
-	That is $102.0 per hour - Data Count 1
 
 731 - IE Pacific Inc: 150 West Crest Street
 	According to ['Devony Dettman', 'Justin Smith', 'Jose Perez']

@@ -5,7 +5,7 @@ import os
 import json
 import resources as r
 
-import cf_interpreter as inter
+import cf_interpreters.cf_converter as inter
 
 import datetime
 from datetime import date

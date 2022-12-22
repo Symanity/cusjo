@@ -1,7 +1,7 @@
 from collections import defaultdict
 from datetime import datetime, timedelta
-import db_generator as database
-import cf_interpreter as inter
+import cf_interpreters.db_generator as database
+import cf_interpreters.cf_converter as inter
 
 
 ## REFERENCE Job object as returned from SQL queries

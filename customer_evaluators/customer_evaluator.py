@@ -51,121 +51,7 @@ considerEmp = [
     # "Oliver Munroe",
     # "Tim Grant"
 ]
-class Service:
-    def __init__(self, serviceDate, completedJob):
-        self.job        = completedJob
 
-        self.title      = self.__extractServiceTitles(completedJob)
-        self.price      = self.__extractPrice(completedJob)
-        self.duration   = self.__extractDuration(completedJob)
-        self.employee   = self.__extractEmployees(completedJob)
-        self.date       = serviceDate
-        self.frequency  = convertFrequency(self.__determineFrequency())
-
-
-
-  ## ** For the Following function -> Extraction of data takes in servicesPerformed on a single day **
-    # Get the employee(s) that were assigned to be on site.
-    def __extractEmployees(self, job):
-        employee = None
-        for service in job:
-            sus = service[Employee]
-
-            if not employee and sus:
-                employee = sus
-                break
-
-        if employee:
-            return employee
-
-        else:
-            return "Unknown"
-
-    def __extractPrice(self, job):
-        totalPrice = 0
-        for service in job:
-            servicePrice = service[Service_Price]
-
-            if servicePrice:
-                totalPrice += servicePrice
-
-        if totalPrice > 0:
-            return totalPrice
-        
-        return None
-
-    # Duration gets applied equally to all services performed at the same time.
-    # For example, if three services were performed for a total of 1hr. CF applies 1hr to all three services. 
-    def __extractDuration(self, job):
-        totalDuration = None
-        for service in job:
-            duration = service[Service_Duration]
-
-            if duration:
-                if not totalDuration:
-                    totalDuration = duration
-
-                if totalDuration != duration:
-                    customerName = database.getCustomerName(service[Customer_Id])
-                    address = database.getCustomerAddress(service[Customer_Id])
-                    # print("[!] {} vs. {} -- check duration for {} service on {} for {}:{}".format(
-                    #     totalDuration,
-                    #     duration,
-                    #     service[Service_Type], 
-                    #     service[Service_Date], 
-                    #     customerName,
-                    #     address))
-                    # print('\t[RECOVERY METHOD] Adding the durations together: {} mins\n'.format(totalDuration))
-                    totalDuration = totalDuration + duration
-            
-        return totalDuration
-
-
-    def __extractServiceTitles(self, job):
-        serviceNames = []
-        for service in job:
-            name = service[Service_Type]
-
-            if service not in serviceNames:
-                serviceNames.append(name)
-
-        return serviceNames
-
-
-    def __determineFrequency(self):
-        customer_id = self.job[0][Customer_Id]
-        deltas = []
-
-        futureServices = database.ask(''' SELECT * FROM JOB_HISTORY WHERE customer_id = ? AND job_date > CURRENT_DATE ''', (customer_id,))
-
-        # Group jobs
-        jobs = defaultdict(list)
-        for job in futureServices:
-            service_date = job[Service_Date]
-            jobs[service_date].append(job)
-
-        futureJobs = []
-        for job in jobs.values():
-            futureJobs.append(job[0])
-
-
-        # Iterate over the jobs
-        for i in range(1, len(futureJobs)):
-            # Parse the job dates as datetime objects
-            job_date1 = datetime.fromisoformat(futureJobs[i][1])
-            job_date2 = datetime.fromisoformat(futureJobs[i-1][1])
-            # Calculate the delta between the current job and the previous job
-            delta = job_date1 - job_date2
-            deltas.append(delta)
-
-        # Calculate the average delta
-        if len(deltas) > 0:
-            total_seconds = sum(delta.total_seconds() for delta in deltas)
-            average_delta = timedelta(seconds=total_seconds / len(deltas)).days
-        else:
-            average_delta = None
-
-        return average_delta
 
 ## Service Object
 class ServiceOf:
@@ -288,10 +174,126 @@ class ServiceOf:
 
                 elif price > priceOnRecord:
                     print('[PRICE MISMATCH] {} : {} we charge ${} now, we used to charge ${}. Price changed since {}\n'.format(self.customer_name, key, eval.price, price, service.date))
-                    # eval.price = price
 
         vals = evaluations.values()
         return vals if vals else []
+
+
+class Service:
+    def __init__(self, serviceDate, completedJob):
+        self.job        = completedJob
+
+        self.title      = self.__extractServiceTitles(completedJob)
+        self.price      = self.__extractPrice(completedJob)
+        self.duration   = self.__extractDuration(completedJob)
+        self.employee   = self.__extractEmployees(completedJob)
+        self.date       = serviceDate
+        self.frequency  = convertFrequency(self.__determineFrequency())
+
+
+
+  ## ** For the Following function -> Extraction of data takes in servicesPerformed on a single day **
+    # Get the employee(s) that were assigned to be on site.
+    def __extractEmployees(self, job):
+        employee = None
+        for service in job:
+            sus = service[Employee]
+
+            if not employee and sus:
+                employee = sus
+                break
+
+        if employee:
+            return employee
+
+        else:
+            return "Unknown"
+
+    def __extractPrice(self, job):
+        totalPrice = 0
+        for service in job:
+            servicePrice = service[Service_Price]
+
+            if servicePrice:
+                totalPrice += servicePrice
+
+        if totalPrice > 0:
+            return totalPrice
+        
+        return None
+
+    # Duration gets applied equally to all services performed at the same time.
+    # For example, if three services were performed for a total of 1hr. CF applies 1hr to all three services. 
+    def __extractDuration(self, job):
+        totalDuration = None
+        for service in job:
+            duration = service[Service_Duration]
+
+            if duration:
+                if not totalDuration:
+                    totalDuration = duration
+
+                if totalDuration != duration:
+                    customerName = database.getCustomerName(service[Customer_Id])
+                    address = database.getCustomerAddress(service[Customer_Id])
+                    # print("[!] {} vs. {} -- check duration for {} service on {} for {}:{}".format(
+                    #     totalDuration,
+                    #     duration,
+                    #     service[Service_Type], 
+                    #     service[Service_Date], 
+                    #     customerName,
+                    #     address))
+                    # print('\t[RECOVERY METHOD] Adding the durations together: {} mins\n'.format(totalDuration))
+                    totalDuration = totalDuration + duration
+            
+        return totalDuration
+
+
+    def __extractServiceTitles(self, job):
+        serviceNames = []
+        for service in job:
+            name = service[Service_Type]
+
+            if service not in serviceNames:
+                serviceNames.append(name)
+
+        return serviceNames
+
+
+    def __determineFrequency(self):
+        customer_id = self.job[0][Customer_Id]
+        deltas = []
+
+        futureServices = database.ask(''' SELECT * FROM JOB_HISTORY WHERE customer_id = ? AND job_date > CURRENT_DATE ''', (customer_id,))
+
+        # Group jobs
+        jobs = defaultdict(list)
+        for job in futureServices:
+            service_date = job[Service_Date]
+            jobs[service_date].append(job)
+
+        futureJobs = []
+        for job in jobs.values():
+            futureJobs.append(job[0])
+
+
+        # Iterate over the jobs
+        for i in range(1, len(futureJobs)):
+            # Parse the job dates as datetime objects
+            job_date1 = datetime.fromisoformat(futureJobs[i][1])
+            job_date2 = datetime.fromisoformat(futureJobs[i-1][1])
+            # Calculate the delta between the current job and the previous job
+            delta = job_date1 - job_date2
+            deltas.append(delta)
+
+        # Calculate the average delta
+        if len(deltas) > 0:
+            total_seconds = sum(delta.total_seconds() for delta in deltas)
+            average_delta = timedelta(seconds=total_seconds / len(deltas)).days
+        else:
+            average_delta = None
+
+        return average_delta
 
 
 class Evaluation:
@@ -386,3 +388,15 @@ def convertFrequency(frequencyNum):
         # bi-yearly
         elif frequencyNum >= 500 and frequencyNum < 800:
             return '2 years'
+
+def initEvaluations(customerList):
+    WM_commerical_jobs = []
+    activeCustomers = customerList
+    print("[STATUS] Beginning Evalulations...")
+    for customer in activeCustomers:
+        id = customer[0]
+        theService = ServiceOf(id)
+        WM_commerical_jobs.append(theService)
+
+    print('\tdone.')
+    return WM_commerical_jobs

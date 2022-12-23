@@ -2,7 +2,7 @@ import cf_interpreters.cf_loader as customerFactor
 import cf_interpreters.db_generator as database
 from datetime import datetime
 import sys
-import services_attributor as WindowMagic
+import customer_evaluators.customer_evaluator as WindowMagic
 
 # 1. Filter by date range
 # 2. filter by employee
@@ -25,7 +25,7 @@ EMPLOYEE_JOB_HISTORY = '''
     WHERE JOB_HISTORY.employee = 'Jose Perez' '''
 
 def outputResults():
-    WM_commerical_jobs = initEvaluations()
+    WM_commerical_jobs = WindowMagic.initEvaluations(getActiveCustomers())
 
     with open('evaluations.txt', 'w') as results:
 
@@ -69,18 +69,49 @@ def outputResults():
     results.close()
 
 
-def initEvaluations():
-    WM_commerical_jobs = []
-    activeCustomers = getActiveCustomers()
-    print("[STATUS] Beginning Evalulations...")
-    for customer in activeCustomers:
-        id = customer[0]
-        theService = WindowMagic.ServiceOf(id)
-        WM_commerical_jobs.append(theService)
+def preivewEvaluationOfCustomer(customerId: int):
+    theService = WindowMagic.ServiceOf(customerId)
 
-    print('\tdone.')
-    return WM_commerical_jobs
+    if not theService.customer_name:
+        raise Exception()
 
+    printToTerminal(theService)
+
+
+
+def printToTerminal(theServices: WindowMagic.ServiceOf):
+    customerId = theServices.customer_id
+    customerName = theServices.customer_name
+    customerAddress = theServices.customer_address
+
+    print("{} - {}: {}".format(customerId, customerName, customerAddress))
+
+    if theServices.evaluations:
+        for evaluation in theServices.evaluations:
+            outputText = "\n"
+            jobPoolQty = evaluation.dataCount
+            evaluation: WindowMagic.Evaluation = evaluation
+            services = evaluation.serviceTitle
+            totalPrice = evaluation.price
+            avgDuration = evaluation.getAvgDuration()
+            jobFrequency = evaluation.frequency
+            contributingEmployees = evaluation.employees
+            rate = evaluation.getRate()
+
+            outputText = outputText + "\tAccording to {}\n".format(contributingEmployees)
+            outputText = outputText + "\t{} on a {} basis for ${} and takes an average of {} minutes\n".format(
+                services,
+                jobFrequency.upper() if jobFrequency else "Infrequently",
+                totalPrice,
+                avgDuration)
+
+            outputText = outputText + "\tThat is ${} per hour - Data Count {}\n\n".format(rate, jobPoolQty)
+            
+
+            print(outputText)
+
+    else:
+        print(" INSUFFICENT RESULTS :(\n\n")
 
 
 def printRes(response = None, query=None):
@@ -163,12 +194,27 @@ if len(sys.argv) > 1:
                 query = """ SELECT * FROM {} """.format(database.tbl_jobHistory)
                 res = database.ask(query)
                 printRes(res)
+
+
+    elif sys.argv[1] == "evaluate":
+        try:
+            if len(sys.argv) > 2:
+                customerId = int(sys.argv[2])
+                preivewEvaluationOfCustomer(customerId)
+            else:
+                outputResults()
+
+        except ValueError:
+            print('[ERROR] Invalid customer id')
+
+        except:
+            print('[ERROR] Unable to process request. Customer does not exist')
+
     else:
         print('[ERROR] command not recognized')
 
 else:
-    database.writeCSV()
-    # outputResults()
+    outputResults()
 
 
 # Usefull snippets

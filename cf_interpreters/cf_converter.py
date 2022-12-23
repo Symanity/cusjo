@@ -5,8 +5,6 @@ import numpy as np
 import copy
 
 DATE_FORMAT = '%Y-%m-%d'
-# theBegining = datetime.datetime.strptime("01/01/86", DATE_FORMAT).date()
-
 
 class Evaluator:
     def __init__(self, customer) -> None:
@@ -47,44 +45,8 @@ class Evaluation:
             return False
 
 
-    def __getJobsInRange(self, startDate, endDate):
-        jobList = []
-        for job in self.jobs:
-            completedDate = datetime.datetime.strptime(job["date"], DATE_FORMAT).date()
-            if Evaluation.__considerDate(completedDate, startDate, endDate):
-                jobList.append(job)
-            
-        return jobList
-
-
-    # Get avg duration of this job type
-    # def getAvgDuration(self, startDate = theBegining, 
-    #                     endDate = date.today()):
-        
-    #     effectiveJobs = self.__getJobsInRange(startDate, endDate)
-
-    #     avgDuration = 0
-    #     jobWithTimes = 0
-
-    #     for job in effectiveJobs:
-    #         duration = toMinutes(job["duration"])
-    #         if duration:
-    #             jobWithTimes += 1
-    #             avgDuration += duration
-
-    #     if jobWithTimes > 0:
-    #         avgDuration = avgDuration / jobWithTimes
-    #         return {
-    #                 "avg duration in mins": avgDuration, 
-    #                 "jobs calculated": jobWithTimes, 
-    #                 "total jobs": len(effectiveJobs)
-    #             }
-    #     else:
-    #         return None
-
-
     # Get frequency of this job type. This takes the average of time between jobs.
-    # Returns only if done 3 times or more
+    # ** Only considers future jobs... This is dependant on the when the database gets built
     def getFrequency(self):
         count = 1
         total = 0
@@ -98,18 +60,14 @@ class Evaluation:
 
                 if job and job2:
                     delta = self.__getDeltaDays(job2["date"],job["date"])
-                    # KEEP FOR REFERENCE
-                    # print("compared: {} & {}".format(job["date"], job2["date"]))
 
                     if delta > 0:
                         total = total + delta
                         count = count + 1
-                        # print("comparing {}, {}".format(job["date"], job2["date"]) + "[{}]".format(count) + str(self.jobType))
 
                     job = job2 
 
             average = total/count
-            # KEEP FOR REFERENCE
 
             return round(average, 1)
         
@@ -129,33 +87,6 @@ class Evaluation:
 
         else:
             return 0
-
-    # Get most recent job with a price
-    # def getLatestJob(self):
-    #     today = date.today()
-    #     mostRecentJob = None
-    #     days = 0
-        
-    #     effectiveJobs = self.__getJobsInRange(theBegining, today)
-
-    #     for job in effectiveJobs:
-    #         jobDate = datetime.datetime.strptime(job["date"], DATE_FORMAT).date()
-
-    #         if not mostRecentJob and float(job["price"]) > 0:
-    #             mostRecentJob = job
-    #             days = (today - jobDate).days
-
-    #         diffDays = (today - jobDate).days
-
-    #         if diffDays < days and float(job["price"]) > 0:
-    #             mostRecentJob = job
-    #             days = diffDays
-
-    #     if mostRecentJob:
-    #         return mostRecentJob
-    #     else:
-    #         return None
-
 
 # Converts into minutes
 def toMinutes(timeStr):
@@ -216,21 +147,11 @@ def dictToMins(timeDict, ogString):
 
     return None
 
-def convertDate(datestring):
+def convertTo_iso8601_date(datestring):
     date = dt.strptime(datestring, '%m/%d/%y')  # parse the date string
 
     # format the date in ISO8601 format
     iso8601_date = date.strftime('%Y-%m-%d')
 
     return iso8601_date
-
-# OUTPUT:
-#  - Name => Avg. Duration, From: xx/xx/xxxx to xx/xx/xxxx
-#     ** Frequency    - at least once every 2 years, 
-#                     - 1x per year
-#                     - 2x per year
-#                     - 3x per year
-#                     - 4x per year
-#                     - xx per year
-
 

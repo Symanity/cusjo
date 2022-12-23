@@ -4,11 +4,7 @@ import io
 import os
 import json
 import resources as r
-
 import cf_interpreters.cf_converter as inter
-
-import datetime
-from datetime import date
 from datetime import datetime as dt
 
 TARGET_FILE = None
@@ -85,7 +81,7 @@ def __consolidate(data):
 
 class Job:
     def __init__(self, data):
-        self.date = inter.convertDate(data[r.jobDate])
+        self.date = inter.convertTo_iso8601_date(data[r.jobDate])
         self.type = data[r.jobType]
         self.price = data[r.price]
         self.assigned = data[r.assignedTo]
@@ -113,7 +109,7 @@ class Customer:
             self.id  = csvRow[r.id]
             self.name = csvRow[r.name]
             self.company = csvRow[r.companyName]
-            self.dateAdded = inter.convertDate(csvRow[r.dateAdded])
+            self.dateAdded = inter.convertTo_iso8601_date(csvRow[r.dateAdded])
             self.cType = csvRow[r.cType]
             self.address = csvRow[r.address]
             self.jobHistory = []

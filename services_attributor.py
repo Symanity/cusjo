@@ -38,14 +38,14 @@ _2years         = '2 years'
 considerEmp = [
     "Justin Smith",
     "Devony Dettman",
-    # "Roberto Isais",
-    # "Isais",
+    "Roberto Isais",
+    "Isais",
     "Jose Perez",
     # "Nolan Barraza",
     # "Dallas Wright",
     # "Skyler Gibbs",
     # "Adam Ruiz",
-    # "Brandon Foster",
+    "Brandon Foster",
     # "Evans Richie",
     # "Danny Steinweg",
     # "Oliver Munroe",
@@ -288,7 +288,7 @@ class ServiceOf:
 
                 elif price > priceOnRecord:
                     print('[PRICE MISMATCH] {} : {} we charge ${} now, we used to charge ${}. Price changed since {}\n'.format(self.customer_name, key, eval.price, price, service.date))
-                    eval.price = price
+                    # eval.price = price
 
         vals = evaluations.values()
         return vals if vals else []

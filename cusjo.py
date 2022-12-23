@@ -4,48 +4,6 @@ from datetime import datetime
 import sys
 import services_attributor as WindowMagic
 
-# # Import the required modules
-# import sqlite3
-
-# # Connect to the database
-# conn = sqlite3.connect('my_database.db')
-
-# # Define a dictionary to store the data
-# data = defaultdict(list)
-
-# # Query the CUSTOMERS table
-# query = "SELECT * FROM CUSTOMERS"
-# customers = conn.execute(query).fetchall()
-
-# # Loop over the customers
-# for customer in customers:
-#     # Check if the customer is active
-#     if customer[6]:
-#         # Query the JOB_HISTORY table
-#         query = "SELECT * FROM JOB_HISTORY WHERE customer_id = ?"
-#         jobs = conn.execute(query, (customer[0],)).fetchall()
-
-#         # Group the jobs by job_date
-#         jobs_by_date = defaultdict(list)
-#         for job in jobs:
-#             jobs_by_date[job[1]].append(job)
-
-#         # Add the data to the dictionary
-#         data[customer[1]] = jobs_by_date
-
-# # Print the dictionary
-# print(data)
-
-# # Close the connection
-# conn.close()
-
-
-
-# SQL Queries () 
-#### [** ONLY DO FROM LAST 12 JOBS ***]
-#### TODO: Consider Job types being done on the same day
-#### TODO: Jobs may have two jobTypes done on the same day. This job structure may have the same duration.
-
 # 1. Filter by date range
 # 2. filter by employee
 # 3. filter by frequency
@@ -66,10 +24,10 @@ EMPLOYEE_JOB_HISTORY = '''
     INNER JOIN JOB_HISTORY ON CUSTOMERS.customer_id = JOB_HISTORY.customer_id 
     WHERE JOB_HISTORY.employee = 'Jose Perez' '''
 
-def playground():
+def outputResults():
     WM_commerical_jobs = initEvaluations()
 
-    with open('res/output.txt', 'w') as results:
+    with open('evaluations.txt', 'w') as results:
 
         for job in WM_commerical_jobs:
             job: WindowMagic.ServiceOf = job
@@ -141,11 +99,12 @@ def previewFile(fileName):
     return customerFactor.fetchData()
     
 
-# Builds the CF_sql database
+# Builds the Customer Factor database
 def build(fileName):
     customerFactor.init(fileName)
     data = customerFactor.fetchData()
     database.create(data)
+    database.writeCSV()
 
 
 def showEmployees():
@@ -208,7 +167,8 @@ if len(sys.argv) > 1:
         print('[ERROR] command not recognized')
 
 else:
-    playground()
+    database.writeCSV()
+    # outputResults()
 
 
 # Usefull snippets

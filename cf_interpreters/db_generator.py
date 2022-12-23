@@ -11,8 +11,12 @@ from datetime import datetime
 import json
 
 import sqlite3
+import csv
+import os
 
-CF_db = "databases/CF_complete_history.db"
+CF_db_name = "CF_complete_history.db"
+CF_path = "databases"
+CF_db = os.path.join(CF_path,CF_db_name)
 
 tbl_Customers = "CUSTOMERS"
 tbl_jobHistory = "JOB_HISTORY"
@@ -166,7 +170,7 @@ def getCustomerName(customer_id: int):
   return result[0] if result else None
 
 
-def getCustomerHistory(customer_id):
+def getCustomerHistory(customer_id: int):
     today = datetime.today().date()
     # retrieve rows from the JOB_HISTORY table for the given customer_id
     return ask('SELECT * FROM JOB_HISTORY WHERE customer_id = ? AND job_date < ? ORDER BY job_date DESC', (customer_id, today))
@@ -189,3 +193,44 @@ def getCustomerAddress(customer_id: int):
   conn.close()
 
   return result[0] if result else None
+
+
+def writeCSV():
+    csv_foldername = "csv_complete_history"
+    csv_customers = os.path.join(CF_path, csv_foldername,"customers.csv")
+    csv_jobs = os.path.join(CF_path, csv_foldername,"jobs.csv")
+
+    # Connect to the database file
+    conn = sqlite3.connect(CF_db)
+
+    # Create a cursor object
+    cursor = conn.cursor()
+
+    # Select all rows from the CUSTOMERS table
+    cursor.execute("SELECT * FROM CUSTOMERS")
+
+    # Fetch all rows from the CUSTOMERS table
+    customers = cursor.fetchall()
+
+    # Write the rows to a CSV file
+    with open(csv_customers, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(customers)
+
+    # Select all rows from the JOB_HISTORY table
+    cursor.execute("SELECT * FROM JOB_HISTORY")
+
+    # Fetch all rows from the JOB_HISTORY table
+    jobs = cursor.fetchall()
+
+    # Write the rows to a CSV file
+    with open(csv_jobs, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(jobs)
+
+    # Close the cursor and connection
+    cursor.close()
+    conn.close()
+
+    print('[BUILD] csv file created: {}'.format(csv_customers))
+    print('[BUILD] csv file created: {}'.format( csv_jobs))

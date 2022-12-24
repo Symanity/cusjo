@@ -24,7 +24,7 @@ EMPLOYEE_JOB_HISTORY = '''
     INNER JOIN JOB_HISTORY ON CUSTOMERS.customer_id = JOB_HISTORY.customer_id 
     WHERE JOB_HISTORY.employee = 'Jose Perez' '''
 
-def outputResults():
+def initEvaluationProcess():
     WM_commerical_jobs = WindowMagic.initEvaluations(getActiveCustomers())
 
     with open('evaluations.txt', 'w') as results:
@@ -71,11 +71,14 @@ def outputResults():
 
 def preivewEvaluationOfCustomer(customerId: int):
     theService = WindowMagic.ServiceOf(customerId)
+    theService.evaluate()
 
     if not theService.customer_name:
         raise Exception()
 
     printToTerminal(theService)
+
+    print(theService)
 
 
 
@@ -202,19 +205,16 @@ if len(sys.argv) > 1:
                 customerId = int(sys.argv[2])
                 preivewEvaluationOfCustomer(customerId)
             else:
-                outputResults()
+                initEvaluationProcess()
 
         except ValueError:
             print('[ERROR] Invalid customer id')
-
-        except:
-            print('[ERROR] Unable to process request. Customer does not exist')
 
     else:
         print('[ERROR] command not recognized')
 
 else:
-    outputResults()
+    initEvaluationProcess()
 
 
 # Usefull snippets

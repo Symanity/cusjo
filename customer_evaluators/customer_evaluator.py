@@ -38,8 +38,8 @@ _2years         = '2 years'
 considerEmp = [
     "Justin Smith",
     "Devony Dettman",
-    "Roberto Isais",
-    "Isais",
+    # "Roberto Isais",
+    # "Isais",
     "Jose Perez",
     # "Nolan Barraza",
     # "Dallas Wright",
@@ -52,6 +52,7 @@ considerEmp = [
     # "Tim Grant"
 ]
 
+maxHistoryQTY = 12
 
 ## Service Object
 class ServiceOf:
@@ -64,7 +65,7 @@ class ServiceOf:
 
         ## How the service gets defined
         self.__justinsStandard()
-        self.evaluations          = self.evaluate()
+        self.evaluations          = None
 
     
     considerFreq = [
@@ -82,7 +83,7 @@ class ServiceOf:
     ]
 
 
-    def __justinsStandard(self, maxHistoryQty = 12, considerEmployees = considerEmp, considerFrequency = considerFreq):
+    def __justinsStandard(self, maxHistoryQty = maxHistoryQTY, considerEmployees = considerEmp, considerFrequency = considerFreq):
         entireServiceHistory = serviceHistory(self.customer_id)
         i = 0
 
@@ -90,6 +91,7 @@ class ServiceOf:
         # "servicesDetails" are grouped by services performed on the same day, 
             # For example, Windows and partions were performed on 1-1-2020.  
         # Only retrieves jobs from the past.
+
         for service_date, serviceDetails in entireServiceHistory.items():
             # Defines Window Magic's contract, how long it took, and which employees were involved.
             completedService = Service(service_date, serviceDetails)
@@ -115,12 +117,11 @@ class ServiceOf:
                 else:
                     break
 
-
     def __str__(self):
         printString = ""
 
         i = 1
-        print("For {} - {}:".format(self.customer_id, self.customer_name))
+        print("{} - {}:".format(self.customer_id, self.customer_name))
 
         if len(self.services) > 0:
             for service in self.services:
@@ -176,7 +177,9 @@ class ServiceOf:
                     print('[PRICE MISMATCH] {} : {} we charge ${} now, we used to charge ${}. Price changed since {}\n'.format(self.customer_name, key, eval.price, price, service.date))
 
         vals = evaluations.values()
-        return vals if vals else []
+        self.evaluations = vals if vals else []
+
+        return self.evaluations
 
 
 class Service:
@@ -392,11 +395,27 @@ def convertFrequency(frequencyNum):
 def initEvaluations(customerList):
     WM_commerical_jobs = []
     activeCustomers = customerList
-    print("[STATUS] Beginning Evalulations...")
+    print('[Running] Gathering Jobs...')
     for customer in activeCustomers:
         id = customer[0]
         theService = ServiceOf(id)
         WM_commerical_jobs.append(theService)
+    print('[STATUS] finished gathering {} jobs'.format(len(WM_commerical_jobs)))
+
+    # Create table
+    # id, name, services, job_date, price, duration, employee
+
+    print("[Running] Beginning Evalulations...")
+    for job in WM_commerical_jobs:
+        job: ServiceOf = job
+
+        job.evaluate()
 
     print('\tdone.')
     return WM_commerical_jobs
+
+
+print('[Running] Filters check...')
+print('[Filter] Considering employees {}'.format(considerEmp))
+print('[Filter] Gather at most {} past jobs'.format(maxHistoryQTY))
+print('[Filter] Skip jobs with NO DURATION and/or NO PRICE'.format())

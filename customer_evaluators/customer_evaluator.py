@@ -2,6 +2,7 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 import cf_interpreters.db_generator as database
 import cf_interpreters.cf_converter as inter
+import customer_evaluators.jc_db_generator as jc_database
 
 
 ## REFERENCE Job object as returned from SQL queries
@@ -181,7 +182,7 @@ class ServiceOf:
 
         return self.evaluations
 
-
+# id, name, services, job_date, price, duration, employee
 class Service:
     def __init__(self, serviceDate, completedJob):
         self.job        = completedJob
@@ -403,7 +404,31 @@ def initEvaluations(customerList):
     print('[STATUS] finished gathering {} jobs'.format(len(WM_commerical_jobs)))
 
     # Create table
-    # id, name, services, job_date, price, duration, employee
+    # id, name, address, services, job_date, price, duration, employee
+    considerJobs = []
+    for job in WM_commerical_jobs:
+        job: ServiceOf = job
+        id = job.customer_id
+        name = job.customer_name
+        address = job.customer_address
+        for pastJob in job.services:
+            pastJob: Service = pastJob
+            considerJob = (
+                    id, 
+                    name, 
+                    address, 
+                    str(pastJob.title), 
+                    pastJob.date,
+                    pastJob.price,
+                    pastJob.duration,
+                    pastJob.employee
+                )
+            considerJobs.append(considerJob)
+
+    if considerJobs:
+        jc_database.create(considerJobs)
+        jc_database.writeCSV()
+        
 
     print("[Running] Beginning Evalulations...")
     for job in WM_commerical_jobs:

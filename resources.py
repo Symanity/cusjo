@@ -14,5 +14,5 @@ assignedTo = 'Assigned To'
 duration = 'Duration'
 invoiceNumber = 'Invoice Number'
 
-customerTable = "CUSTOMERS"
-jobTable = "JOB_HISTORY"
+database_path = "databases"
+

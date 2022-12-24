@@ -13,10 +13,10 @@ import json
 import sqlite3
 import csv
 import os
+import resources as r
 
 CF_db_name = "CF_complete_history.db"
-CF_path = "databases"
-CF_db = os.path.join(CF_path,CF_db_name)
+CF_db = os.path.join(r.database_path,CF_db_name)
 
 tbl_Customers = "CUSTOMERS"
 tbl_jobHistory = "JOB_HISTORY"
@@ -197,8 +197,8 @@ def getCustomerAddress(customer_id: int):
 
 def writeCSV():
     csv_foldername = "csv_complete_history"
-    csv_customers = os.path.join(CF_path, csv_foldername,"customers.csv")
-    csv_jobs = os.path.join(CF_path, csv_foldername,"jobs.csv")
+    csv_customers = os.path.join(r.database_path, csv_foldername,"customers.csv")
+    csv_jobs = os.path.join(r.database_path, csv_foldername,"jobs.csv")
 
     # Connect to the database file
     conn = sqlite3.connect(CF_db)

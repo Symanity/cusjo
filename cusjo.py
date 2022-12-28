@@ -1,3 +1,11 @@
+##
+# THIS IS THE DRIVER OF THE CUSJO PROGRAM.
+# There are various commands that can be executed from the terminal.
+# Basic Operation:
+#   py cusjo.py build       <- Reads and builds from The Customer Factor file located in the res folder
+#   py cusjo.py evaluate    <- Evaluates the Customers. Creates the evaluations.txt file.
+##
+
 import cf_interpreters.cf_loader as customerFactor
 import cf_interpreters.db_generator as database
 from datetime import datetime

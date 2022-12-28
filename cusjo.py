@@ -25,6 +25,7 @@ EMPLOYEE_JOB_HISTORY = '''
     WHERE JOB_HISTORY.employee = 'Jose Perez' '''
 
 def initEvaluationProcess():
+    # Gather and only the active customers
     WM_commerical_jobs = WindowMagic.initEvaluations(getActiveCustomers())
 
     with open('evaluations.txt', 'w') as results:
@@ -135,9 +136,16 @@ def previewFile(fileName):
 
 # Builds the Customer Factor database
 def build(fileName):
+    # Specify which Customer File is to be used.
     customerFactor.init(fileName)
+    
+    # Reads the data from the customer factor
     data = customerFactor.fetchData()
+
+    # creates the database from the data
     database.create(data)
+
+    # Creates a readable csv file.
     database.writeCSV()
 
 
@@ -216,23 +224,3 @@ if len(sys.argv) > 1:
 else:
     initEvaluationProcess()
 
-
-# Usefull snippets
-    # Create SQLite database/tables
-    # database.create(data)
-
-    # database.printTable(database.tbl_Customers, database.CF_db)
-
-    # customers = customerFactor.getCustomers()
-    # for customer in customers:
-    #     if customer.isActive():
-    #         print("[ACTIVE] {}".format(customer.name))
-    #     else:
-    #         print("[-] {}".format(customer.name))
-
-
-
-# QUESTION HISTORY
-    # ** show me the list of Customers where Jose is the employee
-    # question = ''' SELECT * FROM CUSTOMERS INNER JOIN JOB_HISTORY ON CUSTOMERS.customer_id = JOB_HISTORY.customer_id WHERE JOB_HISTORY.employee = 'Jose Perez' '''
-    

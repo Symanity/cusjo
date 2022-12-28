@@ -61,8 +61,8 @@ class ServiceOf:
         self.customer_id          = customer_id
         self.customer_name        = database.getCustomerName(customer_id)
         self.customer_address     = database.getCustomerAddress(customer_id)
-        self.services             = []   # List of CompleteService object
-        self.serviceHistory       = defaultdict(list)   # List of considered jobs, according to __justinsStandard()
+        self.jobs             = []   # List of Service object
+        self.jobHistory       = defaultdict(list)   # List of considered jobs, according to __justinsStandard()
 
         ## How the service gets defined
         self.__justinsStandard()
@@ -95,25 +95,25 @@ class ServiceOf:
 
         for service_date, serviceDetails in entireServiceHistory.items():
             # Defines Window Magic's contract, how long it took, and which employees were involved.
-            completedService = Service(service_date, serviceDetails)
+            completedJob = TheJob(service_date, serviceDetails)
 
             # [FILTER] Employee is a considered employee.
             # [FILTER] Get a max of maxHistoryQty jobs. Continue gathering data until maxHistoryQty or history runs out.
-            employee = completedService.employee
+            employee = completedJob.employee
             if employee in considerEmployees and employee != 'None':
                 if i < maxHistoryQty:
-                    totalPrice = completedService.price
-                    totalDuration = completedService.duration
+                    totalPrice = completedJob.price
+                    totalDuration = completedJob.duration
 
                     # [DATA QUALITY FILTER] Only consider if totalDuration and totalPrice have been identified
                     if totalDuration and totalPrice:
                         i = i+1
 
                         # Archive service details performed on given date
-                        self.serviceHistory[service_date] = serviceDetails
+                        self.jobHistory[service_date] = serviceDetails
 
                         # Save Service for evaluation
-                        self.services.append(completedService)
+                        self.jobs.append(completedJob)
 
                 else:
                     break
@@ -124,9 +124,9 @@ class ServiceOf:
         i = 1
         print("{} - {}:".format(self.customer_id, self.customer_name))
 
-        if len(self.services) > 0:
-            for service in self.services:
-                service: Service = service
+        if len(self.jobs) > 0:
+            for service in self.jobs:
+                service: TheJob = service
 
                 printString = printString + "\t{}. {} completed {} on {} for ${} and took {}mins.\n".format(
                     i,
@@ -150,20 +150,20 @@ class ServiceOf:
     def evaluate(self):
         evaluations = defaultdict(list)
 
-        for service in self.services:
-            service: Service = service # Type casting
+        for job in self.jobs:
+            job: TheJob = job # Type casting
 
-            key = str(service.title)
-            price = service.price
-            duration = service.duration
-            frequency = service.frequency
+            key = str(job.title)
+            price = job.price
+            duration = job.duration
+            frequency = job.frequency
 
             # Begin grouping by similar jobs
             eval: Evaluation = evaluations[key]
             if not eval: # Initiate if incountering a new service requirement
-                eval = Evaluation(service.title, price, frequency)
+                eval = Evaluation(job.title, price, frequency)
                 eval.addDuration(duration)
-                eval.addEmployee(service.employee)
+                eval.addEmployee(job.employee)
                 evaluations[key] = eval
                 continue
 
@@ -172,10 +172,10 @@ class ServiceOf:
 
                 if price == priceOnRecord:
                     eval.addDuration(duration)
-                    eval.addEmployee(service.employee)
+                    eval.addEmployee(job.employee)
 
                 elif price > priceOnRecord:
-                    print('[PRICE MISMATCH] {} : {} we charge ${} now, we used to charge ${}. Price changed since {}\n'.format(self.customer_name, key, eval.price, price, service.date))
+                    print('[PRICE MISMATCH] {} : {} we charge ${} now, we used to charge ${}. Price changed since {}\n'.format(self.customer_name, key, eval.price, price, job.date))
 
         vals = evaluations.values()
         self.evaluations = vals if vals else []
@@ -183,7 +183,7 @@ class ServiceOf:
         return self.evaluations
 
 # id, name, services, job_date, price, duration, employee
-class Service:
+class TheJob:
     def __init__(self, serviceDate, completedJob):
         self.job        = completedJob
 
@@ -411,8 +411,8 @@ def initEvaluations(customerList):
         id = job.customer_id
         name = job.customer_name
         address = job.customer_address
-        for pastJob in job.services:
-            pastJob: Service = pastJob
+        for pastJob in job.jobs:
+            pastJob: TheJob = pastJob
             considerJob = (
                     id, 
                     name, 

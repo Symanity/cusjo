@@ -220,8 +220,6 @@
 	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] on a QUARTERLY basis for $125.0 and takes an average of 92 minutes
 	That is $81.52 per hour - Data Count 7
 
-156 - La Costa Glen: 1940 Levante Street INSUFFICENT RESULTS :(
-
 158 - Trader Joes #221: 9850 Hibert St
 	According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster']
 	['Exterior Window Cleaning'] on a 2 WEEKS basis for $45.0 and takes an average of 23 minutes

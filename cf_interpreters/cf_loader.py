@@ -66,7 +66,7 @@ def __consolidate(data):
         if customer:
             if(customer.id == row[r.id]):
                 # consolidate job history
-                job = Job(row)
+                job = Service(row)
                 customer.jobHistory.append(job)
             else: 
                 # Save customer and continue to next
@@ -79,7 +79,7 @@ def __consolidate(data):
     return customers
 
 
-class Job:
+class Service:
     def __init__(self, data):
         self.date = inter.convertTo_iso8601_date(data[r.jobDate])
         self.type = data[r.jobType]

@@ -61,15 +61,14 @@ def __generateDB(data):
             serviceName = job["type"]
 
             # print("{} GETS {} DONE EVERY {} DAYS".format(customerJson["name"], job["type"], services[serviceName].getFrequency()))
-            cursor.execute("INSERT INTO JOB_HISTORY VALUES(?,?,?,?,?,?,?,?)", (
+            cursor.execute("INSERT INTO JOB_HISTORY VALUES(?,?,?,?,?,?,?)", (
                 customer["id"], 
                 job["date"], 
                 job["type"],
                 job["price"],
                 job["assigned"],
                 duration,
-                job["invoice"],
-                services[serviceName].getFrequency()
+                job["invoice"]
                 ))
             
         print('\tdone')
@@ -114,8 +113,7 @@ def __createJobTable():
                     job_price real,
                     employee text,
                     duration real,
-                    invoice integer,
-                    job_frequency real
+                    invoice integer
                 )
                 """.format(tbl_jobHistory)
 

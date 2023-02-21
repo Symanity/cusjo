@@ -1,680 +1,396 @@
-5 - Trader Joes #120: 878 Eastlake Pkwy
-	According to ['Brandon Foster', 'Justin Smith']
-	['Window Cleaning'] on a 2 WEEKS basis for $77.0 and takes an average of 39 minutes
-	That is $118.46 per hour - Data Count 12
-
-14 - Trader Joes # 223: 13480 Highlands Place
-	According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster']
-	['Window Cleaning'] on a 2 WEEKS basis for $70.0 and takes an average of 46 minutes
-	That is $91.3 per hour - Data Count 11
-
-
-	According to ['Brandon Foster']
-	['Exterior Window Cleaning'] on a 2 WEEKS basis for $45.0 and takes an average of 52 minutes
-	That is $51.92 per hour - Data Count 1
-
 15 - Harsey & Harsey: 4090 Morena Blvd
-	According to ['Jose Perez', 'Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $35.0 and takes an average of 22 minutes
-	That is $95.45 per hour - Data Count 5
+	According to ['Isais', 'Roberto Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $17.0 and takes an average of 17 minutes
+	That is $60.0 per hour - Data Count 5
 
 25 - C and D Cycles: 4927 Convoy St
-	According to ['Brandon Foster', 'Jose Perez', 'Justin Smith']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $25.0 and takes an average of 16 minutes
-	That is $93.75 per hour - Data Count 7
+	According to ['Roberto Isais', 'Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $25.0 and takes an average of 15 minutes
+	That is $100.0 per hour - Data Count 12
 
 26 - Bergen And Brasier: 5710 Kearny Villa Rd
-	According to ['Brandon Foster', 'Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $48.0 and takes an average of 31 minutes
-	That is $92.9 per hour - Data Count 2
-
-27 - Champagne Spas: 5710 Kearny Villa Rd
-	According to ['Brandon Foster']
-	['Interior Only Window Cleaning'] on a 3 WEEKS basis for $25.0 and takes an average of 33 minutes
-	That is $45.45 per hour - Data Count 1
-
-
-	According to ['Jose Perez', 'Justin Smith']
-	['Exterior Window Cleaning'] on a 3 WEEKS basis for $30.0 and takes an average of 13 minutes
-	That is $138.46 per hour - Data Count 9
-
-
-	According to ['Jose Perez']
-	['Exterior Window Cleaning', 'Interior Only Window Cleaning', 'Interior Only Window Cleaning'] on a 3 WEEKS basis for $80.0 and takes an average of 12 minutes
-	That is $400.0 per hour - Data Count 1
-
-
-	According to ['Jose Perez']
-	['Exterior Window Cleaning', 'Interior Only Window Cleaning'] on a 3 WEEKS basis for $55.0 and takes an average of 12 minutes
-	That is $275.0 per hour - Data Count 1
-
-30 - G.T.M. Discount #2: 7663 Broadway
-	According to ['Jose Perez', 'Justin Smith']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $45.0 and takes an average of 20 minutes
-	That is $135.0 per hour - Data Count 12
+	According to ['Roberto Isais', 'Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $48.0 and takes an average of 29 minutes
+	That is $99.31 per hour - Data Count 6
 
 37 - Dell Enterprises: 7949 Broadway
-	According to ['Brandon Foster', 'Justin Smith', 'Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $13.0 and takes an average of 14 minutes
-	That is $55.71 per hour - Data Count 11
+	According to ['Roberto Isais', 'Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $13.0 and takes an average of 12 minutes
+	That is $65.0 per hour - Data Count 12
 
-42 - La Mesa Glass: 8710 Railroad Avenue INSUFFICENT RESULTS :(
-
-46 - Trader Joes # 26: 1190 University Ave
-	According to ['Devony Dettman', 'Jose Perez', 'Brandon Foster', 'Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $200.0 and takes an average of 100 minutes
-	That is $120.0 per hour - Data Count 12
-
-47 - G.T.M Discount #1: 8967 Carlton Hills Blvd
-	According to ['Jose Perez', 'Justin Smith']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $70.0 and takes an average of 36 minutes
-	That is $116.67 per hour - Data Count 12
+42 - La Mesa Glass: 8710 Railroad Avenue
+	According to ['Roberto Isais']
+	['Window Cleaning'] on a MONTHLY basis for $85.0 and takes an average of 60 minutes
+	That is $85.0 per hour - Data Count 4
 
 53 - Trader Joes #24: 5495 Grossmont Blvd
-	According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez']
-	['Exterior Window Cleaning'] on a 2 WEEKS basis for $43.0 and takes an average of 25 minutes
-	That is $103.2 per hour - Data Count 12
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a 2 WEEKS basis for $43.0 and takes an average of 27 minutes
+	That is $95.56 per hour - Data Count 11
 
 56 - Trader Joes # 222: 1072 Camino Del Rio N
-	According to ['Justin Smith', 'Brandon Foster', 'Jose Perez']
-	['Exterior Window Cleaning'] on a 2 WEEKS basis for $45.0 and takes an average of 34 minutes
-	That is $79.41 per hour - Data Count 6
-
-
-	According to ['Jose Perez', 'Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $95.0 and takes an average of 57 minutes
-	That is $100.0 per hour - Data Count 3
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a 2 WEEKS basis for $45.0 and takes an average of 26 minutes
+	That is $103.85 per hour - Data Count 5
 
 59 - Outrageous Rugs: 7126 Miramar Rd
-	According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez']
+	According to ['Roberto Isais', 'Isais']
 	['Exterior Window Cleaning'] on a MONTHLY basis for $85.0 and takes an average of 50 minutes
 	That is $102.0 per hour - Data Count 12
 
-64 - Sherwood Mechanical: 6630 Top Gun St
-	According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez']
-	['in and out of lobby windows'] on a MONTHLY basis for $30.0 and takes an average of 19 minutes
-	That is $94.74 per hour - Data Count 12
-
 66 - San Diego Shade: 7354 Trade St
-	According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $20.0 and takes an average of 13 minutes
-	That is $92.31 per hour - Data Count 12
-
-67 - Trader Joes #188: 2401 Truxtun Rd
-	According to ['Devony Dettman', 'Justin Smith', 'Jose Perez', 'Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $140.0 and takes an average of 77 minutes
-	That is $109.09 per hour - Data Count 12
+	According to ['Roberto Isais', 'Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $20.0 and takes an average of 12 minutes
+	That is $100.0 per hour - Data Count 12
 
 68 - Newen Enterprises: 1250 Pacific Oaks Pl
-	According to ['Jose Perez', 'Devony Dettman']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $75.0 and takes an average of 78 minutes
-	That is $57.69 per hour - Data Count 2
-
-69 - Trader Joes # 20: 8657 La Jolla Village Dr
-	According to ['Justin Smith', 'Brandon Foster']
-	['Exterior Window Cleaning'] on a 2 WEEKS basis for $40.0 and takes an average of 27 minutes
-	That is $88.89 per hour - Data Count 6
-
-
-	According to ['Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $55.0 and takes an average of 31 minutes
-	That is $106.45 per hour - Data Count 6
-
-70 - Trader Joes # 21: 1211 Garnet Ave
-	According to ['Justin Smith', 'Brandon Foster', 'Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $145.0 and takes an average of 64 minutes
-	That is $135.94 per hour - Data Count 12
-
-73 - Sprouts # 2: 690 Thrid Ave.
-	According to ['Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $125.0 and takes an average of 52 minutes
-	That is $144.23 per hour - Data Count 12
+	According to ['Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $75.0 and takes an average of 60 minutes
+	That is $75.0 per hour - Data Count 3
 
 75 - Cumming Chevrolet: 2301 National City Blvd
-	According to ['Jose Perez', 'Justin Smith']
-	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] on a MONTHLY basis for $600.0 and takes an average of 213 minutes
-	That is $169.01 per hour - Data Count 5
-
-
-	According to ['Justin Smith']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $300.0 and takes an average of 160 minutes
-	That is $112.5 per hour - Data Count 6
-
-
-	According to ['Justin Smith']
-	['Interior/Exterior Window Cleaning', 'Paint Removal'] on a MONTHLY basis for $600.0 and takes an average of 300 minutes
-	That is $120.0 per hour - Data Count 1
+	According to ['Isais', 'Roberto Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $300.0 and takes an average of 195 minutes
+	That is $92.31 per hour - Data Count 12
 
 76 - Hyde Edwards: 2308 Kettner Blvd
-	According to ['Brandon Foster', 'Jose Perez']
-	['Exterior Window Cleaning', 'Interior Only Window Cleaning'] on a MONTHLY basis for $65.0 and takes an average of 862 minutes
-	That is $4.52 per hour - Data Count 4
-
-78 - Edward D. Jones: 1111 Fort Stockton Dr
-	According to ['Brandon Foster', 'Jose Perez']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $41.0 and takes an average of 25 minutes
-	That is $98.4 per hour - Data Count 3
+	According to ['Isais', 'Roberto Isais']
+	['Exterior Window Cleaning', 'Interior Only Window Cleaning'] on a MONTHLY basis for $65.0 and takes an average of 861 minutes
+	That is $4.53 per hour - Data Count 12
 
 81 - Compass Real Estate: 1625 W Lewis St
-	According to ['Brandon Foster', 'Jose Perez']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $20.0 and takes an average of 6 minutes
-	That is $200.0 per hour - Data Count 2
+	According to ['Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $30.0 and takes an average of 22 minutes
+	That is $81.82 per hour - Data Count 1
 
-82 - U.P.S Store: 302 Washington St
-	According to ['Brandon Foster', 'Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $22.0 and takes an average of 13 minutes
-	That is $101.54 per hour - Data Count 9
+81 - Compass Real Estate: 1625 W Lewis St
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $20.0 and takes an average of 15 minutes
+	That is $80.0 per hour - Data Count 1
 
 93 - Lancetown Industries  Inc - Powers Plumbing: 1705 W Lewis St
-	According to ['Brandon Foster', 'Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $32.0 and takes an average of 46 minutes
-	That is $41.74 per hour - Data Count 3
-
-95 - G.T.M Office: Gillespie Way
-	According to ['Justin Smith']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $35.0 and takes an average of 90 minutes
-	That is $23.33 per hour - Data Count 1
+	According to ['Isais', 'Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $32.0 and takes an average of 30 minutes
+	That is $64.0 per hour - Data Count 4
 
 97 - Bit Company: 8085 La Mesa Blvd
-	According to ['Brandon Foster', 'Jose Perez']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $35.0 and takes an average of 22 minutes
-	That is $95.45 per hour - Data Count 3
-
-101 - Sew Pros #1: 393 Broadway
-	According to ['Brandon Foster', 'Justin Smith', 'Jose Perez']
-	['Exterior Window Cleaning'] on a 2 WEEKS basis for $25.0 and takes an average of 13 minutes
-	That is $115.38 per hour - Data Count 12
-
-102 - Citi Dental Rancho: 2451 Jamacha Rd
-	According to ['Brandon Foster', 'Justin Smith', 'Jose Perez']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $25.0 and takes an average of 10 minutes
-	That is $150.0 per hour - Data Count 8
-
-106 - The Barbecue Pit: 2388 Fletcher Pkwy
-	According to ['Brandon Foster', 'Justin Smith', 'Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $35.0 and takes an average of 25 minutes
-	That is $84.0 per hour - Data Count 12
+	According to ['Roberto Isais', 'Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $35.0 and takes an average of 21 minutes
+	That is $100.0 per hour - Data Count 12
 
 125 - Citi Dental: 290 E Douglas Ave
-	According to ['Jose Perez', 'Justin Smith']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $40.0 and takes an average of 49 minutes
-	That is $48.98 per hour - Data Count 7
+	According to ['Roberto Isais', 'Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $42.0 and takes an average of 60 minutes
+	That is $42.0 per hour - Data Count 4
 
-
-	According to ['Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $65.0 and takes an average of 53 minutes
-	That is $73.58 per hour - Data Count 1
+125 - Citi Dental: 290 E Douglas Ave
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning', 'Interior/Exterior Window Cleaning'] on a MONTHLY basis for $125.0 and takes an average of 90 minutes
+	That is $83.33 per hour - Data Count 1
 
 135 - Quality Tax Service: 9829 Campo Rd
-	According to ['Brandon Foster', 'Jose Perez', 'Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a QUARTERLY basis for $20.0 and takes an average of 224 minutes
-	That is $5.36 per hour - Data Count 5
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a QUARTERLY basis for $10.0 and takes an average of 17 minutes
+	That is $35.29 per hour - Data Count 1
 
-136 - Minor Construction: 301 Enterprise St
-	According to ['Jose Perez']
-	['Exterior Window Cleaning'] on a SEMI-ANNUALLY basis for $110.0 and takes an average of 77 minutes
-	That is $85.71 per hour - Data Count 2
+135 - Quality Tax Service: 9829 Campo Rd
+	According to ['Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a QUARTERLY basis for $20.0 and takes an average of 18 minutes
+	That is $66.67 per hour - Data Count 10
+
+ INSUFFICENT RESULTS :(
 
 145 - California Coast Credit Union - Chula Vista: 386 E H St
-	According to ['Brandon Foster', 'Justin Smith', 'Jose Perez']
-	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] on a QUARTERLY basis for $125.0 and takes an average of 92 minutes
-	That is $81.52 per hour - Data Count 7
+	According to ['Roberto Isais']
+	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] on a QUARTERLY basis for $125.0 and takes an average of 84 minutes
+	That is $89.29 per hour - Data Count 11
+
+ INSUFFICENT RESULTS :(
 
 158 - Trader Joes #221: 9850 Hibert St
-	According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster']
-	['Exterior Window Cleaning'] on a 2 WEEKS basis for $45.0 and takes an average of 23 minutes
-	That is $117.39 per hour - Data Count 7
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a 2 WEEKS basis for $45.0 and takes an average of 28 minutes
+	That is $96.43 per hour - Data Count 2
 
+ INSUFFICENT RESULTS :(
 
-	According to ['Devony Dettman', 'Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $90.0 and takes an average of 48 minutes
-	That is $112.5 per hour - Data Count 5
+ INSUFFICENT RESULTS :(
 
-159 - Trader Joes #220: 2629 Gateway Road
-	According to ['Devony Dettman']
-	['In/Out entry ways'] on a 2 WEEKS basis for $65.0 and takes an average of 43 minutes
-	That is $90.7 per hour - Data Count 6
+ INSUFFICENT RESULTS :(
 
-
-	According to ['Devony Dettman']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $175.0 and takes an average of 114 minutes
-	That is $92.11 per hour - Data Count 6
-
-161 - Trader Joes #105: 1885 Centre City Pkwy
-	According to ['Devony Dettman', 'Jose Perez', 'Justin Smith', 'Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $120.0 and takes an average of 56 minutes
-	That is $128.57 per hour - Data Count 12
-
-162 - Del Mar Hts Medical Building: 13983 Mango Dr
-	According to ['Justin Smith', 'Brandon Foster', 'Jose Perez']
-	['Exterior Window Cleaning', 'High lobby windows'] on a MONTHLY basis for $260.0 and takes an average of 186 minutes
-	That is $83.87 per hour - Data Count 12
-
-165 - Trader Joes #25: 115 N El Camino Real
-	According to ['Justin Smith', 'Devony Dettman']
-	['Exterior Window Cleaning'] on a 2 WEEKS basis for $42.0 and takes an average of 36 minutes
-	That is $70.0 per hour - Data Count 6
-
-
-	According to ['Devony Dettman', 'Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $85.0 and takes an average of 62 minutes
-	That is $82.26 per hour - Data Count 6
+ INSUFFICENT RESULTS :(
 
 167 - Invision Boutique: 3830 Valley Centre Dr
-	According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez']
-	['Exterior Window Cleaning'] on a 2 WEEKS basis for $20.0 and takes an average of 15 minutes
-	That is $80.0 per hour - Data Count 9
+	According to ['Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $27.0 and takes an average of 20 minutes
+	That is $81.0 per hour - Data Count 1
 
+ INSUFFICENT RESULTS :(
 
-	According to ['Brandon Foster', 'Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $27.0 and takes an average of 25 minutes
-	That is $64.8 per hour - Data Count 3
-
-169 - Edward D Jones: 12750 Carmel Country Rd
-	According to ['Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $17.0 and takes an average of 10 minutes
-	That is $102.0 per hour - Data Count 1
-
-
-	According to ['Brandon Foster', 'Jose Perez', 'Justin Smith']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $17.0 and takes an average of 9 minutes
-	That is $113.33 per hour - Data Count 9
-
-172 - Trader Joes #22: 2570 Vista Way
-	According to ['Devony Dettman']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $95.0 and takes an average of 61 minutes
-	That is $93.44 per hour - Data Count 12
+ INSUFFICENT RESULTS :(
 
 184 - Mission Hills Financial: 1633 W Lewis St
-	According to ['Brandon Foster', 'Jose Perez']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $22.0 and takes an average of 20 minutes
-	That is $66.0 per hour - Data Count 2
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $22.0 and takes an average of 16 minutes
+	That is $82.5 per hour - Data Count 3
 
 185 - Watchlight Corporation: 111 S Marshall Ave
-	According to ['Brandon Foster', 'Justin Smith', 'Jose Perez']
-	['Exterior Window Cleaning'] on a 2 WEEKS basis for $25.0 and takes an average of 15 minutes
-	That is $100.0 per hour - Data Count 6
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a 2 WEEKS basis for $25.0 and takes an average of 18 minutes
+	That is $83.33 per hour - Data Count 7
 
-190 - Valley Center Dental: 28743 Valley Center Rd # A
-	According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $125.0 and takes an average of 65 minutes
-	That is $115.38 per hour - Data Count 12
+ INSUFFICENT RESULTS :(
 
-211 - SAFETY MEETING: 740 Metcalf St INSUFFICENT RESULTS :(
+ INSUFFICENT RESULTS :(
 
-241 - Cross Connection: 1675 7 Oakes Rd
-	According to ['Brandon Foster', 'Jose Perez', 'Justin Smith']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $225.0 and takes an average of 94 minutes
-	That is $143.62 per hour - Data Count 8
+ INSUFFICENT RESULTS :(
 
-246 - Mohnacky Animal Hospital: 2250 S Escondido Blvd
-	According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $155.0 and takes an average of 135 minutes
-	That is $68.89 per hour - Data Count 12
+ INSUFFICENT RESULTS :(
 
-247 - Acacia Animal Health Center: 655 W Citracado Pkwy
-	According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a 2 MONTHS basis for $55.0 and takes an average of 34 minutes
-	That is $97.06 per hour - Data Count 9
-
-
-	According to ['Jose Perez', 'Justin Smith']
-	['Exterior Window Cleaning'] on a 2 MONTHS basis for $55.0 and takes an average of 23 minutes
-	That is $143.48 per hour - Data Count 2
-
-248 - Jackalynn Wilson Salon: 7843 Girard Ave
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $90.0 and takes an average of 98 minutes
-	That is $55.1 per hour - Data Count 1
-
-
-	According to ['Justin Smith']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $50.0 and takes an average of 45 minutes
-	That is $66.67 per hour - Data Count 1
+ INSUFFICENT RESULTS :(
 
 252 - West Tech Contr. Inc: 568 N Tulip St
-	According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $30.0 and takes an average of 25 minutes
-	That is $72.0 per hour - Data Count 12
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $30.0 and takes an average of 32 minutes
+	That is $56.25 per hour - Data Count 3
 
-263 - Dr. Hagestrom: 8923 La Mesa Blvd
-	According to ['Jose Perez']
-	['Exterior Window Cleaning'] on a QUARTERLY basis for $82.0 and takes an average of 61 minutes
-	That is $80.66 per hour - Data Count 1
+ INSUFFICENT RESULTS :(
 
-384 - Wheelihan Construction: 2598 Fortune Way
-	According to ['Jose Perez', 'Justin Smith']
-	['Exterior Window Cleaning'] on a QUARTERLY basis for $65.0 and takes an average of 29 minutes
-	That is $134.48 per hour - Data Count 2
+ INSUFFICENT RESULTS :(
 
-385 - Blue Sky Energy: 2598 Fortune Way
-	According to ['Jose Perez', 'Justin Smith']
-	['Exterior Window Cleaning'] on a QUARTERLY basis for $50.0 and takes an average of 37 minutes
-	That is $81.08 per hour - Data Count 7
+398 - California Coast Credit Union - La Mesa: 8002 La Mesa Blvd
+	According to ['Roberto Isais']
+	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] on a QUARTERLY basis for $155.0 and takes an average of 110 minutes
+	That is $84.55 per hour - Data Count 2
 
-398 - California Coast Credit Union - La Mesa: 8002 La Mesa Blvd INSUFFICENT RESULTS :(
+ INSUFFICENT RESULTS :(
 
-409 - California Coast Credit Union - Santee: 9808 Mission Gorge Rd INSUFFICENT RESULTS :(
+ INSUFFICENT RESULTS :(
 
-447 - Killion Industries #1: 2811 La Mirada
-	According to ['Devony Dettman', 'Justin Smith']
-	['Exterior Window Cleaning'] on a SEMI-ANNUALLY basis for $405.0 and takes an average of 224 minutes
-	That is $108.48 per hour - Data Count 5
+ INSUFFICENT RESULTS :(
 
+ INSUFFICENT RESULTS :(
 
-	According to ['Justin Smith']
-	['Interior Only Window Cleaning'] on a SEMI-ANNUALLY basis for $350.0 and takes an average of 230 minutes
-	That is $91.3 per hour - Data Count 1
+ INSUFFICENT RESULTS :(
 
-448 - Killion Industries #2: 2480 Ash St
-	According to ['Devony Dettman', 'Justin Smith']
-	['Exterior Window Cleaning'] on a SEMI-ANNUALLY basis for $315.0 and takes an average of 164 minutes
-	That is $115.24 per hour - Data Count 5
+ INSUFFICENT RESULTS :(
 
-449 - Killion Industries #3 - Corp: 1370 Poinsettia Ave
-	According to ['Devony Dettman', 'Justin Smith']
-	['Exterior Window Cleaning'] on a SEMI-ANNUALLY basis for $365.0 and takes an average of 173 minutes
-	That is $126.59 per hour - Data Count 5
-
-451 - Killion Industries #4: 1380 Poinsettia Ave
-	According to ['Devony Dettman', 'Justin Smith']
-	['Exterior Window Cleaning'] on a SEMI-ANNUALLY basis for $495.0 and takes an average of 304 minutes
-	That is $97.7 per hour - Data Count 4
-
-452 - Killion Industries #5: 2490 Ash St
-	According to ['Justin Smith']
-	['Exterior Window Cleaning'] on a SEMI-ANNUALLY basis for $525.0 and takes an average of 224 minutes
-	That is $140.62 per hour - Data Count 6
-
-731 - IE Pacific Inc: 150 West Crest Street
-	According to ['Devony Dettman', 'Justin Smith', 'Jose Perez']
-	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] on a QUARTERLY basis for $250.0 and takes an average of 155 minutes
-	That is $96.77 per hour - Data Count 10
-
-735 - Escondido Feed Store: 649 Rock Springs Road INSUFFICENT RESULTS :(
+ INSUFFICENT RESULTS :(
 
 771 - Prime Electrical Services: 480 Enterprise Street
-	According to ['Devony Dettman', 'Brandon Foster', 'Jose Perez']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $50.0 and takes an average of 24 minutes
-	That is $125.0 per hour - Data Count 9
-
-
-	According to ['Devony Dettman', 'Jose Perez']
-	['Interior/Exterior Window Cleaning', 'Interior/Exterior Window Cleaning'] on a MONTHLY basis for $200.0 and takes an average of 92 minutes
-	That is $130.43 per hour - Data Count 2
-
-
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $150.0 and takes an average of 85 minutes
-	That is $105.88 per hour - Data Count 1
+	According to ['Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $150.0 and takes an average of 90 minutes
+	That is $100.0 per hour - Data Count 1
 
 1518 - Finkbiner Apartment Building: 3645 Arizona Street
-	According to ['Jose Perez']
-	['Exterior Window Cleaning'] on a SEMI-ANNUALLY basis for $175.0 and takes an average of 140 minutes
-	That is $75.0 per hour - Data Count 2
-
-
-	According to ['Jose Perez']
-	['Exterior Window Cleaning', 'Interior/Exterior Window Cleaning'] on a SEMI-ANNUALLY basis for $225.0 and takes an average of 150 minutes
-	That is $90.0 per hour - Data Count 1
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a SEMI-ANNUALLY basis for $175.0 and takes an average of 150 minutes
+	That is $70.0 per hour - Data Count 1
 
 1660 - Coin Op Laundry: 3043 Clairemont Drive
-	According to ['Brandon Foster', 'Jose Perez', 'Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $50.0 and takes an average of 34 minutes
-	That is $88.24 per hour - Data Count 5
+	According to ['Isais', 'Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $50.0 and takes an average of 31 minutes
+	That is $96.77 per hour - Data Count 5
 
-2266 - Southland Electric: 4950 Greencraig Lane
-	According to ['Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a 2 MONTHS basis for $160.0 and takes an average of 75 minutes
-	That is $128.0 per hour - Data Count 1
+ INSUFFICENT RESULTS :(
 
-2913 - California Coast - Murrieta: 24716 Madison Avenue
-	According to ['Devony Dettman', 'Jose Perez', 'Justin Smith']
-	['Interior/Exterior Window Cleaning'] on a QUARTERLY basis for $200.0 and takes an average of 133 minutes
-	That is $90.23 per hour - Data Count 5
+ INSUFFICENT RESULTS :(
 
+3603 - California Coast - Scripps Ranch: 9825 Mira Mesa Boulevard
+	According to ['Roberto Isais', 'Isais']
+	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] on a QUARTERLY basis for $200.0 and takes an average of 120 minutes
+	That is $100.0 per hour - Data Count 3
 
-	According to ['Justin Smith']
-	['Exterior Window Cleaning'] on a QUARTERLY basis for $85.0 and takes an average of 46 minutes
-	That is $110.87 per hour - Data Count 1
+ INSUFFICENT RESULTS :(
 
-3598 - California Coast - Menifee: 30015 Haun Road
-	According to ['Devony Dettman']
-	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning', 'ATM Glass Cleaning'] on a QUARTERLY basis for $145.0 and takes an average of 97 minutes
-	That is $89.69 per hour - Data Count 1
+ INSUFFICENT RESULTS :(
 
-
-	According to ['Justin Smith', 'Jose Perez']
-	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] on a QUARTERLY basis for $125.0 and takes an average of 68 minutes
-	That is $110.29 per hour - Data Count 5
-
-3603 - California Coast - Scripps Ranch: 9825 Mira Mesa Boulevard INSUFFICENT RESULTS :(
-
-3620 - Trader Joes #222: 1072 Camino Del Rio North INSUFFICENT RESULTS :(
-
-3708 - California Coast - J Street: 777 J Street
-	According to ['Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a QUARTERLY basis for $350.0 and takes an average of 221 minutes
-	That is $95.02 per hour - Data Count 2
-
-3754 - Trader Joes #224: 5140 College Avenue
-	According to ['Justin Smith', 'Brandon Foster', 'Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $200.0 and takes an average of 101 minutes
-	That is $118.81 per hour - Data Count 7
-
-3762 - Dr. Philip Bosch: 651 East Pennsylvania Avenue
-	According to ['Devony Dettman', 'Jose Perez']
-	['Interior/Exterior Window Cleaning'] on a QUARTERLY basis for $170.0 and takes an average of 135 minutes
-	That is $75.56 per hour - Data Count 3
-
-3770 - California Coast - Murrieta Hot Springs: 40230 Murrieta Hot Springs Road
-	According to ['Devony Dettman', 'Jose Perez', 'Justin Smith']
-	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] on a QUARTERLY basis for $145.0 and takes an average of 102 minutes
-	That is $85.29 per hour - Data Count 6
-
-
-	According to ['Devony Dettman']
-	['Exterior Window Cleaning', 'job'] on a QUARTERLY basis for $65.0 and takes an average of 25 minutes
-	That is $156.0 per hour - Data Count 1
-
-
-	According to ['Justin Smith']
-	['Exterior Window Cleaning'] on a QUARTERLY basis for $65.0 and takes an average of 30 minutes
-	That is $130.0 per hour - Data Count 1
+ INSUFFICENT RESULTS :(
 
 3919 - GTM Discount #4: 1315 3rd Avenue
-	According to ['Brandon Foster']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $40.0 and takes an average of 21 minutes
-	That is $114.29 per hour - Data Count 1
+	According to ['Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $80.0 and takes an average of 48 minutes
+	That is $100.0 per hour - Data Count 1
+
+3919 - GTM Discount #4: 1315 3rd Avenue
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning', 'Paint Removal'] on a MONTHLY basis for $40.0 and takes an average of 120 minutes
+	That is $20.0 per hour - Data Count 1
+
+ INSUFFICENT RESULTS :(
 
 4548 - Isabela Skincare: 1111 Fort Stockton Drive
-	According to ['Brandon Foster']
+	According to ['Roberto Isais']
 	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $10.0 and takes an average of 6 minutes
-	That is $100.0 per hour - Data Count 1
+	That is $100.0 per hour - Data Count 2
 
 4556 - QP Technologies: 2063 Wineridge Place
-	According to ['Devony Dettman', 'Brandon Foster', 'Jose Perez']
-	['Exterior Window Cleaning'] on a QUARTERLY basis for $150.0 and takes an average of 108 minutes
-	That is $83.33 per hour - Data Count 4
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a QUARTERLY basis for $150.0 and takes an average of 104 minutes
+	That is $86.54 per hour - Data Count 2
 
 9657 - Green Fresh Florals: 3993 Goldfinch Street
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $35.0 and takes an average of 32 minutes
-	That is $65.62 per hour - Data Count 2
+	According to ['Isais', 'Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $35.0 and takes an average of 22 minutes
+	That is $95.45 per hour - Data Count 3
 
 9658 - Salon Bordeaux: 3393 Adams Avenue
-	According to ['Brandon Foster']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $22.0 and takes an average of 15 minutes
-	That is $88.0 per hour - Data Count 1
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $22.0 and takes an average of 13 minutes
+	That is $101.54 per hour - Data Count 2
 
 9664 - Salon Bordeaux: 3393 Adams Avenue
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $32.0 and takes an average of 26 minutes
-	That is $73.85 per hour - Data Count 2
+	According to ['Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $32.0 and takes an average of 21 minutes
+	That is $91.43 per hour - Data Count 2
 
-9667 - Clip Art Salon: 4155 Adams Avenue
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $15.0 and takes an average of 18 minutes
-	That is $50.0 per hour - Data Count 1
+ INSUFFICENT RESULTS :(
 
-9668 - Diesel Salon: 4222 Adams Avenue
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $30.0 and takes an average of 27 minutes
-	That is $66.67 per hour - Data Count 1
-
-9669 - La Loupe Vintage: 3337 Adams Avenue
-	According to ['Brandon Foster']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $15.0 and takes an average of 7 minutes
-	That is $128.57 per hour - Data Count 2
+ INSUFFICENT RESULTS :(
 
 9671 - Cecillia's Fine Jewelry: 4669 Park Boulevard
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $15.0 and takes an average of 16 minutes
-	That is $56.25 per hour - Data Count 1
+	According to ['Isais', 'Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $15.0 and takes an average of 19 minutes
+	That is $47.37 per hour - Data Count 2
 
+9671 - Cecillia's Fine Jewelry: 4669 Park Boulevard
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a 2 WEEKS basis for $8.0 and takes an average of 10 minutes
+	That is $48.0 per hour - Data Count 2
 
-	According to ['Brandon Foster']
-	['Exterior Window Cleaning'] on a 2 WEEKS basis for $8.0 and takes an average of 20 minutes
-	That is $24.0 per hour - Data Count 1
+ INSUFFICENT RESULTS :(
 
-9676 - Hydred's Birthday: 4526 Illinois Street, APT 4A INSUFFICENT RESULTS :(
+9678 - Rip Current Brewing: 4101 30th Street
+	According to ['Isais', 'Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $75.0 and takes an average of 60 minutes
+	That is $75.0 per hour - Data Count 7
 
-9677 - Rinse Salon: 4201 30th Street INSUFFICENT RESULTS :(
-
-9678 - Rip Current Brewing: 4101 30th Street INSUFFICENT RESULTS :(
+9678 - Rip Current Brewing: 4101 30th Street
+	According to ['Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $32.0 and takes an average of 60 minutes
+	That is $32.0 per hour - Data Count 1
 
 9691 - Jo's Diner: 807 West Washington Street
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $28.0 and takes an average of 32 minutes
-	That is $52.5 per hour - Data Count 3
+	According to ['Isais', 'Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $28.0 and takes an average of 27 minutes
+	That is $62.22 per hour - Data Count 2
 
 9692 - Thread & Seed (Bankers Hill): 2870 Fourth Avenue
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $25.0 and takes an average of 25 minutes
-	That is $60.0 per hour - Data Count 2
+	According to ['Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $25.0 and takes an average of 16 minutes
+	That is $93.75 per hour - Data Count 1
 
-9693 - Home Care of La Jolla: 5762 La Jolla Boulevard
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $70.0 and takes an average of 42 minutes
-	That is $100.0 per hour - Data Count 1
+9692 - Thread & Seed (Bankers Hill): 2870 Fourth Avenue
+	According to ['Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $13.0 and takes an average of 9 minutes
+	That is $86.67 per hour - Data Count 1
 
-9696 - Pop Pie Company: 4404 Park Boulevard INSUFFICENT RESULTS :(
+9696 - Pop Pie Company: 4404 Park Boulevard
+	According to ['Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $45.0 and takes an average of 29 minutes
+	That is $93.1 per hour - Data Count 1
 
-9697 - The Book Catapult: 3010 Juniper Street INSUFFICENT RESULTS :(
+9697 - The Book Catapult: 3010 Juniper Street
+	According to ['Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $15.0 and takes an average of 10 minutes
+	That is $90.0 per hour - Data Count 2
 
-9698 - Community Realty Co.: 2225 30th Street
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $20.0 and takes an average of 4 minutes
-	That is $300.0 per hour - Data Count 1
+9701 - The Gensler Group: 120 C Avenue
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a QUARTERLY basis for $60.0 and takes an average of 50 minutes
+	That is $72.0 per hour - Data Count 6
 
-
-	According to ['Brandon Foster']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $10.0 and takes an average of 6 minutes
-	That is $100.0 per hour - Data Count 1
-
-9700 - Thread & Seed (South Park): 2220 Fern Street INSUFFICENT RESULTS :(
-
-9701 - The Gensler Group: 120 C Avenue INSUFFICENT RESULTS :(
-
-9703 - Gold Leaf: 2225 30th Street
-	According to ['Brandon Foster']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $35.0 and takes an average of 26 minutes
-	That is $80.77 per hour - Data Count 2
-
-9712 - Koi: 5632 La Jolla Boulevard
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $30.0 and takes an average of 24 minutes
-	That is $75.0 per hour - Data Count 1
-
-9717 - La Jolla Golf Carts: 7512 La Jolla Boulevard INSUFFICENT RESULTS :(
-
-9723 - Jean Farbod DDS, Inc: 120 C Avenue INSUFFICENT RESULTS :(
-
-9726 - Belle Sirene: 7838 Herschel Avenue
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $38.0 and takes an average of 17 minutes
-	That is $134.12 per hour - Data Count 1
+9710 - Studio Barre Mission Hills: 321 West Washington Street
+	According to ['Roberto Isais', 'Isais']
+	['Interior/Exterior Window Cleaning'] on a QUARTERLY basis for $160.0 and takes an average of 116 minutes
+	That is $82.76 per hour - Data Count 12
 
 9728 - Babycakes: 3795 Fourth Avenue
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $85.0 and takes an average of 80 minutes
-	That is $63.75 per hour - Data Count 2
+	According to ['Isais', 'Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $85.0 and takes an average of 57 minutes
+	That is $89.47 per hour - Data Count 12
 
-9729 - Thai Time: 4102 30th Street INSUFFICENT RESULTS :(
+ INSUFFICENT RESULTS :(
 
 9730 - Perry's Cafe: 4620 Pacific Highway
-	According to ['Jose Perez']
-	['Interior/Exterior Window Cleaning', 'Coupon'] on a MONTHLY basis for $160.0 and takes an average of 140 minutes
-	That is $68.57 per hour - Data Count 1
-
-9737 - Ray Street Custom Framing: 3807 Ray Street
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $22.0 and takes an average of 10 minutes
-	That is $132.0 per hour - Data Count 1
-
-9744 - Salon on First: 1134 1st Street
-	According to ['Brandon Foster']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $55.0 and takes an average of 28 minutes
-	That is $117.86 per hour - Data Count 1
+	According to ['Isais', 'Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $180.0 and takes an average of 117 minutes
+	That is $92.31 per hour - Data Count 12
 
 9746 - Salon1745: 1745 Adams Avenue
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $18.0 and takes an average of 21 minutes
-	That is $51.43 per hour - Data Count 1
-
-9769 - Mullins Orthodonics: 1116 1st Street INSUFFICENT RESULTS :(
+	According to ['Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $18.0 and takes an average of 12 minutes
+	That is $90.0 per hour - Data Count 1
 
 9802 - Chakarian & Assocs Inc: 3971 Goldfinch Street
-	According to ['Brandon Foster']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $100.0 and takes an average of 42 minutes
-	That is $142.86 per hour - Data Count 3
+	According to ['Isais', 'Roberto Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $100.0 and takes an average of 63 minutes
+	That is $95.24 per hour - Data Count 12
 
 9819 - Ashen Salon: 6903 La Jolla Boulevard
-	According to ['Brandon Foster']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $60.0 and takes an average of 27 minutes
-	That is $133.33 per hour - Data Count 1
+	According to ['Isais', 'Roberto Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $60.0 and takes an average of 42 minutes
+	That is $85.71 per hour - Data Count 12
 
-9856 - Window Magic: 1940 Metcalf Street
-	According to ['Justin Smith']
-	['Drive to first job'] on a DAILY basis for $1.0 and takes an average of 15 minutes
-	That is $4.0 per hour - Data Count 1
+ INSUFFICENT RESULTS :(
 
-9907 - Jose work in office:  INSUFFICENT RESULTS :(
+ INSUFFICENT RESULTS :(
 
 9911 - California Funeral Alternatives: 1020 East Pennsylvania Avenue
-	According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster']
-	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $100.0 and takes an average of 47 minutes
-	That is $127.66 per hour - Data Count 7
+	According to ['Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $100.0 and takes an average of 61 minutes
+	That is $98.36 per hour - Data Count 1
 
+9919 - Mercer Group: 4071 Adams Avenue
+	According to ['Roberto Isais', 'Isais']
+	['Interior/Exterior Window Cleaning'] on a 2 WEEKS basis for $20.0 and takes an average of 15 minutes
+	That is $80.0 per hour - Data Count 8
 
-	According to ['Brandon Foster']
-	['Interior/Exterior Window Cleaning', 'dicsount for middle suite'] on a MONTHLY basis for $80.0 and takes an average of 30 minutes
-	That is $160.0 per hour - Data Count 1
+9919 - Mercer Group: 4071 Adams Avenue
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning'] on a 2 WEEKS basis for $10.0 and takes an average of 12 minutes
+	That is $50.0 per hour - Data Count 4
 
-9919 - Mercer Group: 4071 Adams Avenue INSUFFICENT RESULTS :(
+ INSUFFICENT RESULTS :(
 
-9920 - Westminster Seminary: 1725 Bear Valley Parkway
-	According to ['Justin Smith']
-	['Exterior Window Cleaning', 'Exterior Window Cleaning', 'Exterior Window Cleaning', 'discount'] on a 6 WEEKS basis for $1915.0 and takes an average of 453 minutes
-	That is $253.64 per hour - Data Count 8
+9968 - Moosies Icecream: 4073 Adams Avenue
+	According to ['Roberto Isais', 'Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $20.0 and takes an average of 15 minutes
+	That is $80.0 per hour - Data Count 7
 
-9968 - Moosies Icecream: 4073 Adams Avenue INSUFFICENT RESULTS :(
+9968 - Moosies Icecream: 4073 Adams Avenue
+	According to ['Isais', 'Roberto Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $10.0 and takes an average of 15 minutes
+	That is $40.0 per hour - Data Count 2
 
-9981 - Marco's Jewelry: 7951 Broadway INSUFFICENT RESULTS :(
+9981 - Marco's Jewelry: 7951 Broadway
+	According to ['Roberto Isais', 'Isais']
+	['Exterior Window Cleaning'] on a MONTHLY basis for $20.0 and takes an average of 15 minutes
+	That is $80.0 per hour - Data Count 9
 
-9992 - Sew Pro's: 2484 C Vista Way
-	According to ['Devony Dettman', 'Jose Perez']
-	['Exterior Window Cleaning'] on a 3 WEEKS basis for $80.0 and takes an average of 36 minutes
-	That is $133.33 per hour - Data Count 7
+ INSUFFICENT RESULTS :(
 
-9993 - Tio Leos: 5302 Napa Street INSUFFICENT RESULTS :(
+9993 - Tio Leos: 5302 Napa Street
+	According to ['Isais', 'Roberto Isais']
+	['Interior/Exterior Window Cleaning'] on a MONTHLY basis for $85.0 and takes an average of 52 minutes
+	That is $98.08 per hour - Data Count 10
 
-10071 - Huckleberry 's Breakfast and Lunch: 1260 Auto Park Way
-	According to ['Devony Dettman']
-	['Exterior Window Cleaning'] on a MONTHLY basis for $110.0 and takes an average of 77 minutes
-	That is $85.71 per hour - Data Count 2
+ INSUFFICENT RESULTS :(
 
-10085 - The Dance Academy Del Mar: 12843 El Camino Real INSUFFICENT RESULTS :(
+10085 - The Dance Academy Del Mar: 12843 El Camino Real
+	According to ['Roberto Isais']
+	['Exterior Window Cleaning', 'Interior/Exterior Window Cleaning', 'Mirror Cleaning'] on a MONTHLY basis for $180.0 and takes an average of 216 minutes
+	That is $50.0 per hour - Data Count 1
 
-10112 - Windansea Pilates: 504 Nautilus Street INSUFFICENT RESULTS :(
+10085 - The Dance Academy Del Mar: 12843 El Camino Real
+	According to ['Roberto Isais']
+	['Mirror Cleaning'] on a MONTHLY basis for $30.0 and takes an average of 75 minutes
+	That is $24.0 per hour - Data Count 1
+
+10112 - Windansea Pilates: 504 Nautilus Street
+	According to ['Isais']
+	['Mirror Cleaning'] on a MONTHLY basis for $25.0 and takes an average of 30 minutes
+	That is $50.0 per hour - Data Count 1
+
+ INSUFFICENT RESULTS :(
 

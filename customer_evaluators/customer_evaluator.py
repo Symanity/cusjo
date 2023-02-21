@@ -37,16 +37,16 @@ _2years         = '2 years'
 
 
 considerEmp = [
-    "Justin Smith",
-    "Devony Dettman",
-    # "Roberto Isais",
-    # "Isais",
-    "Jose Perez",
+    # "Justin Smith",
+    # "Devony Dettman",
+    "Roberto Isais",
+    "Isais",
+    # "Jose Perez",
     # "Nolan Barraza",
     # "Dallas Wright",
     # "Skyler Gibbs",
     # "Adam Ruiz",
-    "Brandon Foster",
+    # "Brandon Foster",
     # "Evans Richie",
     # "Danny Steinweg",
     # "Oliver Munroe",
@@ -175,7 +175,13 @@ class ServiceOf:
                     eval.addEmployee(job.employee)
 
                 elif price > priceOnRecord:
-                    print('[PRICE MISMATCH] {} : {} we charge ${} now, we used to charge ${}. Price changed since {}\n'.format(self.customer_name, key, eval.price, price, job.date))
+                    print('[PRICE MISMATCH] {} {} : {} we charge ${} now, we used to charge ${}. Price changed since {}\n'.format(
+                        self.customer_name, 
+                        self.customer_address,
+                        key,
+                        eval.price, 
+                        price, 
+                        job.date))
 
         vals = evaluations.values()
         self.evaluations = vals if vals else []

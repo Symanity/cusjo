@@ -1,3 +1,4 @@
+1,Sprouts,Sprouts,2015-03-27,,878 Eastlake Pkwy,1
 5,Trader Joes #120,Trader Joes #120,2015-04-02,,878 Eastlake Pkwy,1
 7,Sew Pros 4,Sew Pros 4,2015-04-02,,5525 Clairemont Mesa Blvd,0
 13,Ruttis Hair Salon,Ruttis Hair Salon,2015-04-03,,8909 Complex Dr,0
@@ -78,13 +79,13 @@
 141,Oggi's Pizza & Brewing,Oggi's Pizza & Brewing,2015-04-18,,2562 Laning Rd,0
 142,Punjabi- Tandoor,Punjabi- Tandoor,2015-04-18,,5425 Morehouse Dr,0
 145,California Coast Credit Union - Chula Vista,California Coast Credit Union - Chula Vista,2015-04-21,,386 E H St,1
-156,La Costa Glen,La Costa Glen,2015-04-26,,1940 Levante Street,0
+156,La Costa Glen,La Costa Glen,2015-04-26,,1940 Levante Street,1
 157,California Coast Credit Union - Poway,California Coast Credit Union - Poway,2015-04-27,,13616 Poway Rd,0
 158,Trader Joes #221,Trader Joes #221,2015-04-27,,9850 Hibert St,1
 159,Trader Joes #220,Trader Joes #220,2015-04-27,,2629 Gateway Road,1
 160,California Coast Credit Union - Escondido,California Coast Credit Union - Escondido,2015-04-27,,962 W Valley Pkwy,0
 161,Trader Joes #105,Trader Joes #105,2015-04-27,,1885 Centre City Pkwy,1
-162,Del Mar Hts Medical Building,Del Mar Hts Medical Building,2015-04-27,,13983 Mango Dr,1
+162,Del Mar Hts Medical Building - Beachside Del Mar,Del Mar Hts Medical Building - Beachside Del Mar,2015-04-27,,13983 Mango Dr,1
 163,Mathnasium,Mathnasium,2015-04-27,storefront,3435 Del Mar Heights Rd,0
 164,Coin Op Laundry,Coin Op Laundry,2015-04-27,storefront,2606 Del Mar Heights Rd,0
 165,Trader Joes #25,Trader Joes #25,2015-04-27,,115 N El Camino Real,1
@@ -191,7 +192,7 @@
 620,La Mesa Village Apts,La Mesa Village Apts,2015-10-22,,7914 La Mesa Blvd,0
 634,Club Pilates,Club Pilates,2015-10-30,storefront,12145 Alta Carmel Drive,0
 676,Donahue Schrieber Prop Mgmt,Donahue Schrieber Prop Mgmt,2015-11-25,storefront,2628 Del Mar Heights Rd,0
-693,California Coast Credit Union,California Coast Credit Union,2015-12-02,,429 Santa Fe Drive,0
+693,California Coast Credit Union - Encinitas,California Coast Credit Union - Encinitas,2015-12-02,,429 Santa Fe Drive,0
 714,Community Church-,Community Church-,2015-12-14,,251 Palomar Ave,0
 717,Ready America,Ready America,2015-12-15,,1150 Simpson Way,0
 724,Shay Chiropractic,Shay Chiropractic,2015-12-28,,10720 Thornmint Road,0
@@ -214,7 +215,7 @@
 845,Royal Dance Academy,Royal Dance Academy,2016-03-18,,11494 Sorrento Valley Road,0
 876,Wells Fargo Advisors,Wells Fargo Advisors,2016-03-23,,600 West Broadway,0
 886,J Craig Venter Institute,J Craig Venter Institute,2016-03-24,,4120 Capricorn Way,0
-906,California Coast Credit Union,California Coast Credit Union,2016-03-31,,32170 Temecula Parkway,0
+906,California Coast Credit Union - Temecula,California Coast Credit Union - Temecula,2016-03-31,,32170 Temecula Parkway,0
 910,A-Mart,A-Mart,2016-04-07,,1255 Imperial Avenue,0
 918,Baker Electric - 1218 building,Baker Electric - 1218 building,2016-04-14,,1218 Pacific Oaks Place,0
 1060,Tim no work,Tim no work,2016-04-27,,,0
@@ -245,7 +246,7 @@
 2896,Wells Fargo - Chula Vista - H st.,Wells Fargo - Chula Vista - H st.,2016-08-22,,444 H Street,0
 2899,Wells Fargo - 1st ave,Wells Fargo - 1st ave,2016-08-22,,610 1st Avenue,0
 2902,Assistance League,Assistance League,2016-08-22,,108 University Avenue,0
-2913,California Coast - Murrieta,California Coast - Murrieta,2016-08-22,,24716 Madison Avenue,1
+2913,California Coast Credit Union- Murrieta (Madison),California Coast Credit Union- Murrieta (Madison),2016-08-22,,24716 Madison Avenue,1
 2930,Wells Fargo - Avocado - El cajon,Wells Fargo - Avocado - El cajon,2016-08-24,,1235 Avocado Avenue,0
 3037,Eastlake Self Storage,Eastlake Self Storage,2016-08-30,,2351 Boswell Road,0
 3113,Hot Seat Salon,Hot Seat Salon,2016-09-06,storefront,1224 Broadway,0
@@ -320,7 +321,6 @@
 4212,Baker Electric - 1282,Baker Electric - 1282,2019-04-09,,1282 Pacific Oaks Place,0
 4219,March and Ash,March and Ash,2019-04-18,,2835 Camino del Rio South,0
 4239,Interfaith Community Services,Interfaith Community Services,2019-05-22,,550 West Washington Avenue,0
-4255,Window Magic,Window Magic,2019-06-10,,740 Metcalf Street,0
 4283,McKee Commercial,McKee Commercial,2019-07-11,,756 D Avenue,0
 4364,Mar and Associates,Mar and Associates,2019-10-21,storefront,640 West Mission Avenue,0
 4375,Wells Fargo - Navajo,Wells Fargo - Navajo,2019-11-07,,8898 Navajo Road,0
@@ -329,7 +329,7 @@
 4389,AMK Property Management,AMK Property Management,2019-11-27,Property Management Company,3435 Camino del Rio South,0
 4398,John Horgan Design Build,John Horgan Design Build,2019-12-17,,8647 Indian Hill Road,0
 4400,California Coast Credit Union,California Coast Credit Union,2019-12-24,,3202 Governor Drive,0
-4405,"OCS Lighting & Control, Inc.","OCS Lighting & Control, Inc.",2020-02-06,,12255 Parkway Centre Drive,0
+4405,"OCS Lighting & Control, Inc.","OCS Lighting & Control, Inc.",2020-02-06,,12255 Parkway Centre Drive,1
 4413,California Coast Credit Union,California Coast Credit Union,2020-02-25,,3202 Governor Drive,0
 4445,Barabbas Road Church,Barabbas Road Church,2020-06-04,,5710 Kearny Villa Road,0
 4465,Extra Space Storage,Extra Space Storage,2020-06-23,,3085 Del Sol Boulevard,0
@@ -366,7 +366,7 @@
 9670,La Loupe Vintage,La Loupe Vintage,2016-12-04,Acme Clean Glass,4646 Park Boulevard,0
 9671,Cecillia's Fine Jewelry,Cecillia's Fine Jewelry,2016-12-04,Acme Clean Glass,4669 Park Boulevard,1
 9676,Hydred's Birthday,Hydred's Birthday,2016-12-20,Acme Clean Glass,"4526 Illinois Street, APT 4A",1
-9677,Rinse Salon,Rinse Salon,2017-01-27,Acme Clean Glass,4201 30th Street,1
+9677,Rinse Salon,Rinse Salon,2017-01-27,Acme Clean Glass,4201 30th Street,0
 9678,Rip Current Brewing,Rip Current Brewing,2017-02-03,Acme Clean Glass,4101 30th Street,1
 9679,Wedding With Hydred,Wedding With Hydred,2017-02-27,Acme Clean Glass,1182 Prospect Street,0
 9680,Chronic Tattoo,Chronic Tattoo,2017-03-23,Acme Clean Glass,1253 Garnet Avenue,0
@@ -393,7 +393,7 @@
 9704,Salon1745,Salon1745,2018-01-11,Acme Clean Glass,2814 Adams Avenue,0
 9706,Randy (video-ographer),Randy (video-ographer),2018-02-16,Acme Clean Glass,,0
 9709,Wash windows,Wash windows,2018-07-28,Acme Clean Glass,30th Street,0
-9710,Studio Barre Mission Hills,Studio Barre Mission Hills,2018-08-16,Notify - 3 days,321 West Washington Street,0
+9710,Studio Barre Mission Hills,Studio Barre Mission Hills,2018-08-16,Notify - 3 days,321 West Washington Street,1
 9711,Hair Drezzers on Fire,Hair Drezzers on Fire,2018-10-10,Acme Clean Glass,3463 Adams Avenue,0
 9712,Koi,Koi,2018-10-22,Acme Clean Glass,5632 La Jolla Boulevard,1
 9715,Bark house,Bark house,2018-11-14,Acme Clean Glass,Washington Street,0
@@ -467,4 +467,5 @@
 10114,Wayne Tyler,Wayne Tyler,2022-10-07,,,0
 10127,OLYMPIC COATINGS,OLYMPIC COATINGS,2022-11-11,,1445 SIMPSON WAY,0
 10134,Blum & Clark Accountancy Group,Blum & Clark Accountancy Group,2022-11-30,Notify - 3 days,9252 Chesapeake Drive,0
-10136,Pop Pie Commissary Kitchen,Pop Pie Commissary Kitchen,2022-12-06,,4445 Clairemont Mesa Boulevard,0
+10136,Pop Pie Commissary Kitchen,Pop Pie Commissary Kitchen,2022-12-06,,4445 Clairemont Mesa Boulevard,1
+10152,SpringHill Suites by Marriott San Diego Escondido/Downtown,SpringHill Suites by Marriott San Diego Escondido/Downtown,2023-02-20,,200 La Terraza Boulevard,1

@@ -33,7 +33,7 @@ EMPLOYEE_JOB_HISTORY = '''
     WHERE JOB_HISTORY.employee = 'Jose Perez' '''
 
 def initEvaluationProcess():
-    # Gather and only the active customers
+    # Gather only the active customers
     WM_commerical_jobs = WindowMagic.initEvaluations(getActiveCustomers())
 
     with open('evaluations.txt', 'w') as results:
@@ -44,7 +44,7 @@ def initEvaluationProcess():
             customerName = job.customer_name
             customerAddress = job.customer_address
 
-            results.write("{} - {}: {}".format(customerId, customerName, customerAddress))
+            # results.write("{} - {}: {}".format(customerId, customerName, customerAddress))
 
             if job.evaluations:
                 for evaluation in job.evaluations:
@@ -58,19 +58,25 @@ def initEvaluationProcess():
                     contributingEmployees = evaluation.employees
                     rate = evaluation.getRate()
 
-                    outputText = outputText + "\tAccording to {}\n".format(contributingEmployees)
-                    outputText = outputText + "\t{} on a {} basis for ${} and takes an average of {} minutes\n".format(
-                        services,
-                        jobFrequency.upper() if jobFrequency else "Infrequently",
-                        totalPrice,
-                        avgDuration)
+                    if evaluation.getRate() < 105:
 
-                    outputText = outputText + "\tThat is ${} per hour - Data Count {}\n\n".format(rate, jobPoolQty)
-                    
-                    # else:
-                    #     outputText = "INSUFFICENT DATA :(\n"
+                        results.write("{} - {}: {}".format(customerId, customerName, customerAddress))
 
-                    results.write(outputText)
+                        outputText = outputText + "\tAccording to {}\n".format(contributingEmployees)
+                        outputText = outputText + "\t{} on a {} basis for ${} and takes an average of {} minutes\n".format(
+                            services,
+                            jobFrequency.upper() if jobFrequency else "Infrequently",
+                            totalPrice,
+                            avgDuration)
+
+                        outputText = outputText + "\tThat is ${} per hour - Data Count {}\n\n".format(rate, jobPoolQty)
+                        
+                        # else:
+                        #     outputText = "INSUFFICENT DATA :(\n"
+
+                        results.write(outputText)
+                    else:
+                        print("skipping: {}".format(job.customer_name))
 
             else:
                 results.write(" INSUFFICENT RESULTS :(\n\n")
@@ -174,6 +180,10 @@ def getActiveCustomers():
             """ 
         return database.ask(question)
 
+
+# ====================================================================
+# DRIVER
+# ====================================================================
 if len(sys.argv) > 1:
     theCase = sys.argv[1]
 

@@ -11,6 +11,7 @@ import cf_interpreters.db_generator as database
 from datetime import datetime
 import sys
 import customer_evaluators.customer_evaluator as WindowMagic
+import derive_wm_db as wm_db
 
 # 1. Filter by date range
 # 2. filter by employee
@@ -184,6 +185,7 @@ def getActiveCustomers():
 # ====================================================================
 # DRIVER
 # ====================================================================
+print("hello1")
 if len(sys.argv) > 1:
     theCase = sys.argv[1]
 
@@ -231,7 +233,8 @@ if len(sys.argv) > 1:
                 customerId = int(sys.argv[2])
                 preivewEvaluationOfCustomer(customerId)
             else:
-                initEvaluationProcess()
+                # initEvaluationProcess()
+                pass
 
         except ValueError:
             print('[ERROR] Invalid customer id')
@@ -240,5 +243,6 @@ if len(sys.argv) > 1:
         print('[ERROR] command not recognized')
 
 else:
+    wm_db.initWindowMagic_DB
     initEvaluationProcess()
 

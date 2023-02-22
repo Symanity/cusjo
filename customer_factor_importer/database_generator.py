@@ -5,8 +5,8 @@
 #   TABLE2: Job History
 #   Row: Customer Id, jobType, jobPrice, jobDate, employee, duration, invoice 
 
-import cf_interpreters.cf_converter as interpreter
-import cf_interpreters.cf_loader as customerFactor
+from customer_factor_importer import interpreter
+from customer_factor_importer import loader as customerFactor
 from datetime import datetime
 import json
 

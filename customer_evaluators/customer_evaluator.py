@@ -1,7 +1,6 @@
 from collections import defaultdict
 from datetime import datetime, timedelta
-import cf_interpreters.db_generator as database
-import cf_interpreters.cf_converter as inter
+from customer_factor_importer import database_generator as database
 import customer_evaluators.jc_db_generator as jc_database
 
 

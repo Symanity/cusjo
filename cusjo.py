@@ -6,8 +6,8 @@
 #   py cusjo.py evaluate    <- Evaluates the Customers. Creates the evaluations.txt file.
 ##
 
-import cf_interpreters.cf_loader as customerFactor
-import cf_interpreters.db_generator as database
+from customer_factor_importer import loader as customerFactor
+from customer_factor_importer import database_generator as database
 from datetime import datetime
 import sys
 import customer_evaluators.customer_evaluator as WindowMagic

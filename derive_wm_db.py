@@ -4,7 +4,7 @@
 #   will be applied. Rather a pure database structure to serve command line queries.
 # ==================================================================================
 
-import cf_interpreters.db_generator as database
+from customer_factor_importer import database_generator as database
 import customer_evaluators.customer_evaluator as evaluator
 from collections import defaultdict
 import customer_evaluators.jc_db_generator as wm_db_generator

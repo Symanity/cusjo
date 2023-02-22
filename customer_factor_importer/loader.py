@@ -4,7 +4,7 @@ import io
 import os
 import json
 import resources as r
-import cf_interpreters.cf_converter as inter
+from customer_factor_importer import interpreter as inter
 from datetime import datetime as dt
 
 TARGET_FILE = None

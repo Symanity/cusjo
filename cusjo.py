@@ -6,12 +6,12 @@
 #   py cusjo.py evaluate    <- Evaluates the Customers. Creates the evaluations.txt file.
 ##
 
-from datetime import datetime
-import sys
-import customer_evaluators.customer_evaluator as WindowMagic
-import customer_evaluators.jc_db_generator as wmDatabase
+# from datetime import datetime
+# import src.window_magic.evaluators.customer_evaluator as WindowMagic
+# import customer_evaluators.jc_db_generator as wmDatabase
 
-from customer_factor_importer import assistant
+import sys
+from src.customer_factor_importer import assistant
 
 # 1. Filter by date range
 # 2. filter by employee
@@ -33,104 +33,104 @@ EMPLOYEE_JOB_HISTORY = '''
     INNER JOIN JOB_HISTORY ON CUSTOMERS.customer_id = JOB_HISTORY.customer_id 
     WHERE JOB_HISTORY.employee = 'Jose Perez' '''
 
-def initEvaluationProcess():
-    # Gather only the active customers
-    WM_commerical_jobs = WindowMagic.initEvaluations(assistant.getActiveCustomers())
+# def initEvaluationProcess():
+#     # Gather only the active customers
+#     WM_commerical_jobs = WindowMagic.initEvaluations(assistant.getActiveCustomers())
 
-    with open('evaluations.txt', 'w') as results:
+#     with open('evaluations.txt', 'w') as results:
 
-        for job in WM_commerical_jobs:
-            job: WindowMagic.ServiceOf = job
-            customerId = job.customer_id
-            customerName = job.customer_name
-            customerAddress = job.customer_address
+#         for job in WM_commerical_jobs:
+#             job: WindowMagic.ServiceOf = job
+#             customerId = job.customer_id
+#             customerName = job.customer_name
+#             customerAddress = job.customer_address
 
-            # results.write("{} - {}: {}".format(customerId, customerName, customerAddress))
+#             # results.write("{} - {}: {}".format(customerId, customerName, customerAddress))
 
-            if job.evaluations:
-                for evaluation in job.evaluations:
-                    outputText = "\n"
-                    jobPoolQty = evaluation.dataCount
-                    evaluation: WindowMagic.Evaluation = evaluation
-                    services = evaluation.serviceTitle
-                    totalPrice = evaluation.price
-                    avgDuration = evaluation.getAvgDuration()
-                    jobFrequency = evaluation.frequency
-                    contributingEmployees = evaluation.employees
-                    rate = evaluation.getRate()
+#             if job.evaluations:
+#                 for evaluation in job.evaluations:
+#                     outputText = "\n"
+#                     jobPoolQty = evaluation.dataCount
+#                     evaluation: WindowMagic.Evaluation = evaluation
+#                     services = evaluation.serviceTitle
+#                     totalPrice = evaluation.price
+#                     avgDuration = evaluation.getAvgDuration()
+#                     jobFrequency = evaluation.frequency
+#                     contributingEmployees = evaluation.employees
+#                     rate = evaluation.getRate()
 
-                    if evaluation.getRate() < 105:
+#                     if evaluation.getRate() < 105:
 
-                        results.write("{} - {}: {}".format(customerId, customerName, customerAddress))
+#                         results.write("{} - {}: {}".format(customerId, customerName, customerAddress))
 
-                        outputText = outputText + "\tAccording to {}\n".format(contributingEmployees)
-                        outputText = outputText + "\t{} on a {} basis for ${} and takes an average of {} minutes\n".format(
-                            services,
-                            jobFrequency.upper() if jobFrequency else "Infrequently",
-                            totalPrice,
-                            avgDuration)
+#                         outputText = outputText + "\tAccording to {}\n".format(contributingEmployees)
+#                         outputText = outputText + "\t{} on a {} basis for ${} and takes an average of {} minutes\n".format(
+#                             services,
+#                             jobFrequency.upper() if jobFrequency else "Infrequently",
+#                             totalPrice,
+#                             avgDuration)
 
-                        outputText = outputText + "\tThat is ${} per hour - Data Count {}\n\n".format(rate, jobPoolQty)
+#                         outputText = outputText + "\tThat is ${} per hour - Data Count {}\n\n".format(rate, jobPoolQty)
                         
-                        # else:
-                        #     outputText = "INSUFFICENT DATA :(\n"
+#                         # else:
+#                         #     outputText = "INSUFFICENT DATA :(\n"
 
-                        results.write(outputText)
-                    else:
-                        print("skipping: {}".format(job.customer_name))
+#                         results.write(outputText)
+#                     else:
+#                         print("skipping: {}".format(job.customer_name))
 
-            else:
-                results.write(" INSUFFICENT RESULTS :(\n\n")
+#             else:
+#                 results.write(" INSUFFICENT RESULTS :(\n\n")
 
-    results.close()
-
-
-def preivewEvaluationOfCustomer(customerId: int):
-    theService = WindowMagic.ServiceOf(customerId)
-    theService.evaluate()
-
-    if not theService.customer_name:
-        raise Exception()
-
-    printToTerminal(theService)
-
-    print(theService)
+#     results.close()
 
 
+# def preivewEvaluationOfCustomer(customerId: int):
+#     theService = WindowMagic.ServiceOf(customerId)
+#     theService.evaluate()
 
-def printToTerminal(theServices: WindowMagic.ServiceOf):
-    customerId = theServices.customer_id
-    customerName = theServices.customer_name
-    customerAddress = theServices.customer_address
+#     if not theService.customer_name:
+#         raise Exception()
 
-    print("{} - {}: {}".format(customerId, customerName, customerAddress))
+#     printToTerminal(theService)
 
-    if theServices.evaluations:
-        for evaluation in theServices.evaluations:
-            outputText = "\n"
-            jobPoolQty = evaluation.dataCount
-            evaluation: WindowMagic.Evaluation = evaluation
-            services = evaluation.serviceTitle
-            totalPrice = evaluation.price
-            avgDuration = evaluation.getAvgDuration()
-            jobFrequency = evaluation.frequency
-            contributingEmployees = evaluation.employees
-            rate = evaluation.getRate()
+#     print(theService)
 
-            outputText = outputText + "\tAccording to {}\n".format(contributingEmployees)
-            outputText = outputText + "\t{} on a {} basis for ${} and takes an average of {} minutes\n".format(
-                services,
-                jobFrequency.upper() if jobFrequency else "Infrequently",
-                totalPrice,
-                avgDuration)
 
-            outputText = outputText + "\tThat is ${} per hour - Data Count {}\n\n".format(rate, jobPoolQty)
+
+# def printToTerminal(theServices: WindowMagic.ServiceOf):
+#     customerId = theServices.customer_id
+#     customerName = theServices.customer_name
+#     customerAddress = theServices.customer_address
+
+#     print("{} - {}: {}".format(customerId, customerName, customerAddress))
+
+#     if theServices.evaluations:
+#         for evaluation in theServices.evaluations:
+#             outputText = "\n"
+#             jobPoolQty = evaluation.dataCount
+#             evaluation: WindowMagic.Evaluation = evaluation
+#             services = evaluation.serviceTitle
+#             totalPrice = evaluation.price
+#             avgDuration = evaluation.getAvgDuration()
+#             jobFrequency = evaluation.frequency
+#             contributingEmployees = evaluation.employees
+#             rate = evaluation.getRate()
+
+#             outputText = outputText + "\tAccording to {}\n".format(contributingEmployees)
+#             outputText = outputText + "\t{} on a {} basis for ${} and takes an average of {} minutes\n".format(
+#                 services,
+#                 jobFrequency.upper() if jobFrequency else "Infrequently",
+#                 totalPrice,
+#                 avgDuration)
+
+#             outputText = outputText + "\tThat is ${} per hour - Data Count {}\n\n".format(rate, jobPoolQty)
             
 
-            print(outputText)
+#             print(outputText)
 
-    else:
-        print(" INSUFFICENT RESULTS :(\n\n")
+#     else:
+#         print(" INSUFFICENT RESULTS :(\n\n")
 
 
 def printRes(response = None, query=None):
@@ -151,32 +151,33 @@ if len(sys.argv) > 1:
     if str(sys.argv[1]) == "build":
         if len(sys.argv) > 2:
             try:
-                assistant.build(str(sys.argv[2]))
+                assistant.build_database(str(sys.argv[2]))
             except:
                 print("[FATAL-ERROR] invalid file")
 
         else:
-            assistant.build()
+            assistant.build_database()
 
 
 
-    elif sys.argv[1] == "evaluate":
-        try:
-            if len(sys.argv) > 2:
-                customerId = int(sys.argv[2])
-                preivewEvaluationOfCustomer(customerId)
-            else:
-                # initEvaluationProcess()
-                pass
+    # elif sys.argv[1] == "evaluate":
+    #     try:
+    #         if len(sys.argv) > 2:
+    #             customerId = int(sys.argv[2])
+    #             preivewEvaluationOfCustomer(customerId)
+    #         else:
+    #             # initEvaluationProcess()
+    #             pass
 
-        except ValueError:
-            print('[ERROR] Invalid customer id')
+    #     except ValueError:
+    #         print('[ERROR] Invalid customer id')
 
-    else:
-        print('[ERROR] command not recognized')
+    # else:
+    #     print('[ERROR] command not recognized')
 
 else:
-    query = """SELECT customer_id, customer_name FROM {} WHERE employee = 'Roberto Isais' GROUP BY customer_id HAVING COUNT(DISTINCT employee) = 1""".format(wmDatabase.tbl_consideredJobs)
-    res = wmDatabase.ask(query)
-    printRes(res)
+    pass
+    # query = """SELECT customer_id, customer_name FROM {} WHERE employee = 'Roberto Isais' GROUP BY customer_id HAVING COUNT(DISTINCT employee) = 1""".format(wmDatabase.tbl_consideredJobs)
+    # res = wmDatabase.ask(query)
+    # printRes(res)
     # initEvaluationProcess()

@@ -5,15 +5,15 @@
 #   TABLE2: Job History
 #   Row: Customer Id, jobType, jobPrice, jobDate, employee, duration, invoice 
 
-from customer_factor_importer import _interpreter
-from customer_factor_importer import _loader as customerFactor
+from src.customer_factor_importer import _interpreter
+from src.customer_factor_importer import _loader as customerFactor
 from datetime import datetime
 import json
 
 import sqlite3
 import csv
 import os
-import resources as r
+import src.customer_factor_importer._resources as r
 
 CF_db_name = "CF_complete_history.db"
 CF_db = os.path.join(r.database_path,CF_db_name)

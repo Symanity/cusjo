@@ -3,7 +3,7 @@
 import sqlite3
 import os
 import csv
-import resources as r
+import src.customer_factor_importer._resources as r
 
 JC_DB_NAME = 'jc_history.db'
 JC_DB = os.path.join(r.database_path, JC_DB_NAME)

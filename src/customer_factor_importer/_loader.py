@@ -3,8 +3,8 @@ import csv
 import io
 import os
 import json
-import resources as r
-from customer_factor_importer import _interpreter as inter
+import src.customer_factor_importer._resources as r
+from src.customer_factor_importer import _interpreter as inter
 from datetime import datetime as dt
 
 TARGET_FILE = None

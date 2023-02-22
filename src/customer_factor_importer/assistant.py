@@ -1,7 +1,7 @@
 # Helper in creating and loading from The Customer Factor
 # ========================================================
-from customer_factor_importer import _loader as customerFactor
-from customer_factor_importer import _database
+from src.customer_factor_importer import _loader as customerFactor
+from src.customer_factor_importer import _database
 
 DEFAULT_FILE_NAME = "CF_exported.csv"
 
@@ -10,7 +10,7 @@ DEFAULT_FILE_NAME = "CF_exported.csv"
 #   DEFAULT FUNCTIONS
 #=================================================================================
 
-def build(customer_factor_exported_file = DEFAULT_FILE_NAME):
+def build_database(customer_factor_exported_file = DEFAULT_FILE_NAME):
     """
     Build a database from a customer file and create a readable CSV file.
 

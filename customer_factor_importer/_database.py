@@ -5,8 +5,8 @@
 #   TABLE2: Job History
 #   Row: Customer Id, jobType, jobPrice, jobDate, employee, duration, invoice 
 
-from customer_factor_importer import interpreter
-from customer_factor_importer import loader as customerFactor
+from customer_factor_importer import _interpreter
+from customer_factor_importer import _loader as customerFactor
 from datetime import datetime
 import json
 
@@ -40,7 +40,7 @@ def __generateDB(data):
     for customerData in data:
         customer =  json.loads(customerData)
         customerObj = customerFactor.Customer(json=customer)
-        customerEvaluator = interpreter.Evaluator(customer)
+        customerEvaluator = _interpreter.Evaluator(customer)
 
         services = customerEvaluator.services
         
@@ -57,7 +57,7 @@ def __generateDB(data):
 
         print("processing {}...".format(customer["name"]))
         for job in customer["jobHistory"]:
-            duration = interpreter.toMinutes(job["duration"])
+            duration = _interpreter.toMinutes(job["duration"])
             serviceName = job["type"]
 
             # print("{} GETS {} DONE EVERY {} DAYS".format(customerJson["name"], job["type"], services[serviceName].getFrequency()))

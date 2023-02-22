@@ -1,7 +1,7 @@
 # Helper in creating and loading from The Customer Factor
 # ========================================================
-from customer_factor_importer import loader as customerFactor
-from customer_factor_importer import database
+from customer_factor_importer import _loader as customerFactor
+from customer_factor_importer import _database
 
 DEFAULT_FILE_NAME = "CF_exported.csv"
 
@@ -29,10 +29,10 @@ def build(customer_factor_exported_file = DEFAULT_FILE_NAME):
     data = customerFactor.fetchData()
 
     # creates the database from the data
-    database.create(data)
+    _database.create(data)
 
     # Creates a readable csv file.
-    database.writeCSV()
+    _database.writeCSV()
 
 
 def query(question, args = None):
@@ -46,7 +46,7 @@ def query(question, args = None):
     Returns:
         the response from The Customer Factor database.
     """
-    return database.ask(question, args)
+    return _database.ask(question, args)
 
 
 def print_query(question, args = None):
@@ -60,7 +60,7 @@ def print_query(question, args = None):
     Returns:
         the response from The Customer Factor database.
     """
-    response =  database.ask(question, args)
+    response =  _database.ask(question, args)
     if response:
         for r in response:
             print(r)
@@ -71,3 +71,29 @@ def print_query(question, args = None):
 #=================================================================================
 #   COMMON FUNCTIONS USED BY THE REST OF THE PROGRAM
 #=================================================================================
+def previewFile(fileName = DEFAULT_FILE_NAME):
+    """
+    Retrieves the RAW file data without building the database
+
+    """
+    customerFactor.init(fileName)
+    return customerFactor.fetchData()
+
+
+def listEmployees():
+    question = "SELECT DISTINCT employee FROM {}".format(_database.tbl_jobHistory)
+    return _database.ask(question)
+
+
+def searchForCustomers(customersName):
+    question = "SELECT * FROM CUSTOMERS WHERE name LIKE '{}%'".format(customersName)
+    return _database.ask(question)
+
+    
+def getActiveCustomers():
+        question = """
+            SELECT *
+            FROM CUSTOMERS
+            WHERE active_status = 1
+            """ 
+        return _database.ask(question)

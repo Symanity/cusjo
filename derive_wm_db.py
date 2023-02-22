@@ -4,7 +4,7 @@
 #   will be applied. Rather a pure database structure to serve command line queries.
 # ==================================================================================
 
-from customer_factor_importer import database
+from customer_factor_importer import _database
 import customer_evaluators.customer_evaluator as evaluator
 from collections import defaultdict
 import customer_evaluators.jc_db_generator as wm_db_generator
@@ -22,8 +22,8 @@ def initWindowMagic_DB():
      # Convert to Window Magic Jobs
     for customer in allActiveCustomers:
         id           = customer[0]
-        name        = database.getCustomerName(id)
-        address     = database.getCustomerAddress(id)
+        name        = _database.getCustomerName(id)
+        address     = _database.getCustomerAddress(id)
         jobHistory = jobHistoryBuilder(id)
 
         for pastJob in jobHistory:
@@ -79,7 +79,7 @@ def jobHistoryBuilder(customer_id):
 def retrieveServiceHistory(customer_id):
     # Get complete customer history in descending order according to date.
     # Latest to oldest (*Only gets history from past jobs. Does NOT consider upcoming jobs)
-    serviceHistory = database.getCustomerHistory(customer_id) 
+    serviceHistory = _database.getCustomerHistory(customer_id) 
     
     # Group jobs
     completeService = defaultdict(list)
@@ -97,6 +97,6 @@ def retrieveActiveCustomers():
             FROM CUSTOMERS
             WHERE active_status = 1
             """ 
-        return database.ask(question)
+        return _database.ask(question)
 
 initWindowMagic_DB()

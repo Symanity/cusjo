@@ -6,8 +6,6 @@
 #   py cusjo.py evaluate    <- Evaluates the Customers. Creates the evaluations.txt file.
 ##
 
-from customer_factor_importer import loader as customerFactor
-from customer_factor_importer import database
 from datetime import datetime
 import sys
 import customer_evaluators.customer_evaluator as WindowMagic
@@ -37,7 +35,7 @@ EMPLOYEE_JOB_HISTORY = '''
 
 def initEvaluationProcess():
     # Gather only the active customers
-    WM_commerical_jobs = WindowMagic.initEvaluations(getActiveCustomers())
+    WM_commerical_jobs = WindowMagic.initEvaluations(assistant.getActiveCustomers())
 
     with open('evaluations.txt', 'w') as results:
 
@@ -144,46 +142,6 @@ def printRes(response = None, query=None):
         print('[STATUS] ... no response')
 
 
-# Returns RAW file data without building the database
-def previewFile(fileName):
-    fileName = "CF_exported.csv"
-    customerFactor.init(fileName)
-    return customerFactor.fetchData()
-    
-
-# Builds the Customer Factor database
-def build(fileName):
-    # Specify which Customer File is to be used.
-    customerFactor.init(fileName)
-    
-    # Reads the data from the customer factor
-    data = customerFactor.fetchData()
-
-    # creates the database from the data
-    database.create(data)
-
-    # Creates a readable csv file.
-    database.writeCSV()
-
-
-def showEmployees():
-    question = "SELECT DISTINCT employee FROM {}".format(database.tbl_jobHistory)
-    return database.ask(question)
-
-def searchForCustomers(customersName):
-    question = "SELECT * FROM CUSTOMERS WHERE name LIKE '{}%'".format(customersName)
-    return database.ask(question)
-
-
-def getActiveCustomers():
-        question = """
-            SELECT *
-            FROM CUSTOMERS
-            WHERE active_status = 1
-            """ 
-        return database.ask(question)
-
-
 # ====================================================================
 # DRIVER
 # ====================================================================
@@ -193,39 +151,13 @@ if len(sys.argv) > 1:
     if str(sys.argv[1]) == "build":
         if len(sys.argv) > 2:
             try:
-                build(str(sys.argv[2]))
+                assistant.build(str(sys.argv[2]))
             except:
                 print("[FATAL-ERROR] invalid file")
 
         else:
-            build(SAMPLE_FILE)
+            assistant.build()
 
-    elif sys.argv[1] == "search":
-        if len(sys.argv) > 2:
-            if(sys.argv[2] == "history"):
-                printRes(database.getCustomerHistory(str(sys.argv[3])))
-
-            else:
-                print("Searching ....")
-                printRes(searchForCustomers(str(sys.argv[2])))
-
-    elif sys.argv[1] == "print":
-        if len(sys.argv) > 2:
-            if sys.argv[2] == "employees":
-                printRes(showEmployees())
-
-            elif sys.argv[2] == "active_customers":
-                printRes(getActiveCustomers())
-
-            elif sys.argv[2] == "customers":
-                query = """ SELECT * FROM {} """.format(database.tbl_Customers)
-                res = database.ask(query)
-                printRes(res)
-
-            elif sys.arg[2] == "job_history":
-                query = """ SELECT * FROM {} """.format(database.tbl_jobHistory)
-                res = database.ask(query)
-                printRes(res)
 
 
     elif sys.argv[1] == "evaluate":

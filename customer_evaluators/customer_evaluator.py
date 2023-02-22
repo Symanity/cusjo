@@ -1,6 +1,6 @@
 from collections import defaultdict
 from datetime import datetime, timedelta
-from customer_factor_importer import database as database
+from customer_factor_importer import _database as _database
 import customer_evaluators.jc_db_generator as jc_database
 
 
@@ -58,8 +58,8 @@ maxHistoryQTY = 12
 class ServiceOf:
     def __init__(self, customer_id):
         self.customer_id          = customer_id
-        self.customer_name        = database.getCustomerName(customer_id)
-        self.customer_address     = database.getCustomerAddress(customer_id)
+        self.customer_name        = _database.getCustomerName(customer_id)
+        self.customer_address     = _database.getCustomerAddress(customer_id)
         self.jobs             = []   # List of Service object
         self.jobHistory       = defaultdict(list)   # List of considered jobs, according to __justinsStandard()
 
@@ -243,8 +243,8 @@ class TheJob:
                     totalDuration = duration
 
                 if totalDuration != duration:
-                    customerName = database.getCustomerName(service[Customer_Id])
-                    address = database.getCustomerAddress(service[Customer_Id])
+                    customerName = _database.getCustomerName(service[Customer_Id])
+                    address = _database.getCustomerAddress(service[Customer_Id])
                     # print("[!] {} vs. {} -- check duration for {} service on {} for {}:{}".format(
                     #     totalDuration,
                     #     duration,
@@ -273,7 +273,7 @@ class TheJob:
         customer_id = self.job[0][Customer_Id]
         deltas = []
 
-        futureServices = database.ask(''' SELECT * FROM JOB_HISTORY WHERE customer_id = ? AND job_date > CURRENT_DATE ''', (customer_id,))
+        futureServices = _database.ask(''' SELECT * FROM JOB_HISTORY WHERE customer_id = ? AND job_date > CURRENT_DATE ''', (customer_id,))
 
         # Group jobs
         jobs = defaultdict(list)
@@ -347,7 +347,7 @@ class Evaluation:
 def serviceHistory(customer_id):
     # Get complete customer history in descending order according to date.
     # Latest to oldest (*Only gets history from past jobs. Does NOT consider upcoming jobs)
-    serviceHistory = database.getCustomerHistory(customer_id) 
+    serviceHistory = _database.getCustomerHistory(customer_id) 
     
     # Group jobs
     completeService = defaultdict(list)

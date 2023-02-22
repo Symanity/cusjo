@@ -11,7 +11,7 @@ import cf_interpreters.db_generator as database
 from datetime import datetime
 import sys
 import customer_evaluators.customer_evaluator as WindowMagic
-import derive_wm_db as wm_db
+import customer_evaluators.jc_db_generator as wmDatabase
 
 # 1. Filter by date range
 # 2. filter by employee
@@ -136,7 +136,7 @@ def printToTerminal(theServices: WindowMagic.ServiceOf):
 def printRes(response = None, query=None):
     if response:
         for r in response:
-            print(r)
+            print("{}, \t{},\t\t\t\t https://www.thecustomerfactor.com/customers_profile.php?id={}".format(r[0],r[1],r[0]))
 
     else:
         print('[STATUS] ... no response')
@@ -185,7 +185,6 @@ def getActiveCustomers():
 # ====================================================================
 # DRIVER
 # ====================================================================
-print("hello1")
 if len(sys.argv) > 1:
     theCase = sys.argv[1]
 
@@ -243,6 +242,7 @@ if len(sys.argv) > 1:
         print('[ERROR] command not recognized')
 
 else:
-    wm_db.initWindowMagic_DB
-    initEvaluationProcess()
-
+    query = """SELECT customer_id, customer_name FROM {} WHERE employee = 'Roberto Isais' GROUP BY customer_id HAVING COUNT(DISTINCT employee) = 1""".format(wmDatabase.tbl_consideredJobs)
+    res = wmDatabase.ask(query)
+    printRes(res)
+    # initEvaluationProcess()

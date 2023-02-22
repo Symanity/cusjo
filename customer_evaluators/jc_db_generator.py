@@ -45,6 +45,7 @@ def create(serviceObjs):
 
     # Close the connection to the database
     conn.close()
+    print('[STATUS] Built {} table'.format(tbl_consideredJobs))
 
 
 def writeCSV():
@@ -73,3 +74,29 @@ def writeCSV():
     conn.close()
 
     print('[BUILD] csv file created: {}'.format(csv_considered_jobs))
+
+    # args must be of type Tuble
+def ask(sqlite_query, args=None):
+    response = []
+    conn = sqlite3.connect(JC_DB)
+    cursor = conn.cursor()
+
+    if args:
+        # Execute the query with the parameter
+        cursor.execute(sqlite_query, args)
+    else:
+        # Execute the SQL command
+        cursor.execute(sqlite_query)
+
+    # Fetch the results
+    results = cursor.fetchall()
+
+    # Print the results
+    for row in results:
+        response.append(row)
+
+    # Close the cursor and connection
+    cursor.close()
+    conn.close()
+
+    return response

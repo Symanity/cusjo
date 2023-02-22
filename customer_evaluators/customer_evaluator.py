@@ -1,6 +1,6 @@
 from collections import defaultdict
 from datetime import datetime, timedelta
-from customer_factor_importer import database_generator as database
+from customer_factor_importer import database as database
 import customer_evaluators.jc_db_generator as jc_database
 
 

@@ -7,11 +7,13 @@
 ##
 
 from customer_factor_importer import loader as customerFactor
-from customer_factor_importer import database_generator as database
+from customer_factor_importer import database
 from datetime import datetime
 import sys
 import customer_evaluators.customer_evaluator as WindowMagic
 import customer_evaluators.jc_db_generator as wmDatabase
+
+from customer_factor_importer import assistant
 
 # 1. Filter by date range
 # 2. filter by employee
@@ -136,7 +138,7 @@ def printToTerminal(theServices: WindowMagic.ServiceOf):
 def printRes(response = None, query=None):
     if response:
         for r in response:
-            print("{}, \t{},\t\t\t\t https://www.thecustomerfactor.com/customers_profile.php?id={}".format(r[0],r[1],r[0]))
+            print(r)
 
     else:
         print('[STATUS] ... no response')

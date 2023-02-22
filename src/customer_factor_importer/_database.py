@@ -148,49 +148,28 @@ def ask(sqlite_query, args=None):
     return response
 
 
-def getCustomerName(customer_id: int):
-  # connect to the database
-  conn = sqlite3.connect(CF_db)
+def askOne(sqlite_query, args=None):
+    # connect to the database
+    conn = sqlite3.connect(CF_db)
 
-  # create a cursor
-  cursor = conn.cursor()
+    # create a cursor
+    cursor = conn.cursor()
 
-  # execute a SELECT query to retrieve the customer name
-  cursor.execute("SELECT name FROM CUSTOMERS WHERE customer_id = ?", (customer_id,))
+    if args:
+        # Execute the query with the parameter
+        cursor.execute(sqlite_query, args)
+    else:
+        # Execute the SQL command
+        cursor.execute(sqlite_query)
 
-  # fetch the result
-  result = cursor.fetchone()
+    # fetch the result
+    result = cursor.fetchone()
 
-  # close the connection
-  conn.close()
+    # close the connection
+    conn.close()
 
-  # return the customer name, or None if not found
-  return result[0] if result else None
-
-
-def getCustomerHistory(customer_id: int):
-    today = datetime.today().date()
-    # retrieve rows from the JOB_HISTORY table for the given customer_id
-    return ask('SELECT * FROM JOB_HISTORY WHERE customer_id = ? AND job_date < ? ORDER BY job_date DESC', (customer_id, today))
-
-    
-def getCustomerAddress(customer_id: int):
-  # connect to the database
-  conn = sqlite3.connect(CF_db)
-
-  # create a cursor
-  cursor = conn.cursor()
-
-  # execute a SELECT query to retrieve the customer name
-  cursor.execute("SELECT address FROM CUSTOMERS WHERE customer_id = ?", (customer_id,))
-
-  # fetch the result
-  result = cursor.fetchone()
-
-  # close the connection
-  conn.close()
-
-  return result[0] if result else None
+    # return the customer name, or None if not found
+    return result[0] if result else None
 
 
 def writeCSV():

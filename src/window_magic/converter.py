@@ -4,14 +4,10 @@
 #   will be applied. Rather a pure database structure to serve command line queries.
 # ==================================================================================
 
-from customer_factor_importer import _database
+from src.customer_factor_importer import assistant as cf_rep
 import customer_evaluators.customer_evaluator as evaluator
 from collections import defaultdict
-import customer_evaluators.jc_db_generator as wm_db_generator
-
-
-# def initWindowMagic_DB():
-#     for ser
+from src.window_magic.builder import _complete_database as database
 
 def initWindowMagic_DB():
     wmHistory = []
@@ -22,8 +18,8 @@ def initWindowMagic_DB():
      # Convert to Window Magic Jobs
     for customer in allActiveCustomers:
         id           = customer[0]
-        name        = _database.getCustomerName(id)
-        address     = _database.getCustomerAddress(id)
+        name        = cf_rep.getCustomerName(id)
+        address     = cf_rep.getCustomerAddress(id)
         jobHistory = jobHistoryBuilder(id)
 
         for pastJob in jobHistory:
@@ -44,8 +40,8 @@ def initWindowMagic_DB():
 
     ## Save job list into db
     if wmHistory:
-        wm_db_generator.create(wmHistory)
-        wm_db_generator.writeCSV()
+        database.create(wmHistory)
+        database.writeCSV()
 
 
 def jobHistoryBuilder(customer_id):
@@ -79,7 +75,7 @@ def jobHistoryBuilder(customer_id):
 def retrieveServiceHistory(customer_id):
     # Get complete customer history in descending order according to date.
     # Latest to oldest (*Only gets history from past jobs. Does NOT consider upcoming jobs)
-    serviceHistory = _database.getCustomerHistory(customer_id) 
+    serviceHistory = cf_rep.getCustomerHistory(customer_id) 
     
     # Group jobs
     completeService = defaultdict(list)
@@ -97,6 +93,6 @@ def retrieveActiveCustomers():
             FROM CUSTOMERS
             WHERE active_status = 1
             """ 
-        return _database.ask(question)
+        return cf_rep.ask(question)
 
 initWindowMagic_DB()

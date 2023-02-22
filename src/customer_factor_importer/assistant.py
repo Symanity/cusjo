@@ -1,5 +1,6 @@
 # Helper in creating and loading from The Customer Factor
 # ========================================================
+from datetime import datetime
 from src.customer_factor_importer import _loader as customerFactor
 from src.customer_factor_importer import _database
 
@@ -97,3 +98,17 @@ def getActiveCustomers():
             WHERE active_status = 1
             """ 
         return _database.ask(question)
+
+
+def getCustomerName(customer_id: int):
+    return _database.askOne("SELECT name FROM CUSTOMERS WHERE customer_id = ?", (customer_id,))
+
+
+def getCustomerAddress(customer_id: int):
+    return _database.askOne("SELECT address FROM CUSTOMERS WHERE customer_id = ?", (customer_id,))
+
+
+def getCustomerHistory(customer_id: int):
+    today = datetime.today().date()
+    # retrieve rows from the JOB_HISTORY table for the given customer_id
+    return _database.ask('SELECT * FROM JOB_HISTORY WHERE customer_id = ? AND job_date < ? ORDER BY job_date DESC', (customer_id, today))

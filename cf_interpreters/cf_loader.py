@@ -111,7 +111,13 @@ class Customer:
             self.company = csvRow[r.companyName]
             self.dateAdded = inter.convertTo_iso8601_date(csvRow[r.dateAdded])
             self.cType = csvRow[r.cType]
-            self.address = csvRow[r.address]
+            try:
+                self.address = csvRow[r.address]
+            except KeyError:
+                self.address = csvRow[r.street_address]
+            except Exception as e:
+                print(f"Unexpected error: {e}")
+                
             self.jobHistory = []
 
         elif json:

@@ -5,25 +5,25 @@
 # ==================================================================================
 
 from src.customer_factor_importer import assistant as cf_rep
-import customer_evaluators.customer_evaluator as evaluator
 from collections import defaultdict
-from src.window_magic.builder import _complete_database as database
+from src.window_magic.databases import _complete_database as database
+from src.window_magic.objects import job
 
 def initWindowMagic_DB():
     wmHistory = []
     ## Get active customers
-    allActiveCustomers = retrieveActiveCustomers()
+    allActiveCustomers = cf_rep.getActiveCustomers()
     print('[STATUS] Detected {} active customers'.format(len(allActiveCustomers)))
      ## Iterate through active customers
      # Convert to Window Magic Jobs
     for customer in allActiveCustomers:
-        id           = customer[0]
-        name        = cf_rep.getCustomerName(id)
-        address     = cf_rep.getCustomerAddress(id)
-        jobHistory = jobHistoryBuilder(id)
+        id              = customer[0]
+        name            = cf_rep.getCustomerName(id)
+        address         = cf_rep.getCustomerAddress(id)
+        jobHistory      = jobHistoryBuilder(id)
 
         for pastJob in jobHistory:
-            pastJob: evaluator.TheJob = pastJob
+            pastJob: job.Job = pastJob
             considerJob = (
                     id, 
                     name, 
@@ -46,12 +46,12 @@ def initWindowMagic_DB():
 
 def jobHistoryBuilder(customer_id):
     jobHistory = []
-    entireServiceHistory = retrieveServiceHistory(customer_id)
+    entireServiceHistory = gatherServiceHistory(customer_id)
     i = 0
 
     for service_date, serviceDetails in entireServiceHistory.items():
         # Defines Window Magic's contract, how long it took, and which employees were involved.
-        completedJob = evaluator.TheJob(service_date, serviceDetails)
+        completedJob = job.Job(service_date, serviceDetails)
         totalPrice = completedJob.price
         totalDuration = completedJob.duration
 
@@ -72,7 +72,7 @@ def jobHistoryBuilder(customer_id):
 # Combines Services which were done at the same time for the same customer.
 # Example: On 12/7/20, Interior/Exterior Windows AND partition
 # Returns key/value pair. {service_date:[list of services_performed]}
-def retrieveServiceHistory(customer_id):
+def gatherServiceHistory(customer_id):
     # Get complete customer history in descending order according to date.
     # Latest to oldest (*Only gets history from past jobs. Does NOT consider upcoming jobs)
     serviceHistory = cf_rep.getCustomerHistory(customer_id) 
@@ -84,15 +84,3 @@ def retrieveServiceHistory(customer_id):
         completeService[service_date].append(service)
 
     return completeService
-
-
-# Query The Customer Factor database and retrieve only the active customers
-def retrieveActiveCustomers():
-        question = """
-            SELECT *
-            FROM CUSTOMERS
-            WHERE active_status = 1
-            """ 
-        return cf_rep.ask(question)
-
-initWindowMagic_DB()

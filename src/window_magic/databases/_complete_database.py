@@ -7,7 +7,7 @@ from src.window_magic import _resources as r
 DATABASE_FILE_NAME = 'window_magic_complete.db'
 DATABASE_LOCATION = os.path.join(r.database_path, DATABASE_FILE_NAME)
 
-CSV_FILENAME = "window_magic_complete_history.cvs"
+CSV_FILENAME = "window_magic_complete_history.csv"
 CSV_LOCATION = os.path.join(r.database_path, r.csv_folder_name,CSV_FILENAME)
 
 TABLE_NAME = 'WINDOW_MAGIC_JOB_HISTORY'

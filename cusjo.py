@@ -12,6 +12,7 @@
 
 import sys
 from src.customer_factor_importer import assistant
+from src.window_magic import converter
 
 # 1. Filter by date range
 # 2. filter by employee
@@ -176,6 +177,7 @@ if len(sys.argv) > 1:
     #     print('[ERROR] command not recognized')
 
 else:
+    converter.initWindowMagic_DB()
     pass
     # query = """SELECT customer_id, customer_name FROM {} WHERE employee = 'Roberto Isais' GROUP BY customer_id HAVING COUNT(DISTINCT employee) = 1""".format(wmDatabase.tbl_consideredJobs)
     # res = wmDatabase.ask(query)

@@ -3,10 +3,12 @@
 #   This will consolidate services into a Window Magic recognized "Job". No filters 
 #   will be applied. Rather a pure database structure to serve command line queries.
 # ==================================================================================
+# Points of Note:
+#   1. This only converts active customers
 
 from src.customer_factor_importer import assistant as cf_rep
 from collections import defaultdict
-from src.window_magic.database_creators import _complete_database as database
+from src.window_magic.databasing import assistant
 from src.window_magic.objects import job
 
 def initWindowMagic_DB():
@@ -40,8 +42,7 @@ def initWindowMagic_DB():
 
     ## Save job list into db
     if wmHistory:
-        database.create(wmHistory)
-        database.writeCSV()
+        assistant.build_database(wmHistory)
 
 
 def jobHistoryBuilder(customer_id):

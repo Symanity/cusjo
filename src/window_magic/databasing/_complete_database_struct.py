@@ -10,7 +10,7 @@ DATABASE_LOCATION = os.path.join(r.database_path, DATABASE_FILE_NAME)
 CSV_FILENAME = "window_magic_complete_history.csv"
 CSV_LOCATION = os.path.join(r.database_path, r.csv_folder_name,CSV_FILENAME)
 
-TABLE_NAME = 'WINDOW_MAGIC_JOB_HISTORY'
+JOB_HISTORY_TABLE = 'WINDOW_MAGIC_JOB_HISTORY'
 
 def create(job_tubles):
     # Connect to the database
@@ -18,7 +18,7 @@ def create(job_tubles):
     cursor = conn.cursor()
 
     # Create the table
-    cursor.execute("DROP TABLE IF EXISTS {}".format(TABLE_NAME))
+    cursor.execute("DROP TABLE IF EXISTS {}".format(JOB_HISTORY_TABLE))
     cursor.execute(
         '''CREATE TABLE {} (
             customer_id INTEGER, 
@@ -28,7 +28,7 @@ def create(job_tubles):
             job_date TEXT, 
             price REAL,
             duration REAL, 
-            employee TEXT)'''.format(TABLE_NAME))
+            employee TEXT)'''.format(JOB_HISTORY_TABLE))
 
     # Iterate through the list of tuples and insert the values into the table
     for job in job_tubles:
@@ -40,14 +40,14 @@ def create(job_tubles):
             job_date, 
             price,
             duration, 
-            employee) VALUES (?, ?, ?, ?, ?, ?, ?, ?)""".format(TABLE_NAME), job)
+            employee) VALUES (?, ?, ?, ?, ?, ?, ?, ?)""".format(JOB_HISTORY_TABLE), job)
 
     # Save the changes to the database
     conn.commit()
 
     # Close the connection to the database
     conn.close()
-    print('[STATUS] Built {} table'.format(TABLE_NAME))
+    print('[STATUS] Built {} table'.format(JOB_HISTORY_TABLE))
 
 
 def writeCSV():
@@ -58,7 +58,7 @@ def writeCSV():
     cursor = conn.cursor()
 
     # Select all rows from the CUSTOMERS table
-    cursor.execute("SELECT * FROM {}".format(TABLE_NAME))
+    cursor.execute("SELECT * FROM {}".format(JOB_HISTORY_TABLE))
 
     # Fetch all rows from the CUSTOMERS table
     customers = cursor.fetchall()

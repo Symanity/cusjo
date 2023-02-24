@@ -13,6 +13,9 @@
 from src.window_magic.objects.job import Job
 
 def filter_jobs(jobs, list_conditions, individual_conditions):
+    """
+    Applies filter conditions on the jobs(Job object list)
+    """
     filtered_jobs = []
 
     for job in jobs:

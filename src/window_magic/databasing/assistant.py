@@ -1,10 +1,11 @@
 from datetime import datetime
 from src.window_magic.databasing import _complete_database_struct as database
 
+
+job_table = database.JOB_HISTORY_TABLE
 #=================================================================================
 #   DEFAULT FUNCTIONS
 #=================================================================================
-
 def build_database(job_list):
     """
     Build a database from a list of jobs
@@ -29,7 +30,7 @@ def query(question, args = None):
 
     Args:
         question (str): The SQLite query.
-        args (array): A list of arguments to include in the query.
+        args (tuble): A list of arguments to include in the query.
 
     Returns:
         the response from The Window Magic database.

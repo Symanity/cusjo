@@ -616,6 +616,7 @@
 14,Trader Joes # 223,13480 Highlands Place,['Window Cleaning'],2015-05-28,60.0,40.0,Danny Steinweg
 14,Trader Joes # 223,13480 Highlands Place,['Window Cleaning'],2015-05-11,60.0,40.0,Danny Steinweg
 14,Trader Joes # 223,13480 Highlands Place,['Window Cleaning'],2015-04-27,60.0,40.0,Danny Steinweg
+15,Harsey & Harsey,4090 Morena Blvd,['Interior/Exterior Window Cleaning'],2023-02-23,35.0,17.0,Isais
 15,Harsey & Harsey,4090 Morena Blvd,['Interior/Exterior Window Cleaning'],2023-01-26,35.0,17.0,Isais
 15,Harsey & Harsey,4090 Morena Blvd,['Exterior Window Cleaning'],2022-12-27,17.0,17.0,Isais
 15,Harsey & Harsey,4090 Morena Blvd,['Interior/Exterior Window Cleaning'],2022-12-01,35.0,17.0,Roberto Isais
@@ -982,6 +983,7 @@
 27,Champagne Spas,5710 Kearny Villa Rd,['Exterior Window Cleaning'],2015-06-11,30.0,12.0,None
 27,Champagne Spas,5710 Kearny Villa Rd,['Exterior Window Cleaning'],2015-05-16,30.0,,Danny Steinweg
 27,Champagne Spas,5710 Kearny Villa Rd,['Interior/Exterior Window Cleaning'],2015-04-13,55.0,12.0,Danny Steinweg
+30,G.T.M. Discount #2,7663 Broadway,['Exterior Window Cleaning'],2023-02-22,45.0,20.0,Roberto Isais
 30,G.T.M. Discount #2,7663 Broadway,['Exterior Window Cleaning'],2023-01-24,45.0,20.0,Isais
 30,G.T.M. Discount #2,7663 Broadway,['Exterior Window Cleaning'],2022-12-30,45.0,20.0,Isais
 30,G.T.M. Discount #2,7663 Broadway,['Exterior Window Cleaning'],2022-11-28,45.0,20.0,Roberto Isais
@@ -2566,6 +2568,7 @@
 68,Newen Enterprises,1250 Pacific Oaks Pl,['Interior/Exterior Window Cleaning'],2015-07-24,45.0,60.0,Jose Perez
 68,Newen Enterprises,1250 Pacific Oaks Pl,['Interior/Exterior Window Cleaning'],2015-06-26,45.0,60.0,Jose Perez
 68,Newen Enterprises,1250 Pacific Oaks Pl,['Interior/Exterior Window Cleaning'],2015-05-29,45.0,60.0,Justin Smith
+69,Trader Joes # 20,8657 La Jolla Village Dr,['Interior/Exterior Window Cleaning'],2023-02-23,55.0,,Isais
 69,Trader Joes # 20,8657 La Jolla Village Dr,['Exterior Window Cleaning'],2023-02-09,40.0,25.0,Isais
 69,Trader Joes # 20,8657 La Jolla Village Dr,['Interior/Exterior Window Cleaning'],2023-01-23,55.0,,Roberto Isais
 69,Trader Joes # 20,8657 La Jolla Village Dr,['Exterior Window Cleaning'],2023-01-12,40.0,,Isais
@@ -2800,6 +2803,7 @@
 69,Trader Joes # 20,8657 La Jolla Village Dr,['Interior/Exterior Window Cleaning'],2015-04-23,55.0,23.0,Justin Smith
 69,Trader Joes # 20,8657 La Jolla Village Dr,['Interior/Exterior Window Cleaning'],2015-04-16,55.0,23.0,Justin Smith
 69,Trader Joes # 20,8657 La Jolla Village Dr,['Interior/Exterior Window Cleaning'],2015-04-09,55.0,23.0,Justin Smith
+70,Trader Joes # 21,1211 Garnet Ave,['Interior/Exterior Window Cleaning'],2023-02-23,145.0,,Isais
 70,Trader Joes # 21,1211 Garnet Ave,['Interior/Exterior Window Cleaning'],2023-02-09,145.0,51.0,Isais
 70,Trader Joes # 21,1211 Garnet Ave,['Interior/Exterior Window Cleaning'],2023-01-23,145.0,,Roberto Isais
 70,Trader Joes # 21,1211 Garnet Ave,['Interior/Exterior Window Cleaning'],2023-01-12,145.0,,Isais
@@ -3745,6 +3749,7 @@
 93,Lancetown Industries  Inc - Powers Plumbing,1705 W Lewis St,['Interior/Exterior Window Cleaning'],2015-07-02,25.0,,Jose Perez
 93,Lancetown Industries  Inc - Powers Plumbing,1705 W Lewis St,['Interior/Exterior Window Cleaning'],2015-06-05,25.0,,None
 93,Lancetown Industries  Inc - Powers Plumbing,1705 W Lewis St,['Interior/Exterior Window Cleaning'],2015-05-08,25.0,,Danny Steinweg
+95,G.T.M Office,Gillespie Way,['Exterior Window Cleaning'],2023-02-22,70.0,,Roberto Isais
 95,G.T.M Office,Gillespie Way,['Exterior Window Cleaning'],2023-01-25,70.0,,Isais
 95,G.T.M Office,Gillespie Way,['Exterior Window Cleaning'],2022-12-30,70.0,,None
 95,G.T.M Office,Gillespie Way,['Exterior Window Cleaning'],2022-11-28,70.0,,Roberto Isais
@@ -7203,6 +7208,7 @@
 1518,Finkbiner Apartment Building,3645 Arizona Street,['Exterior Window Cleaning'],2020-01-08,175.0,150.0,Jose Perez
 1518,Finkbiner Apartment Building,3645 Arizona Street,"['Exterior Window Cleaning', 'Interior Only Window Cleaning', 'Light fixture and Wipe Doors']",2018-04-13,325.0,,Justin Smith
 1518,Finkbiner Apartment Building,3645 Arizona Street,"['Exterior light fixtures and front door cleaning', 'Interior/Exterior Window Cleaning']",2017-02-01,350.0,120.0,1 and 2
+1660,Coin Op Laundry,3043 Clairemont Drive,['Interior/Exterior Window Cleaning'],2023-02-23,50.0,,Isais
 1660,Coin Op Laundry,3043 Clairemont Drive,['Interior/Exterior Window Cleaning'],2023-02-09,50.0,38.0,Isais
 1660,Coin Op Laundry,3043 Clairemont Drive,['Interior/Exterior Window Cleaning'],2023-01-26,50.0,,Isais
 1660,Coin Op Laundry,3043 Clairemont Drive,['Interior/Exterior Window Cleaning'],2023-01-12,50.0,25.0,Roberto Isais
@@ -7336,6 +7342,7 @@
 2266,Southland Electric,4950 Greencraig Lane,"['Interior/Exterior Window Cleaning', 'office partitions']",2018-05-09,1050.0,,"1, 2, and 4"
 2266,Southland Electric,4950 Greencraig Lane,['Interior/Exterior Window Cleaning'],2018-03-21,160.0,,Skyler Gibbs
 2266,Southland Electric,4950 Greencraig Lane,['Interior/Exterior Window Cleaning'],2018-01-31,160.0,,Justin Smith
+2913,California Coast Credit Union- Murrieta (Madison),24716 Madison Avenue,['Interior/Exterior Window Cleaning'],2023-02-22,225.0,,Devony Dettman
 2913,California Coast Credit Union- Murrieta (Madison),24716 Madison Avenue,['Interior/Exterior Window Cleaning'],2022-11-28,200.0,157.0,Devony Dettman
 2913,California Coast Credit Union- Murrieta (Madison),24716 Madison Avenue,['Pressure washing'],2022-09-11,800.0,360.0,None
 2913,California Coast Credit Union- Murrieta (Madison),24716 Madison Avenue,['Interior/Exterior Window Cleaning'],2022-09-09,200.0,148.0,Devony Dettman
@@ -7358,6 +7365,7 @@
 2913,California Coast Credit Union- Murrieta (Madison),24716 Madison Avenue,['Interior/Exterior Window Cleaning'],2018-01-05,200.0,,Justin Smith
 2913,California Coast Credit Union- Murrieta (Madison),24716 Madison Avenue,['Interior/Exterior Window Cleaning'],2017-08-31,200.0,,Justin Smith
 2913,California Coast Credit Union- Murrieta (Madison),24716 Madison Avenue,['Interior/Exterior Window Cleaning'],2017-06-09,200.0,,Justin Smith
+3598,California Coast - Menifee,30015 Haun Road,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning', 'ATM Glass Cleaning']",2023-02-22,170.0,,Devony Dettman
 3598,California Coast - Menifee,30015 Haun Road,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning', 'ATM Glass Cleaning']",2022-11-28,145.0,97.0,Devony Dettman
 3598,California Coast - Menifee,30015 Haun Road,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning', 'ATM Glass Cleaning']",2022-09-09,145.0,,Devony Dettman
 3598,California Coast - Menifee,30015 Haun Road,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning', 'ATM Glass Cleaning']",2022-05-05,170.0,88.0,Justin Smith
@@ -7444,6 +7452,7 @@
 3708,California Coast - J Street,777 J Street,['Interior/Exterior Window Cleaning'],2017-07-05,155.0,,Skyler Gibbs
 3708,California Coast - J Street,777 J Street,['Interior/Exterior Window Cleaning'],2017-06-07,155.0,,Evans Richie
 3708,California Coast - J Street,777 J Street,['Window Coverings'],2017-05-17,1837.0,,Tim Grant
+3754,Trader Joes #224,5140 College Avenue,['Interior/Exterior Window Cleaning'],2023-02-22,200.0,,Roberto Isais
 3754,Trader Joes #224,5140 College Avenue,['Interior/Exterior Window Cleaning'],2023-02-06,200.0,60.0,Roberto Isais
 3754,Trader Joes #224,5140 College Avenue,['Interior/Exterior Window Cleaning'],2023-01-24,200.0,,Isais
 3754,Trader Joes #224,5140 College Avenue,['Interior/Exterior Window Cleaning'],2023-01-11,200.0,,Roberto Isais
@@ -7600,6 +7609,7 @@
 3762,Dr. Philip Bosch,651 East Pennsylvania Avenue,['Interior/Exterior Window Cleaning'],2018-03-02,155.0,,Skyler Gibbs
 3762,Dr. Philip Bosch,651 East Pennsylvania Avenue,['Interior/Exterior Window Cleaning'],2017-12-08,155.0,,Skyler Gibbs
 3762,Dr. Philip Bosch,651 East Pennsylvania Avenue,['Interior/Exterior Window Cleaning'],2017-09-15,155.0,,Skyler Gibbs
+3770,California Coast - Murrieta Hot Springs,40230 Murrieta Hot Springs Road,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2023-02-22,165.0,,Devony Dettman
 3770,California Coast - Murrieta Hot Springs,40230 Murrieta Hot Springs Road,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2022-11-28,145.0,108.0,Devony Dettman
 3770,California Coast - Murrieta Hot Springs,40230 Murrieta Hot Springs Road,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2022-09-09,145.0,127.0,Devony Dettman
 3770,California Coast - Murrieta Hot Springs,40230 Murrieta Hot Springs Road,"['Exterior Window Cleaning', 'job']",2022-05-21,65.0,25.0,Devony Dettman
@@ -8154,6 +8164,7 @@
 9669,La Loupe Vintage,3337 Adams Avenue,['Cash'],2017-08-11,15.0,,None
 9669,La Loupe Vintage,3337 Adams Avenue,['Cash'],2017-07-14,15.0,,None
 9669,La Loupe Vintage,3337 Adams Avenue,['Cash'],2017-06-16,15.0,,None
+9671,Cecillia's Fine Jewelry,4669 Park Boulevard,['Exterior Window Cleaning'],2023-02-23,8.0,,Isais
 9671,Cecillia's Fine Jewelry,4669 Park Boulevard,['Interior/Exterior Window Cleaning'],2023-02-09,15.0,21.0,Isais
 9671,Cecillia's Fine Jewelry,4669 Park Boulevard,['Exterior Window Cleaning'],2023-01-26,8.0,,Isais
 9671,Cecillia's Fine Jewelry,4669 Park Boulevard,['Exterior Window Cleaning'],2023-01-12,8.0,10.0,Roberto Isais
@@ -8250,6 +8261,7 @@
 9671,Cecillia's Fine Jewelry,4669 Park Boulevard,['Cash'],2017-03-24,7.0,,None
 9671,Cecillia's Fine Jewelry,4669 Park Boulevard,['Cash'],2017-02-24,7.0,,None
 9671,Cecillia's Fine Jewelry,4669 Park Boulevard,['Cash'],2017-01-27,7.0,,None
+9678,Rip Current Brewing,4101 30th Street,['Interior/Exterior Window Cleaning'],2023-02-23,75.0,60.0,Isais
 9678,Rip Current Brewing,4101 30th Street,['Interior/Exterior Window Cleaning'],2023-01-26,75.0,60.0,Isais
 9678,Rip Current Brewing,4101 30th Street,['Interior/Exterior Window Cleaning'],2022-12-27,75.0,60.0,Isais
 9678,Rip Current Brewing,4101 30th Street,['Interior/Exterior Window Cleaning'],2022-12-02,75.0,60.0,Isais
@@ -9172,6 +9184,7 @@
 9729,Thai Time,4102 30th Street,['Check'],2020-07-17,25.0,,None
 9729,Thai Time,4102 30th Street,['Check'],2020-05-22,25.0,,None
 9729,Thai Time,4102 30th Street,['Check'],2020-03-27,25.0,,None
+9730,Perry's Cafe,4620 Pacific Highway,['Interior/Exterior Window Cleaning'],2023-02-23,180.0,120.0,Isais
 9730,Perry's Cafe,4620 Pacific Highway,['Interior/Exterior Window Cleaning'],2023-01-26,180.0,120.0,Isais
 9730,Perry's Cafe,4620 Pacific Highway,['Interior/Exterior Window Cleaning'],2022-12-27,180.0,120.0,Isais
 9730,Perry's Cafe,4620 Pacific Highway,['Interior/Exterior Window Cleaning'],2022-12-08,180.0,89.0,Isais
@@ -9476,4 +9489,5 @@
 10112,Windansea Pilates,504 Nautilus Street,"['Interior/Exterior Window Cleaning', 'Mirror Cleaning']",2022-12-23,50.0,24.0,Roberto Isais
 10112,Windansea Pilates,504 Nautilus Street,"['Interior/Exterior Window Cleaning', 'Mirror Cleaning']",2022-11-21,50.0,30.0,Roberto Isais
 10112,Windansea Pilates,504 Nautilus Street,['Mirror Cleaning'],2022-10-20,25.0,30.0,Isais
+10136,Pop Pie Commissary Kitchen,4445 Clairemont Mesa Boulevard,['Interior/Exterior Window Cleaning'],2023-02-23,55.0,30.0,Isais
 10136,Pop Pie Commissary Kitchen,4445 Clairemont Mesa Boulevard,['Interior/Exterior Window Cleaning'],2023-01-26,55.0,30.0,Isais

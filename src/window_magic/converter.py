@@ -6,7 +6,7 @@
 
 from src.customer_factor_importer import assistant as cf_rep
 from collections import defaultdict
-from src.window_magic.databases import _complete_database as database
+from src.window_magic.database_creators import _complete_database as database
 from src.window_magic.objects import job
 
 def initWindowMagic_DB():

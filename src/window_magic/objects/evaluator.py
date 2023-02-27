@@ -48,22 +48,36 @@ class Evaluation:
          pass
     
 
-    def apply_filter(self, filter_fun):
-         pass
-    
-
     def _evaluate():
          pass
 
 
 class Evaluator:
-    def __init__(self, all_jobs) -> None:
+    def __init__(self, all_jobs: job_assistant.Job) -> None:
+        """Evaluates a list of Job objects
+
+            Args:
+                all_jobs (list): List of type Job
+        """
         self.job_history = all_jobs
+        self.filtered_jobs = all_jobs
+        self.__filters = []
 
 
-    def get_evaluations():
-        pass
+    def get_evaluations(self):
+        """
+            Applies the filers. Then executes each evaluation per unique job. Finally, returns the list of evaluations.
+        """
+        self.__execute_filters()
+
+        for job in self.job_history:
+             print(job)
 
 
     def apply_filter(self, func):
-         pass
+         self.__filters.append(func)
+
+
+    def __execute_filters(self):
+         for filter in self.__filters:
+              self.filtered_jobs = filter(self.filtered_jobs)

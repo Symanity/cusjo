@@ -1,8 +1,9 @@
 # Evaluates the job rate for jobs
 # =================================================
-from src.window_magic.databasing import assistant
+from src.window_magic.databasing import assistant as wm_assistant
 from src.window_magic.objects.customer import Customer
 from src.window_magic.objects.evaluator import Evaluator
+from src.window_magic.objects.job import Job
 from collections import defaultdict
 
 
@@ -36,7 +37,7 @@ def evaluate_all():
     evaluations = defaultdict(list)
 
     # Execute a query to retrieve all unique customers
-    customer_list = assistant.list_customers()
+    customer_list = wm_assistant.list_customers()
 
     for customer_row in customer_list:
         customer = Customer(customer_row[0])
@@ -50,9 +51,18 @@ def evaluate_all():
         evaluations[customer] = evaluator.get_evaluations()
 
 
-def __at_most_12_jobs(job, job_list):
-    if len(job_list) < 12:
-        return job
+def __at_most_12_jobs(job_list):
+    return job_list[:12]
+
+
+def __consider_employees(job_list):
+    """
+    Filters the job rows to include only rows with an employee in the given list.
+    """
+
+    employees = {"Justin Smith", "Jose Perez", "Devony Dettman"}
+    return [job for job in job_list if job.employee in employees]
+
 
 def print_results(customer_name, job_rows, id):
     if len(job_rows) > 0:
@@ -62,16 +72,6 @@ def print_results(customer_name, job_rows, id):
             customer_id, customer_name, customer_address, services, job_date, price, duration, employee = job_row
             print(f"- {services} on {job_date} by {employee} for {price} ({duration} minutes)")
         print()
-
-
-def __consider_employees(job, job_list):
-    """
-    Filters the job rows to include only rows with an employee in the given list.
-    """
-
-    employees = ["Justin Smith", "Jose Perez", "Devony Dettman"]
-    pass
-    # return [job for _job in job_list if job_list[-1] in employees]
 
 
 ## Returns Evaluation Object

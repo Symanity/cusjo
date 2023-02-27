@@ -6,6 +6,10 @@ from src.window_magic.objects import job as job_assistant
 ## Service Object
 class Customer:
     def __init__(self, customer_id):
+        """
+            Constructs the Customer object, only requiring the Customer Id. All other information
+            is gathered directly from the database.
+        """
         self.id             = customer_id
         self.name           = cf.getCustomerName(customer_id)
         self.address        = cf.getCustomerAddress(customer_id)

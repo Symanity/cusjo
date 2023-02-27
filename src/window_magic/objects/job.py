@@ -29,3 +29,6 @@ class Job:
         self.price = None
         self.duration = None
         self.employee = None
+
+    def __str__(self) -> str:
+        return f"{self.services} - {self.date} - {self.price} - {self.duration} - {self.employee}"

@@ -1,0 +1,1 @@
+In some instances the first entry when reading in from The Customer Factor, the first job is being discarded.

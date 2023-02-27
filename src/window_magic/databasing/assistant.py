@@ -1,6 +1,6 @@
 from datetime import datetime
 from src.window_magic.databasing import _complete_database_struct as database
-
+from src.window_magic.objects.job import Job
 
 job_table = database.JOB_HISTORY_TABLE
 #=================================================================================
@@ -65,5 +65,18 @@ def listEmployees():
     return database.ask(question)
 
 
-def getCustomerAddress(customer_id: int):
+def get_customer_address(customer_id: int):
     return database.askOne("SELECT address FROM ? customer_id = ?", (database.JOB_HISTORY_TABLE, customer_id,))
+
+
+def list_customers():
+    """
+    Execute a query to retrieve all unique customers
+    """
+    queryString = f"SELECT DISTINCT customer_id, customer_name FROM {job_table}"
+    return query(queryString)
+
+
+def get_completed_jobs(customer_id):
+    queryString = f"SELECT * FROM {job_table} WHERE customer_id = ? AND price > 0 AND duration > 0"
+    return query(queryString, (customer_id,))

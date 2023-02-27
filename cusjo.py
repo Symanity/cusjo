@@ -13,6 +13,7 @@
 import sys
 from src.customer_factor_importer import assistant
 from src.window_magic.evaluators import evaluator
+from src import converter
 
 # 1. Filter by date range
 # 2. filter by employee
@@ -149,7 +150,7 @@ def printRes(response = None, query=None):
 if len(sys.argv) > 1:
     theCase = sys.argv[1]
 
-    if str(sys.argv[1]) == "build":
+    if str(sys.argv[1]) == "build":                             # BUILD THE CUSTOMER FACTOR DATABASE
         if len(sys.argv) > 2:
             try:
                 assistant.build_database(str(sys.argv[2]))
@@ -158,6 +159,12 @@ if len(sys.argv) > 1:
 
         else:
             assistant.build_database()
+
+    if str(sys.argv[1]) == "convert":                           # CONVERT THE CUSTOMER FACTOR DATABSE TO WINDOW MAGIC DATABASE
+        try:
+            converter.initWindowMagic_DB()
+        except:
+            print("[FATAL-ERROR] invalid file")
 
 
 

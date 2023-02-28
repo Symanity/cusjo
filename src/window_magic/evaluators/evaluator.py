@@ -15,12 +15,7 @@ def evaluate_all():
     for customer_row in customer_list:
         customer = Customer(customer_row[0])
 
-        evaluator:Evaluator = customer.get_evaluator()
-
-        evaluator.apply_filter(__consider_employees)
-        evaluator.apply_filter(__at_most_12_jobs)
-
-        evaluations[customer] = evaluator.get_evaluations(True)
+        evaluations[customer] = __generate_evals(customer)
 
     return evaluations
 
@@ -30,15 +25,18 @@ def evaluate(customer_id):
     evaluations = defaultdict(list)
     customer = Customer(customer_id)
 
+    evaluations[customer] = __generate_evals(customer)
+
+    return evaluations
+
+
+def __generate_evals(customer):
     evaluator:Evaluator = customer.get_evaluator()
 
     evaluator.apply_filter(__consider_employees)
     evaluator.apply_filter(__at_most_12_jobs)
 
-    evaluations[customer] = evaluator.get_evaluations(True)
-
-    return evaluations
-
+    return evaluator.get_evaluations(True)
 
 # ====================================================================================
 # Window Magic Filters

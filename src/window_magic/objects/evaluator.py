@@ -54,6 +54,17 @@ class Evaluation:
         return employees
     
 
+    def calculate_new_price(self, target_rate = 100):
+        # Calculate the current hourly rate from the given price
+        current_hourly_rate = self.get_rate() / 1.0
+
+        # Calculate the new price needed to achieve the target hourly rate
+        new_price = self.price * (target_rate / current_hourly_rate)
+
+        # Return the new price
+        return new_price
+    
+
     def __str__(self) -> str:
         if self.job_list:
             return f"{self.price} at a rate of ${self.get_rate()} per hour. This takes {self.get_employees()} approximately {round(self.average_duration, 0)} mins"

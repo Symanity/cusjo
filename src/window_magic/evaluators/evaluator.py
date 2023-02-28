@@ -6,7 +6,38 @@ from src.window_magic.objects.evaluator import Evaluator
 from src.window_magic.objects.evaluator import Evaluation
 from src.window_magic.objects.job import Job
 from collections import defaultdict
+import math
 
+
+# ====================================================================================
+# Window Magic Filters
+# ====================================================================================
+ideal_employee_rate = 105
+
+def __at_most_12_jobs(job_list):
+    return job_list[:12]
+
+
+def __consider_employees(job_list):
+    """
+    Filters the job rows to include only rows with an employee in the given list.
+    """
+
+    employees = {"Justin Smith", "Jose Perez", "Devony Dettman"}
+    return [job for job in job_list if job.employee in employees]
+
+
+# Post Filter
+def __show_only_if_below_min_price(evaluation: Evaluation):
+    if evaluation.get_rate() < 105:
+        return evaluation
+
+    else:
+        return None
+
+# ====================================================================================
+# Evaluator functions
+# ====================================================================================
 def evaluate_all():
     services_evaluations = defaultdict(list)
 
@@ -43,31 +74,15 @@ def __generate_evals(customer):
 
     return services_evals
 
-
-# ====================================================================================
-# Window Magic Filters
-# ====================================================================================
-def __at_most_12_jobs(job_list):
-    return job_list[:12]
-
-
-def __consider_employees(job_list):
-    """
-    Filters the job rows to include only rows with an employee in the given list.
-    """
-
-    employees = {"Justin Smith", "Jose Perez", "Devony Dettman"}
-    return [job for job in job_list if job.employee in employees]
-
-
-# Post Filter
-def __show_only_if_below_min_price(evaluation: Evaluation):
-    if evaluation.get_rate() < 105:
-        return evaluation
-
-    else:
-        return None
     
+def round_up_to_nearest_5(num):
+    # Round up to the nearest integer
+    rounded_num = math.ceil(num)
+    # Divide by 5 and round up to the nearest integer
+    rounded_num = math.ceil(rounded_num / 5.0) * 5
+    # Return the rounded number
+    return rounded_num
+
 # ====================================================================================
 # Output results as desired
 # ====================================================================================
@@ -116,10 +131,14 @@ class Outputer:
                 duration       = evaluation.average_duration
                 employees      = evaluation.get_employees()
                 data_points    = evaluation.get_data_point_qty()
+                correct_price  = evaluation.calculate_new_price(ideal_employee_rate)
 
                 print_string   = print_string + f"\t{service_titles} for ${price}\n"
                 print_string   = print_string + f"\t\tAccording to {employees}, this takes an average of {round(duration,0)} mins.\n"
-                print_string   = print_string + f"\t\tThat is ${rate}/hr :: {data_points} points"
+                print_string   = print_string + f"\t\tThat is ${rate}/hr :: {data_points} points\n"
+
+                print_string   = print_string + f"\t\tFOR A RATE OF ${ideal_employee_rate}/hr, PRICE JOB @ ${round_up_to_nearest_5(correct_price)}"
+                
                 print_string   = print_string + "\n"
 
             elif include_empties:
@@ -136,3 +155,4 @@ class Outputer:
                 return [customer, services_evals]
             
         return None
+    

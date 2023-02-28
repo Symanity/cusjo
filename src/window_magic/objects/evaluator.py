@@ -79,6 +79,7 @@ class Evaluator:
         self.services_performed         = self.__group_jobs_by_service(all_jobs)
         self.services_performed_filtered = copy.deepcopy(self.services_performed)
         self.__filters = []
+        self.__post_filters = []
         self.__flags = []
 
         self.evaluations = {}
@@ -101,20 +102,25 @@ class Evaluator:
         # Apply filters to each unique job specification
         for job_key in self.services_performed_filtered:
             self.services_performed_filtered[job_key] = self.__execute_filters(self.services_performed_filtered[job_key])
-            self.__execute_flags(self.services_performed_filtered[job_key])
+            # self.__execute_flags(self.services_performed_filtered[job_key])
 
             if self.services_performed_filtered[job_key]:
                 self.evaluations[job_key] = Evaluation(self.services_performed_filtered[job_key])
+
+                self.evaluations[job_key]= self.__execute_post_filters(self.evaluations[job_key])
             else:
                 self.evaluations[job_key] = None
 
 
-    def apply_filter(self, func):
+    def apply_pre_filter(self, func):
          """
          Filter the job list to include the returned list
          """
          self.__filters.append(func)
 
+
+    def apply_post_filter(self, func):
+        self.__post_filters.append(func)
 
     def add_flag(self, func):
         self.__flags.append(func)
@@ -125,11 +131,11 @@ class Evaluator:
         self.evaluations = {}
 
 
-    def __execute_flags(self, job_list):
-        for filter in self.__filters:
-            job_list = filter(job_list)
+    # def __execute_flags(self, job_list):
+    #     for filter in self.__filters:
+    #         job_list = filter(job_list)
 
-        return job_list
+    #     return job_list
 
     def __execute_filters(self, job_list):
         for filter in self.__filters:
@@ -137,6 +143,12 @@ class Evaluator:
 
         return job_list
 
+
+    def __execute_post_filters(self, evaluation):
+        for filter in self.__post_filters:
+            evaluation = filter(evaluation)
+
+        return evaluation
 
     def __group_jobs_by_service(self, job_list):
         """

@@ -64,7 +64,14 @@ else:
     customer_evaluations = evaluator.evaluate_all()
 
     outputer = evaluator.Outputer(customer_evaluations)
-    outputer.output_to_console()
+    output = outputer.output_to_console()
+
+    print(output)
+
+    with open('evaluations.txt', 'w') as results:
+        results.write(output)
+
+    results.close()
 
     # for customer in customer_evaluations:
     #     print(f"{customer.id} - {customer.name} ({customer.address}) gets:")

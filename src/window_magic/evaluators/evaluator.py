@@ -100,14 +100,17 @@ class Outputer:
             - include_empties (optional): Whether to include empty values in the output. Default is False.
 
         """
+        a_string = ""
         if customer_id:
-            print(self.__basics_to_console(customer_id, include_empties))
+            return self.__basics_to_console(customer_id, include_empties)
         else:
             for customer in self.customer_and_services:
                 if self.customer_and_services[customer].values():
                     output = self.__basics_to_console(customer.id, include_empties)
                     if output:
-                        print(output)
+                        a_string = a_string + output + "\n"
+
+            return a_string
 
 
 

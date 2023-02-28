@@ -64,27 +64,30 @@ class Outputer:
         self.customer_and_services = evaluations
 
 
-    def output_to_console(self, customer_id = None):
+    def output_to_console(self, customer_id = None, include_empties = False):
         if customer_id:
-            print(self.__basics_to_console(customer_id))
+            print(self.__basics_to_console(customer_id, include_empties))
         else:
             for customer in self.customer_and_services:
                 if self.customer_and_services[customer].values():
-                    print(self.__basics_to_console(customer.id))
+                    output = self.__basics_to_console(customer.id, include_empties)
+                    if output:
+                        print(output)
+
 
 
     def output_to_csv(self, customer_id = None):
         pass
 
 
-    def __basics_to_console(self, customer_id):
+    def __basics_to_console(self, customer_id, include_empties = False):
         print_string = ""
         # Retrieves the Customer and the Evalution to print
         data = self.__retrieve_info(customer_id)
         customer: Customer = data[0]
         services_evals = data[1]
 
-        print_string = f"{customer.id} - {customer.name} ({customer.address}): \n"
+        header_string = f"{customer.id} - {customer.name} ({customer.address}): \n"
         
         for service_titles, evaluation in services_evals.items():
             if evaluation:
@@ -95,15 +98,17 @@ class Outputer:
                 data_points    = evaluation.get_data_point_qty()
 
                 print_string   = print_string + f"\t{service_titles} for ${price}\n"
-                print_string   = print_string + f"\t\tAccording to {employees}, this takes an average of {duration} mins.\n"
+                print_string   = print_string + f"\t\tAccording to {employees}, this takes an average of {round(duration,0)} mins.\n"
                 print_string   = print_string + f"\t\tThat is ${rate}/hr :: {data_points} points"
                 print_string   = print_string + "\n"
-            else:
+
+            elif include_empties:
                 print_string = print_string + f"\t{service_titles} - HAS INSUFFICIENT DATA\n"
 
-        return print_string
 
-
+        if print_string:
+            return header_string+print_string
+        
 
     def __retrieve_info(self, customer_id):
         for customer, services_evals in self.customer_and_services.items():

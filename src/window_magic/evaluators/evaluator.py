@@ -6,33 +6,6 @@ from src.window_magic.objects.evaluator import Evaluator
 from src.window_magic.objects.job import Job
 from collections import defaultdict
 
-
-# ===========================================
-#   Retrieve Evaluations for all customers
-#   pre: A list of the customer to evaluate
-#   post: A list of evaluations for each customer
-# ===========================================
-# def evaluate_all():
-#     """
-
-#     """
-#     focused_data = defaultdict(list)
-
-#     # Execute a query to retrieve all unique customers
-#     customer_list = assistant.list_customers()
-
-#     # Iterate over each customer and retrieve their jobs with price and duration
-#     for customer in customer_list:
-#         customer_id = customer[0]
-#         job_rows = assistant.get_completed_jobs(customer_id)
-
-#         employees = ["Justin Smith", "Jose Perez", "Devony Dettman"]
-#         job_rows = filter_jobs_by_employee(job_rows, employees)
-        
-#         # Print out the results
-#         print_results(customer_id, job_rows, customer[1])
-        
-
 def evaluate_all():
     evaluations = defaultdict(list)
 
@@ -47,7 +20,7 @@ def evaluate_all():
         evaluator.apply_filter(__consider_employees)
         evaluator.apply_filter(__at_most_12_jobs)
 
-        evaluations[customer] = evaluator.get_evaluations()
+        evaluations[customer] = evaluator.get_evaluations(True)
 
     return evaluations
 
@@ -62,11 +35,14 @@ def evaluate(customer_id):
     evaluator.apply_filter(__consider_employees)
     evaluator.apply_filter(__at_most_12_jobs)
 
-    evaluations[customer] = evaluator.get_evaluations()
+    evaluations[customer] = evaluator.get_evaluations(True)
 
     return evaluations
 
 
+# ====================================================================================
+# Window Magic Filters
+# ====================================================================================
 def __at_most_12_jobs(job_list):
     return job_list[:12]
 
@@ -80,11 +56,58 @@ def __consider_employees(job_list):
     return [job for job in job_list if job.employee in employees]
 
 
-def print_results(customer_name, job_rows, id):
-    if len(job_rows) > 0:
-        print(f"Jobs for {customer_name}: {id}")
+# ====================================================================================
+# Output results as desired
+# ====================================================================================
+class Outputer:
+    def __init__(self, evaluations) -> None:
+        self.customer_and_services = evaluations
 
-        for job_row in job_rows:
-            customer_id, customer_name, customer_address, services, job_date, price, duration, employee = job_row
-            print(f"- {services} on {job_date} by {employee} for {price} ({duration} minutes)")
-        print()
+
+    def output_to_console(self, customer_id = None):
+        if customer_id:
+            print(self.__basics_to_console(customer_id))
+        else:
+            for customer in self.customer_and_services:
+                if self.customer_and_services[customer].values():
+                    print(self.__basics_to_console(customer.id))
+
+
+    def output_to_csv(self, customer_id = None):
+        pass
+
+
+    def __basics_to_console(self, customer_id):
+        print_string = ""
+        # Retrieves the Customer and the Evalution to print
+        data = self.__retrieve_info(customer_id)
+        customer: Customer = data[0]
+        services_evals = data[1]
+
+        print_string = f"{customer.id} - {customer.name} ({customer.address}): \n"
+        
+        for service_titles, evaluation in services_evals.items():
+            if evaluation:
+                price          = evaluation.price
+                rate           = evaluation.get_rate()
+                duration       = evaluation.average_duration
+                employees      = evaluation.get_employees()
+                data_points    = evaluation.get_data_point_qty()
+
+                print_string   = print_string + f"\t{service_titles} for ${price}\n"
+                print_string   = print_string + f"\t\tAccording to {employees}, this takes an average of {duration} mins.\n"
+                print_string   = print_string + f"\t\tThat is ${rate}/hr :: {data_points} points"
+                print_string   = print_string + "\n"
+            else:
+                print_string = print_string + f"\t{service_titles} - HAS INSUFFICIENT DATA\n"
+
+        return print_string
+
+
+
+    def __retrieve_info(self, customer_id):
+        for customer, services_evals in self.customer_and_services.items():
+            if customer.id == customer_id:
+                return [customer, services_evals]
+            
+        return None

@@ -54,10 +54,6 @@ class Evaluation:
         return employees
     
 
-    def __evaluate():
-         pass
-    
-
     def __str__(self) -> str:
         if self.job_list:
             return f"{self.price} at a rate of ${self.get_rate()} per hour. This takes {self.get_employees()} approximately {round(self.average_duration, 0)} mins"
@@ -67,8 +63,15 @@ class Evaluation:
 
 
 class Evaluator:
+    """
+    After adding all necessary
+    """
     def __init__(self, all_jobs: job_assistant.Job) -> None:
-        """Evaluates a list of Job objects
+        """
+            The Evaluator Object is responsible for filtering and flaging the job list.\n
+                1. Apply filters
+                2. Apply flags
+                3. Get Evaluations
 
             Args:
                 all_jobs (list): List of type Job
@@ -76,30 +79,57 @@ class Evaluator:
         self.services_performed         = self.__group_jobs_by_service(all_jobs)
         self.services_performed_filtered = copy.deepcopy(self.services_performed)
         self.__filters = []
+        self.__flags = []
 
         self.evaluations = {}
 
 
-    def get_evaluations(self):
+    def get_evaluations(self, execute_evaluation = False):
         """
             Applies the filers. Then executes each evaluation per unique job. Finally, returns the list of evaluations.
+
+            Returns: A list of job specs and an accompanying Evaluation object
         """
 
+        if execute_evaluation:
+            self.__evaluate()
+
+        return self.evaluations
+
+
+    def __evaluate(self):
         # Apply filters to each unique job specification
         for job_key in self.services_performed_filtered:
             self.services_performed_filtered[job_key] = self.__execute_filters(self.services_performed_filtered[job_key])
+            self.__execute_flags(self.services_performed_filtered[job_key])
 
             if self.services_performed_filtered[job_key]:
                 self.evaluations[job_key] = Evaluation(self.services_performed_filtered[job_key])
             else:
                 self.evaluations[job_key] = None
 
-        return self.evaluations
-
 
     def apply_filter(self, func):
+         """
+         Filter the job list to include the returned list
+         """
          self.__filters.append(func)
 
+
+    def add_flag(self, func):
+        self.__flags.append(func)
+
+
+    def reset(self):
+        self.services_performed_filtered = copy.deepcopy(self.services_performed)
+        self.evaluations = {}
+
+
+    def __execute_flags(self, job_list):
+        for filter in self.__filters:
+            job_list = filter(job_list)
+
+        return job_list
 
     def __execute_filters(self, job_list):
         for filter in self.__filters:

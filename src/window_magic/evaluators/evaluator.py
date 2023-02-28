@@ -47,8 +47,24 @@ def evaluate_all():
         evaluator.apply_filter(__consider_employees)
         evaluator.apply_filter(__at_most_12_jobs)
 
-        
         evaluations[customer] = evaluator.get_evaluations()
+
+    return evaluations
+
+
+## Returns Evaluation Object
+def evaluate(customer_id):
+    evaluations = defaultdict(list)
+    customer = Customer(customer_id)
+
+    evaluator:Evaluator = customer.get_evaluator()
+
+    evaluator.apply_filter(__consider_employees)
+    evaluator.apply_filter(__at_most_12_jobs)
+
+    evaluations[customer] = evaluator.get_evaluations()
+
+    return evaluations
 
 
 def __at_most_12_jobs(job_list):
@@ -72,8 +88,3 @@ def print_results(customer_name, job_rows, id):
             customer_id, customer_name, customer_address, services, job_date, price, duration, employee = job_row
             print(f"- {services} on {job_date} by {employee} for {price} ({duration} minutes)")
         print()
-
-
-## Returns Evaluation Object
-def evaluate_customer(customer_id):
-    pass

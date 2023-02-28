@@ -185,9 +185,16 @@ if len(sys.argv) > 1:
 
 else:
     # converter.initWindowMagic_DB()
-    evaluator.evaluate_all()
+    customer_evaluations = evaluator.evaluate(9992)
+    # customer_evaluations = evaluator.evaluate_all()
 
-    pass
+    for customer in customer_evaluations:
+        print(f"{customer.id} - {customer.name} ({customer.address}) gets:")
+        for service_key, evaluation in customer_evaluations[customer].items():
+            print(f"{service_key} @ {evaluation}")
+
+
+
     # query = """SELECT customer_id, customer_name FROM {} WHERE employee = 'Roberto Isais' GROUP BY customer_id HAVING COUNT(DISTINCT employee) = 1""".format(wmDatabase.tbl_consideredJobs)
     # res = wmDatabase.ask(query)
     # printRes(res)

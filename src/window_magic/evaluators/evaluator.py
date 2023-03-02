@@ -23,7 +23,7 @@ def __consider_employees(job_list):
     Filters the job rows to include only rows with an employee in the given list.
     """
 
-    employees = {"Justin Smith", "Jose Perez", "Devony Dettman"}
+    employees = {"Justin Smith", "Jose Perez", "Devony Dettman, Roberto Isais, Brandon Foster"}
     return [job for job in job_list if job.employee in employees]
 
 
@@ -126,6 +126,7 @@ class Outputer:
         services_evals = data[1]
 
         header_string = f"{customer.id} - {customer.name} ({customer.address}): \n"
+        header_string = header_string + f"https://www.thecustomerfactor.com/customers_profile.php?id={customer.id}\n"
         
         for service_titles, evaluation in services_evals.items():
             if evaluation:

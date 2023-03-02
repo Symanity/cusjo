@@ -11,7 +11,7 @@ from src.customer_factor_importer import assistant
 from src.window_magic.evaluators import evaluator
 from src import converter
 
-def printRes(response = None, query=None):
+def printRes(response = None):
     if response:
         for r in response:
             print(r)
@@ -36,12 +36,21 @@ if len(sys.argv) > 1:
         else:
             assistant.build_database()
 
-    if str(sys.argv[1]) == "convert":                           # CONVERT THE CUSTOMER FACTOR DATABASE TO WINDOW MAGIC DATABASE
+    elif str(sys.argv[1]) == "convert":                           # CONVERT THE CUSTOMER FACTOR DATABASE TO WINDOW MAGIC DATABASE
         try:
             converter.initWindowMagic_DB()
         except:
             print("[FATAL-ERROR] invalid file")
 
+
+    elif str(sys.argv[1]) == "list":                           # CONVERT THE CUSTOMER FACTOR DATABASE TO WINDOW MAGIC DATABASE
+        if len(sys.argv) > 2:
+            if sys.argv[2] == "employees":
+                try:
+                    res = assistant.listEmployees()
+                    printRes(res)
+                except:
+                    print("[FATAL-ERROR] could not retrieve employees")
 
 
     # elif sys.argv[1] == "evaluate":

@@ -1,372 +1,672 @@
 1 - Sprouts (878 Eastlake Pkwy): 
 https://www.thecustomerfactor.com/customers_profile.php?id=1
+
 	['Window Cleaning'] for $85.0
-		According to ['Justin Smith'], this takes an average of 50.0 mins.
-		That is $102.0/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $90
+		According to ['Roberto Isais', 'Brandon Foster', 'Justin Smith'], this takes an average of 51.0 mins.
+		That is $100.0/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $95
 
 14 - Trader Joes # 223 (13480 Highlands Place): 
 https://www.thecustomerfactor.com/customers_profile.php?id=14
-	['Window Cleaning'] for $70.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 45.0 mins.
-		That is $93.51/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $80
+
+	['Exterior Window Cleaning'] for $45.0
+		According to ['Brandon Foster'], this takes an average of 52.0 mins.
+		That is $51.92/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $100
 
 25 - C and D Cycles (4927 Convoy St): 
 https://www.thecustomerfactor.com/customers_profile.php?id=25
-	['Exterior Window Cleaning'] for $25.0
-		According to ['Jose Perez', 'Justin Smith'], this takes an average of 16.0 mins.
-		That is $92.11/hr :: 7 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $30
 
-26 - Bergen And Brasier (5710 Kearny Villa Rd): 
-https://www.thecustomerfactor.com/customers_profile.php?id=26
-	['Interior/Exterior Window Cleaning'] for $48.0
-		According to ['Justin Smith'], this takes an average of 30.0 mins.
-		That is $96.0/hr :: 1 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $55
+	['Exterior Window Cleaning'] for $25.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 15.0 mins.
+		That is $98.36/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $30
+
+27 - Champagne Spas (5710 Kearny Villa Rd): 
+https://www.thecustomerfactor.com/customers_profile.php?id=27
+
+	['Interior Only Window Cleaning'] for $25.0
+		According to ['Brandon Foster'], this takes an average of 33.0 mins.
+		That is $45.45/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $65
 
 37 - Dell Enterprises (7949 Broadway): 
 https://www.thecustomerfactor.com/customers_profile.php?id=37
-	['Interior/Exterior Window Cleaning'] for $13.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 14.0 mins.
-		That is $56.93/hr :: 10 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $25
 
-53 - Trader Joes #24 (5495 Grossmont Blvd): 
-https://www.thecustomerfactor.com/customers_profile.php?id=53
-	['Exterior Window Cleaning'] for $43.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 25.0 mins.
-		That is $103.55/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $45
+	['Interior/Exterior Window Cleaning'] for $13.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 18.0 mins.
+		That is $43.94/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $35
+
+42 - La Mesa Glass (8710 Railroad Avenue): 
+https://www.thecustomerfactor.com/customers_profile.php?id=42
+
+	['Window Cleaning'] for $85.0
+		According to ['Roberto Isais'], this takes an average of 60.0 mins.
+		That is $85.0/hr :: 4 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $110
 
 56 - Trader Joes # 222 (1072 Camino Del Rio N): 
 https://www.thecustomerfactor.com/customers_profile.php?id=56
-	['Exterior Window Cleaning'] for $45.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 32.0 mins.
-		That is $84.82/hr :: 6 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $60
 
-59 - Outrageous Rugs (7126 Miramar Rd): 
-https://www.thecustomerfactor.com/customers_profile.php?id=59
-	['Exterior Window Cleaning'] for $85.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 54.0 mins.
-		That is $94.15/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $95
+	['Exterior Window Cleaning'] for $45.0
+		According to ['Roberto Isais', 'Justin Smith', 'Brandon Foster', 'Jose Perez'], this takes an average of 30.0 mins.
+		That is $89.01/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $60
 
 64 - Sherwood Mechanical (6630 Top Gun St): 
 https://www.thecustomerfactor.com/customers_profile.php?id=64
+
 	['in and out of lobby windows'] for $30.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 19.0 mins.
-		That is $94.74/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $35
+		According to ['Devony Dettman', 'Roberto Isais', 'Justin Smith', 'Brandon Foster', 'Jose Perez'], this takes an average of 20.0 mins.
+		That is $90.38/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $40
 
 66 - San Diego Shade (7354 Trade St): 
 https://www.thecustomerfactor.com/customers_profile.php?id=66
+
 	['Exterior Window Cleaning'] for $20.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 15.0 mins.
-		That is $80.9/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $30
+		According to ['Devony Dettman', 'Roberto Isais', 'Justin Smith', 'Brandon Foster', 'Jose Perez'], this takes an average of 12.0 mins.
+		That is $97.3/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $25
 
 68 - Newen Enterprises (1250 Pacific Oaks Pl): 
 https://www.thecustomerfactor.com/customers_profile.php?id=68
+
 	['Interior/Exterior Window Cleaning'] for $75.0
-		According to ['Jose Perez', 'Justin Smith'], this takes an average of 58.0 mins.
-		That is $77.14/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $105
+		According to ['Devony Dettman', 'Jose Perez', 'Roberto Isais', 'Justin Smith', 'Brandon Foster'], this takes an average of 63.0 mins.
+		That is $71.81/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $115
+	['Exterior Window Cleaning'] for $35.0
+		According to ['Roberto Isais'], this takes an average of 60.0 mins.
+		That is $35.0/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $110
+
+75 - Cumming Chevrolet (2301 National City Blvd): 
+https://www.thecustomerfactor.com/customers_profile.php?id=75
+
+	['Exterior Window Cleaning'] for $300.0
+		According to ['Roberto Isais'], this takes an average of 180.0 mins.
+		That is $100.0/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $330
 
 76 - Hyde Edwards (2308 Kettner Blvd): 
 https://www.thecustomerfactor.com/customers_profile.php?id=76
-	['Exterior Window Cleaning', 'Interior Only Window Cleaning'] for $60.0
-		According to ['Jose Perez'], this takes an average of 865.0 mins.
-		That is $4.16/hr :: 4 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $1515
 
-82 - U.P.S Store (302 Washington St): 
-https://www.thecustomerfactor.com/customers_profile.php?id=82
-	['Interior/Exterior Window Cleaning'] for $22.0
-		According to ['Jose Perez'], this takes an average of 13.0 mins.
-		That is $100.57/hr :: 8 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $25
+	['Exterior Window Cleaning', 'Interior Only Window Cleaning'] for $65.0
+		According to ['Devony Dettman', 'Roberto Isais', 'Brandon Foster'], this takes an average of 211.0 mins.
+		That is $18.46/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $390
+	['Interior/Exterior Window Cleaning'] for $95.0
+		According to ['Roberto Isais'], this takes an average of 90.0 mins.
+		That is $63.33/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $170
+	['Paint Removal'] for $75.0
+		According to ['Roberto Isais'], this takes an average of 60.0 mins.
+		That is $75.0/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $110
+	['Exterior Window Cleaning'] for $60.0
+		According to ['Roberto Isais'], this takes an average of 957.0 mins.
+		That is $3.76/hr :: 6 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $1760
+
+81 - Compass Real Estate (1625 W Lewis St): 
+https://www.thecustomerfactor.com/customers_profile.php?id=81
+
+	['Interior/Exterior Window Cleaning'] for $30.0
+		According to ['Roberto Isais'], this takes an average of 22.0 mins.
+		That is $81.82/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $45
 
 93 - Lancetown Industries  Inc - Powers Plumbing (1705 W Lewis St): 
 https://www.thecustomerfactor.com/customers_profile.php?id=93
-	['Interior/Exterior Window Cleaning'] for $32.0
-		According to ['Jose Perez'], this takes an average of 36.0 mins.
-		That is $52.6/hr :: 2 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $65
 
-95 - G.T.M Office (Gillespie Way): 
-https://www.thecustomerfactor.com/customers_profile.php?id=95
-	['Exterior Window Cleaning'] for $35.0
-		According to ['Justin Smith'], this takes an average of 41.0 mins.
-		That is $51.47/hr :: 5 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $75
+	['Interior/Exterior Window Cleaning'] for $32.0
+		According to ['Roberto Isais', 'Brandon Foster', 'Jose Perez'], this takes an average of 28.0 mins.
+		That is $68.57/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $55
 
 97 - Bit Company (8085 La Mesa Blvd): 
 https://www.thecustomerfactor.com/customers_profile.php?id=97
+
 	['Exterior Window Cleaning'] for $35.0
-		According to ['Jose Perez'], this takes an average of 21.0 mins.
-		That is $100.0/hr :: 2 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $40
+		According to ['Roberto Isais'], this takes an average of 22.0 mins.
+		That is $96.92/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $40
+
+101 - Sew Pros #1 (393 Broadway): 
+https://www.thecustomerfactor.com/customers_profile.php?id=101
+
+	['Interior/Exterior Window Cleaning'] for $60.0
+		According to ['Roberto Isais'], this takes an average of 45.0 mins.
+		That is $80.0/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $85
 
 106 - The Barbecue Pit (2388 Fletcher Pkwy): 
 https://www.thecustomerfactor.com/customers_profile.php?id=106
+
 	['Interior/Exterior Window Cleaning'] for $35.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 22.0 mins.
-		That is $95.82/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $40
+		According to ['Roberto Isais'], this takes an average of 26.0 mins.
+		That is $79.75/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $50
+	['Exterior Window Cleaning'] for $25.0
+		According to ['Roberto Isais'], this takes an average of 18.0 mins.
+		That is $83.33/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $35
 	['Interior/Exterior Window Cleaning', 'Window Cleaning'] for $64.0
 		According to ['Jose Perez'], this takes an average of 48.0 mins.
 		That is $80.0/hr :: 1 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $85
+		FOR A RATE OF $110/hr, PRICE JOB @ $90
 
 125 - Citi Dental (290 E Douglas Ave): 
 https://www.thecustomerfactor.com/customers_profile.php?id=125
-	['Interior/Exterior Window Cleaning'] for $65.0
-		According to ['Justin Smith'], this takes an average of 53.0 mins.
-		That is $73.58/hr :: 1 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $95
-	['Exterior Window Cleaning'] for $40.0
-		According to ['Jose Perez', 'Justin Smith'], this takes an average of 49.0 mins.
-		That is $49.27/hr :: 7 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $90
+
+	['Exterior Window Cleaning'] for $42.0
+		According to ['Roberto Isais', 'Jose Perez'], this takes an average of 42.0 mins.
+		That is $60.24/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $80
+	['Exterior Window Cleaning', 'Interior/Exterior Window Cleaning'] for $125.0
+		According to ['Roberto Isais'], this takes an average of 90.0 mins.
+		That is $83.33/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $170
 
 135 - Quality Tax Service (9829 Campo Rd): 
 https://www.thecustomerfactor.com/customers_profile.php?id=135
+
 	['Interior/Exterior Window Cleaning'] for $20.0
-		According to ['Jose Perez', 'Justin Smith'], this takes an average of 271.0 mins.
-		That is $4.43/hr :: 4 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $475
+		According to ['Roberto Isais', 'Brandon Foster', 'Jose Perez'], this takes an average of 21.0 mins.
+		That is $58.06/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $40
+	['Exterior Window Cleaning'] for $10.0
+		According to ['Roberto Isais'], this takes an average of 17.0 mins.
+		That is $35.29/hr :: 2 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $35
 
 136 - Minor Construction (301 Enterprise St): 
 https://www.thecustomerfactor.com/customers_profile.php?id=136
+
 	['Exterior Window Cleaning'] for $110.0
 		According to ['Jose Perez'], this takes an average of 4628.0 mins.
 		That is $1.43/hr :: 4 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $8080
+		FOR A RATE OF $110/hr, PRICE JOB @ $8465
 
 145 - California Coast Credit Union - Chula Vista (386 E H St): 
 https://www.thecustomerfactor.com/customers_profile.php?id=145
-	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] for $125.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 94.0 mins.
-		That is $79.37/hr :: 6 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $170
 
-158 - Trader Joes #221 (9850 Hibert St): 
-https://www.thecustomerfactor.com/customers_profile.php?id=158
-	['Exterior Window Cleaning'] for $45.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 27.0 mins.
-		That is $101.25/hr :: 9 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $50
+	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] for $125.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 83.0 mins.
+		That is $90.0/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $155
 
 159 - Trader Joes #220 (2629 Gateway Road): 
 https://www.thecustomerfactor.com/customers_profile.php?id=159
+
 	['In/Out entry ways'] for $65.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 40.0 mins.
+		According to ['Devony Dettman', 'Justin Smith', 'Jose Perez'], this takes an average of 40.0 mins.
 		That is $97.7/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $70
+		FOR A RATE OF $110/hr, PRICE JOB @ $75
+	['Interior/Exterior Window Cleaning'] for $175.0
+		According to ['Devony Dettman', 'Jose Perez', 'Justin Smith'], this takes an average of 106.0 mins.
+		That is $98.98/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $195
 
 162 - Del Mar Hts Medical Building - Beachside Del Mar (13983 Mango Dr): 
 https://www.thecustomerfactor.com/customers_profile.php?id=162
+
 	['Exterior Window Cleaning', 'High lobby windows'] for $260.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 169.0 mins.
-		That is $92.44/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $300
+		According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez'], this takes an average of 193.0 mins.
+		That is $80.76/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $355
 
 165 - Trader Joes #25 (115 N El Camino Real): 
 https://www.thecustomerfactor.com/customers_profile.php?id=165
+
 	['Exterior Window Cleaning'] for $42.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 32.0 mins.
-		That is $78.96/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $60
+		According to ['Devony Dettman', 'Justin Smith'], this takes an average of 31.0 mins.
+		That is $81.73/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $60
 	['Interior/Exterior Window Cleaning'] for $85.0
-		According to ['Jose Perez', 'Justin Smith'], this takes an average of 57.0 mins.
-		That is $89.47/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $100
+		According to ['Devony Dettman', 'Jose Perez', 'Justin Smith'], this takes an average of 54.0 mins.
+		That is $94.74/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $100
 
 167 - Invision Boutique (3830 Valley Centre Dr): 
 https://www.thecustomerfactor.com/customers_profile.php?id=167
-	['Exterior Window Cleaning'] for $20.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 15.0 mins.
-		That is $82.29/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $30
+
+	['Exterior Window Cleaning'] for $13.0
+		According to ['Roberto Isais', 'Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez'], this takes an average of 13.0 mins.
+		That is $58.14/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $25
 	['Interior/Exterior Window Cleaning'] for $27.0
-		According to ['Jose Perez', 'Justin Smith'], this takes an average of 24.0 mins.
-		That is $66.39/hr :: 10 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $45
+		According to ['Devony Dettman', 'Brandon Foster', 'Jose Perez', 'Justin Smith'], this takes an average of 27.0 mins.
+		That is $60.56/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $50
 
 169 - Edward D Jones (12750 Carmel Country Rd): 
 https://www.thecustomerfactor.com/customers_profile.php?id=169
+
 	['Interior/Exterior Window Cleaning'] for $17.0
-		According to ['Justin Smith'], this takes an average of 10.0 mins.
-		That is $102.0/hr :: 1 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $20
-	['Exterior Window Cleaning'] for $17.0
-		According to ['Jose Perez', 'Justin Smith'], this takes an average of 10.0 mins.
-		That is $99.17/hr :: 7 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $20
+		According to ['Devony Dettman', 'Justin Smith'], this takes an average of 15.0 mins.
+		That is $68.0/hr :: 2 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $30
 
 172 - Trader Joes #22 (2570 Vista Way): 
 https://www.thecustomerfactor.com/customers_profile.php?id=172
-	['Interior/Exterior Window Cleaning'] for $95.0
-		According to ['Jose Perez', 'Justin Smith'], this takes an average of 58.0 mins.
-		That is $98.28/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $105
+
 	['Interior/Exterior Window Cleaning', 'Interior/Exterior Window Cleaning'] for $160.0
 		According to ['Justin Smith'], this takes an average of 94.0 mins.
 		That is $102.13/hr :: 1 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $165
+		FOR A RATE OF $110/hr, PRICE JOB @ $175
 
 184 - Mission Hills Financial (1633 W Lewis St): 
 https://www.thecustomerfactor.com/customers_profile.php?id=184
+
 	['Exterior Window Cleaning'] for $22.0
-		According to ['Jose Perez'], this takes an average of 22.0 mins.
-		That is $60.0/hr :: 1 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $40
+		According to ['Roberto Isais', 'Brandon Foster', 'Jose Perez'], this takes an average of 18.0 mins.
+		That is $73.33/hr :: 5 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $35
 
 185 - Watchlight Corporation (111 S Marshall Ave): 
 https://www.thecustomerfactor.com/customers_profile.php?id=185
+
 	['Exterior Window Cleaning'] for $25.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 16.0 mins.
-		That is $93.75/hr :: 4 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $30
+		According to ['Roberto Isais', 'Brandon Foster', 'Justin Smith'], this takes an average of 15.0 mins.
+		That is $101.12/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $30
 
 246 - Mohnacky Animal Hospital (2250 S Escondido Blvd): 
 https://www.thecustomerfactor.com/customers_profile.php?id=246
+
 	['Interior/Exterior Window Cleaning'] for $155.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 123.0 mins.
-		That is $75.82/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $215
+		According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez'], this takes an average of 133.0 mins.
+		That is $69.71/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $245
 	['Exterior Window Cleaning'] for $155.0
 		According to ['Justin Smith', 'Jose Perez'], this takes an average of 97.0 mins.
 		That is $96.21/hr :: 3 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $170
+		FOR A RATE OF $110/hr, PRICE JOB @ $180
 
 247 - Acacia Animal Health Center (655 W Citracado Pkwy): 
 https://www.thecustomerfactor.com/customers_profile.php?id=247
+
 	['Interior/Exterior Window Cleaning'] for $55.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 42.0 mins.
-		That is $79.2/hr :: 12 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $75
+		According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez'], this takes an average of 39.0 mins.
+		That is $85.34/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $75
 
 248 - Jackalynn Wilson Salon (7843 Girard Ave): 
 https://www.thecustomerfactor.com/customers_profile.php?id=248
-	['Interior/Exterior Window Cleaning'] for $87.0
-		According to ['Justin Smith'], this takes an average of 50.0 mins.
-		That is $104.7/hr :: 7 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $90
+
+	['Interior/Exterior Window Cleaning'] for $90.0
+		According to ['Brandon Foster', 'Justin Smith'], this takes an average of 56.0 mins.
+		That is $96.64/hr :: 8 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $105
 	['Exterior Window Cleaning'] for $50.0
 		According to ['Justin Smith'], this takes an average of 45.0 mins.
 		That is $66.67/hr :: 1 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $80
+		FOR A RATE OF $110/hr, PRICE JOB @ $85
 
 252 - West Tech Contr. Inc (568 N Tulip St): 
 https://www.thecustomerfactor.com/customers_profile.php?id=252
-	['Exterior Window Cleaning'] for $30.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 27.0 mins.
-		That is $67.38/hr :: 7 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $50
 
-263 - Dr. Hagestrom (8923 La Mesa Blvd): 
-https://www.thecustomerfactor.com/customers_profile.php?id=263
-	['Exterior Window Cleaning'] for $82.0
-		According to ['Jose Perez'], this takes an average of 61.0 mins.
-		That is $80.66/hr :: 1 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $110
+	['Exterior Window Cleaning'] for $30.0
+		According to ['Devony Dettman', 'Justin Smith', 'Brandon Foster'], this takes an average of 24.0 mins.
+		That is $76.33/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $45
 
 385 - Blue Sky Energy (2598 Fortune Way): 
 https://www.thecustomerfactor.com/customers_profile.php?id=385
+
 	['Exterior Window Cleaning'] for $50.0
 		According to ['Jose Perez', 'Justin Smith'], this takes an average of 37.0 mins.
 		That is $81.08/hr :: 7 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $65
+		FOR A RATE OF $110/hr, PRICE JOB @ $70
+
+398 - California Coast Credit Union - La Mesa (8002 La Mesa Blvd): 
+https://www.thecustomerfactor.com/customers_profile.php?id=398
+
+	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] for $155.0
+		According to ['Roberto Isais'], this takes an average of 110.0 mins.
+		That is $84.55/hr :: 2 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $205
 
 447 - Killion Industries #1 (2811 La Mirada): 
 https://www.thecustomerfactor.com/customers_profile.php?id=447
+
 	['Interior Only Window Cleaning'] for $350.0
 		According to ['Justin Smith'], this takes an average of 230.0 mins.
 		That is $91.3/hr :: 1 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $405
+		FOR A RATE OF $110/hr, PRICE JOB @ $425
+
+451 - Killion Industries #4 (1380 Poinsettia Ave): 
+https://www.thecustomerfactor.com/customers_profile.php?id=451
+
+	['Exterior Window Cleaning'] for $495.0
+		According to ['Devony Dettman', 'Justin Smith'], this takes an average of 291.0 mins.
+		That is $102.13/hr :: 5 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $535
 
 731 - IE Pacific Inc (150 West Crest Street): 
 https://www.thecustomerfactor.com/customers_profile.php?id=731
+
 	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] for $250.0
-		According to ['Justin Smith', 'Jose Perez'], this takes an average of 147.0 mins.
-		That is $101.78/hr :: 8 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $260
+		According to ['Devony Dettman', 'Justin Smith', 'Jose Perez', 'Roberto Isais'], this takes an average of 150.0 mins.
+		That is $100.0/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $275
 
 1518 - Finkbiner Apartment Building (3645 Arizona Street): 
 https://www.thecustomerfactor.com/customers_profile.php?id=1518
+
 	['Exterior Window Cleaning'] for $175.0
-		According to ['Jose Perez'], this takes an average of 140.0 mins.
-		That is $75.27/hr :: 2 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $245
+		According to ['Jose Perez', 'Roberto Isais'], this takes an average of 143.0 mins.
+		That is $73.43/hr :: 3 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $265
 	['Exterior Window Cleaning', 'Interior/Exterior Window Cleaning'] for $225.0
 		According to ['Jose Perez'], this takes an average of 150.0 mins.
 		That is $90.0/hr :: 1 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $265
+		FOR A RATE OF $110/hr, PRICE JOB @ $275
 
 1660 - Coin Op Laundry (3043 Clairemont Drive): 
 https://www.thecustomerfactor.com/customers_profile.php?id=1660
+
 	['Interior/Exterior Window Cleaning'] for $50.0
-		According to ['Jose Perez', 'Justin Smith'], this takes an average of 30.0 mins.
-		That is $100.84/hr :: 4 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $55
+		According to ['Roberto Isais', 'Brandon Foster', 'Jose Perez', 'Justin Smith'], this takes an average of 33.0 mins.
+		That is $90.23/hr :: 8 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $65
+
+2266 - Southland Electric (4950 Greencraig Lane): 
+https://www.thecustomerfactor.com/customers_profile.php?id=2266
+
+	['Interior/Exterior Window Cleaning'] for $160.0
+		According to ['Roberto Isais', 'Devony Dettman', 'Justin Smith'], this takes an average of 116.0 mins.
+		That is $82.76/hr :: 3 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $215
 
 2913 - California Coast Credit Union- Murrieta (Madison) (24716 Madison Avenue): 
 https://www.thecustomerfactor.com/customers_profile.php?id=2913
+
 	['Interior/Exterior Window Cleaning'] for $200.0
-		According to ['Jose Perez', 'Justin Smith'], this takes an average of 120.0 mins.
-		That is $100.0/hr :: 3 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $210
+		According to ['Devony Dettman', 'Jose Perez', 'Justin Smith'], this takes an average of 131.0 mins.
+		That is $91.6/hr :: 6 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $245
 
 3598 - California Coast - Menifee (30015 Haun Road): 
 https://www.thecustomerfactor.com/customers_profile.php?id=3598
+
 	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] for $125.0
 		According to ['Justin Smith', 'Jose Perez'], this takes an average of 77.0 mins.
 		That is $97.83/hr :: 6 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $135
+		FOR A RATE OF $110/hr, PRICE JOB @ $145
+
+3603 - California Coast - Scripps Ranch (9825 Mira Mesa Boulevard): 
+https://www.thecustomerfactor.com/customers_profile.php?id=3603
+
+	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] for $200.0
+		According to ['Devony Dettman', 'Roberto Isais'], this takes an average of 123.0 mins.
+		That is $97.56/hr :: 4 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $230
 
 3708 - California Coast - J Street (777 J Street): 
 https://www.thecustomerfactor.com/customers_profile.php?id=3708
-	['Interior/Exterior Window Cleaning'] for $350.0
-		According to ['Jose Perez'], this takes an average of 221.0 mins.
-		That is $95.02/hr :: 2 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $390
+
+	['Interior/Exterior Window Cleaning'] for $175.0
+		According to ['Roberto Isais', 'Jose Perez'], this takes an average of 176.0 mins.
+		That is $59.61/hr :: 7 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $325
 
 3762 - Dr. Philip Bosch (651 East Pennsylvania Avenue): 
 https://www.thecustomerfactor.com/customers_profile.php?id=3762
+
 	['Interior/Exterior Window Cleaning'] for $170.0
-		According to ['Jose Perez'], this takes an average of 124.0 mins.
-		That is $82.26/hr :: 2 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $220
+		According to ['Devony Dettman', 'Jose Perez'], this takes an average of 135.0 mins.
+		That is $75.37/hr :: 3 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $250
 
 3770 - California Coast - Murrieta Hot Springs (40230 Murrieta Hot Springs Road): 
 https://www.thecustomerfactor.com/customers_profile.php?id=3770
-	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] for $145.0
-		According to ['Jose Perez', 'Justin Smith'], this takes an average of 94.0 mins.
-		That is $93.05/hr :: 4 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $165
+
+	['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning'] for $165.0
+		According to ['Devony Dettman', 'Jose Perez', 'Justin Smith'], this takes an average of 99.0 mins.
+		That is $100.14/hr :: 7 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $185
+
+3919 - GTM Discount #4 (1315 3rd Avenue): 
+https://www.thecustomerfactor.com/customers_profile.php?id=3919
+
+	['Exterior Window Cleaning'] for $40.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 39.0 mins.
+		That is $61.15/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $75
+	['Exterior Window Cleaning', 'Paint Removal'] for $40.0
+		According to ['Roberto Isais'], this takes an average of 120.0 mins.
+		That is $20.0/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $220
 
 4556 - QP Technologies (2063 Wineridge Place): 
 https://www.thecustomerfactor.com/customers_profile.php?id=4556
+
 	['Exterior Window Cleaning'] for $150.0
-		According to ['Jose Perez'], this takes an average of 98.0 mins.
-		That is $91.84/hr :: 2 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $175
+		According to ['Devony Dettman', 'Roberto Isais', 'Brandon Foster', 'Jose Perez'], this takes an average of 105.0 mins.
+		That is $85.99/hr :: 6 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $195
+
+9657 - Green Fresh Florals (3993 Goldfinch Street): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9657
+
+	['Interior/Exterior Window Cleaning'] for $35.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 34.0 mins.
+		That is $61.31/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $65
+
+9658 - Salon Bordeaux (3393 Adams Avenue): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9658
+
+	['Exterior Window Cleaning'] for $22.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 15.0 mins.
+		That is $90.0/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $30
+
+9664 - Salon Bordeaux (3393 Adams Avenue): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9664
+
+	['Interior/Exterior Window Cleaning'] for $32.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 24.0 mins.
+		That is $80.56/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $45
+
+9667 - Clip Art Salon (4155 Adams Avenue): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9667
+
+	['Interior/Exterior Window Cleaning'] for $15.0
+		According to ['Brandon Foster'], this takes an average of 18.0 mins.
+		That is $50.0/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $35
+
+9668 - Diesel Salon (4222 Adams Avenue): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9668
+
+	['Exterior Window Cleaning'] for $15.0
+		According to ['Roberto Isais'], this takes an average of 11.0 mins.
+		That is $81.82/hr :: 2 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $25
+
+9671 - Cecillia's Fine Jewelry (4669 Park Boulevard): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9671
+
+	['Interior/Exterior Window Cleaning'] for $15.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 17.0 mins.
+		That is $53.33/hr :: 8 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $35
+	['Exterior Window Cleaning'] for $8.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 11.0 mins.
+		That is $44.8/hr :: 7 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $20
+
+9678 - Rip Current Brewing (4101 30th Street): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9678
+
+	['Interior/Exterior Window Cleaning'] for $75.0
+		According to ['Roberto Isais'], this takes an average of 74.0 mins.
+		That is $60.48/hr :: 10 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $140
+	['Exterior Window Cleaning'] for $35.0
+		According to ['Roberto Isais'], this takes an average of 60.0 mins.
+		That is $35.0/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $110
+
+9691 - Jo's Diner (807 West Washington Street): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9691
+
+	['Interior/Exterior Window Cleaning'] for $28.0
+		According to ['Devony Dettman', 'Roberto Isais', 'Brandon Foster'], this takes an average of 32.0 mins.
+		That is $52.36/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $60
+
+9692 - Thread & Seed (Bankers Hill) (2870 Fourth Avenue): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9692
+
+	['Interior/Exterior Window Cleaning'] for $25.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 17.0 mins.
+		That is $86.12/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $35
+
+9696 - Pop Pie Company (4404 Park Boulevard): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9696
+
+	['Interior/Exterior Window Cleaning'] for $45.0
+		According to ['Roberto Isais'], this takes an average of 29.0 mins.
+		That is $93.1/hr :: 10 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $55
+
+9697 - The Book Catapult (3010 Juniper Street): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9697
+
+	['Exterior Window Cleaning'] for $15.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 10.0 mins.
+		That is $90.0/hr :: 10 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $20
+
+9712 - Koi (5632 La Jolla Boulevard): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9712
+
+	['Interior/Exterior Window Cleaning'] for $30.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 19.0 mins.
+		That is $95.58/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $35
+	['Exterior Window Cleaning'] for $15.0
+		According to ['Roberto Isais'], this takes an average of 19.0 mins.
+		That is $47.37/hr :: 2 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $35
+
+9717 - La Jolla Golf Carts (7512 La Jolla Boulevard): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9717
+
+	['Exterior Window Cleaning'] for $35.0
+		According to ['Roberto Isais'], this takes an average of 21.0 mins.
+		That is $98.05/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $40
+
+9726 - Belle Sirene (7838 Herschel Avenue): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9726
+
+	['Exterior Window Cleaning'] for $20.0
+		According to ['Roberto Isais'], this takes an average of 18.0 mins.
+		That is $66.67/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $35
+
+9728 - Babycakes (3795 Fourth Avenue): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9728
+
+	['Interior/Exterior Window Cleaning'] for $85.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 52.0 mins.
+		That is $98.08/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $100
 
 9730 - Perry's Cafe (4620 Pacific Highway): 
 https://www.thecustomerfactor.com/customers_profile.php?id=9730
+
+	['Interior/Exterior Window Cleaning'] for $180.0
+		According to ['Roberto Isais'], this takes an average of 116.0 mins.
+		That is $92.84/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $215
 	['Interior/Exterior Window Cleaning', 'Coupon'] for $160.0
 		According to ['Jose Perez'], this takes an average of 140.0 mins.
 		That is $68.57/hr :: 1 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $250
+		FOR A RATE OF $110/hr, PRICE JOB @ $260
+
+9746 - Salon1745 (1745 Adams Avenue): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9746
+
+	['Interior/Exterior Window Cleaning'] for $18.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 13.0 mins.
+		That is $83.72/hr :: 10 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $25
+
+9819 - Ashen Salon (6903 La Jolla Boulevard): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9819
+
+	['Exterior Window Cleaning'] for $60.0
+		According to ['Roberto Isais', 'Brandon Foster'], this takes an average of 41.0 mins.
+		That is $87.63/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $80
 
 9856 - Window Magic (1940 Metcalf Street): 
 https://www.thecustomerfactor.com/customers_profile.php?id=9856
+
 	['Drive to first job'] for $1.0
 		According to ['Justin Smith'], this takes an average of 15.0 mins.
 		That is $4.0/hr :: 1 points
-		FOR A RATE OF $105/hr, PRICE JOB @ $30
+		FOR A RATE OF $110/hr, PRICE JOB @ $30
+
+9919 - Mercer Group (4071 Adams Avenue): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9919
+
+	['Interior/Exterior Window Cleaning'] for $20.0
+		According to ['Roberto Isais'], this takes an average of 14.0 mins.
+		That is $84.21/hr :: 12 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $30
+	['Exterior Window Cleaning'] for $10.0
+		According to ['Roberto Isais'], this takes an average of 9.0 mins.
+		That is $67.74/hr :: 7 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $20
+
+9968 - Moosies Icecream (4073 Adams Avenue): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9968
+
+	['Interior/Exterior Window Cleaning'] for $20.0
+		According to ['Roberto Isais'], this takes an average of 15.0 mins.
+		That is $80.0/hr :: 4 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $30
+
+9981 - Marco's Jewelry (7951 Broadway): 
+https://www.thecustomerfactor.com/customers_profile.php?id=9981
+
+	['Exterior Window Cleaning'] for $20.0
+		According to ['Roberto Isais'], this takes an average of 15.0 mins.
+		That is $80.0/hr :: 5 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $30
+
+10071 - Huckleberry 's Breakfast and Lunch (1260 Auto Park Way): 
+https://www.thecustomerfactor.com/customers_profile.php?id=10071
+
+	['Exterior Window Cleaning'] for $110.0
+		According to ['Devony Dettman'], this takes an average of 82.0 mins.
+		That is $80.49/hr :: 2 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $155
+
+10085 - The Dance Academy Del Mar (12843 El Camino Real): 
+https://www.thecustomerfactor.com/customers_profile.php?id=10085
+
+	['Exterior Window Cleaning', 'Interior/Exterior Window Cleaning', 'Mirror Cleaning'] for $180.0
+		According to ['Roberto Isais'], this takes an average of 216.0 mins.
+		That is $50.0/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $400
+	['Interior/Exterior Window Cleaning', 'Mirror Cleaning'] for $130.0
+		According to ['Roberto Isais'], this takes an average of 76.0 mins.
+		That is $101.96/hr :: 2 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $145
+	['Mirror Cleaning'] for $30.0
+		According to ['Roberto Isais'], this takes an average of 93.0 mins.
+		That is $19.35/hr :: 1 points
+		FOR A RATE OF $110/hr, PRICE JOB @ $175
 

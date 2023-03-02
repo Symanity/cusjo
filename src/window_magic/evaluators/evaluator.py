@@ -4,15 +4,17 @@ from src.window_magic.databasing import assistant as wm_assistant
 from src.window_magic.objects.customer import Customer
 from src.window_magic.objects.evaluator import Evaluator
 from src.window_magic.objects.evaluator import Evaluation
-from src.window_magic.objects.job import Job
 from collections import defaultdict
 import math
+import csv
+import copy
 
 
 # ====================================================================================
 # Window Magic Filters
 # ====================================================================================
-ideal_employee_rate = 105
+ideal_employee_rate = 110
+flag_price = 105
 
 def __at_most_12_jobs(job_list):
     return job_list[:12]
@@ -23,13 +25,13 @@ def __consider_employees(job_list):
     Filters the job rows to include only rows with an employee in the given list.
     """
 
-    employees = {"Justin Smith", "Jose Perez", "Devony Dettman, Roberto Isais, Brandon Foster"}
+    employees = {"Justin Smith", "Jose Perez", "Devony Dettman", "Roberto Isais", "Brandon Foster"}
     return [job for job in job_list if job.employee in employees]
 
 
 # Post Filter
 def __show_only_if_below_min_price(evaluation: Evaluation):
-    if evaluation.get_rate() < 105:
+    if evaluation.get_rate() < flag_price:
         return evaluation
 
     else:
@@ -86,6 +88,21 @@ def round_up_to_nearest_5(num):
 # ====================================================================================
 # Output results as desired
 # ====================================================================================
+
+CSV_FILE_NAME = "evaluations.csv"
+
+row_obj = {
+    "id"            : None,
+    "name"          : None,
+    "address"       : None,
+    "service"       : None,
+    "price"         : None,
+    "employees"     : None,
+    "duration"      : None,
+    "rate"          : None,
+    "points"        : None,
+    "correct_price" : None,
+}
 class Outputer:
     def __init__(self, evaluations) -> None:
         self.customer_and_services = evaluations
@@ -113,9 +130,54 @@ class Outputer:
             return a_string
 
 
+    def output_to_csv(self):
+        with open(CSV_FILE_NAME, mode='w', newline='') as file:
+            writer = csv.writer(file)
 
-    def output_to_csv(self, customer_id = None):
-        pass
+            writer.writerow(row_obj.keys())
+            for customer in self.customer_and_services:
+                if self.customer_and_services[customer].values():
+                    self.__add_to_csv(customer.id, writer)
+
+
+    def __add_to_csv(self, customer_id, writer):
+        rows = self.__convert_to_row(customer_id)
+        
+        for row in rows:
+            writer.writerow(row.values())
+
+
+    def __convert_to_row(self, customer_id):
+        rows = []
+
+        data = self.__retrieve_info(customer_id)
+
+        customer: Customer = data[0]
+        evals = data[1]
+
+
+        for service_titles, evaluation in evals.items():
+            row = copy.deepcopy(row_obj)
+            row["service"] = service_titles
+
+            if len(rows) == 0:
+                row["id"] = customer.id
+                row["name"] = customer.name
+                row["address"] = customer.address
+
+            if evaluation:
+                row["price"]          = evaluation.price
+                row["rate"]           = evaluation.get_rate()
+                row["duration"]       = round(evaluation.average_duration, 0)
+                row["employees"]      = evaluation.get_employees()
+                row["points"]         = evaluation.get_data_point_qty()
+
+                correct_price = evaluation.calculate_new_price(ideal_employee_rate)
+                row["correct_price"]  = round_up_to_nearest_5(correct_price)
+
+                rows.append(row)
+                
+        return rows
 
 
     def __basics_to_console(self, customer_id, include_empties = False):
@@ -126,7 +188,7 @@ class Outputer:
         services_evals = data[1]
 
         header_string = f"{customer.id} - {customer.name} ({customer.address}): \n"
-        header_string = header_string + f"https://www.thecustomerfactor.com/customers_profile.php?id={customer.id}\n"
+        header_string = header_string + f"https://www.thecustomerfactor.com/customers_profile.php?id={customer.id}\n\n"
         
         for service_titles, evaluation in services_evals.items():
             if evaluation:

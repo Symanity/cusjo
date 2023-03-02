@@ -1,0 +1,96 @@
+id,name,address,service,price,employees,duration,rate,points,correct_price
+1,Sprouts,878 Eastlake Pkwy,['Window Cleaning'],85.0,"['Roberto Isais', 'Brandon Foster', 'Justin Smith']",51.0,100.0,12,95
+14,Trader Joes # 223,13480 Highlands Place,['Exterior Window Cleaning'],45.0,['Brandon Foster'],52.0,51.92,1,100
+25,C and D Cycles,4927 Convoy St,['Exterior Window Cleaning'],25.0,"['Roberto Isais', 'Brandon Foster']",15.0,98.36,12,30
+27,Champagne Spas,5710 Kearny Villa Rd,['Interior Only Window Cleaning'],25.0,['Brandon Foster'],33.0,45.45,1,65
+37,Dell Enterprises,7949 Broadway,['Interior/Exterior Window Cleaning'],13.0,"['Roberto Isais', 'Brandon Foster']",18.0,43.94,12,35
+42,La Mesa Glass,8710 Railroad Avenue,['Window Cleaning'],85.0,['Roberto Isais'],60.0,85.0,4,110
+56,Trader Joes # 222,1072 Camino Del Rio N,['Exterior Window Cleaning'],45.0,"['Roberto Isais', 'Justin Smith', 'Brandon Foster', 'Jose Perez']",30.0,89.01,12,60
+64,Sherwood Mechanical,6630 Top Gun St,['in and out of lobby windows'],30.0,"['Devony Dettman', 'Roberto Isais', 'Justin Smith', 'Brandon Foster', 'Jose Perez']",20.0,90.38,12,40
+66,San Diego Shade,7354 Trade St,['Exterior Window Cleaning'],20.0,"['Devony Dettman', 'Roberto Isais', 'Justin Smith', 'Brandon Foster', 'Jose Perez']",12.0,97.3,12,25
+68,Newen Enterprises,1250 Pacific Oaks Pl,['Interior/Exterior Window Cleaning'],75.0,"['Devony Dettman', 'Jose Perez', 'Roberto Isais', 'Justin Smith', 'Brandon Foster']",63.0,71.81,12,115
+,,,['Exterior Window Cleaning'],35.0,['Roberto Isais'],60.0,35.0,1,110
+75,Cumming Chevrolet,2301 National City Blvd,['Exterior Window Cleaning'],300.0,['Roberto Isais'],180.0,100.0,12,330
+76,Hyde Edwards,2308 Kettner Blvd,"['Exterior Window Cleaning', 'Interior Only Window Cleaning']",65.0,"['Devony Dettman', 'Roberto Isais', 'Brandon Foster']",211.0,18.46,12,390
+,,,['Interior/Exterior Window Cleaning'],95.0,['Roberto Isais'],90.0,63.33,1,170
+,,,['Paint Removal'],75.0,['Roberto Isais'],60.0,75.0,1,110
+,,,['Exterior Window Cleaning'],60.0,['Roberto Isais'],957.0,3.76,6,1760
+81,Compass Real Estate,1625 W Lewis St,['Interior/Exterior Window Cleaning'],30.0,['Roberto Isais'],22.0,81.82,1,45
+93,Lancetown Industries  Inc - Powers Plumbing,1705 W Lewis St,['Interior/Exterior Window Cleaning'],32.0,"['Roberto Isais', 'Brandon Foster', 'Jose Perez']",28.0,68.57,12,55
+97,Bit Company,8085 La Mesa Blvd,['Exterior Window Cleaning'],35.0,['Roberto Isais'],22.0,96.92,12,40
+101,Sew Pros #1,393 Broadway,['Interior/Exterior Window Cleaning'],60.0,['Roberto Isais'],45.0,80.0,1,85
+106,The Barbecue Pit,2388 Fletcher Pkwy,['Interior/Exterior Window Cleaning'],35.0,['Roberto Isais'],26.0,79.75,12,50
+,,,['Exterior Window Cleaning'],25.0,['Roberto Isais'],18.0,83.33,1,35
+,,,"['Interior/Exterior Window Cleaning', 'Window Cleaning']",64.0,['Jose Perez'],48.0,80.0,1,90
+125,Citi Dental,290 E Douglas Ave,['Exterior Window Cleaning'],42.0,"['Roberto Isais', 'Jose Perez']",42.0,60.24,12,80
+,,,"['Exterior Window Cleaning', 'Interior/Exterior Window Cleaning']",125.0,['Roberto Isais'],90.0,83.33,1,170
+135,Quality Tax Service,9829 Campo Rd,['Interior/Exterior Window Cleaning'],20.0,"['Roberto Isais', 'Brandon Foster', 'Jose Perez']",21.0,58.06,12,40
+,,,['Exterior Window Cleaning'],10.0,['Roberto Isais'],17.0,35.29,2,35
+136,Minor Construction,301 Enterprise St,['Exterior Window Cleaning'],110.0,['Jose Perez'],4628.0,1.43,4,8465
+145,California Coast Credit Union - Chula Vista,386 E H St,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",125.0,"['Roberto Isais', 'Brandon Foster']",83.0,90.0,12,155
+159,Trader Joes #220,2629 Gateway Road,['In/Out entry ways'],65.0,"['Devony Dettman', 'Justin Smith', 'Jose Perez']",40.0,97.7,12,75
+,,,['Interior/Exterior Window Cleaning'],175.0,"['Devony Dettman', 'Jose Perez', 'Justin Smith']",106.0,98.98,12,195
+162,Del Mar Hts Medical Building - Beachside Del Mar,13983 Mango Dr,"['Exterior Window Cleaning', 'High lobby windows']",260.0,"['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez']",193.0,80.76,12,355
+165,Trader Joes #25,115 N El Camino Real,['Exterior Window Cleaning'],42.0,"['Devony Dettman', 'Justin Smith']",31.0,81.73,12,60
+,,,['Interior/Exterior Window Cleaning'],85.0,"['Devony Dettman', 'Jose Perez', 'Justin Smith']",54.0,94.74,12,100
+167,Invision Boutique,3830 Valley Centre Dr,['Exterior Window Cleaning'],13.0,"['Roberto Isais', 'Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez']",13.0,58.14,12,25
+,,,['Interior/Exterior Window Cleaning'],27.0,"['Devony Dettman', 'Brandon Foster', 'Jose Perez', 'Justin Smith']",27.0,60.56,12,50
+169,Edward D Jones,12750 Carmel Country Rd,['Interior/Exterior Window Cleaning'],17.0,"['Devony Dettman', 'Justin Smith']",15.0,68.0,2,30
+172,Trader Joes #22,2570 Vista Way,"['Interior/Exterior Window Cleaning', 'Interior/Exterior Window Cleaning']",160.0,['Justin Smith'],94.0,102.13,1,175
+184,Mission Hills Financial,1633 W Lewis St,['Exterior Window Cleaning'],22.0,"['Roberto Isais', 'Brandon Foster', 'Jose Perez']",18.0,73.33,5,35
+185,Watchlight Corporation,111 S Marshall Ave,['Exterior Window Cleaning'],25.0,"['Roberto Isais', 'Brandon Foster', 'Justin Smith']",15.0,101.12,12,30
+246,Mohnacky Animal Hospital,2250 S Escondido Blvd,['Interior/Exterior Window Cleaning'],155.0,"['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez']",133.0,69.71,12,245
+,,,['Exterior Window Cleaning'],155.0,"['Justin Smith', 'Jose Perez']",97.0,96.21,3,180
+247,Acacia Animal Health Center,655 W Citracado Pkwy,['Interior/Exterior Window Cleaning'],55.0,"['Devony Dettman', 'Justin Smith', 'Brandon Foster', 'Jose Perez']",39.0,85.34,12,75
+248,Jackalynn Wilson Salon,7843 Girard Ave,['Interior/Exterior Window Cleaning'],90.0,"['Brandon Foster', 'Justin Smith']",56.0,96.64,8,105
+,,,['Exterior Window Cleaning'],50.0,['Justin Smith'],45.0,66.67,1,85
+252,West Tech Contr. Inc,568 N Tulip St,['Exterior Window Cleaning'],30.0,"['Devony Dettman', 'Justin Smith', 'Brandon Foster']",24.0,76.33,12,45
+385,Blue Sky Energy,2598 Fortune Way,['Exterior Window Cleaning'],50.0,"['Jose Perez', 'Justin Smith']",37.0,81.08,7,70
+398,California Coast Credit Union - La Mesa,8002 La Mesa Blvd,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",155.0,['Roberto Isais'],110.0,84.55,2,205
+447,Killion Industries #1,2811 La Mirada,['Interior Only Window Cleaning'],350.0,['Justin Smith'],230.0,91.3,1,425
+451,Killion Industries #4,1380 Poinsettia Ave,['Exterior Window Cleaning'],495.0,"['Devony Dettman', 'Justin Smith']",291.0,102.13,5,535
+731,IE Pacific Inc,150 West Crest Street,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",250.0,"['Devony Dettman', 'Justin Smith', 'Jose Perez', 'Roberto Isais']",150.0,100.0,12,275
+1518,Finkbiner Apartment Building,3645 Arizona Street,['Exterior Window Cleaning'],175.0,"['Jose Perez', 'Roberto Isais']",143.0,73.43,3,265
+,,,"['Exterior Window Cleaning', 'Interior/Exterior Window Cleaning']",225.0,['Jose Perez'],150.0,90.0,1,275
+1660,Coin Op Laundry,3043 Clairemont Drive,['Interior/Exterior Window Cleaning'],50.0,"['Roberto Isais', 'Brandon Foster', 'Jose Perez', 'Justin Smith']",33.0,90.23,8,65
+2266,Southland Electric,4950 Greencraig Lane,['Interior/Exterior Window Cleaning'],160.0,"['Roberto Isais', 'Devony Dettman', 'Justin Smith']",116.0,82.76,3,215
+2913,California Coast Credit Union- Murrieta (Madison),24716 Madison Avenue,['Interior/Exterior Window Cleaning'],200.0,"['Devony Dettman', 'Jose Perez', 'Justin Smith']",131.0,91.6,6,245
+3598,California Coast - Menifee,30015 Haun Road,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",125.0,"['Justin Smith', 'Jose Perez']",77.0,97.83,6,145
+3603,California Coast - Scripps Ranch,9825 Mira Mesa Boulevard,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",200.0,"['Devony Dettman', 'Roberto Isais']",123.0,97.56,4,230
+3708,California Coast - J Street,777 J Street,['Interior/Exterior Window Cleaning'],175.0,"['Roberto Isais', 'Jose Perez']",176.0,59.61,7,325
+3762,Dr. Philip Bosch,651 East Pennsylvania Avenue,['Interior/Exterior Window Cleaning'],170.0,"['Devony Dettman', 'Jose Perez']",135.0,75.37,3,250
+3770,California Coast - Murrieta Hot Springs,40230 Murrieta Hot Springs Road,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",165.0,"['Devony Dettman', 'Jose Perez', 'Justin Smith']",99.0,100.14,7,185
+3919,GTM Discount #4,1315 3rd Avenue,['Exterior Window Cleaning'],40.0,"['Roberto Isais', 'Brandon Foster']",39.0,61.15,12,75
+,,,"['Exterior Window Cleaning', 'Paint Removal']",40.0,['Roberto Isais'],120.0,20.0,1,220
+4556,QP Technologies,2063 Wineridge Place,['Exterior Window Cleaning'],150.0,"['Devony Dettman', 'Roberto Isais', 'Brandon Foster', 'Jose Perez']",105.0,85.99,6,195
+9657,Green Fresh Florals,3993 Goldfinch Street,['Interior/Exterior Window Cleaning'],35.0,"['Roberto Isais', 'Brandon Foster']",34.0,61.31,12,65
+9658,Salon Bordeaux,3393 Adams Avenue,['Exterior Window Cleaning'],22.0,"['Roberto Isais', 'Brandon Foster']",15.0,90.0,12,30
+9664,Salon Bordeaux,3393 Adams Avenue,['Interior/Exterior Window Cleaning'],32.0,"['Roberto Isais', 'Brandon Foster']",24.0,80.56,12,45
+9667,Clip Art Salon,4155 Adams Avenue,['Interior/Exterior Window Cleaning'],15.0,['Brandon Foster'],18.0,50.0,1,35
+9668,Diesel Salon,4222 Adams Avenue,['Exterior Window Cleaning'],15.0,['Roberto Isais'],11.0,81.82,2,25
+9671,Cecillia's Fine Jewelry,4669 Park Boulevard,['Interior/Exterior Window Cleaning'],15.0,"['Roberto Isais', 'Brandon Foster']",17.0,53.33,8,35
+,,,['Exterior Window Cleaning'],8.0,"['Roberto Isais', 'Brandon Foster']",11.0,44.8,7,20
+9678,Rip Current Brewing,4101 30th Street,['Interior/Exterior Window Cleaning'],75.0,['Roberto Isais'],74.0,60.48,10,140
+,,,['Exterior Window Cleaning'],35.0,['Roberto Isais'],60.0,35.0,1,110
+9691,Jo's Diner,807 West Washington Street,['Interior/Exterior Window Cleaning'],28.0,"['Devony Dettman', 'Roberto Isais', 'Brandon Foster']",32.0,52.36,12,60
+9692,Thread & Seed (Bankers Hill),2870 Fourth Avenue,['Interior/Exterior Window Cleaning'],25.0,"['Roberto Isais', 'Brandon Foster']",17.0,86.12,12,35
+9696,Pop Pie Company,4404 Park Boulevard,['Interior/Exterior Window Cleaning'],45.0,['Roberto Isais'],29.0,93.1,10,55
+9697,The Book Catapult,3010 Juniper Street,['Exterior Window Cleaning'],15.0,"['Roberto Isais', 'Brandon Foster']",10.0,90.0,10,20
+9712,Koi,5632 La Jolla Boulevard,['Interior/Exterior Window Cleaning'],30.0,"['Roberto Isais', 'Brandon Foster']",19.0,95.58,12,35
+,,,['Exterior Window Cleaning'],15.0,['Roberto Isais'],19.0,47.37,2,35
+9717,La Jolla Golf Carts,7512 La Jolla Boulevard,['Exterior Window Cleaning'],35.0,['Roberto Isais'],21.0,98.05,12,40
+9726,Belle Sirene,7838 Herschel Avenue,['Exterior Window Cleaning'],20.0,['Roberto Isais'],18.0,66.67,1,35
+9728,Babycakes,3795 Fourth Avenue,['Interior/Exterior Window Cleaning'],85.0,"['Roberto Isais', 'Brandon Foster']",52.0,98.08,12,100
+9730,Perry's Cafe,4620 Pacific Highway,['Interior/Exterior Window Cleaning'],180.0,['Roberto Isais'],116.0,92.84,12,215
+,,,"['Interior/Exterior Window Cleaning', 'Coupon']",160.0,['Jose Perez'],140.0,68.57,1,260
+9746,Salon1745,1745 Adams Avenue,['Interior/Exterior Window Cleaning'],18.0,"['Roberto Isais', 'Brandon Foster']",13.0,83.72,10,25
+9819,Ashen Salon,6903 La Jolla Boulevard,['Exterior Window Cleaning'],60.0,"['Roberto Isais', 'Brandon Foster']",41.0,87.63,12,80
+9856,Window Magic,1940 Metcalf Street,['Drive to first job'],1.0,['Justin Smith'],15.0,4.0,1,30
+9919,Mercer Group,4071 Adams Avenue,['Interior/Exterior Window Cleaning'],20.0,['Roberto Isais'],14.0,84.21,12,30
+,,,['Exterior Window Cleaning'],10.0,['Roberto Isais'],9.0,67.74,7,20
+9968,Moosies Icecream,4073 Adams Avenue,['Interior/Exterior Window Cleaning'],20.0,['Roberto Isais'],15.0,80.0,4,30
+9981,Marco's Jewelry,7951 Broadway,['Exterior Window Cleaning'],20.0,['Roberto Isais'],15.0,80.0,5,30
+10071,Huckleberry 's Breakfast and Lunch,1260 Auto Park Way,['Exterior Window Cleaning'],110.0,['Devony Dettman'],82.0,80.49,2,155
+10085,The Dance Academy Del Mar,12843 El Camino Real,"['Exterior Window Cleaning', 'Interior/Exterior Window Cleaning', 'Mirror Cleaning']",180.0,['Roberto Isais'],216.0,50.0,1,400
+,,,"['Interior/Exterior Window Cleaning', 'Mirror Cleaning']",130.0,['Roberto Isais'],76.0,101.96,2,145
+,,,['Mirror Cleaning'],30.0,['Roberto Isais'],93.0,19.35,1,175

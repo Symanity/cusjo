@@ -91,14 +91,14 @@ class Outputer:
                             printRow = copy.deepcopy(job_history_row)
                             job: Job = job
 
-                            printRow["job_id"]      = job.__hash__()
-                            printRow["id"]              = customer.id
-                            printRow["customer_name"] = customer.name
+                            printRow["job_id"]          = job.__hash__()
+                            printRow["customer_id"]     = customer.id
+                            printRow["customer_name"]   = customer.name
                             printRow["services"]        = services
-                            printRow["job_date"]    = job.date
-                            printRow["price"]       = job.price
-                            printRow["duration"]    = job.duration
-                            printRow["employee"]    = job.employee
+                            printRow["job_date"]        = job.date
+                            printRow["price"]           = job.price
+                            printRow["duration"]        = job.duration
+                            printRow["employee"]        = job.employee
                             
                             writer.writerow(printRow.values())
 

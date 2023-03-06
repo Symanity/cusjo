@@ -8,9 +8,8 @@ from src.window_magic.objects.job import Job
 
 from collections import defaultdict
 
-
 # ====================================================================================
-# Window Magic Filters
+# Window Magic Filter Functions
 # ====================================================================================
 def __at_most_12_jobs(job_list):
     return job_list[:12]
@@ -29,11 +28,32 @@ def __print_job(job_list):
     for job in job_list:
         print(job)
 
+# ====================================================================================
+# Applied Filters - Note: Applies in order
+# ====================================================================================
+
+# Order sensitive
+running_pre_filters = [
+    __consider_employees,
+    __at_most_12_jobs,
+]
+
+running_post_filters = [
+    
+]
 
 # ====================================================================================
 # Evaluator functions
 # ====================================================================================
-def evaluate_all():
+def evaluate(customer_id = None):
+    if customer_id:
+        return __evaluate(customer_id)
+
+    else:
+        return __evaluate_all()
+    
+
+def __evaluate_all():
     services_evaluations = defaultdict(list)
 
     # Execute a query to retrieve all unique customers
@@ -48,7 +68,7 @@ def evaluate_all():
 
 
 ## Returns Evaluation Object
-def evaluate(customer_id):
+def __evaluate(customer_id):
     services_evaluations = defaultdict(list)
     customer = Customer(customer_id)
 
@@ -56,14 +76,16 @@ def evaluate(customer_id):
 
     return services_evaluations
 
+        
 
 def __generate_evals(customer):
     evaluator:Evaluator = customer.get_evaluator()
         
-    evaluator.apply_pre_filter(__consider_employees)
-    evaluator.apply_pre_filter(__at_most_12_jobs)
+    for pre_filter in running_pre_filters:
+        evaluator.apply_pre_filter(pre_filter)
 
-    # evaluator.apply_post_filter(__show_only_if_below_min_price)
+    for post_filter in running_post_filters:
+        evaluator.apply_post_filter(post_filter)
 
     services_evals = evaluator.get_evaluations(True)
 

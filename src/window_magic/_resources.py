@@ -1,5 +1,8 @@
+import os
 database_path = "databases"
 csv_folder_name = "window_magic_data"
+
+csv_location = os.path.join(database_path, csv_folder_name)
 
 # Service object positions
 Customer_Id     = 0

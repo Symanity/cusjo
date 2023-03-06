@@ -10,6 +10,7 @@ import sys
 from src.customer_factor_importer import assistant
 from src.window_magic.evaluators import evaluator
 from src import converter
+from src.window_magic.outputter import Outputer
 
 def printRes(response = None):
     if response:
@@ -18,6 +19,16 @@ def printRes(response = None):
 
     else:
         print('[STATUS] ... no response')
+
+
+def outCSV(evaluations = None):
+    outputer = Outputer(evaluations)
+    outputer.output_to_csv()
+    outputer.output_history_to_csv()
+
+def printEvaluations(evaluations, customer_id = None):
+    outputer = Outputer(evaluations)
+    outputer.output_to_console(customer_id)
 
 
 # ====================================================================
@@ -72,25 +83,6 @@ else:
     # customer_evaluations = evaluator.evaluate(9992)
     customer_evaluations = evaluator.evaluate_all()
 
-    outputer = evaluator.Outputer(customer_evaluations)
+    outputer = Outputer(customer_evaluations)
     outputer.output_to_csv()
     outputer.output_history_to_csv()
-    
-#=======================================
-# =========== Print to Evaluation.tx
-
-    # output = outputer.output_to_console()
-
-    # print(output)
-
-    # with open('evaluations.txt', 'w') as results:
-    #     results.write(output)
-
-    # results.close()
-
-
-
-    # for customer in customer_evaluations:
-    #     print(f"{customer.id} - {customer.name} ({customer.address}) gets:")
-    #     for service_key, evaluation in customer_evaluations[customer].items():
-    #         print(f"{service_key} @ {evaluation}")

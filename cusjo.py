@@ -81,8 +81,8 @@ if len(sys.argv) > 1:
 
 else:
     # customer_evaluations = evaluator.evaluate(9992)
-    customer_evaluations = evaluator.__evaluate_all()
+    customer_evaluations = evaluator.evaluate()
 
-    outputer = Outputer(customer_evaluations)
-    outputer.output_to_csv()
-    outputer.output_history_to_csv()
+    # outputer = Outputer(customer_evaluations)
+    # outputer.output_to_csv()
+    # outputer.output_history_to_csv()

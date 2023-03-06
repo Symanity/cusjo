@@ -20,7 +20,6 @@ class Evaluation:
                 priceOnRecord = job.price
 
             elif priceOnRecord < job.price:
-                print(f'[ERROR] PRICE MISMATCH FOUND {job.price} vs {priceOnRecord}')
                 self.flagged = True
                 return priceOnRecord
 

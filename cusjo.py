@@ -74,6 +74,7 @@ else:
 
     outputer = evaluator.Outputer(customer_evaluations)
     outputer.output_to_csv()
+    outputer.output_history_to_csv()
     
 #=======================================
 # =========== Print to Evaluation.tx

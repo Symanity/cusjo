@@ -5,6 +5,7 @@ import copy
 class Evaluation:
     def __init__(self, job_list) -> None:
         self.job_list = job_list
+        self.flagged = False
         self.price = self.__determine_price()
         self.average_duration = self.__determine_avg_duration()
 
@@ -19,7 +20,9 @@ class Evaluation:
                 priceOnRecord = job.price
 
             elif priceOnRecord < job.price:
-                print(f'[ERROR] PRICE MISMATCH FOUND')
+                print(f'[ERROR] PRICE MISMATCH FOUND {job.price} vs {priceOnRecord}')
+                self.flagged = True
+                return priceOnRecord
 
         return priceOnRecord
 

@@ -4,6 +4,8 @@ from src.window_magic.databasing import assistant as wm_assistant
 from src.window_magic.objects.customer import Customer
 from src.window_magic.objects.evaluator import Evaluator
 from src.window_magic.objects.evaluator import Evaluation
+from src.window_magic.objects.job import Job
+
 from collections import defaultdict
 import math
 import csv
@@ -28,6 +30,10 @@ def __consider_employees(job_list):
     employees = {"Justin Smith", "Jose Perez", "Devony Dettman", "Roberto Isais", "Brandon Foster"}
     return [job for job in job_list if job.employee in employees]
 
+
+def __print_job(job_list):
+    for job in job_list:
+        print(job)
 
 # Post Filter
 def __show_only_if_below_min_price(evaluation: Evaluation):
@@ -66,11 +72,11 @@ def evaluate(customer_id):
 
 def __generate_evals(customer):
     evaluator:Evaluator = customer.get_evaluator()
-
+        
     evaluator.apply_pre_filter(__consider_employees)
     evaluator.apply_pre_filter(__at_most_12_jobs)
 
-    evaluator.apply_post_filter(__show_only_if_below_min_price)
+    # evaluator.apply_post_filter(__show_only_if_below_min_price)
 
     services_evals = evaluator.get_evaluations(True)
 
@@ -92,17 +98,30 @@ def round_up_to_nearest_5(num):
 CSV_FILE_NAME = "evaluations.csv"
 
 row_obj = {
-    "id"            : None,
-    "name"          : None,
-    "address"       : None,
-    "service"       : None,
-    "price"         : None,
-    "employees"     : None,
-    "duration"      : None,
-    "rate"          : None,
-    "points"        : None,
-    "correct_price" : None,
+    "id"                : None,
+    "name"              : None,
+    "address"           : None,
+    "service"           : None,
+    "price"             : None,
+    "employees"         : None,
+    "duration"          : None,
+    "rate"              : None,
+    "points"            : None,
+    "correct_price"     : None,
+    "price_variation"   : None,
 }
+
+job_history_row = {
+    "id"                : None,
+    "customer_name"     : None,
+    "services"          : None,
+
+    "job_date"          : None,
+    "price"             : None,
+    "duration"          : None,
+    "employee"          : None
+}
+
 class Outputer:
     def __init__(self, evaluations) -> None:
         self.customer_and_services = evaluations
@@ -128,6 +147,33 @@ class Outputer:
                         a_string = a_string + output + "\n"
 
             return a_string
+
+    def output_history_to_csv(self):
+        with open("job_history_ab.csv", mode='w', newline='') as file:
+            writer = csv.writer(file)
+
+            writer.writerow(job_history_row.keys())
+            for customer in self.customer_and_services:
+                printRow = copy.deepcopy(job_history_row)
+
+                for services, eval in self.customer_and_services[customer].items():
+
+                    eval: Evaluation = eval
+
+                    if eval and eval.job_list:
+                        for job in eval.job_list:
+                            printRow = copy.deepcopy(job_history_row)
+                            job: Job = job
+
+                            printRow["id"]              = customer.id
+                            printRow["customer_name"] = customer.name
+                            printRow["services"]        = services
+                            printRow["job_date"]    = job.date
+                            printRow["price"]       = job.price
+                            printRow["duration"]    = job.duration
+                            printRow["employee"]    = job.employee
+                            
+                            writer.writerow(printRow.values())
 
 
     def output_to_csv(self):
@@ -157,13 +203,13 @@ class Outputer:
 
 
         for service_titles, evaluation in evals.items():
+            evaluation :Evaluation = evaluation
             row = copy.deepcopy(row_obj)
             row["service"] = service_titles
 
-            if len(rows) == 0:
-                row["id"] = customer.id
-                row["name"] = customer.name
-                row["address"] = customer.address
+            row["id"] = customer.id
+            row["name"] = customer.name
+            row["address"] = customer.address
 
             if evaluation:
                 row["price"]          = evaluation.price
@@ -175,7 +221,10 @@ class Outputer:
                 correct_price = evaluation.calculate_new_price(ideal_employee_rate)
                 row["correct_price"]  = round_up_to_nearest_5(correct_price)
 
-                rows.append(row)
+                if evaluation.flagged:
+                    row["flagged"] = evaluation.flagged
+
+            rows.append(row)
                 
         return rows
 

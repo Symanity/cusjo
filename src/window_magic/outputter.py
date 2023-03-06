@@ -29,7 +29,8 @@ row_obj = {
 }
 
 job_history_row = {
-    "id"                : None,
+    "job_id"            : None,
+    "customer_id"       : None,
     "customer_name"     : None,
     "services"          : None,
     "job_date"          : None,
@@ -90,6 +91,7 @@ class Outputer:
                             printRow = copy.deepcopy(job_history_row)
                             job: Job = job
 
+                            printRow["job_id"]      = job.__hash__()
                             printRow["id"]              = customer.id
                             printRow["customer_name"] = customer.name
                             printRow["services"]        = services

@@ -6,6 +6,7 @@ def translate_from_db(job_row):
 
     customer_id, customer_name, customer_address, services, job_date, price, duration, employee = job_row
 
+    job.customer_id = customer_id
     job.services = services
     job.date = job_date
     job.price = price
@@ -24,6 +25,7 @@ def translate_rows_from_db(rows):
 class Job:
 
     def __init__(self) -> None:
+        self.customer_id = None
         self.services = None
         self.date = None
         self.price = None
@@ -32,3 +34,4 @@ class Job:
 
     def __str__(self) -> str:
         return f"{self.services} - {self.date} - {self.price} - {self.duration} - {self.employee}"
+    

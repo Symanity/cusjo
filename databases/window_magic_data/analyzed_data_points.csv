@@ -1,1 +1,905 @@
 job_id,customer_id,customer_name,services,job_date,price,duration,employee
+413eeab9,1,Sprouts,['Window Cleaning'],2020-03-16,85.0,55.0,Justin Smith
+f027e35e,1,Sprouts,['Window Cleaning'],2020-02-19,85.0,50.0,Roberto Isais
+55186377,1,Sprouts,['Window Cleaning'],2017-05-10,85.0,60.0,Justin Smith
+20cd2812,1,Sprouts,['Window Cleaning'],2017-03-15,85.0,60.0,Justin Smith
+31f542b9,1,Sprouts,['Window Cleaning'],2016-10-10,85.0,60.0,Justin Smith
+b5b99c8d,1,Sprouts,['Window Cleaning'],2016-09-16,85.0,60.0,Justin Smith
+06f8b16b,1,Sprouts,['Window Cleaning'],2016-08-30,85.0,60.0,Justin Smith
+b28f81a3,1,Sprouts,['Window Cleaning'],2016-08-04,85.0,60.0,Jose Perez
+0b142098,1,Sprouts,['Window Cleaning'],2016-07-20,85.0,60.0,Justin Smith
+0122a3e7,1,Sprouts,['Window Cleaning'],2016-07-05,85.0,60.0,Justin Smith
+149cae29,1,Sprouts,['Window Cleaning'],2016-06-20,85.0,60.0,Justin Smith
+dac2ee23,1,Sprouts,['Window Cleaning'],2016-05-27,85.0,60.0,Jose Perez
+8828707b,1,Sprouts,"['Window Cleaning', 'Window Cleaning']",2017-11-29,170.0,41.0,Justin Smith
+2c476fd0,5,Trader Joes #120,['Window Cleaning'],2022-12-07,77.0,41.0,Roberto Isais
+12a07ea5,5,Trader Joes #120,['Window Cleaning'],2022-11-04,77.0,41.0,Roberto Isais
+de30b40e,5,Trader Joes #120,['Window Cleaning'],2022-10-12,77.0,41.0,Roberto Isais
+2f3ac767,5,Trader Joes #120,['Window Cleaning'],2022-09-12,77.0,41.0,Roberto Isais
+7aa6c172,5,Trader Joes #120,['Window Cleaning'],2022-08-17,77.0,41.0,Roberto Isais
+ff8ffc1a,5,Trader Joes #120,['Window Cleaning'],2022-08-03,77.0,41.0,Roberto Isais
+749d69c5,5,Trader Joes #120,['Window Cleaning'],2022-07-06,77.0,41.0,Roberto Isais
+d3e96b8f,5,Trader Joes #120,['Window Cleaning'],2022-06-21,77.0,41.0,Roberto Isais
+b70a95fe,5,Trader Joes #120,['Window Cleaning'],2022-06-07,77.0,41.0,Roberto Isais
+1cda3efd,5,Trader Joes #120,['Window Cleaning'],2021-09-27,77.0,49.0,Brandon Foster
+184b4cd1,5,Trader Joes #120,['Window Cleaning'],2021-09-14,77.0,44.0,Justin Smith
+54cd0b5d,5,Trader Joes #120,['Window Cleaning'],2021-08-30,77.0,54.0,Brandon Foster
+289835cf,14,Trader Joes # 223,['Window Cleaning'],2023-02-01,70.0,45.0,Roberto Isais
+cf6ec247,14,Trader Joes # 223,['Window Cleaning'],2023-01-04,70.0,45.0,Roberto Isais
+705df33f,14,Trader Joes # 223,['Window Cleaning'],2022-11-21,70.0,29.0,Roberto Isais
+325847d2,14,Trader Joes # 223,['Window Cleaning'],2022-11-08,70.0,29.0,Roberto Isais
+bb90a3a6,14,Trader Joes # 223,['Window Cleaning'],2022-10-26,70.0,48.0,Devony Dettman
+65f9c728,14,Trader Joes # 223,['Window Cleaning'],2022-08-30,70.0,29.0,Roberto Isais
+3b7ffc12,14,Trader Joes # 223,['Window Cleaning'],2022-08-15,70.0,29.0,Roberto Isais
+818c3bbe,14,Trader Joes # 223,['Window Cleaning'],2022-05-24,70.0,44.0,Justin Smith
+7c47d8a8,14,Trader Joes # 223,['Window Cleaning'],2022-04-12,70.0,42.0,Justin Smith
+bab2c7bc,14,Trader Joes # 223,['Window Cleaning'],2022-03-01,70.0,35.0,Justin Smith
+421c353e,14,Trader Joes # 223,['Window Cleaning'],2022-02-15,70.0,42.0,Justin Smith
+4ae87030,14,Trader Joes # 223,['Window Cleaning'],2022-02-01,70.0,40.0,Justin Smith
+5776ec52,14,Trader Joes # 223,['Exterior Window Cleaning'],2021-10-13,45.0,52.0,Brandon Foster
+0d6652b9,15,Harsey & Harsey,['Interior/Exterior Window Cleaning'],2023-03-01,35.0,17.0,Roberto Isais
+96c83d11,15,Harsey & Harsey,['Interior/Exterior Window Cleaning'],2022-05-19,35.0,17.0,Roberto Isais
+2678d344,15,Harsey & Harsey,['Interior/Exterior Window Cleaning'],2021-08-13,35.0,17.0,Roberto Isais
+107427d0,15,Harsey & Harsey,['Interior/Exterior Window Cleaning'],2021-07-15,35.0,17.0,Roberto Isais
+5c1e6d8c,15,Harsey & Harsey,['Interior/Exterior Window Cleaning'],2021-06-17,35.0,17.0,Roberto Isais
+e8ba2aaf,15,Harsey & Harsey,['Interior/Exterior Window Cleaning'],2021-05-20,35.0,17.0,Roberto Isais
+f68f5340,15,Harsey & Harsey,['Interior/Exterior Window Cleaning'],2021-04-21,35.0,17.0,Roberto Isais
+0e517a93,15,Harsey & Harsey,['Interior/Exterior Window Cleaning'],2021-03-23,35.0,17.0,Roberto Isais
+9a87e80d,15,Harsey & Harsey,['Interior/Exterior Window Cleaning'],2021-02-26,35.0,17.0,Roberto Isais
+650b9dd2,15,Harsey & Harsey,['Interior/Exterior Window Cleaning'],2020-12-30,35.0,17.0,Roberto Isais
+5d8f055f,15,Harsey & Harsey,['Interior/Exterior Window Cleaning'],2020-12-02,35.0,17.0,Roberto Isais
+b000551f,15,Harsey & Harsey,['Interior/Exterior Window Cleaning'],2020-11-04,35.0,17.0,Roberto Isais
+c105cf3f,25,C and D Cycles,['Exterior Window Cleaning'],2023-01-12,25.0,15.0,Roberto Isais
+c16e0cd0,25,C and D Cycles,['Exterior Window Cleaning'],2022-09-21,25.0,15.0,Roberto Isais
+1f5be08a,25,C and D Cycles,['Exterior Window Cleaning'],2022-06-27,25.0,15.0,Roberto Isais
+a999394b,25,C and D Cycles,['Exterior Window Cleaning'],2022-02-08,25.0,15.0,Roberto Isais
+1de3a1d7,25,C and D Cycles,['Exterior Window Cleaning'],2022-01-11,25.0,15.0,Roberto Isais
+49b61bf3,25,C and D Cycles,['Exterior Window Cleaning'],2021-12-14,25.0,15.0,Roberto Isais
+01322358,25,C and D Cycles,['Exterior Window Cleaning'],2021-11-17,25.0,15.0,Roberto Isais
+9806c69c,25,C and D Cycles,['Exterior Window Cleaning'],2021-10-19,25.0,15.0,Roberto Isais
+d28537ad,25,C and D Cycles,['Exterior Window Cleaning'],2021-08-24,25.0,15.0,Roberto Isais
+048f0a9f,25,C and D Cycles,['Exterior Window Cleaning'],2021-07-28,25.0,15.0,Roberto Isais
+a14aa076,25,C and D Cycles,['Exterior Window Cleaning'],2021-07-01,25.0,15.0,Roberto Isais
+c4321922,25,C and D Cycles,['Exterior Window Cleaning'],2021-06-01,25.0,15.0,Roberto Isais
+b3737aa0,26,Bergen And Brasier,['Interior/Exterior Window Cleaning'],2020-01-16,48.0,30.0,Justin Smith
+2b6aada6,26,Bergen And Brasier,['Interior/Exterior Window Cleaning'],2019-02-15,48.0,30.0,Roberto Isais
+381baca3,27,Champagne Spas,['Exterior Window Cleaning'],2021-07-28,30.0,12.0,Roberto Isais
+fa8bf5fc,27,Champagne Spas,['Exterior Window Cleaning'],2021-06-03,30.0,12.0,Roberto Isais
+1dc3c045,27,Champagne Spas,['Exterior Window Cleaning'],2021-05-05,30.0,12.0,Roberto Isais
+4729bd23,27,Champagne Spas,['Exterior Window Cleaning'],2021-03-09,30.0,12.0,Jose Perez
+2f967e99,27,Champagne Spas,['Exterior Window Cleaning'],2021-02-12,30.0,12.0,Roberto Isais
+76b24d25,27,Champagne Spas,['Exterior Window Cleaning'],2020-12-17,30.0,12.0,Roberto Isais
+7afa1b82,27,Champagne Spas,['Exterior Window Cleaning'],2020-11-17,30.0,12.0,Roberto Isais
+bf18cc5d,27,Champagne Spas,['Exterior Window Cleaning'],2020-09-22,30.0,12.0,Roberto Isais
+c501296e,27,Champagne Spas,['Exterior Window Cleaning'],2020-08-28,30.0,12.0,Roberto Isais
+64b974f1,27,Champagne Spas,['Exterior Window Cleaning'],2020-06-30,30.0,12.0,Roberto Isais
+d315b06f,27,Champagne Spas,['Exterior Window Cleaning'],2020-06-02,30.0,12.0,Roberto Isais
+e2f237b1,27,Champagne Spas,['Exterior Window Cleaning'],2020-05-06,30.0,12.0,Justin Smith
+d954bd60,27,Champagne Spas,"['Exterior Window Cleaning', 'Interior Only Window Cleaning']",2019-11-18,55.0,27.0,Roberto Isais
+2662e1a5,27,Champagne Spas,"['Interior Only Window Cleaning', 'Exterior Window Cleaning']",2021-07-01,55.0,12.0,Roberto Isais
+bf8939fd,27,Champagne Spas,"['Interior Only Window Cleaning', 'Exterior Window Cleaning']",2021-01-13,55.0,12.0,Roberto Isais
+3222ad05,27,Champagne Spas,"['Interior Only Window Cleaning', 'Exterior Window Cleaning']",2019-08-30,55.0,12.0,Roberto Isais
+daf3ee59,27,Champagne Spas,['Interior Only Window Cleaning'],2021-09-21,25.0,33.0,Brandon Foster
+3cd6f7a3,27,Champagne Spas,"['Exterior Window Cleaning', 'Interior Only Window Cleaning', 'Interior Only Window Cleaning']",2020-07-27,80.0,12.0,Jose Perez
+4c0668b7,27,Champagne Spas,"['Exterior Window Cleaning', 'Interior/Exterior Window Cleaning']",2019-03-12,85.0,12.0,Roberto Isais
+c80e4606,27,Champagne Spas,['Interior/Exterior Window Cleaning'],2018-08-29,55.0,12.0,Roberto Isais
+fb121a73,30,G.T.M. Discount #2,['Exterior Window Cleaning'],2023-02-22,45.0,20.0,Roberto Isais
+209e6aac,30,G.T.M. Discount #2,['Exterior Window Cleaning'],2022-11-28,45.0,20.0,Roberto Isais
+13dba299,30,G.T.M. Discount #2,['Exterior Window Cleaning'],2022-09-05,45.0,20.0,Roberto Isais
+d29df3b3,30,G.T.M. Discount #2,['Exterior Window Cleaning'],2022-05-19,45.0,20.0,Roberto Isais
+72ffcde4,30,G.T.M. Discount #2,['Exterior Window Cleaning'],2022-04-19,45.0,20.0,Roberto Isais
+61501598,30,G.T.M. Discount #2,['Exterior Window Cleaning'],2022-03-22,45.0,20.0,Roberto Isais
+d4c9e6cf,30,G.T.M. Discount #2,['Exterior Window Cleaning'],2022-01-24,45.0,20.0,Roberto Isais
+885f9e8c,30,G.T.M. Discount #2,['Exterior Window Cleaning'],2021-12-28,45.0,20.0,Roberto Isais
+5ae45875,30,G.T.M. Discount #2,['Exterior Window Cleaning'],2021-12-02,45.0,20.0,Roberto Isais
+f1a43b64,30,G.T.M. Discount #2,['Exterior Window Cleaning'],2021-11-01,45.0,20.0,Roberto Isais
+94db4c1b,30,G.T.M. Discount #2,['Exterior Window Cleaning'],2021-10-06,45.0,20.0,Roberto Isais
+6f12e37e,30,G.T.M. Discount #2,['Exterior Window Cleaning'],2021-07-12,45.0,20.0,Roberto Isais
+be18b77f,30,G.T.M. Discount #2,['Interior Only Window Cleaning'],2021-08-13,60.0,30.0,Roberto Isais
+527728fa,37,Dell Enterprises,['Interior/Exterior Window Cleaning'],2023-02-13,13.0,16.0,Roberto Isais
+692bb128,37,Dell Enterprises,['Interior/Exterior Window Cleaning'],2023-01-16,13.0,12.0,Roberto Isais
+b38ebeda,37,Dell Enterprises,['Interior/Exterior Window Cleaning'],2021-08-31,13.0,14.0,Brandon Foster
+9d7e7ac5,37,Dell Enterprises,['Interior/Exterior Window Cleaning'],2021-08-02,13.0,12.0,Roberto Isais
+fc6e238c,37,Dell Enterprises,['Interior/Exterior Window Cleaning'],2021-07-06,13.0,12.0,Roberto Isais
+1d53f949,37,Dell Enterprises,['Interior/Exterior Window Cleaning'],2021-06-07,13.0,12.0,Roberto Isais
+35f388e5,37,Dell Enterprises,['Interior/Exterior Window Cleaning'],2021-05-11,13.0,12.0,Roberto Isais
+ef47ac2b,37,Dell Enterprises,['Interior/Exterior Window Cleaning'],2021-04-13,13.0,14.0,Roberto Isais
+452c758a,37,Dell Enterprises,['Interior/Exterior Window Cleaning'],2021-03-22,13.0,12.0,Roberto Isais
+f2a907b0,37,Dell Enterprises,['Interior/Exterior Window Cleaning'],2021-02-18,13.0,12.0,Roberto Isais
+b232054e,37,Dell Enterprises,['Interior/Exterior Window Cleaning'],2021-01-19,13.0,12.0,Roberto Isais
+7043dbb6,37,Dell Enterprises,['Interior/Exterior Window Cleaning'],2020-12-22,13.0,12.0,Roberto Isais
+3c531efa,42,La Mesa Glass,['Exterior Window Cleaning'],2021-04-13,80.0,42.0,Roberto Isais
+1dc0fbbb,42,La Mesa Glass,['Window Cleaning'],2020-02-13,85.0,60.0,Roberto Isais
+888d62a7,42,La Mesa Glass,['Window Cleaning'],2019-02-11,85.0,60.0,Roberto Isais
+184b8a39,42,La Mesa Glass,['Window Cleaning'],2018-12-17,85.0,60.0,Roberto Isais
+53be14ff,42,La Mesa Glass,['Window Cleaning'],2018-07-30,85.0,60.0,Roberto Isais
+80f5e628,46,Trader Joes # 26,['Interior/Exterior Window Cleaning'],2023-01-16,200.0,74.0,Devony Dettman
+2a31843a,46,Trader Joes # 26,['Interior/Exterior Window Cleaning'],2022-12-23,200.0,91.0,Devony Dettman
+f6d39097,46,Trader Joes # 26,['Interior/Exterior Window Cleaning'],2021-04-29,200.0,72.0,Roberto Isais
+36b68ba8,46,Trader Joes # 26,['Interior/Exterior Window Cleaning'],2021-04-15,200.0,75.0,Roberto Isais
+2317016d,46,Trader Joes # 26,['Interior/Exterior Window Cleaning'],2020-02-17,200.0,80.0,Roberto Isais
+f2a03167,46,Trader Joes # 26,['Interior/Exterior Window Cleaning'],2020-01-15,200.0,95.0,Justin Smith
+06b1f707,46,Trader Joes # 26,['Interior/Exterior Window Cleaning'],2019-11-08,200.0,83.0,Justin Smith
+10aafc06,46,Trader Joes # 26,['Interior/Exterior Window Cleaning'],2019-09-06,200.0,90.0,Justin Smith
+250f85e7,46,Trader Joes # 26,['Interior/Exterior Window Cleaning'],2019-04-26,200.0,80.0,Justin Smith
+e859cebc,46,Trader Joes # 26,['Interior/Exterior Window Cleaning'],2019-03-15,200.0,75.0,Jose Perez
+f85e1c31,46,Trader Joes # 26,['Interior/Exterior Window Cleaning'],2019-01-29,200.0,95.0,Justin Smith
+6c6155f8,46,Trader Joes # 26,['Interior/Exterior Window Cleaning'],2018-10-24,200.0,90.0,Justin Smith
+22b9f7b0,47,G.T.M Discount #1,['Exterior Window Cleaning'],2021-10-06,70.0,33.0,Roberto Isais
+a9a042da,47,G.T.M Discount #1,['Exterior Window Cleaning'],2021-07-12,70.0,33.0,Roberto Isais
+7798a2fd,47,G.T.M Discount #1,['Exterior Window Cleaning'],2021-06-14,70.0,33.0,Roberto Isais
+c2e6f8a2,47,G.T.M Discount #1,['Exterior Window Cleaning'],2021-05-17,70.0,33.0,Roberto Isais
+c426be86,47,G.T.M Discount #1,['Exterior Window Cleaning'],2021-04-19,70.0,33.0,Roberto Isais
+381f7895,47,G.T.M Discount #1,['Exterior Window Cleaning'],2021-03-22,70.0,33.0,Jose Perez
+67adb50c,47,G.T.M Discount #1,['Exterior Window Cleaning'],2021-02-25,70.0,33.0,Roberto Isais
+549213db,47,G.T.M Discount #1,['Exterior Window Cleaning'],2020-12-01,70.0,33.0,Roberto Isais
+e853adde,47,G.T.M Discount #1,['Exterior Window Cleaning'],2020-11-05,70.0,33.0,Roberto Isais
+e1f910eb,47,G.T.M Discount #1,['Exterior Window Cleaning'],2020-10-07,70.0,33.0,Roberto Isais
+bafa2a08,47,G.T.M Discount #1,['Exterior Window Cleaning'],2020-09-11,70.0,33.0,Jose Perez
+2feef5de,47,G.T.M Discount #1,['Exterior Window Cleaning'],2020-08-10,70.0,33.0,Justin Smith
+f10a518a,53,Trader Joes #24,['Exterior Window Cleaning'],2023-02-13,43.0,19.0,Roberto Isais
+6c882dd9,53,Trader Joes #24,['Exterior Window Cleaning'],2023-01-31,43.0,16.0,Roberto Isais
+fe66a5ce,53,Trader Joes #24,['Exterior Window Cleaning'],2022-10-25,43.0,18.0,Devony Dettman
+92d464ff,53,Trader Joes #24,['Exterior Window Cleaning'],2022-04-11,43.0,22.0,Justin Smith
+6a258eee,53,Trader Joes #24,['Exterior Window Cleaning'],2021-10-25,43.0,27.0,Brandon Foster
+0a245d01,53,Trader Joes #24,['Exterior Window Cleaning'],2021-09-27,43.0,26.0,Justin Smith
+333cd331,53,Trader Joes #24,['Exterior Window Cleaning'],2021-04-13,43.0,14.0,Roberto Isais
+c29b25a6,53,Trader Joes #24,['Exterior Window Cleaning'],2020-03-16,43.0,25.0,Jose Perez
+d44f65e9,53,Trader Joes #24,['Exterior Window Cleaning'],2020-02-03,43.0,15.0,Roberto Isais
+fbe57723,53,Trader Joes #24,['Exterior Window Cleaning'],2020-01-23,43.0,28.0,Jose Perez
+0b89bccc,53,Trader Joes #24,['Exterior Window Cleaning'],2019-09-09,43.0,25.0,Justin Smith
+15c7c31b,53,Trader Joes #24,['Exterior Window Cleaning'],2019-02-18,43.0,25.0,Roberto Isais
+62b79491,56,Trader Joes # 222,['Exterior Window Cleaning'],2021-09-27,45.0,31.0,Justin Smith
+0758bd63,56,Trader Joes # 222,['Exterior Window Cleaning'],2016-05-23,35.0,28.0,Justin Smith
+3d147b9c,56,Trader Joes # 222,['Interior/Exterior Window Cleaning'],2023-01-31,95.0,45.0,Roberto Isais
+856665e8,56,Trader Joes # 222,['Interior/Exterior Window Cleaning'],2023-01-06,95.0,45.0,Roberto Isais
+065e9107,56,Trader Joes # 222,['Interior/Exterior Window Cleaning'],2022-12-05,95.0,45.0,Roberto Isais
+3149fe5a,56,Trader Joes # 222,['Interior/Exterior Window Cleaning'],2022-11-09,95.0,45.0,Roberto Isais
+49f4ca32,56,Trader Joes # 222,['Interior/Exterior Window Cleaning'],2022-10-11,95.0,45.0,Roberto Isais
+3971b53a,56,Trader Joes # 222,['Interior/Exterior Window Cleaning'],2021-09-17,95.0,63.0,Jose Perez
+1a40982a,56,Trader Joes # 222,['Interior/Exterior Window Cleaning'],2020-03-02,95.0,50.0,Roberto Isais
+c5975e55,56,Trader Joes # 222,['Interior/Exterior Window Cleaning'],2020-02-03,95.0,50.0,Roberto Isais
+1405cfd6,56,Trader Joes # 222,['Interior/Exterior Window Cleaning'],2019-09-20,95.0,52.0,Justin Smith
+05b6448d,56,Trader Joes # 222,['Interior/Exterior Window Cleaning'],2019-02-11,95.0,60.0,Roberto Isais
+3c1131d4,56,Trader Joes # 222,['Interior/Exterior Window Cleaning'],2018-07-06,95.0,55.0,Justin Smith
+ab2c7279,56,Trader Joes # 222,['Interior/Exterior Window Cleaning'],2017-09-18,80.0,45.0,Justin Smith
+07c1bee0,59,Outrageous Rugs,['Exterior Window Cleaning'],2023-01-27,85.0,50.0,Roberto Isais
+42b91422,59,Outrageous Rugs,['Exterior Window Cleaning'],2022-11-02,85.0,50.0,Roberto Isais
+83fbf1dc,59,Outrageous Rugs,['Exterior Window Cleaning'],2022-10-05,85.0,58.0,Devony Dettman
+a6f4a518,59,Outrageous Rugs,['Exterior Window Cleaning'],2022-04-22,85.0,50.0,Roberto Isais
+463011af,59,Outrageous Rugs,['Exterior Window Cleaning'],2022-03-25,85.0,50.0,Roberto Isais
+9f92725a,59,Outrageous Rugs,['Exterior Window Cleaning'],2022-01-28,85.0,51.0,Justin Smith
+e79637ac,59,Outrageous Rugs,['Exterior Window Cleaning'],2021-10-04,85.0,58.0,Brandon Foster
+268c60ec,59,Outrageous Rugs,['Exterior Window Cleaning'],2021-09-06,85.0,54.0,Brandon Foster
+c46254aa,59,Outrageous Rugs,['Exterior Window Cleaning'],2021-08-13,85.0,61.0,Jose Perez
+5243dd0c,59,Outrageous Rugs,['Exterior Window Cleaning'],2021-07-16,85.0,50.0,Jose Perez
+15f110bb,59,Outrageous Rugs,['Exterior Window Cleaning'],2021-06-15,85.0,55.0,Jose Perez
+0b8417c5,59,Outrageous Rugs,['Exterior Window Cleaning'],2021-05-21,85.0,49.0,Jose Perez
+fff65701,64,Sherwood Mechanical,['in and out of lobby windows'],2023-02-21,30.0,16.0,Devony Dettman
+647ef6d5,64,Sherwood Mechanical,['in and out of lobby windows'],2022-10-05,30.0,17.0,Devony Dettman
+d8b95647,64,Sherwood Mechanical,['in and out of lobby windows'],2022-01-28,30.0,19.0,Justin Smith
+fda43e0e,64,Sherwood Mechanical,['in and out of lobby windows'],2021-12-27,30.0,19.0,Brandon Foster
+8ce40182,64,Sherwood Mechanical,['in and out of lobby windows'],2021-10-04,30.0,19.0,Brandon Foster
+09f60758,64,Sherwood Mechanical,['in and out of lobby windows'],2021-04-23,30.0,16.0,Justin Smith
+82fa0cde,66,San Diego Shade,['Exterior Window Cleaning'],2023-02-21,20.0,12.0,Devony Dettman
+51781be8,66,San Diego Shade,['Exterior Window Cleaning'],2023-01-27,20.0,12.0,Roberto Isais
+f4954411,66,San Diego Shade,['Exterior Window Cleaning'],2022-12-30,20.0,13.0,Devony Dettman
+9f5e8865,66,San Diego Shade,['Exterior Window Cleaning'],2021-11-01,20.0,12.0,Brandon Foster
+6afcaf1b,66,San Diego Shade,['Exterior Window Cleaning'],2021-08-13,20.0,12.0,Jose Perez
+30ff55b7,66,San Diego Shade,['Exterior Window Cleaning'],2021-07-16,20.0,12.0,Jose Perez
+d59b7aed,66,San Diego Shade,['Exterior Window Cleaning'],2021-03-22,20.0,12.0,Justin Smith
+04194fe6,66,San Diego Shade,['Exterior Window Cleaning'],2020-05-22,20.0,12.0,Jose Perez
+c35dd025,66,San Diego Shade,['Exterior Window Cleaning'],2020-01-30,20.0,12.0,Roberto Isais
+f9f82828,66,San Diego Shade,['Exterior Window Cleaning'],2020-01-04,20.0,12.0,Jose Perez
+998dcb8a,66,San Diego Shade,['Exterior Window Cleaning'],2019-12-05,20.0,12.0,Roberto Isais
+eab16140,66,San Diego Shade,['Exterior Window Cleaning'],2019-11-06,20.0,12.0,Roberto Isais
+6507e127,66,San Diego Shade,['Interior/Exterior Skylight(s) Cleaning'],2019-09-09,40.0,12.0,Roberto Isais
+2fb3121d,67,Trader Joes #188,['Interior/Exterior Window Cleaning'],2023-02-03,140.0,57.0,Roberto Isais
+fba719e6,67,Trader Joes #188,['Interior/Exterior Window Cleaning'],2022-12-23,140.0,57.0,Roberto Isais
+f17f30f4,67,Trader Joes #188,['Interior/Exterior Window Cleaning'],2022-12-09,140.0,57.0,Roberto Isais
+b6dc8a74,67,Trader Joes #188,['Interior/Exterior Window Cleaning'],2022-11-07,140.0,57.0,Roberto Isais
+a1584dfd,67,Trader Joes #188,['Interior/Exterior Window Cleaning'],2022-10-14,140.0,57.0,Roberto Isais
+1e5234f9,67,Trader Joes #188,['Interior/Exterior Window Cleaning'],2022-10-04,140.0,68.0,Devony Dettman
+6899e85b,67,Trader Joes #188,['Interior/Exterior Window Cleaning'],2022-09-16,140.0,57.0,Roberto Isais
+56455512,67,Trader Joes #188,['Interior/Exterior Window Cleaning'],2022-08-19,140.0,57.0,Roberto Isais
+d8db37a9,67,Trader Joes #188,['Interior/Exterior Window Cleaning'],2022-08-05,140.0,57.0,Roberto Isais
+2d0ca0df,67,Trader Joes #188,['Interior/Exterior Window Cleaning'],2022-05-27,140.0,61.0,Justin Smith
+98d9e444,67,Trader Joes #188,['Interior/Exterior Window Cleaning'],2020-02-18,140.0,73.0,Justin Smith
+21888eb4,67,Trader Joes #188,['Interior/Exterior Window Cleaning'],2019-12-11,140.0,69.0,Justin Smith
+a5a1d14e,68,Newen Enterprises,['Interior/Exterior Window Cleaning'],2023-01-27,75.0,60.0,Devony Dettman
+1a794296,68,Newen Enterprises,['Interior/Exterior Window Cleaning'],2022-12-30,75.0,60.0,Devony Dettman
+205dd32e,68,Newen Enterprises,['Interior/Exterior Window Cleaning'],2022-08-26,75.0,60.0,Roberto Isais
+b010d5fd,68,Newen Enterprises,['Interior/Exterior Window Cleaning'],2022-05-27,75.0,60.0,Roberto Isais
+641f7afa,68,Newen Enterprises,['Interior/Exterior Window Cleaning'],2022-03-25,75.0,60.0,Roberto Isais
+d143049d,68,Newen Enterprises,['Interior/Exterior Window Cleaning'],2021-12-03,60.0,61.0,Brandon Foster
+e3ab4bf0,68,Newen Enterprises,['Interior/Exterior Window Cleaning'],2021-10-29,60.0,60.0,Roberto Isais
+204fb05e,68,Newen Enterprises,['Interior/Exterior Window Cleaning'],2021-09-24,60.0,60.0,Brandon Foster
+b39c5ec6,68,Newen Enterprises,['Interior/Exterior Window Cleaning'],2021-07-30,60.0,60.0,Roberto Isais
+2591ff73,68,Newen Enterprises,['Interior/Exterior Window Cleaning'],2021-06-30,60.0,60.0,Jose Perez
+9ba30acd,68,Newen Enterprises,['Interior/Exterior Window Cleaning'],2021-05-28,60.0,60.0,Jose Perez
+2cd0f896,68,Newen Enterprises,['Interior/Exterior Window Cleaning'],2021-03-26,60.0,60.0,Jose Perez
+99e11cb9,68,Newen Enterprises,['Exterior Window Cleaning'],2019-08-30,35.0,60.0,Roberto Isais
+74c575f7,69,Trader Joes # 20,['Interior/Exterior Window Cleaning'],2020-02-27,55.0,30.0,Justin Smith
+e7bcbbf7,69,Trader Joes # 20,['Interior/Exterior Window Cleaning'],2019-10-09,55.0,28.0,Justin Smith
+f25dd7f9,69,Trader Joes # 20,['Interior/Exterior Window Cleaning'],2019-04-25,55.0,30.0,Justin Smith
+f45f8732,69,Trader Joes # 20,['Interior/Exterior Window Cleaning'],2016-12-21,55.0,28.0,Jose Perez
+67cc4f3d,69,Trader Joes # 20,['Interior/Exterior Window Cleaning'],2016-05-19,55.0,30.0,Justin Smith
+376ce37a,69,Trader Joes # 20,['Exterior Window Cleaning'],2021-04-09,40.0,21.0,Roberto Isais
+7b5c63f1,69,Trader Joes # 20,['Exterior Window Cleaning'],2020-02-12,40.0,20.0,Roberto Isais
+1377fb38,69,Trader Joes # 20,['Exterior Window Cleaning'],2020-01-16,40.0,19.0,Justin Smith
+69bd22eb,69,Trader Joes # 20,['Exterior Window Cleaning'],2017-03-17,40.0,23.0,Justin Smith
+5b811587,69,Trader Joes # 20,['Exterior Window Cleaning'],2017-02-08,40.0,18.0,Justin Smith
+f48f5053,69,Trader Joes # 20,['Exterior Window Cleaning'],2016-11-11,40.0,21.0,Justin Smith
+732de4c3,69,Trader Joes # 20,['Exterior Window Cleaning'],2016-10-12,40.0,21.0,Justin Smith
+09037931,69,Trader Joes # 20,['Exterior Window Cleaning'],2016-05-14,30.0,22.0,Jose Perez
+c0879be5,69,Trader Joes # 20,['Exterior Window Cleaning'],2016-05-05,30.0,18.0,Justin Smith
+d2d1740a,70,Trader Joes # 21,['Interior/Exterior Window Cleaning'],2022-04-08,145.0,62.0,Justin Smith
+66233cfe,70,Trader Joes # 21,['Interior/Exterior Window Cleaning'],2021-09-06,145.0,66.0,Justin Smith
+2cf0d82f,70,Trader Joes # 21,['Interior/Exterior Window Cleaning'],2020-02-12,145.0,70.0,Roberto Isais
+3afa18f1,70,Trader Joes # 21,['Interior/Exterior Window Cleaning'],2020-01-29,145.0,60.0,Justin Smith
+581f2b47,70,Trader Joes # 21,['Interior/Exterior Window Cleaning'],2020-01-02,145.0,60.0,Justin Smith
+8ab5b8a8,70,Trader Joes # 21,['Interior/Exterior Window Cleaning'],2019-12-02,145.0,60.0,Justin Smith
+d8775ea4,70,Trader Joes # 21,['Interior/Exterior Window Cleaning'],2019-10-09,145.0,60.0,Justin Smith
+922bd932,70,Trader Joes # 21,['Interior/Exterior Window Cleaning'],2019-08-16,145.0,70.0,Justin Smith
+2f99bcfb,70,Trader Joes # 21,['Interior/Exterior Window Cleaning'],2019-05-08,145.0,66.0,Justin Smith
+845d9d10,70,Trader Joes # 21,['Interior/Exterior Window Cleaning'],2019-04-25,145.0,75.0,Justin Smith
+6c51e583,70,Trader Joes # 21,['Interior/Exterior Window Cleaning'],2016-06-28,145.0,72.0,Jose Perez
+731c950a,70,Trader Joes # 21,['Interior/Exterior Window Cleaning'],2016-04-21,145.0,72.0,Justin Smith
+b7d0debd,73,Sprouts # 2,['Interior/Exterior Window Cleaning'],2021-09-14,125.0,56.0,Justin Smith
+db040a55,73,Sprouts # 2,['Interior/Exterior Window Cleaning'],2020-03-16,125.0,55.0,Justin Smith
+d9768540,73,Sprouts # 2,['Interior/Exterior Window Cleaning'],2018-12-26,125.0,45.0,Roberto Isais
+919cbf35,73,Sprouts # 2,['Interior/Exterior Window Cleaning'],2018-07-24,125.0,50.0,Roberto Isais
+907b7d0c,73,Sprouts # 2,['Interior/Exterior Window Cleaning'],2018-06-30,125.0,49.0,Justin Smith
+4eaf0177,73,Sprouts # 2,['Interior/Exterior Window Cleaning'],2018-02-08,125.0,49.0,Justin Smith
+29ca1836,73,Sprouts # 2,['Interior/Exterior Window Cleaning'],2018-01-30,125.0,45.0,Justin Smith
+4fec6dd9,73,Sprouts # 2,['Interior/Exterior Window Cleaning'],2017-11-13,125.0,51.0,Justin Smith
+760e28f2,73,Sprouts # 2,['Interior/Exterior Window Cleaning'],2017-07-25,125.0,50.0,Justin Smith
+3a9f327b,73,Sprouts # 2,['Interior/Exterior Window Cleaning'],2017-02-16,125.0,52.0,Justin Smith
+fe66b2e0,73,Sprouts # 2,['Interior/Exterior Window Cleaning'],2016-08-16,125.0,45.0,Justin Smith
+323de644,75,Cumming Chevrolet,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2017-06-19,600.0,195.0,Justin Smith
+c504099e,75,Cumming Chevrolet,['Exterior Window Cleaning'],2022-07-12,300.0,165.0,Roberto Isais
+84f45cc5,75,Cumming Chevrolet,['Exterior Window Cleaning'],2022-06-14,300.0,165.0,Roberto Isais
+788285a3,75,Cumming Chevrolet,['Exterior Window Cleaning'],2022-04-18,300.0,165.0,Roberto Isais
+109e2aee,75,Cumming Chevrolet,['Exterior Window Cleaning'],2022-03-21,300.0,165.0,Roberto Isais
+3d50c872,75,Cumming Chevrolet,['Exterior Window Cleaning'],2022-01-26,300.0,165.0,Roberto Isais
+306f5343,75,Cumming Chevrolet,['Exterior Window Cleaning'],2021-12-30,300.0,195.0,Roberto Isais
+fa1d6a39,75,Cumming Chevrolet,['Exterior Window Cleaning'],2021-10-05,300.0,195.0,Roberto Isais
+328774f9,75,Cumming Chevrolet,['Exterior Window Cleaning'],2021-07-13,300.0,195.0,Roberto Isais
+60ffd43c,75,Cumming Chevrolet,['Exterior Window Cleaning'],2021-06-15,300.0,195.0,Roberto Isais
+2f8c3613,75,Cumming Chevrolet,['Exterior Window Cleaning'],2021-04-20,300.0,165.0,Roberto Isais
+49ffa7d0,75,Cumming Chevrolet,['Exterior Window Cleaning'],2021-01-27,300.0,195.0,Roberto Isais
+1a18d903,75,Cumming Chevrolet,['Exterior Window Cleaning'],2020-12-29,300.0,195.0,Roberto Isais
+1a254fe8,75,Cumming Chevrolet,"['Interior/Exterior Window Cleaning', 'Paint Removal']",2018-08-22,600.0,300.0,Justin Smith
+69686aba,76,Hyde Edwards,['Interior/Exterior Window Cleaning'],2021-02-25,95.0,90.0,Roberto Isais
+709bdd6d,76,Hyde Edwards,['Paint Removal'],2020-09-09,75.0,60.0,Roberto Isais
+d674f553,78,Edward D. Jones,['Exterior Window Cleaning'],2023-01-16,41.0,17.0,Devony Dettman
+0d0799c5,78,Edward D. Jones,['Exterior Window Cleaning'],2020-02-17,41.0,20.0,Roberto Isais
+0d67156e,81,Compass Real Estate,['Interior/Exterior Window Cleaning'],2021-11-18,30.0,22.0,Roberto Isais
+8958f361,81,Compass Real Estate,['Exterior Window Cleaning'],2021-04-22,20.0,10.0,Jose Perez
+5728331e,82,U.P.S Store,['Interior/Exterior Window Cleaning'],2023-01-16,22.0,11.0,Devony Dettman
+54664968,82,U.P.S Store,['Interior/Exterior Window Cleaning'],2022-10-19,22.0,12.0,Roberto Isais
+4eaa60f7,82,U.P.S Store,['Interior/Exterior Window Cleaning'],2022-08-17,22.0,12.0,Roberto Isais
+0ce82bfd,82,U.P.S Store,['Interior/Exterior Window Cleaning'],2022-07-20,22.0,12.0,Roberto Isais
+90293a09,82,U.P.S Store,['Interior/Exterior Window Cleaning'],2022-04-19,22.0,12.0,Roberto Isais
+28041668,82,U.P.S Store,['Interior/Exterior Window Cleaning'],2022-02-14,22.0,12.0,Roberto Isais
+915d3dad,82,U.P.S Store,['Interior/Exterior Window Cleaning'],2022-01-20,22.0,12.0,Roberto Isais
+d2f99dc2,82,U.P.S Store,['Interior/Exterior Window Cleaning'],2021-12-16,22.0,12.0,Roberto Isais
+fc7bfccf,82,U.P.S Store,['Interior/Exterior Window Cleaning'],2021-11-18,22.0,12.0,Roberto Isais
+d9f2f06a,82,U.P.S Store,['Interior/Exterior Window Cleaning'],2021-10-18,22.0,12.0,Brandon Foster
+97c902a1,82,U.P.S Store,['Interior/Exterior Window Cleaning'],2021-08-16,22.0,11.0,Roberto Isais
+6f43d9bb,82,U.P.S Store,['Interior/Exterior Window Cleaning'],2021-07-20,22.0,11.0,Roberto Isais
+52cad290,93,Lancetown Industries  Inc - Powers Plumbing,['Interior/Exterior Window Cleaning'],2020-02-17,32.0,25.0,Roberto Isais
+fc22361a,95,G.T.M Office,['Exterior Window Cleaning'],2022-11-28,70.0,29.0,Roberto Isais
+91f70066,95,G.T.M Office,['Exterior Window Cleaning'],2022-07-12,70.0,29.0,Roberto Isais
+7f28fb69,95,G.T.M Office,['Exterior Window Cleaning'],2022-06-14,70.0,29.0,Roberto Isais
+4ab6e399,95,G.T.M Office,['Exterior Window Cleaning'],2022-04-18,70.0,29.0,Roberto Isais
+ab6c631c,95,G.T.M Office,['Exterior Window Cleaning'],2022-03-21,70.0,29.0,Roberto Isais
+88f124bf,95,G.T.M Office,['Exterior Window Cleaning'],2022-02-21,70.0,29.0,Roberto Isais
+6255d579,95,G.T.M Office,['Exterior Window Cleaning'],2022-01-26,70.0,29.0,Roberto Isais
+42101cf4,95,G.T.M Office,['Exterior Window Cleaning'],2021-12-30,70.0,29.0,Roberto Isais
+31d3b5f8,95,G.T.M Office,['Exterior Window Cleaning'],2021-11-30,70.0,29.0,Roberto Isais
+ce8f4f37,95,G.T.M Office,['Exterior Window Cleaning'],2021-11-02,70.0,29.0,Roberto Isais
+8ebd8003,95,G.T.M Office,['Exterior Window Cleaning'],2021-07-13,70.0,29.0,Roberto Isais
+84d0f0e5,95,G.T.M Office,['Exterior Window Cleaning'],2021-06-15,70.0,29.0,Roberto Isais
+49804380,97,Bit Company,['Exterior Window Cleaning'],2023-01-11,35.0,22.0,Roberto Isais
+a0bf8bed,97,Bit Company,['Exterior Window Cleaning'],2022-11-16,35.0,22.0,Roberto Isais
+08ba1a9b,97,Bit Company,['Exterior Window Cleaning'],2022-09-19,35.0,22.0,Roberto Isais
+eaa98955,97,Bit Company,['Exterior Window Cleaning'],2022-08-24,35.0,22.0,Roberto Isais
+0d4150c9,97,Bit Company,['Exterior Window Cleaning'],2022-06-27,35.0,22.0,Roberto Isais
+959d2fa8,97,Bit Company,['Exterior Window Cleaning'],2022-06-03,35.0,22.0,Roberto Isais
+75331442,97,Bit Company,['Exterior Window Cleaning'],2022-02-08,35.0,22.0,Roberto Isais
+73faac9e,97,Bit Company,['Exterior Window Cleaning'],2022-01-10,35.0,22.0,Roberto Isais
+c2864a42,97,Bit Company,['Exterior Window Cleaning'],2021-12-14,35.0,21.0,Roberto Isais
+9c42c347,97,Bit Company,['Exterior Window Cleaning'],2021-11-16,35.0,22.0,Roberto Isais
+b9b72c07,97,Bit Company,['Exterior Window Cleaning'],2021-10-22,35.0,21.0,Roberto Isais
+f3b091d1,97,Bit Company,['Exterior Window Cleaning'],2021-08-26,35.0,21.0,Roberto Isais
+400a0be5,101,Sew Pros #1,['Exterior Window Cleaning'],2023-02-13,25.0,11.0,Roberto Isais
+b48c1874,101,Sew Pros #1,['Exterior Window Cleaning'],2023-01-31,25.0,11.0,Roberto Isais
+74b4d539,101,Sew Pros #1,['Exterior Window Cleaning'],2023-01-16,25.0,14.0,Roberto Isais
+5c3ff45b,101,Sew Pros #1,['Exterior Window Cleaning'],2023-01-06,25.0,14.0,Roberto Isais
+aab33633,101,Sew Pros #1,['Exterior Window Cleaning'],2022-12-19,25.0,14.0,Roberto Isais
+7f7e15a2,101,Sew Pros #1,['Exterior Window Cleaning'],2022-12-05,25.0,14.0,Roberto Isais
+7b73f48a,101,Sew Pros #1,['Exterior Window Cleaning'],2022-10-11,25.0,14.0,Roberto Isais
+cc7b771b,101,Sew Pros #1,['Exterior Window Cleaning'],2022-09-26,25.0,14.0,Roberto Isais
+15f69690,101,Sew Pros #1,['Exterior Window Cleaning'],2022-08-01,25.0,14.0,Roberto Isais
+04d007c9,101,Sew Pros #1,['Exterior Window Cleaning'],2022-07-05,25.0,8.0,Roberto Isais
+19eec55d,101,Sew Pros #1,['Exterior Window Cleaning'],2022-06-20,25.0,8.0,Roberto Isais
+11156b45,101,Sew Pros #1,['Exterior Window Cleaning'],2022-06-06,25.0,8.0,Roberto Isais
+38a0efec,101,Sew Pros #1,['Interior/Exterior Window Cleaning'],2020-06-10,60.0,45.0,Roberto Isais
+16e90151,102,Citi Dental Rancho,['Exterior Window Cleaning'],2023-02-13,25.0,12.0,Roberto Isais
+699ea030,102,Citi Dental Rancho,['Exterior Window Cleaning'],2023-01-16,25.0,11.0,Roberto Isais
+bcfc590f,102,Citi Dental Rancho,['Exterior Window Cleaning'],2022-09-26,25.0,11.0,Roberto Isais
+5edb5989,102,Citi Dental Rancho,['Exterior Window Cleaning'],2022-08-01,25.0,11.0,Roberto Isais
+e7200b6f,102,Citi Dental Rancho,['Exterior Window Cleaning'],2022-07-05,25.0,11.0,Roberto Isais
+cfe69c6e,102,Citi Dental Rancho,['Exterior Window Cleaning'],2022-06-06,25.0,11.0,Roberto Isais
+cd20d42f,102,Citi Dental Rancho,['Exterior Window Cleaning'],2022-05-09,25.0,11.0,Roberto Isais
+a836ca50,102,Citi Dental Rancho,['Exterior Window Cleaning'],2022-02-15,25.0,11.0,Roberto Isais
+6c6c6009,102,Citi Dental Rancho,['Exterior Window Cleaning'],2022-01-17,25.0,11.0,Roberto Isais
+4c70eea2,102,Citi Dental Rancho,['Exterior Window Cleaning'],2021-12-20,25.0,11.0,Roberto Isais
+04f419bd,102,Citi Dental Rancho,['Exterior Window Cleaning'],2021-11-23,25.0,11.0,Roberto Isais
+c09e1888,102,Citi Dental Rancho,['Exterior Window Cleaning'],2021-10-25,25.0,12.0,Brandon Foster
+a498d89d,106,The Barbecue Pit,['Interior/Exterior Window Cleaning'],2022-12-19,35.0,18.0,Roberto Isais
+b734189a,106,The Barbecue Pit,['Interior/Exterior Window Cleaning'],2022-12-05,35.0,18.0,Roberto Isais
+a0ea992a,106,The Barbecue Pit,['Interior/Exterior Window Cleaning'],2022-06-06,35.0,18.0,Roberto Isais
+ae78511d,106,The Barbecue Pit,['Interior/Exterior Window Cleaning'],2022-05-24,35.0,18.0,Roberto Isais
+0eee3da5,106,The Barbecue Pit,['Interior/Exterior Window Cleaning'],2022-05-09,35.0,18.0,Roberto Isais
+142da6d0,106,The Barbecue Pit,['Interior/Exterior Window Cleaning'],2022-04-25,35.0,18.0,Roberto Isais
+8f5c8294,106,The Barbecue Pit,['Interior/Exterior Window Cleaning'],2022-03-28,35.0,18.0,Roberto Isais
+1b7b03c5,106,The Barbecue Pit,['Interior/Exterior Window Cleaning'],2022-02-15,35.0,18.0,Roberto Isais
+39020ddd,106,The Barbecue Pit,['Interior/Exterior Window Cleaning'],2022-01-31,35.0,18.0,Roberto Isais
+8c9c9a97,106,The Barbecue Pit,['Interior/Exterior Window Cleaning'],2022-01-17,35.0,18.0,Roberto Isais
+3d55b528,106,The Barbecue Pit,['Interior/Exterior Window Cleaning'],2022-01-03,35.0,18.0,Roberto Isais
+498f96c7,106,The Barbecue Pit,['Interior/Exterior Window Cleaning'],2021-12-20,35.0,18.0,Roberto Isais
+f57bf91d,106,The Barbecue Pit,"['Interior/Exterior Window Cleaning', 'Paint Removal']",2021-01-05,85.0,18.0,Roberto Isais
+792906d6,106,The Barbecue Pit,['Exterior Window Cleaning'],2018-08-07,25.0,18.0,Roberto Isais
+cffa0453,106,The Barbecue Pit,"['Interior/Exterior Window Cleaning', 'Window Cleaning']",2016-02-23,64.0,48.0,Jose Perez
+6cffab33,125,Citi Dental,['Exterior Window Cleaning'],2019-05-28,40.0,53.0,Roberto Isais
+b1fb5127,125,Citi Dental,['Exterior Window Cleaning'],2019-03-05,40.0,53.0,Roberto Isais
+a67267a1,125,Citi Dental,['Exterior Window Cleaning'],2018-12-10,40.0,53.0,Roberto Isais
+fde4c290,125,Citi Dental,['Exterior Window Cleaning'],2018-11-13,40.0,53.0,Roberto Isais
+1f1d793a,125,Citi Dental,['Exterior Window Cleaning'],2018-09-17,40.0,53.0,Roberto Isais
+2439a5e8,125,Citi Dental,['Exterior Window Cleaning'],2018-08-20,40.0,53.0,Roberto Isais
+b31b9568,125,Citi Dental,['Exterior Window Cleaning'],2018-03-05,40.0,53.0,Justin Smith
+1cca6595,125,Citi Dental,['Exterior Window Cleaning'],2017-09-18,40.0,53.0,Justin Smith
+b3d7453b,125,Citi Dental,['Exterior Window Cleaning'],2016-02-10,40.0,53.0,Justin Smith
+ef97f067,125,Citi Dental,['Exterior Window Cleaning'],2015-10-21,40.0,54.0,Justin Smith
+69745ddd,125,Citi Dental,['Exterior Window Cleaning'],2015-09-10,40.0,53.0,Justin Smith
+37a92f51,125,Citi Dental,['Exterior Window Cleaning'],2015-08-12,40.0,53.0,Jose Perez
+14740657,125,Citi Dental,"['Exterior Window Cleaning', 'Interior/Exterior Window Cleaning']",2022-03-28,125.0,90.0,Roberto Isais
+f6ac2a71,135,Quality Tax Service,['Interior/Exterior Window Cleaning'],2022-07-05,20.0,17.0,Roberto Isais
+fcfe6f7a,135,Quality Tax Service,['Interior/Exterior Window Cleaning'],2022-01-17,20.0,17.0,Roberto Isais
+170f1ef4,135,Quality Tax Service,['Interior/Exterior Window Cleaning'],2021-10-25,20.0,35.0,Brandon Foster
+227bbd50,135,Quality Tax Service,['Interior/Exterior Window Cleaning'],2021-08-02,20.0,17.0,Roberto Isais
+1d73ce96,135,Quality Tax Service,['Interior/Exterior Window Cleaning'],2021-05-11,20.0,17.0,Roberto Isais
+f7c3248a,135,Quality Tax Service,['Interior/Exterior Window Cleaning'],2021-02-18,20.0,17.0,Roberto Isais
+a8824e38,135,Quality Tax Service,['Interior/Exterior Window Cleaning'],2020-11-23,20.0,17.0,Roberto Isais
+a2a3e674,135,Quality Tax Service,['Interior/Exterior Window Cleaning'],2020-09-02,20.0,17.0,Roberto Isais
+709b0356,135,Quality Tax Service,['Interior/Exterior Window Cleaning'],2020-07-06,20.0,30.0,Roberto Isais
+4d4311a3,135,Quality Tax Service,['Interior/Exterior Window Cleaning'],2020-03-16,20.0,30.0,Jose Perez
+8b7b28d0,135,Quality Tax Service,['Interior/Exterior Window Cleaning'],2019-09-30,20.0,17.0,Roberto Isais
+69bb590d,135,Quality Tax Service,['Interior/Exterior Window Cleaning'],2019-04-16,20.0,17.0,Roberto Isais
+4775f6c1,135,Quality Tax Service,['Exterior Window Cleaning'],2022-09-26,10.0,17.0,Roberto Isais
+4516b59c,135,Quality Tax Service,['Exterior Window Cleaning'],2020-06-10,15.0,17.0,Roberto Isais
+44a60359,145,California Coast Credit Union - Chula Vista,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2022-06-21,125.0,90.0,Roberto Isais
+c802413c,145,California Coast Credit Union - Chula Vista,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2022-03-31,125.0,90.0,Roberto Isais
+474a0103,145,California Coast Credit Union - Chula Vista,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2021-12-30,125.0,90.0,Roberto Isais
+05cfdeec,145,California Coast Credit Union - Chula Vista,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2020-03-04,125.0,90.0,Roberto Isais
+4d2cd51a,145,California Coast Credit Union - Chula Vista,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2019-12-26,125.0,90.0,Roberto Isais
+b2eb7819,145,California Coast Credit Union - Chula Vista,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2019-09-18,125.0,90.0,Roberto Isais
+6df6f510,145,California Coast Credit Union - Chula Vista,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2019-04-02,125.0,90.0,Roberto Isais
+525239ed,145,California Coast Credit Union - Chula Vista,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2018-11-01,125.0,90.0,Roberto Isais
+52dd515a,145,California Coast Credit Union - Chula Vista,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2018-07-24,125.0,90.0,Roberto Isais
+c159677c,145,California Coast Credit Union - Chula Vista,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2017-09-06,125.0,90.0,Justin Smith
+13d171df,145,California Coast Credit Union - Chula Vista,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2016-06-27,125.0,90.0,Justin Smith
+50319427,145,California Coast Credit Union - Chula Vista,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2016-04-11,125.0,90.0,Jose Perez
+bb2da673,158,Trader Joes #221,['Exterior Window Cleaning'],2022-12-30,45.0,27.0,Devony Dettman
+043995e3,158,Trader Joes #221,['Exterior Window Cleaning'],2022-12-03,45.0,25.0,Devony Dettman
+4d9cd31c,158,Trader Joes #221,['Exterior Window Cleaning'],2022-05-20,45.0,27.0,Justin Smith
+6346144f,158,Trader Joes #221,['Exterior Window Cleaning'],2021-12-03,45.0,23.0,Brandon Foster
+3c1fffa8,158,Trader Joes #221,['Exterior Window Cleaning'],2021-09-06,45.0,27.0,Brandon Foster
+d269555d,158,Trader Joes #221,['Exterior Window Cleaning'],2021-07-16,45.0,26.0,Jose Perez
+1e0876b0,158,Trader Joes #221,['Interior/Exterior Window Cleaning'],2023-01-06,90.0,44.0,Devony Dettman
+e1a137e0,158,Trader Joes #221,['Interior/Exterior Window Cleaning'],2021-12-09,90.0,40.0,Brandon Foster
+cd3225fd,158,Trader Joes #221,['Interior/Exterior Window Cleaning'],2021-08-24,90.0,45.0,Jose Perez
+e59e2dc6,158,Trader Joes #221,['Interior/Exterior Window Cleaning'],2021-05-03,90.0,40.0,Jose Perez
+ef5d6159,158,Trader Joes #221,['Interior/Exterior Window Cleaning'],2020-03-12,90.0,40.0,Justin Smith
+8b14c1fe,158,Trader Joes #221,['Interior/Exterior Window Cleaning'],2019-08-20,90.0,40.0,Justin Smith
+b2511837,158,Trader Joes #221,['Interior/Exterior Window Cleaning'],2018-11-16,90.0,40.0,Justin Smith
+1c41909b,158,Trader Joes #221,['Interior/Exterior Window Cleaning'],2018-08-27,90.0,45.0,Justin Smith
+bf479ae7,158,Trader Joes #221,['Interior/Exterior Window Cleaning'],2017-08-24,80.0,42.0,Justin Smith
+bf0f6814,158,Trader Joes #221,['Interior/Exterior Window Cleaning'],2016-12-23,80.0,40.0,Justin Smith
+b38b7c73,159,Trader Joes #220,['In/Out entry ways'],2023-01-27,65.0,45.0,Devony Dettman
+1bfd0c38,159,Trader Joes #220,['In/Out entry ways'],2022-11-29,65.0,39.0,Devony Dettman
+bfec4899,159,Trader Joes #220,['In/Out entry ways'],2022-11-01,65.0,44.0,Devony Dettman
+f8711584,159,Trader Joes #220,['In/Out entry ways'],2022-10-07,65.0,44.0,Devony Dettman
+abdd39cd,159,Trader Joes #220,['In/Out entry ways'],2022-09-08,65.0,45.0,Devony Dettman
+99ad9d1a,159,Trader Joes #220,['In/Out entry ways'],2022-08-04,65.0,44.0,Devony Dettman
+eab26dee,159,Trader Joes #220,['In/Out entry ways'],2022-06-14,65.0,44.0,Devony Dettman
+5813d972,159,Trader Joes #220,['In/Out entry ways'],2022-03-24,65.0,43.0,Jose Perez
+5bc6f449,159,Trader Joes #220,['In/Out entry ways'],2021-12-21,65.0,45.0,Brandon Foster
+3f522504,159,Trader Joes #220,['In/Out entry ways'],2021-09-10,65.0,37.0,Justin Smith
+9e963998,159,Trader Joes #220,['In/Out entry ways'],2021-06-16,65.0,44.0,Jose Perez
+3dcd1ee0,159,Trader Joes #220,['In/Out entry ways'],2021-05-20,65.0,43.0,Jose Perez
+1424faa0,159,Trader Joes #220,['Interior/Exterior Window Cleaning'],2023-02-08,175.0,94.0,Devony Dettman
+d5badf40,159,Trader Joes #220,['Interior/Exterior Window Cleaning'],2022-11-17,175.0,113.0,Devony Dettman
+d2565368,159,Trader Joes #220,['Interior/Exterior Window Cleaning'],2022-09-19,175.0,108.0,Devony Dettman
+f760182b,159,Trader Joes #220,['Interior/Exterior Window Cleaning'],2022-06-30,175.0,98.0,Devony Dettman
+0cd3dea8,159,Trader Joes #220,['Interior/Exterior Window Cleaning'],2022-05-05,175.0,93.0,Jose Perez
+02896c68,159,Trader Joes #220,['Interior/Exterior Window Cleaning'],2022-04-05,175.0,103.0,Justin Smith
+225678ab,159,Trader Joes #220,['Interior/Exterior Window Cleaning'],2022-02-11,175.0,98.0,Justin Smith
+02ec98d1,159,Trader Joes #220,['Interior/Exterior Window Cleaning'],2022-01-14,175.0,104.0,Justin Smith
+4b6a45f5,159,Trader Joes #220,['Interior/Exterior Window Cleaning'],2021-12-16,175.0,114.0,Brandon Foster
+3c834c0c,159,Trader Joes #220,['Interior/Exterior Window Cleaning'],2021-11-16,175.0,113.0,Brandon Foster
+371e0e3f,159,Trader Joes #220,['Interior/Exterior Window Cleaning'],2021-06-29,175.0,101.0,Jose Perez
+2bc9678f,159,Trader Joes #220,['Interior/Exterior Window Cleaning'],2021-06-03,175.0,96.0,Jose Perez
+6331a0f8,161,Trader Joes #105,['Interior/Exterior Window Cleaning'],2023-01-24,120.0,54.0,Devony Dettman
+a1011817,161,Trader Joes #105,['Interior/Exterior Window Cleaning'],2022-11-18,120.0,55.0,Devony Dettman
+132a3a69,161,Trader Joes #105,['Interior/Exterior Window Cleaning'],2022-07-19,120.0,57.0,Devony Dettman
+7bff6b62,161,Trader Joes #105,['Interior/Exterior Window Cleaning'],2022-06-24,120.0,60.0,Devony Dettman
+a38959ae,161,Trader Joes #105,['Interior/Exterior Window Cleaning'],2022-04-22,120.0,63.0,Jose Perez
+8256499a,161,Trader Joes #105,['Interior/Exterior Window Cleaning'],2022-02-22,120.0,53.0,Justin Smith
+f2adfa2e,161,Trader Joes #105,['Interior/Exterior Window Cleaning'],2022-01-11,120.0,58.0,Justin Smith
+b5e64814,161,Trader Joes #105,['Interior/Exterior Window Cleaning'],2021-12-15,120.0,55.0,Brandon Foster
+d07c115c,161,Trader Joes #105,['Interior/Exterior Window Cleaning'],2021-11-15,120.0,55.0,Brandon Foster
+c7f2a56a,161,Trader Joes #105,['Interior/Exterior Window Cleaning'],2020-03-20,120.0,53.0,Jose Perez
+a059c14d,161,Trader Joes #105,['Interior/Exterior Window Cleaning'],2020-02-21,120.0,60.0,Justin Smith
+5beaa753,161,Trader Joes #105,['Interior/Exterior Window Cleaning'],2020-01-21,120.0,52.0,Jose Perez
+15a96b6c,161,Trader Joes #105,['Exterior Window Cleaning'],2016-05-25,65.0,37.0,Jose Perez
+9041df3f,161,Trader Joes #105,['Exterior Window Cleaning'],2016-05-19,65.0,37.0,Jose Perez
+90391c38,161,Trader Joes #105,['Exterior Window Cleaning'],2016-05-11,65.0,37.0,Jose Perez
+466c9c0b,161,Trader Joes #105,"['Exterior Window Cleaning', 'Exterior Window Cleaning']",2016-03-03,130.0,30.0,Jose Perez
+d6f476d0,161,Trader Joes #105,"['Exterior Window Cleaning', 'Window Cleaning Out', 'Exterior Window Cleaning']",2016-02-24,195.0,75.0,Jose Perez
+1c63282d,162,Del Mar Hts Medical Building - Beachside Del Mar,"['Exterior Window Cleaning', 'High lobby windows']",2022-03-01,260.0,193.0,Justin Smith
+f87c0d92,162,Del Mar Hts Medical Building - Beachside Del Mar,"['Exterior Window Cleaning', 'High lobby windows']",2021-05-24,260.0,166.0,Jose Perez
+d9e9f217,162,Del Mar Hts Medical Building - Beachside Del Mar,"['Exterior Window Cleaning', 'High lobby windows']",2021-04-30,260.0,185.0,Justin Smith
+e9cdc619,162,Del Mar Hts Medical Building - Beachside Del Mar,"['Exterior Window Cleaning', 'High lobby windows']",2021-03-31,260.0,187.0,Justin Smith
+2b7438a6,162,Del Mar Hts Medical Building - Beachside Del Mar,"['Exterior Window Cleaning', 'High lobby windows']",2021-02-02,260.0,199.0,Justin Smith
+a5b81c3d,162,Del Mar Hts Medical Building - Beachside Del Mar,"['Exterior Window Cleaning', 'High lobby windows']",2020-12-09,260.0,183.0,Jose Perez
+748d9555,162,Del Mar Hts Medical Building - Beachside Del Mar,"['Exterior Window Cleaning', 'High lobby windows']",2020-01-07,260.0,180.0,Justin Smith
+439abcdf,165,Trader Joes #25,['Exterior Window Cleaning'],2022-12-21,42.0,28.0,Devony Dettman
+44586e18,165,Trader Joes #25,['Exterior Window Cleaning'],2022-11-22,42.0,31.0,Justin Smith
+8883a731,165,Trader Joes #25,['Exterior Window Cleaning'],2022-10-27,42.0,29.0,Justin Smith
+5fa15aef,165,Trader Joes #25,['Exterior Window Cleaning'],2022-09-01,42.0,35.0,Devony Dettman
+03232d9d,165,Trader Joes #25,['Exterior Window Cleaning'],2022-07-07,42.0,31.0,Devony Dettman
+d5bf42db,165,Trader Joes #25,['Exterior Window Cleaning'],2022-02-15,42.0,28.0,Justin Smith
+739ea135,165,Trader Joes #25,['Exterior Window Cleaning'],2022-01-18,42.0,31.0,Justin Smith
+e4f10162,165,Trader Joes #25,['Exterior Window Cleaning'],2021-12-20,42.0,30.0,Brandon Foster
+c2fbcb16,165,Trader Joes #25,['Exterior Window Cleaning'],2021-11-30,42.0,36.0,Brandon Foster
+2fdbbc5c,165,Trader Joes #25,['Exterior Window Cleaning'],2021-10-26,42.0,34.0,Brandon Foster
+2ac371e6,165,Trader Joes #25,['Exterior Window Cleaning'],2021-02-18,42.0,33.0,Justin Smith
+261e8915,165,Trader Joes #25,['Exterior Window Cleaning'],2020-01-20,42.0,35.0,Jose Perez
+bbb92392,165,Trader Joes #25,['Interior/Exterior Window Cleaning'],2022-12-08,85.0,53.0,Devony Dettman
+42ba0665,165,Trader Joes #25,['Interior/Exterior Window Cleaning'],2022-11-10,85.0,57.0,Devony Dettman
+05c9f97c,165,Trader Joes #25,['Interior/Exterior Window Cleaning'],2022-10-11,85.0,58.0,Devony Dettman
+446885b7,165,Trader Joes #25,['Interior/Exterior Window Cleaning'],2022-09-12,85.0,55.0,Devony Dettman
+d7941d20,165,Trader Joes #25,['Interior/Exterior Window Cleaning'],2022-08-18,85.0,62.0,Devony Dettman
+ec3f421f,165,Trader Joes #25,['Interior/Exterior Window Cleaning'],2022-03-01,85.0,55.0,Justin Smith
+ef61d0c2,165,Trader Joes #25,['Interior/Exterior Window Cleaning'],2022-02-01,85.0,55.0,Justin Smith
+b34a7451,165,Trader Joes #25,['Interior/Exterior Window Cleaning'],2021-09-17,85.0,53.0,Justin Smith
+3ebdfd0f,165,Trader Joes #25,['Interior/Exterior Window Cleaning'],2021-06-01,85.0,62.0,Jose Perez
+7eb12cd2,165,Trader Joes #25,['Interior/Exterior Window Cleaning'],2020-03-03,85.0,52.0,Jose Perez
+5501abf8,165,Trader Joes #25,['Interior/Exterior Window Cleaning'],2020-01-07,85.0,60.0,Justin Smith
+1cd4baea,165,Trader Joes #25,['Interior/Exterior Window Cleaning'],2019-10-22,85.0,54.0,Justin Smith
+008b1a3b,167,Invision Boutique,['Exterior Window Cleaning'],2022-02-15,20.0,15.0,Justin Smith
+e8fa81ef,167,Invision Boutique,['Exterior Window Cleaning'],2021-10-28,20.0,12.0,Brandon Foster
+ec534d0e,167,Invision Boutique,['Exterior Window Cleaning'],2021-09-29,20.0,15.0,Brandon Foster
+f5118d18,167,Invision Boutique,['Exterior Window Cleaning'],2021-09-03,20.0,14.0,Brandon Foster
+2b2125ac,167,Invision Boutique,['Exterior Window Cleaning'],2021-06-11,20.0,15.0,Jose Perez
+75d143a9,167,Invision Boutique,['Exterior Window Cleaning'],2021-02-18,20.0,15.0,Justin Smith
+325d41b7,167,Invision Boutique,['Exterior Window Cleaning'],2021-01-21,20.0,13.0,Jose Perez
+8181dd04,167,Invision Boutique,['Exterior Window Cleaning'],2020-11-23,20.0,13.0,Jose Perez
+8d2ae416,167,Invision Boutique,['Interior/Exterior Window Cleaning'],2021-12-06,27.0,24.0,Brandon Foster
+fcf5a770,167,Invision Boutique,['Interior/Exterior Window Cleaning'],2021-10-11,27.0,25.0,Brandon Foster
+7ea0ea9c,167,Invision Boutique,['Interior/Exterior Window Cleaning'],2021-07-19,27.0,26.0,Jose Perez
+80c37787,167,Invision Boutique,['Interior/Exterior Window Cleaning'],2021-02-02,27.0,24.0,Justin Smith
+f932421a,167,Invision Boutique,['Interior/Exterior Window Cleaning'],2020-12-09,27.0,26.0,Jose Perez
+87c0b778,169,Edward D Jones,['Exterior Window Cleaning'],2021-02-02,17.0,8.0,Justin Smith
+921d03de,169,Edward D Jones,['Exterior Window Cleaning'],2020-03-03,17.0,10.0,Jose Perez
+7620dc40,172,Trader Joes #22,['Interior/Exterior Window Cleaning'],2022-12-06,95.0,56.0,Devony Dettman
+730c8afa,172,Trader Joes #22,['Interior/Exterior Window Cleaning'],2022-11-22,95.0,51.0,Devony Dettman
+6038fe9a,172,Trader Joes #22,['Interior/Exterior Window Cleaning'],2022-10-13,95.0,51.0,Devony Dettman
+12183086,172,Trader Joes #22,['Interior/Exterior Window Cleaning'],2022-09-27,95.0,63.0,Devony Dettman
+4f725a3d,172,Trader Joes #22,['Interior/Exterior Window Cleaning'],2022-08-05,95.0,60.0,Devony Dettman
+e6fb003d,172,Trader Joes #22,['Interior/Exterior Window Cleaning'],2022-05-24,95.0,61.0,Devony Dettman
+b5bdd923,172,Trader Joes #22,['Interior/Exterior Window Cleaning'],2022-05-06,95.0,63.0,Jose Perez
+497a8768,172,Trader Joes #22,['Interior/Exterior Window Cleaning'],2022-04-14,95.0,62.0,Jose Perez
+51d4f49e,172,Trader Joes #22,['Interior/Exterior Window Cleaning'],2022-02-18,95.0,61.0,Justin Smith
+288810a9,172,Trader Joes #22,['Interior/Exterior Window Cleaning'],2022-02-04,95.0,51.0,Justin Smith
+ed7c509c,172,Trader Joes #22,['Interior/Exterior Window Cleaning'],2022-01-21,95.0,53.0,Justin Smith
+21e5d7fd,172,Trader Joes #22,['Interior/Exterior Window Cleaning'],2021-12-22,95.0,54.0,Brandon Foster
+8d93ac73,172,Trader Joes #22,"['Interior/Exterior Window Cleaning', 'Interior/Exterior Window Cleaning']",2016-10-13,160.0,94.0,Justin Smith
+e77ac1e0,172,Trader Joes #22,"['Interior/Exterior Window Cleaning', 'remove paint']",2016-05-24,80.0,30.0,Jose Perez
+66e2ebc9,185,Watchlight Corporation,['Exterior Window Cleaning'],2023-02-13,25.0,15.0,Roberto Isais
+31d927f5,185,Watchlight Corporation,['Exterior Window Cleaning'],2023-01-31,25.0,15.0,Roberto Isais
+48b40362,185,Watchlight Corporation,['Exterior Window Cleaning'],2023-01-06,25.0,15.0,Roberto Isais
+2baf6c01,185,Watchlight Corporation,['Exterior Window Cleaning'],2022-12-19,25.0,15.0,Roberto Isais
+270bf522,185,Watchlight Corporation,['Exterior Window Cleaning'],2022-12-05,25.0,15.0,Roberto Isais
+a8036b56,185,Watchlight Corporation,['Exterior Window Cleaning'],2022-10-11,25.0,15.0,Roberto Isais
+a446a299,185,Watchlight Corporation,['Exterior Window Cleaning'],2022-09-26,25.0,15.0,Roberto Isais
+12587455,185,Watchlight Corporation,['Exterior Window Cleaning'],2022-08-01,25.0,15.0,Roberto Isais
+fbaa35d4,185,Watchlight Corporation,['Exterior Window Cleaning'],2022-07-05,25.0,15.0,Roberto Isais
+3ad6a4f7,185,Watchlight Corporation,['Exterior Window Cleaning'],2021-09-27,25.0,15.0,Justin Smith
+ecad8acc,185,Watchlight Corporation,['Exterior Window Cleaning'],2021-04-13,25.0,15.0,Roberto Isais
+48a9f65e,185,Watchlight Corporation,['Exterior Window Cleaning'],2020-01-23,25.0,15.0,Jose Perez
+a790acdf,190,Valley Center Dental,['Interior/Exterior Window Cleaning'],2023-01-11,125.0,63.0,Devony Dettman
+896a5ab8,190,Valley Center Dental,['Interior/Exterior Window Cleaning'],2022-12-05,125.0,58.0,Devony Dettman
+8f13afd7,190,Valley Center Dental,['Interior/Exterior Window Cleaning'],2022-02-02,125.0,55.0,Justin Smith
+a010bdee,190,Valley Center Dental,['Interior/Exterior Window Cleaning'],2022-01-05,125.0,61.0,Justin Smith
+8d8479ed,190,Valley Center Dental,['Interior/Exterior Window Cleaning'],2021-12-01,125.0,61.0,Brandon Foster
+52b8b08e,190,Valley Center Dental,['Interior/Exterior Window Cleaning'],2021-11-03,125.0,65.0,Brandon Foster
+858a2be7,190,Valley Center Dental,['Interior/Exterior Window Cleaning'],2021-03-03,125.0,55.0,Jose Perez
+4742b4de,190,Valley Center Dental,['Interior/Exterior Window Cleaning'],2021-02-10,125.0,55.0,Roberto Isais
+e5ab5772,190,Valley Center Dental,['Interior/Exterior Window Cleaning'],2020-12-09,125.0,55.0,Justin Smith
+7b0d5296,190,Valley Center Dental,['Interior/Exterior Window Cleaning'],2020-11-11,125.0,55.0,Jose Perez
+f86ed834,190,Valley Center Dental,['Interior/Exterior Window Cleaning'],2020-10-14,125.0,55.0,Justin Smith
+6fde638e,190,Valley Center Dental,['Interior/Exterior Window Cleaning'],2020-09-09,125.0,55.0,Justin Smith
+93798285,241,Cross Connection,['Exterior Window Cleaning'],2019-12-06,225.0,90.0,Jose Perez
+90c1a92a,246,Mohnacky Animal Hospital,['Interior/Exterior Window Cleaning'],2023-01-06,155.0,129.0,Devony Dettman
+8109bb69,246,Mohnacky Animal Hospital,['Interior/Exterior Window Cleaning'],2022-12-16,155.0,124.0,Devony Dettman
+f954777d,246,Mohnacky Animal Hospital,['Interior/Exterior Window Cleaning'],2022-01-07,155.0,127.0,Justin Smith
+28320b0d,246,Mohnacky Animal Hospital,['Interior/Exterior Window Cleaning'],2021-12-11,155.0,134.0,Brandon Foster
+ad3381d7,246,Mohnacky Animal Hospital,['Interior/Exterior Window Cleaning'],2021-06-23,155.0,132.0,Jose Perez
+01133306,246,Mohnacky Animal Hospital,['Interior/Exterior Window Cleaning'],2021-05-28,155.0,123.0,Jose Perez
+1c585ce1,246,Mohnacky Animal Hospital,['Interior/Exterior Window Cleaning'],2021-04-30,155.0,122.0,Jose Perez
+fb29db98,246,Mohnacky Animal Hospital,['Interior/Exterior Window Cleaning'],2021-01-06,155.0,130.0,Jose Perez
+861f58b6,246,Mohnacky Animal Hospital,['Interior/Exterior Window Cleaning'],2020-11-11,155.0,122.0,Jose Perez
+f0be2eae,246,Mohnacky Animal Hospital,['Interior/Exterior Window Cleaning'],2020-01-09,155.0,132.0,Jose Perez
+bbd317d9,247,Acacia Animal Health Center,['Interior/Exterior Window Cleaning'],2023-01-06,55.0,52.0,Devony Dettman
+8f84556b,247,Acacia Animal Health Center,['Interior/Exterior Window Cleaning'],2022-02-04,55.0,50.0,Justin Smith
+3565af73,247,Acacia Animal Health Center,['Interior/Exterior Window Cleaning'],2021-11-10,100.0,48.0,Brandon Foster
+bef8b43b,247,Acacia Animal Health Center,['Interior/Exterior Window Cleaning'],2021-10-15,55.0,40.0,Brandon Foster
+c4ed88ac,247,Acacia Animal Health Center,['Interior/Exterior Window Cleaning'],2020-02-06,55.0,35.0,Justin Smith
+8faaf20e,247,Acacia Animal Health Center,['Interior/Exterior Window Cleaning'],2019-11-15,100.0,40.0,Jose Perez
+bdd82b18,247,Acacia Animal Health Center,['Interior/Exterior Window Cleaning'],2017-05-05,55.0,46.0,Justin Smith
+320baee8,248,Jackalynn Wilson Salon,['Interior/Exterior Window Cleaning'],2020-02-27,87.0,52.0,Justin Smith
+8719975e,248,Jackalynn Wilson Salon,['Interior/Exterior Window Cleaning'],2019-09-13,87.0,52.0,Justin Smith
+33dd4936,248,Jackalynn Wilson Salon,['Interior/Exterior Window Cleaning'],2019-08-16,87.0,60.0,Justin Smith
+b9adf54d,248,Jackalynn Wilson Salon,['Interior/Exterior Window Cleaning'],2016-05-19,87.0,50.0,Justin Smith
+86592cbd,248,Jackalynn Wilson Salon,['Exterior Window Cleaning'],2016-08-26,50.0,45.0,Justin Smith
+ea44441e,252,West Tech Contr. Inc,['Exterior Window Cleaning'],2022-12-02,30.0,27.0,Devony Dettman
+c92cae98,252,West Tech Contr. Inc,['Exterior Window Cleaning'],2022-11-02,30.0,28.0,Devony Dettman
+af4f2bc7,252,West Tech Contr. Inc,['Exterior Window Cleaning'],2022-01-28,30.0,24.0,Justin Smith
+0ec1fb0e,252,West Tech Contr. Inc,['Exterior Window Cleaning'],2021-11-29,30.0,27.0,Brandon Foster
+7a258ce6,252,West Tech Contr. Inc,['Exterior Window Cleaning'],2021-11-05,30.0,27.0,Brandon Foster
+b01ea137,252,West Tech Contr. Inc,['Exterior Window Cleaning'],2021-10-04,30.0,24.0,Brandon Foster
+d27d8d50,252,West Tech Contr. Inc,['Exterior Window Cleaning'],2021-05-19,30.0,26.0,Jose Perez
+a61fc10c,252,West Tech Contr. Inc,['Exterior Window Cleaning'],2021-01-27,30.0,26.0,Jose Perez
+f5fd4ef3,447,Killion Industries #1,['Exterior Window Cleaning'],2020-08-03,405.0,228.0,Justin Smith
+18bdd253,447,Killion Industries #1,['Exterior Window Cleaning'],2018-10-10,405.0,228.0,Justin Smith
+d03dbd65,447,Killion Industries #1,['Interior Only Window Cleaning'],2019-04-10,350.0,230.0,Justin Smith
+8b56505d,448,Killion Industries #2,['Exterior Window Cleaning'],2021-04-05,315.0,162.0,Justin Smith
+fd6aced1,448,Killion Industries #2,['Exterior Window Cleaning'],2020-08-03,315.0,160.0,Justin Smith
+96140bb0,448,Killion Industries #2,['Exterior Window Cleaning'],2018-10-10,315.0,160.0,Justin Smith
+5ac65708,451,Killion Industries #4,['Exterior Window Cleaning'],2021-04-17,495.0,280.0,Justin Smith
+8d46c90c,731,IE Pacific Inc,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2022-02-18,250.0,148.0,Justin Smith
+51f04ff4,731,IE Pacific Inc,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2021-11-19,250.0,144.0,Jose Perez
+ba81b274,731,IE Pacific Inc,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2021-05-21,250.0,147.0,Justin Smith
+dcb9ed37,731,IE Pacific Inc,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2021-02-19,250.0,146.0,Justin Smith
+3b93d2d1,731,IE Pacific Inc,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2020-02-21,250.0,140.0,Justin Smith
+2853072e,731,IE Pacific Inc,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2018-11-09,250.0,160.0,Justin Smith
+5f81e1ca,771,Prime Electrical Services,['Exterior Window Cleaning'],2021-11-29,50.0,19.0,Brandon Foster
+69e96174,771,Prime Electrical Services,['Exterior Window Cleaning'],2020-01-03,50.0,22.0,Justin Smith
+d0fb49d2,771,Prime Electrical Services,['Exterior Window Cleaning'],2019-12-06,50.0,20.0,Jose Perez
+84c6aeb2,771,Prime Electrical Services,['Exterior Window Cleaning'],2019-10-04,50.0,22.0,Roberto Isais
+2386e6e6,771,Prime Electrical Services,['Exterior Window Cleaning'],2019-09-06,50.0,22.0,Roberto Isais
+f19f4239,771,Prime Electrical Services,['Exterior Window Cleaning'],2018-12-07,50.0,22.0,Roberto Isais
+c46512da,771,Prime Electrical Services,['Exterior Window Cleaning'],2018-09-07,50.0,22.0,Roberto Isais
+847899c9,771,Prime Electrical Services,['Exterior Window Cleaning'],2018-07-06,50.0,24.0,Jose Perez
+945b3a2c,771,Prime Electrical Services,['Exterior Window Cleaning'],2017-06-02,50.0,19.0,Jose Perez
+84589600,771,Prime Electrical Services,['Exterior Window Cleaning'],2016-06-01,50.0,24.0,Jose Perez
+bcefce3b,1518,Finkbiner Apartment Building,"['Exterior Window Cleaning', 'Interior/Exterior Window Cleaning']",2021-03-22,225.0,150.0,Jose Perez
+ed306860,1660,Coin Op Laundry,['Interior/Exterior Window Cleaning'],2021-04-09,50.0,32.0,Roberto Isais
+d75b5c72,2913,California Coast Credit Union- Murrieta (Madison),['Exterior Window Cleaning'],2022-01-25,85.0,46.0,Justin Smith
+a6e907c8,3598,California Coast - Menifee,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning', 'ATM Glass Cleaning']",2022-11-28,145.0,97.0,Devony Dettman
+bd802f04,3598,California Coast - Menifee,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2020-01-13,125.0,75.0,Jose Perez
+93320131,3598,California Coast - Menifee,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2019-03-22,125.0,75.0,Justin Smith
+1ec1be58,3708,California Coast - J Street,['Interior/Exterior Window Cleaning'],2020-02-14,350.0,180.0,Roberto Isais
+806c2ed3,3708,California Coast - J Street,['Interior/Exterior Window Cleaning'],2018-12-20,350.0,170.0,Roberto Isais
+3dbb1736,3754,Trader Joes #224,['Interior/Exterior Window Cleaning'],2021-09-08,200.0,80.0,Justin Smith
+399b92b0,3754,Trader Joes #224,['Interior/Exterior Window Cleaning'],2021-04-19,200.0,87.0,Roberto Isais
+fa34a92a,3754,Trader Joes #224,['Interior/Exterior Window Cleaning'],2020-02-27,200.0,80.0,Roberto Isais
+700b88cd,3754,Trader Joes #224,['Interior/Exterior Window Cleaning'],2019-09-09,200.0,80.0,Justin Smith
+409d1afc,3754,Trader Joes #224,['Interior/Exterior Window Cleaning'],2019-08-26,200.0,74.0,Roberto Isais
+1baf9b40,3754,Trader Joes #224,['Interior/Exterior Window Cleaning'],2019-02-12,200.0,80.0,Roberto Isais
+877efdc6,3754,Trader Joes #224,['Interior/Exterior Window Cleaning'],2018-12-21,200.0,70.0,Roberto Isais
+38e0c682,3754,Trader Joes #224,['Interior/Exterior Window Cleaning'],2018-11-07,200.0,87.0,Justin Smith
+b20a95ec,3770,California Coast - Murrieta Hot Springs,"['Interior/Exterior Window Cleaning', 'Inside Partition Glass Cleaning']",2018-08-24,145.0,100.0,Justin Smith
+4ce9261b,3770,California Coast - Murrieta Hot Springs,"['Exterior Window Cleaning', 'job']",2022-05-21,65.0,25.0,Devony Dettman
+2086d7cc,3770,California Coast - Murrieta Hot Springs,['Exterior Window Cleaning'],2022-01-25,65.0,30.0,Justin Smith
+39a19df1,3919,GTM Discount #4,['Exterior Window Cleaning'],2022-08-03,40.0,43.0,Roberto Isais
+2e4420c1,3919,GTM Discount #4,['Exterior Window Cleaning'],2022-06-07,40.0,43.0,Roberto Isais
+b3f0b5e3,3919,GTM Discount #4,['Exterior Window Cleaning'],2022-05-10,40.0,43.0,Roberto Isais
+4820725e,3919,GTM Discount #4,['Exterior Window Cleaning'],2022-03-15,40.0,43.0,Roberto Isais
+2560a9c3,3919,GTM Discount #4,['Exterior Window Cleaning'],2022-02-18,40.0,43.0,Roberto Isais
+0f4f5164,3919,GTM Discount #4,['Exterior Window Cleaning'],2021-12-23,40.0,43.0,Roberto Isais
+0f5bea42,3919,GTM Discount #4,['Exterior Window Cleaning'],2021-11-22,40.0,43.0,Roberto Isais
+aabd6d96,3919,GTM Discount #4,['Exterior Window Cleaning'],2021-08-03,40.0,43.0,Roberto Isais
+eac9735f,3919,GTM Discount #4,['Exterior Window Cleaning'],2021-06-08,40.0,43.0,Roberto Isais
+07835383,3919,GTM Discount #4,['Exterior Window Cleaning'],2021-05-10,40.0,43.0,Roberto Isais
+6348cd84,3919,GTM Discount #4,"['Exterior Window Cleaning', 'Paint Removal']",2020-01-02,40.0,120.0,Roberto Isais
+b8dd5e79,4556,QP Technologies,['Exterior Window Cleaning'],2022-08-26,150.0,104.0,Roberto Isais
+10f75632,4556,QP Technologies,['Exterior Window Cleaning'],2022-05-27,150.0,104.0,Roberto Isais
+cedf6b17,4556,QP Technologies,['Exterior Window Cleaning'],2021-05-28,150.0,104.0,Jose Perez
+3c883b0d,9657,Green Fresh Florals,['Interior/Exterior Window Cleaning'],2022-09-14,35.0,37.0,Roberto Isais
+84bda145,9657,Green Fresh Florals,['Interior/Exterior Window Cleaning'],2022-07-20,35.0,37.0,Roberto Isais
+b31146fa,9657,Green Fresh Florals,['Interior/Exterior Window Cleaning'],2022-03-29,35.0,37.0,Roberto Isais
+074fdabd,9657,Green Fresh Florals,['Interior/Exterior Window Cleaning'],2022-02-02,35.0,37.0,Roberto Isais
+06e67695,9657,Green Fresh Florals,['Interior/Exterior Window Cleaning'],2021-12-08,35.0,37.0,Roberto Isais
+e5945087,9657,Green Fresh Florals,['Interior/Exterior Window Cleaning'],2021-11-10,35.0,37.0,Roberto Isais
+c9b81a54,9657,Green Fresh Florals,['Interior/Exterior Window Cleaning'],2021-10-12,35.0,37.0,Roberto Isais
+90fb5563,9657,Green Fresh Florals,['Interior/Exterior Window Cleaning'],2021-09-18,35.0,35.0,Brandon Foster
+dde86f05,9657,Green Fresh Florals,['Interior/Exterior Window Cleaning'],2021-06-23,35.0,37.0,Roberto Isais
+2b0803cc,9657,Green Fresh Florals,['Interior/Exterior Window Cleaning'],2021-05-27,35.0,37.0,Roberto Isais
+1210bcf6,9657,Green Fresh Florals,['Interior/Exterior Window Cleaning'],2021-04-29,35.0,37.0,Roberto Isais
+a7992ec4,9658,Salon Bordeaux,['Exterior Window Cleaning'],2022-12-09,22.0,15.0,Roberto Isais
+e222d794,9658,Salon Bordeaux,['Exterior Window Cleaning'],2022-11-09,22.0,15.0,Roberto Isais
+25f3d059,9658,Salon Bordeaux,['Exterior Window Cleaning'],2022-10-14,22.0,15.0,Roberto Isais
+68298d9c,9658,Salon Bordeaux,['Exterior Window Cleaning'],2022-09-16,22.0,15.0,Roberto Isais
+1e39d4f6,9658,Salon Bordeaux,['Exterior Window Cleaning'],2022-08-19,22.0,15.0,Roberto Isais
+db44837f,9658,Salon Bordeaux,['Exterior Window Cleaning'],2022-06-23,22.0,15.0,Roberto Isais
+157963c9,9658,Salon Bordeaux,['Exterior Window Cleaning'],2022-04-01,22.0,15.0,Roberto Isais
+ea148284,9658,Salon Bordeaux,['Exterior Window Cleaning'],2022-02-04,22.0,15.0,Roberto Isais
+800dd7b6,9658,Salon Bordeaux,['Exterior Window Cleaning'],2021-11-11,22.0,15.0,Roberto Isais
+0fb63447,9658,Salon Bordeaux,['Exterior Window Cleaning'],2021-09-17,22.0,15.0,Brandon Foster
+ad240c9d,9658,Salon Bordeaux,['Exterior Window Cleaning'],2021-08-18,22.0,15.0,Roberto Isais
+9faadaf0,9658,Salon Bordeaux,['Exterior Window Cleaning'],2021-07-22,22.0,15.0,Roberto Isais
+586b1ea6,9664,Salon Bordeaux,['Interior/Exterior Window Cleaning'],2022-11-21,32.0,25.0,Roberto Isais
+6c3fd55f,9664,Salon Bordeaux,['Interior/Exterior Window Cleaning'],2022-08-05,32.0,25.0,Roberto Isais
+f2434121,9664,Salon Bordeaux,['Interior/Exterior Window Cleaning'],2022-07-08,32.0,25.0,Roberto Isais
+9f4b5058,9664,Salon Bordeaux,['Interior/Exterior Window Cleaning'],2022-06-10,32.0,25.0,Roberto Isais
+6de9fc72,9664,Salon Bordeaux,['Interior/Exterior Window Cleaning'],2022-05-13,32.0,25.0,Roberto Isais
+916f1532,9664,Salon Bordeaux,['Interior/Exterior Window Cleaning'],2022-02-18,32.0,25.0,Roberto Isais
+eecdc109,9664,Salon Bordeaux,['Interior/Exterior Window Cleaning'],2022-01-21,32.0,25.0,Roberto Isais
+f707a3cf,9664,Salon Bordeaux,['Interior/Exterior Window Cleaning'],2021-11-22,32.0,25.0,Roberto Isais
+886af67c,9664,Salon Bordeaux,['Interior/Exterior Window Cleaning'],2021-10-26,32.0,25.0,Roberto Isais
+69539abb,9664,Salon Bordeaux,['Interior/Exterior Window Cleaning'],2021-08-06,32.0,25.0,Roberto Isais
+970345d5,9664,Salon Bordeaux,['Interior/Exterior Window Cleaning'],2021-07-07,32.0,25.0,Roberto Isais
+835ebc15,9664,Salon Bordeaux,['Interior/Exterior Window Cleaning'],2021-06-11,32.0,25.0,Roberto Isais
+2b42e554,9667,Clip Art Salon,['Interior/Exterior Window Cleaning'],2021-09-17,15.0,18.0,Brandon Foster
+2f1dae0b,9668,Diesel Salon,['Exterior Window Cleaning'],2023-02-03,15.0,11.0,Roberto Isais
+e27100ea,9668,Diesel Salon,['Exterior Window Cleaning'],2022-06-23,15.0,11.0,Roberto Isais
+5aa80b1b,9668,Diesel Salon,['Interior/Exterior Window Cleaning'],2022-12-09,30.0,11.0,Roberto Isais
+bac6e5ce,9668,Diesel Salon,['Interior/Exterior Window Cleaning'],2022-11-09,30.0,11.0,Roberto Isais
+4c760103,9668,Diesel Salon,['Interior/Exterior Window Cleaning'],2022-10-14,30.0,11.0,Roberto Isais
+de7c8ee0,9668,Diesel Salon,['Interior/Exterior Window Cleaning'],2022-09-16,30.0,11.0,Roberto Isais
+6216813f,9668,Diesel Salon,['Interior/Exterior Window Cleaning'],2022-08-19,30.0,11.0,Roberto Isais
+6b39e410,9668,Diesel Salon,['Interior/Exterior Window Cleaning'],2022-04-01,30.0,11.0,Roberto Isais
+492bb874,9668,Diesel Salon,['Interior/Exterior Window Cleaning'],2022-02-04,30.0,11.0,Roberto Isais
+6893239d,9668,Diesel Salon,['Interior/Exterior Window Cleaning'],2021-11-11,30.0,11.0,Roberto Isais
+746c27d2,9668,Diesel Salon,['Interior/Exterior Window Cleaning'],2021-10-15,30.0,11.0,Roberto Isais
+51ca7a77,9668,Diesel Salon,['Interior/Exterior Window Cleaning'],2021-08-18,30.0,11.0,Roberto Isais
+879a8bfc,9671,Cecillia's Fine Jewelry,['Exterior Window Cleaning'],2023-01-12,8.0,10.0,Roberto Isais
+1582bd82,9678,Rip Current Brewing,['Exterior Window Cleaning'],2022-09-07,35.0,60.0,Roberto Isais
+51b83132,9691,Jo's Diner,['Interior/Exterior Window Cleaning'],2022-11-25,28.0,30.0,Roberto Isais
+62822ca9,9691,Jo's Diner,['Interior/Exterior Window Cleaning'],2022-09-09,28.0,30.0,Roberto Isais
+4c7bb38b,9691,Jo's Diner,['Interior/Exterior Window Cleaning'],2022-08-05,28.0,30.0,Roberto Isais
+71710ec6,9691,Jo's Diner,['Interior/Exterior Window Cleaning'],2022-05-12,28.0,30.0,Roberto Isais
+c1a206f4,9691,Jo's Diner,['Interior/Exterior Window Cleaning'],2022-02-14,28.0,30.0,Roberto Isais
+d2408c1f,9691,Jo's Diner,['Interior/Exterior Window Cleaning'],2022-01-20,28.0,30.0,Roberto Isais
+96d65a4d,9691,Jo's Diner,['Interior/Exterior Window Cleaning'],2021-11-24,28.0,30.0,Roberto Isais
+3e71ce98,9691,Jo's Diner,['Interior/Exterior Window Cleaning'],2021-10-28,28.0,30.0,Roberto Isais
+e4969643,9691,Jo's Diner,['Interior/Exterior Window Cleaning'],2021-08-06,28.0,30.0,Roberto Isais
+08cc5568,9691,Jo's Diner,['Interior/Exterior Window Cleaning'],2021-07-07,28.0,30.0,Roberto Isais
+d3025a9c,9691,Jo's Diner,['Interior/Exterior Window Cleaning'],2021-06-10,28.0,30.0,Roberto Isais
+0fd5f0d1,9691,Jo's Diner,['Interior/Exterior Window Cleaning'],2021-05-12,28.0,30.0,Roberto Isais
+41039727,9692,Thread & Seed (Bankers Hill),['Interior/Exterior Window Cleaning'],2022-09-14,25.0,16.0,Roberto Isais
+63e1bb79,9692,Thread & Seed (Bankers Hill),['Interior/Exterior Window Cleaning'],2022-07-20,25.0,16.0,Roberto Isais
+05181bd7,9692,Thread & Seed (Bankers Hill),['Interior/Exterior Window Cleaning'],2022-03-29,25.0,16.0,Roberto Isais
+b0f0898a,9692,Thread & Seed (Bankers Hill),['Interior/Exterior Window Cleaning'],2022-02-02,25.0,16.0,Roberto Isais
+6e1b6f20,9692,Thread & Seed (Bankers Hill),['Interior/Exterior Window Cleaning'],2021-12-08,25.0,16.0,Roberto Isais
+9de9aead,9692,Thread & Seed (Bankers Hill),['Interior/Exterior Window Cleaning'],2021-11-10,25.0,16.0,Roberto Isais
+75be4623,9692,Thread & Seed (Bankers Hill),['Interior/Exterior Window Cleaning'],2021-10-12,25.0,16.0,Roberto Isais
+91d255f2,9692,Thread & Seed (Bankers Hill),['Interior/Exterior Window Cleaning'],2021-09-18,25.0,16.0,Brandon Foster
+178ef062,9692,Thread & Seed (Bankers Hill),['Interior/Exterior Window Cleaning'],2021-06-23,25.0,16.0,Roberto Isais
+b483771b,9692,Thread & Seed (Bankers Hill),['Interior/Exterior Window Cleaning'],2021-05-27,25.0,16.0,Roberto Isais
+ba995b5a,9692,Thread & Seed (Bankers Hill),['Interior/Exterior Window Cleaning'],2021-04-29,25.0,16.0,Roberto Isais
+6488d941,9693,Home Care of La Jolla,['Exterior Window Cleaning'],2022-12-23,70.0,24.0,Roberto Isais
+06d60312,9693,Home Care of La Jolla,['Exterior Window Cleaning'],2022-11-21,70.0,24.0,Roberto Isais
+663b0f96,9693,Home Care of La Jolla,['Exterior Window Cleaning'],2021-11-26,40.0,24.0,Roberto Isais
+3245fb63,9693,Home Care of La Jolla,['Interior/Exterior Window Cleaning'],2022-07-07,70.0,34.0,Roberto Isais
+a438207a,9693,Home Care of La Jolla,['Interior/Exterior Window Cleaning'],2022-05-11,70.0,34.0,Roberto Isais
+8e097d66,9693,Home Care of La Jolla,['Interior/Exterior Window Cleaning'],2022-02-17,70.0,34.0,Roberto Isais
+d986adbb,9693,Home Care of La Jolla,['Interior/Exterior Window Cleaning'],2022-01-18,70.0,34.0,Roberto Isais
+cb3c5a8f,9693,Home Care of La Jolla,['Interior/Exterior Window Cleaning'],2021-12-22,70.0,34.0,Roberto Isais
+05ee880f,9693,Home Care of La Jolla,['Interior/Exterior Window Cleaning'],2021-10-27,70.0,34.0,Roberto Isais
+6778ae56,9693,Home Care of La Jolla,['Interior/Exterior Window Cleaning'],2021-08-05,70.0,34.0,Roberto Isais
+adcc6f9e,9693,Home Care of La Jolla,['Interior/Exterior Window Cleaning'],2021-07-08,70.0,34.0,Roberto Isais
+3a3884cf,9693,Home Care of La Jolla,['Interior/Exterior Window Cleaning'],2021-06-09,70.0,34.0,Roberto Isais
+29195c84,9693,Home Care of La Jolla,['Interior/Exterior Window Cleaning'],2021-05-13,70.0,34.0,Roberto Isais
+fbb1dc6e,9693,Home Care of La Jolla,['Interior/Exterior Window Cleaning'],2021-04-12,70.0,34.0,Roberto Isais
+c5a012c0,9696,Pop Pie Company,['Interior/Exterior Window Cleaning'],2022-07-14,45.0,29.0,Roberto Isais
+05ebfef2,9696,Pop Pie Company,['Interior/Exterior Window Cleaning'],2022-04-21,45.0,29.0,Roberto Isais
+7672a292,9696,Pop Pie Company,['Interior/Exterior Window Cleaning'],2022-01-28,45.0,29.0,Roberto Isais
+9006c215,9696,Pop Pie Company,['Interior/Exterior Window Cleaning'],2021-12-31,45.0,29.0,Roberto Isais
+6c3b3c7d,9696,Pop Pie Company,['Interior/Exterior Window Cleaning'],2021-12-03,45.0,29.0,Roberto Isais
+56873589,9696,Pop Pie Company,['Interior/Exterior Window Cleaning'],2021-11-03,45.0,29.0,Roberto Isais
+7957c74c,9696,Pop Pie Company,['Interior/Exterior Window Cleaning'],2021-10-07,45.0,29.0,Roberto Isais
+090bb31b,9696,Pop Pie Company,['Interior/Exterior Window Cleaning'],2021-07-16,45.0,29.0,Roberto Isais
+0593fdd6,9696,Pop Pie Company,['Interior/Exterior Window Cleaning'],2021-06-18,45.0,29.0,Roberto Isais
+4dcbf2f0,9696,Pop Pie Company,['Interior/Exterior Window Cleaning'],2021-05-21,45.0,29.0,Roberto Isais
+817813b4,9697,The Book Catapult,['Exterior Window Cleaning'],2022-09-14,15.0,10.0,Roberto Isais
+22f5c8bd,9697,The Book Catapult,['Exterior Window Cleaning'],2022-07-20,15.0,10.0,Roberto Isais
+406afe92,9697,The Book Catapult,['Exterior Window Cleaning'],2022-03-29,15.0,10.0,Roberto Isais
+4c61f050,9697,The Book Catapult,['Exterior Window Cleaning'],2022-02-02,15.0,10.0,Roberto Isais
+d96fad81,9697,The Book Catapult,['Exterior Window Cleaning'],2021-11-10,15.0,10.0,Roberto Isais
+a5d372d2,9697,The Book Catapult,['Exterior Window Cleaning'],2021-08-20,15.0,10.0,Brandon Foster
+7706ef65,9697,The Book Catapult,['Exterior Window Cleaning'],2021-07-23,15.0,10.0,Roberto Isais
+3d71ba84,9697,The Book Catapult,['Exterior Window Cleaning'],2021-06-23,15.0,10.0,Roberto Isais
+33b3a976,9697,The Book Catapult,['Exterior Window Cleaning'],2021-05-27,15.0,10.0,Roberto Isais
+849c1d04,9697,The Book Catapult,['Exterior Window Cleaning'],2021-04-30,15.0,10.0,Roberto Isais
+f4f2279f,9697,The Book Catapult,['Interior/Exterior Window Cleaning'],2021-12-08,30.0,10.0,Roberto Isais
+1c1a7d1e,9698,Community Realty Co.,['Exterior Window Cleaning'],2022-09-14,10.0,3.0,Roberto Isais
+311f9b93,9698,Community Realty Co.,['Exterior Window Cleaning'],2022-07-20,10.0,3.0,Roberto Isais
+8eb70f65,9698,Community Realty Co.,['Exterior Window Cleaning'],2022-02-02,10.0,3.0,Roberto Isais
+2a70df8b,9698,Community Realty Co.,['Exterior Window Cleaning'],2021-11-10,10.0,3.0,Roberto Isais
+afdf939c,9698,Community Realty Co.,['Exterior Window Cleaning'],2021-07-23,10.0,3.0,Roberto Isais
+1e932027,9698,Community Realty Co.,['Exterior Window Cleaning'],2021-06-23,10.0,3.0,Roberto Isais
+939224e1,9698,Community Realty Co.,['Exterior Window Cleaning'],2021-04-30,10.0,3.0,Roberto Isais
+d06858b2,9698,Community Realty Co.,['Interior/Exterior Window Cleaning'],2021-09-18,20.0,4.0,Brandon Foster
+9539ea0c,9700,Thread & Seed (South Park),['Interior/Exterior Window Cleaning'],2022-09-14,65.0,21.0,Roberto Isais
+0dc38558,9700,Thread & Seed (South Park),['Interior/Exterior Window Cleaning'],2022-07-20,65.0,21.0,Roberto Isais
+6bbcca48,9700,Thread & Seed (South Park),['Interior/Exterior Window Cleaning'],2022-03-29,65.0,21.0,Roberto Isais
+6c04f8d0,9700,Thread & Seed (South Park),['Interior/Exterior Window Cleaning'],2022-02-02,65.0,21.0,Roberto Isais
+b806563d,9700,Thread & Seed (South Park),['Interior/Exterior Window Cleaning'],2021-12-08,65.0,21.0,Roberto Isais
+a8089ccc,9700,Thread & Seed (South Park),['Interior/Exterior Window Cleaning'],2021-11-10,65.0,21.0,Roberto Isais
+47b09089,9700,Thread & Seed (South Park),['Interior/Exterior Window Cleaning'],2021-10-12,65.0,21.0,Roberto Isais
+513901a6,9700,Thread & Seed (South Park),['Interior/Exterior Window Cleaning'],2021-07-23,65.0,21.0,Roberto Isais
+37b3a9e4,9700,Thread & Seed (South Park),['Interior/Exterior Window Cleaning'],2021-06-23,65.0,21.0,Roberto Isais
+8a3ce025,9700,Thread & Seed (South Park),['Interior/Exterior Window Cleaning'],2021-05-27,65.0,21.0,Roberto Isais
+690c2c80,9700,Thread & Seed (South Park),['Interior/Exterior Window Cleaning'],2021-04-30,65.0,21.0,Roberto Isais
+db52b43f,9703,Gold Leaf,['Exterior Window Cleaning'],2023-02-27,35.0,11.0,Roberto Isais
+8ed9a455,9703,Gold Leaf,['Exterior Window Cleaning'],2022-07-20,35.0,11.0,Roberto Isais
+1000adec,9703,Gold Leaf,['Exterior Window Cleaning'],2022-03-29,35.0,11.0,Roberto Isais
+0585d828,9703,Gold Leaf,['Exterior Window Cleaning'],2022-02-02,35.0,11.0,Roberto Isais
+58a3bb46,9703,Gold Leaf,['Exterior Window Cleaning'],2021-12-08,35.0,11.0,Roberto Isais
+288ecc5a,9703,Gold Leaf,['Exterior Window Cleaning'],2021-11-10,35.0,11.0,Roberto Isais
+4fd8eda8,9703,Gold Leaf,['Exterior Window Cleaning'],2021-10-12,35.0,11.0,Roberto Isais
+adbe6892,9703,Gold Leaf,['Exterior Window Cleaning'],2021-07-23,35.0,11.0,Roberto Isais
+e09a07e3,9703,Gold Leaf,['Exterior Window Cleaning'],2021-06-23,35.0,11.0,Roberto Isais
+84033eb1,9703,Gold Leaf,['Exterior Window Cleaning'],2021-05-27,35.0,11.0,Roberto Isais
+4db5abcc,9703,Gold Leaf,['Exterior Window Cleaning'],2021-04-30,35.0,11.0,Roberto Isais
+3360d2b8,9710,Studio Barre Mission Hills,['Interior/Exterior Window Cleaning'],2023-02-03,160.0,75.0,Roberto Isais
+4ba9b7ac,9710,Studio Barre Mission Hills,['Interior/Exterior Window Cleaning'],2022-11-09,160.0,72.0,Roberto Isais
+369a313e,9710,Studio Barre Mission Hills,['Interior/Exterior Window Cleaning'],2022-10-14,160.0,72.0,Roberto Isais
+2e7922ca,9710,Studio Barre Mission Hills,['Interior/Exterior Window Cleaning'],2022-09-16,160.0,72.0,Roberto Isais
+3495d06d,9710,Studio Barre Mission Hills,['Interior/Exterior Window Cleaning'],2022-08-19,160.0,72.0,Roberto Isais
+2f993feb,9710,Studio Barre Mission Hills,['Interior/Exterior Window Cleaning'],2022-06-23,160.0,72.0,Roberto Isais
+d3293beb,9710,Studio Barre Mission Hills,['Interior/Exterior Window Cleaning'],2022-04-01,160.0,72.0,Roberto Isais
+d58d049c,9710,Studio Barre Mission Hills,['Interior/Exterior Window Cleaning'],2022-02-04,160.0,72.0,Roberto Isais
+8f18df8c,9710,Studio Barre Mission Hills,['Interior/Exterior Window Cleaning'],2021-12-31,160.0,72.0,Roberto Isais
+7ab3a28d,9710,Studio Barre Mission Hills,['Interior/Exterior Window Cleaning'],2021-12-03,160.0,72.0,Roberto Isais
+e915de83,9710,Studio Barre Mission Hills,['Interior/Exterior Window Cleaning'],2021-11-05,160.0,72.0,Roberto Isais
+f819cb9a,9710,Studio Barre Mission Hills,['Interior/Exterior Window Cleaning'],2021-08-13,80.0,72.0,Roberto Isais
+eb330844,9712,Koi,['Interior/Exterior Window Cleaning'],2022-11-21,30.0,19.0,Roberto Isais
+d53404f8,9712,Koi,['Interior/Exterior Window Cleaning'],2022-07-07,30.0,19.0,Roberto Isais
+867a1acd,9712,Koi,['Interior/Exterior Window Cleaning'],2022-05-11,30.0,19.0,Roberto Isais
+db0350fa,9712,Koi,['Interior/Exterior Window Cleaning'],2022-02-17,30.0,19.0,Roberto Isais
+b8e911a2,9712,Koi,['Interior/Exterior Window Cleaning'],2022-01-18,30.0,19.0,Roberto Isais
+f7da092a,9712,Koi,['Interior/Exterior Window Cleaning'],2021-10-27,30.0,19.0,Roberto Isais
+0170c541,9712,Koi,['Interior/Exterior Window Cleaning'],2021-08-05,30.0,19.0,Roberto Isais
+238dd261,9712,Koi,['Interior/Exterior Window Cleaning'],2021-07-08,30.0,19.0,Roberto Isais
+864138ea,9712,Koi,['Interior/Exterior Window Cleaning'],2021-06-09,30.0,19.0,Roberto Isais
+cb620eb1,9712,Koi,['Interior/Exterior Window Cleaning'],2021-05-13,30.0,19.0,Roberto Isais
+f27a7973,9712,Koi,['Interior/Exterior Window Cleaning'],2021-04-12,30.0,19.0,Roberto Isais
+6a6f312c,9712,Koi,['Exterior Window Cleaning'],2021-12-22,15.0,19.0,Roberto Isais
+b8c8161c,9712,Koi,['Exterior Window Cleaning'],2021-11-26,15.0,19.0,Roberto Isais
+02988315,9717,La Jolla Golf Carts,['Exterior Window Cleaning'],2022-11-21,35.0,22.0,Roberto Isais
+bcc7e66b,9717,La Jolla Golf Carts,['Exterior Window Cleaning'],2022-07-07,35.0,22.0,Roberto Isais
+1017941a,9717,La Jolla Golf Carts,['Exterior Window Cleaning'],2022-05-11,35.0,22.0,Roberto Isais
+7292f8ff,9717,La Jolla Golf Carts,['Exterior Window Cleaning'],2022-02-17,35.0,22.0,Roberto Isais
+26022da6,9717,La Jolla Golf Carts,['Exterior Window Cleaning'],2022-01-18,35.0,22.0,Roberto Isais
+fa55b1e7,9717,La Jolla Golf Carts,['Exterior Window Cleaning'],2021-12-22,35.0,22.0,Roberto Isais
+5a15e349,9717,La Jolla Golf Carts,['Exterior Window Cleaning'],2021-11-26,35.0,22.0,Roberto Isais
+c8d59d47,9717,La Jolla Golf Carts,['Exterior Window Cleaning'],2021-10-27,35.0,22.0,Roberto Isais
+ac135bda,9717,La Jolla Golf Carts,['Exterior Window Cleaning'],2021-07-08,35.0,22.0,Roberto Isais
+abbd32c7,9717,La Jolla Golf Carts,['Exterior Window Cleaning'],2021-06-09,35.0,22.0,Roberto Isais
+6ecc002b,9717,La Jolla Golf Carts,['Exterior Window Cleaning'],2021-05-13,35.0,22.0,Roberto Isais
+74ea87d2,9717,La Jolla Golf Carts,['Exterior Window Cleaning'],2021-04-12,35.0,22.0,Roberto Isais
+47483268,9723,"Jean Farbod DDS, Inc",['Interior/Exterior Window Cleaning'],2023-01-09,25.0,9.0,Roberto Isais
+17d5708e,9723,"Jean Farbod DDS, Inc",['Interior/Exterior Window Cleaning'],2022-07-25,25.0,9.0,Roberto Isais
+a1eabc2e,9723,"Jean Farbod DDS, Inc",['Interior/Exterior Window Cleaning'],2022-02-07,25.0,9.0,Roberto Isais
+547c616d,9723,"Jean Farbod DDS, Inc",['Interior/Exterior Window Cleaning'],2021-11-15,25.0,9.0,Roberto Isais
+92139158,9723,"Jean Farbod DDS, Inc",['Interior/Exterior Window Cleaning'],2021-08-25,25.0,9.0,Roberto Isais
+5d3163eb,9723,"Jean Farbod DDS, Inc",['Interior/Exterior Window Cleaning'],2021-06-04,25.0,9.0,Roberto Isais
+542eb7d7,9726,Belle Sirene,['Interior/Exterior Window Cleaning'],2022-11-21,38.0,18.0,Roberto Isais
+11cdd05a,9726,Belle Sirene,['Interior/Exterior Window Cleaning'],2022-07-07,38.0,18.0,Roberto Isais
+8642f4cf,9726,Belle Sirene,['Interior/Exterior Window Cleaning'],2022-05-11,38.0,18.0,Roberto Isais
+63e546b2,9726,Belle Sirene,['Interior/Exterior Window Cleaning'],2022-02-17,38.0,18.0,Roberto Isais
+811f01ed,9726,Belle Sirene,['Interior/Exterior Window Cleaning'],2022-01-18,38.0,18.0,Roberto Isais
+1f275008,9726,Belle Sirene,['Interior/Exterior Window Cleaning'],2021-12-22,38.0,18.0,Roberto Isais
+b8ad0688,9726,Belle Sirene,['Interior/Exterior Window Cleaning'],2021-10-27,38.0,18.0,Roberto Isais
+d3cc807c,9726,Belle Sirene,['Interior/Exterior Window Cleaning'],2021-09-28,38.0,17.0,Brandon Foster
+cab21850,9726,Belle Sirene,['Interior/Exterior Window Cleaning'],2021-08-05,38.0,18.0,Roberto Isais
+d420d9ba,9726,Belle Sirene,['Interior/Exterior Window Cleaning'],2021-07-08,38.0,18.0,Roberto Isais
+9e708f03,9726,Belle Sirene,['Interior/Exterior Window Cleaning'],2021-06-09,38.0,18.0,Roberto Isais
+0d91e56d,9726,Belle Sirene,['Interior/Exterior Window Cleaning'],2021-05-13,38.0,18.0,Roberto Isais
+3e1c66ec,9726,Belle Sirene,['Exterior Window Cleaning'],2021-11-26,20.0,18.0,Roberto Isais
+00da37c4,9728,Babycakes,['Interior/Exterior Window Cleaning'],2023-02-27,85.0,51.0,Roberto Isais
+1b9eb787,9730,Perry's Cafe,['Interior/Exterior Window Cleaning'],2022-09-07,180.0,116.0,Roberto Isais
+754c0102,9730,Perry's Cafe,['Interior/Exterior Window Cleaning'],2022-06-15,180.0,116.0,Roberto Isais
+dfc11002,9730,Perry's Cafe,['Interior/Exterior Window Cleaning'],2022-04-21,180.0,116.0,Roberto Isais
+49562cce,9730,Perry's Cafe,['Interior/Exterior Window Cleaning'],2022-03-24,180.0,116.0,Roberto Isais
+a858e468,9730,Perry's Cafe,['Interior/Exterior Window Cleaning'],2022-01-28,180.0,116.0,Roberto Isais
+d32dbd32,9730,Perry's Cafe,['Interior/Exterior Window Cleaning'],2021-12-31,180.0,116.0,Roberto Isais
+7ac4ed83,9730,Perry's Cafe,['Interior/Exterior Window Cleaning'],2021-12-03,180.0,116.0,Roberto Isais
+7be064ab,9730,Perry's Cafe,['Interior/Exterior Window Cleaning'],2021-11-05,180.0,116.0,Roberto Isais
+bfc19022,9730,Perry's Cafe,['Interior/Exterior Window Cleaning'],2021-08-12,180.0,116.0,Roberto Isais
+b83733b2,9730,Perry's Cafe,['Interior/Exterior Window Cleaning'],2021-07-15,180.0,116.0,Roberto Isais
+4865a1d6,9730,Perry's Cafe,['Interior/Exterior Window Cleaning'],2021-06-16,180.0,116.0,Roberto Isais
+9d7762f9,9730,Perry's Cafe,['Interior/Exterior Window Cleaning'],2021-05-20,180.0,116.0,Roberto Isais
+04d66f4f,9730,Perry's Cafe,"['Interior/Exterior Window Cleaning', 'Coupon']",2021-04-22,160.0,140.0,Jose Perez
+bc24c01f,9744,Salon on First,['Exterior Window Cleaning'],2023-01-09,55.0,21.0,Roberto Isais
+afcd7ace,9744,Salon on First,['Exterior Window Cleaning'],2022-12-16,55.0,21.0,Roberto Isais
+ae3672c0,9744,Salon on First,['Exterior Window Cleaning'],2022-09-21,55.0,21.0,Roberto Isais
+9c85d301,9744,Salon on First,['Exterior Window Cleaning'],2022-07-25,55.0,21.0,Roberto Isais
+5093632d,9744,Salon on First,['Exterior Window Cleaning'],2022-06-27,55.0,21.0,Roberto Isais
+48c08901,9744,Salon on First,['Exterior Window Cleaning'],2022-05-31,55.0,21.0,Roberto Isais
+d57d99a2,9744,Salon on First,['Exterior Window Cleaning'],2022-02-07,55.0,21.0,Roberto Isais
+c271f3ac,9744,Salon on First,['Exterior Window Cleaning'],2022-01-12,55.0,21.0,Roberto Isais
+d3ccb704,9744,Salon on First,['Exterior Window Cleaning'],2021-12-17,55.0,21.0,Roberto Isais
+616d9e42,9744,Salon on First,['Exterior Window Cleaning'],2021-11-15,55.0,21.0,Roberto Isais
+a3552ff2,9744,Salon on First,['Exterior Window Cleaning'],2021-10-21,55.0,21.0,Roberto Isais
+9133426a,9744,Salon on First,['Exterior Window Cleaning'],2021-08-25,55.0,21.0,Roberto Isais
+2b5650bb,9746,Salon1745,['Interior/Exterior Window Cleaning'],2023-02-03,18.0,12.0,Roberto Isais
+4f299872,9746,Salon1745,['Interior/Exterior Window Cleaning'],2022-11-09,18.0,12.0,Roberto Isais
+a0b62b9c,9746,Salon1745,['Interior/Exterior Window Cleaning'],2022-08-19,18.0,12.0,Roberto Isais
+3300ec26,9746,Salon1745,['Interior/Exterior Window Cleaning'],2022-06-23,18.0,12.0,Roberto Isais
+f7e57362,9746,Salon1745,['Interior/Exterior Window Cleaning'],2022-04-01,18.0,12.0,Roberto Isais
+3c675f10,9746,Salon1745,['Interior/Exterior Window Cleaning'],2021-07-22,18.0,12.0,Roberto Isais
+0eb4bd62,9746,Salon1745,['Interior/Exterior Window Cleaning'],2021-06-24,18.0,12.0,Roberto Isais
+366f0ba2,9746,Salon1745,['Interior/Exterior Window Cleaning'],2021-05-28,18.0,12.0,Roberto Isais
+26984519,9746,Salon1745,['Interior/Exterior Window Cleaning'],2021-04-28,18.0,12.0,Roberto Isais
+2bae4064,9769,Mullins Orthodonics,['Interior/Exterior Window Cleaning'],2022-08-17,40.0,14.0,Roberto Isais
+ca649286,9769,Mullins Orthodonics,['Interior/Exterior Window Cleaning'],2022-02-07,40.0,14.0,Roberto Isais
+1889b745,9769,Mullins Orthodonics,['Interior/Exterior Window Cleaning'],2021-08-16,40.0,14.0,Roberto Isais
+21759f0e,9802,Chakarian & Assocs Inc,['Exterior Window Cleaning'],2021-10-28,100.0,53.0,Roberto Isais
+1ec42b58,9802,Chakarian & Assocs Inc,['Exterior Window Cleaning'],2021-09-02,100.0,46.0,Brandon Foster
+428a11a8,9802,Chakarian & Assocs Inc,['Exterior Window Cleaning'],2021-08-06,100.0,53.0,Roberto Isais
+df92837d,9802,Chakarian & Assocs Inc,['Exterior Window Cleaning'],2021-07-07,100.0,53.0,Roberto Isais
+74680848,9819,Ashen Salon,['Exterior Window Cleaning'],2022-11-21,60.0,45.0,Roberto Isais
+0394451d,9819,Ashen Salon,['Exterior Window Cleaning'],2022-07-07,60.0,45.0,Roberto Isais
+edda2b4c,9819,Ashen Salon,['Exterior Window Cleaning'],2022-05-11,60.0,45.0,Roberto Isais
+c9f91c4b,9819,Ashen Salon,['Exterior Window Cleaning'],2022-02-17,60.0,45.0,Roberto Isais
+333d8046,9819,Ashen Salon,['Exterior Window Cleaning'],2022-01-18,60.0,45.0,Roberto Isais
+e8de42bf,9819,Ashen Salon,['Exterior Window Cleaning'],2021-12-22,60.0,45.0,Roberto Isais
+5b70c2ef,9819,Ashen Salon,['Exterior Window Cleaning'],2021-11-26,60.0,45.0,Roberto Isais
+677cc58d,9819,Ashen Salon,['Exterior Window Cleaning'],2021-10-27,60.0,45.0,Roberto Isais
+b4326059,9819,Ashen Salon,['Exterior Window Cleaning'],2021-08-05,60.0,45.0,Roberto Isais
+204d5ab3,9819,Ashen Salon,['Exterior Window Cleaning'],2021-07-08,60.0,45.0,Roberto Isais
+9f56a3f5,9856,Window Magic,['Drive to first job'],2022-11-03,1.0,15.0,Justin Smith
+d189a4d4,9911,California Funeral Alternatives,['Interior/Exterior Window Cleaning'],2022-11-02,100.0,35.0,Devony Dettman
+e0c1d84c,9911,California Funeral Alternatives,['Interior/Exterior Window Cleaning'],2022-10-05,100.0,41.0,Devony Dettman
+3c6b3994,9911,California Funeral Alternatives,['Interior/Exterior Window Cleaning'],2022-02-02,100.0,38.0,Justin Smith
+2c12b35f,9911,California Funeral Alternatives,['Interior/Exterior Window Cleaning'],2022-01-05,100.0,35.0,Justin Smith
+9cef1bd5,9911,California Funeral Alternatives,['Interior/Exterior Window Cleaning'],2021-12-02,100.0,39.0,Brandon Foster
+934492e4,9911,California Funeral Alternatives,"['Interior/Exterior Window Cleaning', 'dicsount for middle suite']",2021-11-03,80.0,30.0,Brandon Foster
+afacca23,9919,Mercer Group,['Interior/Exterior Window Cleaning'],2022-12-23,20.0,15.0,Roberto Isais
+359d04f2,9919,Mercer Group,['Interior/Exterior Window Cleaning'],2022-09-09,20.0,15.0,Roberto Isais
+88e5456c,9919,Mercer Group,['Interior/Exterior Window Cleaning'],2022-07-08,20.0,15.0,Roberto Isais
+a8c51255,9919,Mercer Group,['Interior/Exterior Window Cleaning'],2022-06-23,20.0,15.0,Roberto Isais
+0ce607ec,9919,Mercer Group,['Interior/Exterior Window Cleaning'],2022-06-10,20.0,15.0,Roberto Isais
+f85937ec,9919,Mercer Group,['Interior/Exterior Window Cleaning'],2022-04-01,20.0,15.0,Roberto Isais
+04af5d65,9919,Mercer Group,['Interior/Exterior Window Cleaning'],2022-02-18,20.0,15.0,Roberto Isais
+0c534421,9919,Mercer Group,['Interior/Exterior Window Cleaning'],2022-02-04,20.0,15.0,Roberto Isais
+99a2bdab,9919,Mercer Group,['Interior/Exterior Window Cleaning'],2022-01-21,20.0,15.0,Roberto Isais
+4b387014,9919,Mercer Group,['Interior/Exterior Window Cleaning'],2021-12-24,20.0,15.0,Roberto Isais
+72b44aa0,9919,Mercer Group,['Interior/Exterior Window Cleaning'],2021-12-09,20.0,15.0,Roberto Isais
+ee3bd0f2,9919,Mercer Group,['Interior/Exterior Window Cleaning'],2021-11-11,20.0,15.0,Roberto Isais
+2e487fd4,9968,Moosies Icecream,['Interior/Exterior Window Cleaning'],2022-09-09,20.0,15.0,Roberto Isais
+066dd09d,9968,Moosies Icecream,['Interior/Exterior Window Cleaning'],2022-08-05,20.0,15.0,Roberto Isais
+236c54e5,9968,Moosies Icecream,['Interior/Exterior Window Cleaning'],2022-07-08,20.0,15.0,Roberto Isais
+6839515a,9968,Moosies Icecream,['Interior/Exterior Window Cleaning'],2022-05-13,20.0,15.0,Roberto Isais
+4e2bac11,9981,Marco's Jewelry,['Exterior Window Cleaning'],2023-02-13,20.0,15.0,Roberto Isais
+db709171,9981,Marco's Jewelry,['Exterior Window Cleaning'],2023-01-16,20.0,15.0,Roberto Isais
+87457b4f,9981,Marco's Jewelry,['Exterior Window Cleaning'],2022-09-26,20.0,15.0,Roberto Isais
+2f804b80,9981,Marco's Jewelry,['Exterior Window Cleaning'],2022-07-05,20.0,15.0,Roberto Isais
+0e73751d,9981,Marco's Jewelry,['Exterior Window Cleaning'],2022-05-09,20.0,15.0,Roberto Isais
+e5c418e7,9992,Sew Pro's,['Exterior Window Cleaning'],2022-11-22,80.0,31.0,Devony Dettman
+009633b7,9992,Sew Pro's,['Exterior Window Cleaning'],2022-10-13,80.0,31.0,Devony Dettman
+b6f40f93,9992,Sew Pro's,['Exterior Window Cleaning'],2022-04-14,80.0,31.0,Jose Perez
+b21a4f04,10085,The Dance Academy Del Mar,"['Exterior Window Cleaning', 'Interior/Exterior Window Cleaning', 'Mirror Cleaning']",2023-02-01,180.0,216.0,Roberto Isais
+99c49d67,10085,The Dance Academy Del Mar,['Mirror Cleaning'],2022-08-15,30.0,93.0,Roberto Isais
+90360a96,10112,Windansea Pilates,"['Interior/Exterior Window Cleaning', 'Mirror Cleaning']",2023-01-12,50.0,24.0,Roberto Isais
+898cb660,10112,Windansea Pilates,"['Interior/Exterior Window Cleaning', 'Mirror Cleaning']",2022-12-23,50.0,24.0,Roberto Isais
+d2165883,10112,Windansea Pilates,"['Interior/Exterior Window Cleaning', 'Mirror Cleaning']",2022-11-21,50.0,24.0,Roberto Isais
+be36ca5e,10136,Pop Pie Commissary Kitchen,['Interior/Exterior Window Cleaning'],2023-03-01,55.0,30.0,Roberto Isais

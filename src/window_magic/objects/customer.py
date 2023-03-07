@@ -26,6 +26,7 @@ class Customer:
         """
         return self.evaluator
 
+        
     # def __str__(self):
     #     printString = ""
 

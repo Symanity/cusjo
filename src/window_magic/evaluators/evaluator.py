@@ -7,19 +7,23 @@ from src.window_magic.objects.evaluator import Evaluation
 from src.window_magic.objects.job import Job
 
 from collections import defaultdict
-import statistics
-from scipy.stats import zscore
+
+from src.window_magic.evaluators import filter_tools as tools
 
 # ====================================================================================
 # Window Magic Filter Functions
 # ====================================================================================
 def __at_most_12_jobs(job_list):
-    return job_list[:20]
+    """
+    Gathers first 12 of the remaining job list (most recent to latest)
+    """
+    return job_list[:12]
 
 
 def __consider_employees(job_list):
     """
-    Filters the job rows to include only rows with an employee in the given list.
+    Filters the job rows to include only rows with an employee in the list.
+    Justin, Devony, Roberto, Brandon
     """
 
     employees = {"Justin Smith", "Jose Perez", "Devony Dettman", "Roberto Isais", "Brandon Foster"}
@@ -27,62 +31,46 @@ def __consider_employees(job_list):
 
 
 def __remove_deliquents(job_list):
-    if job_list:
-        id = job_list[0].customer_id
+    """
+    Uses the z-score method derived from a deviation of average values.
+    This uses the statistics library from https://scipy.org/
+    """
+    max_score = 1
+    sd_multiplier = 50
+    jobs = job_list
+    
+    if jobs:
+        id = jobs[0].customer_id
 
         if id == 246: ## Viewing Mohnacky
-            stdev = __calc_deviation(job_list)
-            average = __calc_avg(job_list)
-            z_scores = zscore(__get_durations(job_list))
+            stdev = tools.calc_standard_deviation(jobs,sd_multiplier)
+            average = tools.calc_job_average(jobs)
+            z_scores = tools.get_zscore(jobs, sd_multiplier)
 
+            print("======================================================")
+            print("z-score\t-- services - date - price - duration - tech")
+            print("======================================================")
             i = 0
-            for job in job_list:
+            for job, score in z_scores.items():
                 job: Job = job
-                z_score = __calc_z_score(job.duration, average, stdev)
 
-
-                print(f"{i+1}. {round(z_scores[i], 4)}\t-- {job}")
+                if score > max_score or score < -max_score:
+                    print(f"{i+1}. {round(score, 4)}\t-- {job}\t<- REMOVED")
+                    jobs.remove(job)
+                else:
+                    print(f"{i+1}. {round(score, 4)}\t-- {job}")
                 i = i+1
 
             print(f"\n-> Standard deviation: {stdev}")
-            print(f"-> average: {average}\n")
+            print(f"-> average: {average}mins\n")
 
-    return job_list
+        else:
+            jobs = tools.perform_removal(jobs, max_score, sd_multiplier)
 
-
-def __calc_deviation(job_list):
-    return statistics.stdev(__get_durations(job_list))
-
-
-def __calc_avg(job_list):
-    durations = __get_durations(job_list)
-
-    center = round(len(durations)/2,None)
-
-    return durations[center]
-
-    # total = 0
-
-    # for duration in durations:
-    #     total = total + duration
-
-    # return total / len(durations)
+    return jobs
 
 
-def __calc_z_score(duration, avg, sdev):
-    return (duration-avg)/sdev
 
-
-def __get_durations(job_list):
-    durations = []
-
-    for job in job_list:
-            job: Job = job
-            durations.append(job.duration)
-    
-    durations.sort
-    return durations
-    
 
 # ====================================================================================
 # Applied Filters - Note: Applies in order
@@ -91,8 +79,8 @@ def __get_durations(job_list):
 # Order sensitive
 running_pre_filters = [
     __consider_employees,
-    __at_most_12_jobs,
     __remove_deliquents,
+    __at_most_12_jobs,
 ]
 
 running_post_filters = [

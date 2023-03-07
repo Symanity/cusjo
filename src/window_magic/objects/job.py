@@ -38,9 +38,8 @@ class Job:
     def __str__(self) -> str:
         return f"{self.services} - {self.date} - {self.price} - {self.duration} - {self.employee}"
     
-    def __hash__(self):
+    def get_id(self):
         data_string = f"{self.customer_id},{self.services},{self.date},{self.price},{self.duration},{self.employee}"
-
         return self.__override_str_hashing(data_string)[-8:]
 
     def __override_str_hashing(self, string):

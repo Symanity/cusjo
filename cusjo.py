@@ -64,24 +64,30 @@ if len(sys.argv) > 1:
                     print("[FATAL-ERROR] could not retrieve employees")
 
 
-    # elif sys.argv[1] == "evaluate":
-    #     try:
-    #         if len(sys.argv) > 2:
-    #             customerId = int(sys.argv[2])
-    #             preivewEvaluationOfCustomer(customerId)
-    #         else:
-    #             # initEvaluationProcess()
-    #             pass
+    elif sys.argv[1] == "evaluate":
+        try:
+            if len(sys.argv) > 2:
+                customerId = int(sys.argv[2])
+                evaluator.EVALUATE_CUSTOMER = customerId
+                customer_evaluations = evaluator.evaluate(customerId)
+                
+            else:
+                customer_evaluations = evaluator.evaluate()
+                outputer = Outputer(customer_evaluations)
+                outputer.output_to_csv()
+                outputer.output_history_to_csv()
 
-    #     except ValueError:
-    #         print('[ERROR] Invalid customer id')
+        except ValueError:
+            print('[ERROR] Invalid customer id')
 
     # else:
     #     print('[ERROR] command not recognized')
 
 else:
     # customer_evaluations = evaluator.evaluate(9992)
+    evaluator.EVALUATE_CUSTOMER = 246
     customer_evaluations = evaluator.evaluate()
+    
 
     outputer = Outputer(customer_evaluations)
     outputer.output_to_csv()

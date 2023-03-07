@@ -30,6 +30,7 @@ def __consider_employees(job_list):
     return [job for job in job_list if job.employee in employees]
 
 
+EVALUATE_CUSTOMER = None
 def __remove_deliquents(job_list):
     """
     Uses the z-score method derived from a deviation of average values.
@@ -42,7 +43,7 @@ def __remove_deliquents(job_list):
     if jobs:
         id = jobs[0].customer_id
 
-        if id == 246: ## Viewing Mohnacky
+        if id == EVALUATE_CUSTOMER:
             stdev = tools.calc_standard_deviation(jobs,sd_multiplier)
             average = tools.calc_job_average(jobs)
             z_scores = tools.get_zscore(jobs, sd_multiplier)

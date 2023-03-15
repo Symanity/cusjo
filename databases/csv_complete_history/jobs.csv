@@ -154,10 +154,10 @@
 247,2022-06-24,Interior/Exterior Window Cleaning,55.0,2 and 3,59.0,9758362
 247,2022-07-22,Interior/Exterior Window Cleaning,55.0,None,,
 247,2022-08-22,Interior/Exterior Window Cleaning,100.0,Roberto Isais,,9758594
-247,2022-11-09,Interior/Exterior Window Cleaning,55.0,Devony Dettman,69.0,9758844
-247,2023-01-06,Interior/Exterior Window Cleaning,55.0,Devony Dettman,52.0,9759020
-247,2023-03-03,Interior/Exterior Window Cleaning,55.0,Devony Dettman,,
-247,2023-04-26,Interior/Exterior Window Cleaning,55.0,None,,
+247,2022-11-09,Interior/Exterior Window Cleaning,55.0,Devony Dettman,36.0,9758844
+247,2023-01-06,Interior/Exterior Window Cleaning,55.0,Devony Dettman,36.0,9759020
+247,2023-03-03,Interior/Exterior Window Cleaning,55.0,Devony Dettman,,9759172
+247,2023-04-25,Interior/Exterior Window Cleaning,55.0,Justin Smith,,
 247,2023-06-21,Interior/Exterior Window Cleaning,55.0,None,,
 247,2023-08-16,Interior/Exterior Window Cleaning,55.0,None,,
 247,2023-10-11,Interior/Exterior Window Cleaning,55.0,None,,
@@ -495,12 +495,12 @@
 9819,2022-08-31,Exterior Window Cleaning,60.0,Isais,45.0,9758623
 9819,2022-09-27,Exterior Window Cleaning,60.0,Isais,45.0,9758726
 9819,2022-10-20,Exterior Window Cleaning,60.0,Isais,45.0,9758813
-9819,2022-11-21,Exterior Window Cleaning,60.0,Roberto Isais,45.0,9758913
+9819,2022-11-21,Exterior Window Cleaning,60.0,Roberto Isais,16.0,9758913
 9819,2022-12-23,Exterior Window Cleaning,60.0,Roberto Isais,16.0,9758990
 9819,2023-01-17,Exterior Window Cleaning,60.0,Isais,42.0,9759049
 9819,2023-02-14,Exterior Window Cleaning,60.0,Isais,42.0,9759124
 9819,2023-03-17,Exterior Window Cleaning,60.0,Roberto Isais,45.0,
-9819,2023-04-12,Exterior Window Cleaning,60.0,None,45.0,
+9819,2023-04-11,Exterior Window Cleaning,60.0,Isais,45.0,
 9819,2023-05-10,Exterior Window Cleaning,60.0,None,45.0,
 9819,2023-06-07,Exterior Window Cleaning,60.0,None,45.0,
 9819,2023-07-05,Exterior Window Cleaning,60.0,None,45.0,
@@ -599,8 +599,8 @@
 9728,2023-01-05,Interior/Exterior Window Cleaning,85.0,Isais,46.0,
 9728,2023-02-02,Interior/Exterior Window Cleaning,85.0,Isais,41.0,9759082
 9728,2023-02-27,Interior/Exterior Window Cleaning,85.0,Roberto Isais,51.0,9759160
-9728,2023-03-29,Interior/Exterior Window Cleaning,85.0,None,60.0,
-9728,2023-04-26,Interior/Exterior Window Cleaning,85.0,None,60.0,
+9728,2023-03-30,Interior/Exterior Window Cleaning,85.0,Isais,60.0,
+9728,2023-04-27,Interior/Exterior Window Cleaning,85.0,Devony Dettman,60.0,
 9728,2023-05-24,Interior/Exterior Window Cleaning,85.0,None,60.0,
 9728,2023-06-21,Interior/Exterior Window Cleaning,85.0,None,60.0,
 9728,2023-07-19,Interior/Exterior Window Cleaning,85.0,None,60.0,
@@ -810,7 +810,7 @@
 9726,2023-01-17,Interior/Exterior Window Cleaning,38.0,Isais,,
 9726,2023-02-14,Interior/Exterior Window Cleaning,38.0,Isais,12.0,9759126
 9726,2023-03-17,Interior/Exterior Window Cleaning,38.0,Roberto Isais,,
-9726,2023-04-13,Interior/Exterior Window Cleaning,38.0,None,,
+9726,2023-04-11,Interior/Exterior Window Cleaning,38.0,Isais,,
 9726,2023-05-11,Interior/Exterior Window Cleaning,38.0,None,,
 9726,2023-06-08,Interior/Exterior Window Cleaning,38.0,None,,
 9726,2023-07-06,Interior/Exterior Window Cleaning,38.0,None,,
@@ -935,8 +935,8 @@
 26,2022-12-14,Interior/Exterior Window Cleaning,48.0,Isais,24.0,
 26,2023-01-12,Exterior Window Cleaning,26.0,Isais,,9759034
 26,2023-02-08,Interior/Exterior Window Cleaning,48.0,Roberto Isais,48.0,9759103
-26,2023-03-09,Interior/Exterior Window Cleaning,48.0,Isais,,
-26,2023-04-04,Interior/Exterior Window Cleaning,48.0,None,,
+26,2023-03-10,Interior/Exterior Window Cleaning,48.0,Isais,,9759194
+26,2023-04-04,Interior/Exterior Window Cleaning,48.0,Isais,,
 26,2023-05-02,Interior/Exterior Window Cleaning,48.0,None,,
 26,2023-05-30,Interior/Exterior Window Cleaning,48.0,None,,
 26,2023-06-27,Interior/Exterior Window Cleaning,48.0,None,,
@@ -1107,8 +1107,8 @@
 97,2022-12-22,Exterior Window Cleaning,35.0,None,21.0,
 97,2023-01-11,Exterior Window Cleaning,35.0,Roberto Isais,22.0,9759029
 97,2023-02-06,Exterior Window Cleaning,35.0,Roberto Isais,20.0,
-97,2023-03-07,Exterior Window Cleaning,35.0,Isais,21.0,
-97,2023-04-04,Exterior Window Cleaning,35.0,None,21.0,
+97,2023-03-07,Exterior Window Cleaning,35.0,Isais,11.0,9759180
+97,2023-04-03,Exterior Window Cleaning,35.0,Roberto Isais,21.0,
 97,2023-05-02,Exterior Window Cleaning,35.0,None,21.0,
 97,2023-05-30,Exterior Window Cleaning,35.0,None,21.0,
 97,2023-06-27,Exterior Window Cleaning,35.0,None,21.0,
@@ -1197,7 +1197,7 @@
 385,2021-11-04,Interior/Exterior Window Cleaning,110.0,None,,
 385,2022-05-05,Interior/Exterior Window Cleaning,110.0,None,,
 385,2022-11-03,Interior/Exterior Window Cleaning,110.0,None,,
-385,2023-03-08,Exterior Window Cleaning,50.0,Devony Dettman,42.0,
+385,2023-03-08,Exterior Window Cleaning,50.0,Devony Dettman,40.0,9759186
 385,2023-05-04,Interior/Exterior Window Cleaning,110.0,None,,
 385,2023-09-07,Exterior Window Cleaning,50.0,None,42.0,
 385,2023-11-02,Interior/Exterior Window Cleaning,110.0,None,,
@@ -1352,22 +1352,22 @@
 25,2021-11-17,Exterior Window Cleaning,25.0,Roberto Isais,15.0,9757603
 25,2021-12-14,Exterior Window Cleaning,25.0,Roberto Isais,15.0,
 25,2022-01-11,Exterior Window Cleaning,25.0,Roberto Isais,15.0,9757782
-25,2022-02-08,Exterior Window Cleaning,25.0,Roberto Isais,15.0,9757901
+25,2022-02-08,Exterior Window Cleaning,25.0,Roberto Isais,13.0,9757901
 25,2022-03-07,Exterior Window Cleaning,25.0,3 and 4,15.0,9758000
 25,2022-04-06,Exterior Window Cleaning,25.0,None,15.0,
-25,2022-05-06,Exterior Window Cleaning,25.0,2 and 3,15.0,9758178
+25,2022-05-06,Exterior Window Cleaning,25.0,2 and 3,13.0,9758178
 25,2022-06-01,Exterior Window Cleaning,25.0,2 and 3,10.0,9758259
-25,2022-06-27,Exterior Window Cleaning,25.0,Roberto Isais,15.0,
-25,2022-07-28,Exterior Window Cleaning,25.0,Isais,15.0,9758504
-25,2022-08-25,Exterior Window Cleaning,25.0,Isais,15.0,9758605
-25,2022-09-21,Exterior Window Cleaning,25.0,Roberto Isais,15.0,9758701
-25,2022-10-18,Exterior Window Cleaning,25.0,Isais,15.0,9758794
-25,2022-11-15,Exterior Window Cleaning,25.0,Isais,15.0,9758879
-25,2022-12-14,Exterior Window Cleaning,25.0,Isais,15.0,
-25,2023-01-12,Exterior Window Cleaning,25.0,Roberto Isais,15.0,9759033
+25,2022-06-27,Exterior Window Cleaning,25.0,Roberto Isais,13.0,
+25,2022-07-28,Exterior Window Cleaning,25.0,Isais,13.0,9758504
+25,2022-08-25,Exterior Window Cleaning,25.0,Isais,13.0,9758605
+25,2022-09-21,Exterior Window Cleaning,25.0,Roberto Isais,13.0,9758701
+25,2022-10-18,Exterior Window Cleaning,25.0,Isais,13.0,9758794
+25,2022-11-15,Exterior Window Cleaning,25.0,Isais,13.0,9758879
+25,2022-12-14,Exterior Window Cleaning,25.0,Isais,13.0,
+25,2023-01-12,Exterior Window Cleaning,25.0,Roberto Isais,13.0,9759033
 25,2023-02-08,Exterior Window Cleaning,25.0,Roberto Isais,13.0,9759105
-25,2023-03-09,Exterior Window Cleaning,25.0,Isais,15.0,
-25,2023-04-04,Exterior Window Cleaning,25.0,None,,
+25,2023-03-10,Exterior Window Cleaning,25.0,Isais,15.0,9759193
+25,2023-04-04,Exterior Window Cleaning,25.0,Isais,,
 25,2023-05-02,Exterior Window Cleaning,25.0,None,,
 25,2023-05-30,Exterior Window Cleaning,25.0,None,,
 25,2023-06-27,Exterior Window Cleaning,25.0,None,,
@@ -2085,22 +2085,22 @@
 145,2018-02-08,Inside Partition Glass Cleaning,55.0,Justin Smith,102.0,
 145,2018-05-16,Interior/Exterior Window Cleaning,70.0,None,90.0,
 145,2018-05-16,Inside Partition Glass Cleaning,55.0,None,90.0,
-145,2018-07-24,Interior/Exterior Window Cleaning,70.0,Roberto Isais,90.0,
-145,2018-07-24,Inside Partition Glass Cleaning,55.0,Roberto Isais,90.0,
-145,2018-11-01,Interior/Exterior Window Cleaning,70.0,Roberto Isais,90.0,
-145,2018-11-01,Inside Partition Glass Cleaning,55.0,Roberto Isais,90.0,
+145,2018-07-24,Interior/Exterior Window Cleaning,70.0,Roberto Isais,53.0,
+145,2018-07-24,Inside Partition Glass Cleaning,55.0,Roberto Isais,53.0,
+145,2018-11-01,Interior/Exterior Window Cleaning,70.0,Roberto Isais,70.0,
+145,2018-11-01,Inside Partition Glass Cleaning,55.0,Roberto Isais,70.0,
 145,2019-01-12,Interior/Exterior Window Cleaning,70.0,Roberto Isais,60.0,
 145,2019-01-12,Inside Partition Glass Cleaning,55.0,Roberto Isais,60.0,
-145,2019-04-02,Interior/Exterior Window Cleaning,70.0,Roberto Isais,90.0,
-145,2019-04-02,Inside Partition Glass Cleaning,55.0,Roberto Isais,90.0,
+145,2019-04-02,Interior/Exterior Window Cleaning,70.0,Roberto Isais,1.0,
+145,2019-04-02,Inside Partition Glass Cleaning,55.0,Roberto Isais,1.0,
 145,2019-06-24,Interior/Exterior Window Cleaning,70.0,1 and 5,60.0,
 145,2019-06-24,Inside Partition Glass Cleaning,55.0,1 and 5,60.0,
-145,2019-09-18,Interior/Exterior Window Cleaning,70.0,Roberto Isais,90.0,
-145,2019-09-18,Inside Partition Glass Cleaning,55.0,Roberto Isais,90.0,
-145,2019-12-26,Interior/Exterior Window Cleaning,70.0,Roberto Isais,90.0,
-145,2019-12-26,Inside Partition Glass Cleaning,55.0,Roberto Isais,90.0,
-145,2020-03-04,Interior/Exterior Window Cleaning,70.0,Roberto Isais,90.0,
-145,2020-03-04,Inside Partition Glass Cleaning,55.0,Roberto Isais,90.0,
+145,2019-09-18,Interior/Exterior Window Cleaning,70.0,Roberto Isais,60.0,
+145,2019-09-18,Inside Partition Glass Cleaning,55.0,Roberto Isais,60.0,
+145,2019-12-26,Interior/Exterior Window Cleaning,70.0,None,90.0,
+145,2019-12-26,Inside Partition Glass Cleaning,55.0,None,90.0,
+145,2020-03-04,Interior/Exterior Window Cleaning,70.0,None,90.0,
+145,2020-03-04,Inside Partition Glass Cleaning,55.0,None,90.0,
 145,2020-05-27,Interior/Exterior Window Cleaning,70.0,None,60.0,
 145,2020-05-27,Inside Partition Glass Cleaning,55.0,None,60.0,
 145,2020-08-18,Interior/Exterior Window Cleaning,70.0,None,90.0,
@@ -2115,18 +2115,18 @@
 145,2021-07-20,Inside Partition Glass Cleaning,55.0,None,90.0,
 145,2021-09-27,Interior/Exterior Window Cleaning,70.0,Brandon Foster,77.0,9757395
 145,2021-09-27,Inside Partition Glass Cleaning,55.0,Brandon Foster,77.0,9757395
-145,2021-12-30,Interior/Exterior Window Cleaning,70.0,Roberto Isais,90.0,9757758
-145,2021-12-30,Inside Partition Glass Cleaning,55.0,Roberto Isais,90.0,9757758
-145,2022-03-31,Interior/Exterior Window Cleaning,70.0,Roberto Isais,90.0,9758084
-145,2022-03-31,Inside Partition Glass Cleaning,55.0,Roberto Isais,90.0,9758084
-145,2022-06-21,Interior/Exterior Window Cleaning,70.0,Roberto Isais,90.0,9758350
-145,2022-06-21,Inside Partition Glass Cleaning,55.0,Roberto Isais,90.0,9758350
-145,2022-10-06,Interior/Exterior Window Cleaning,70.0,None,90.0,
-145,2022-10-06,Inside Partition Glass Cleaning,55.0,None,90.0,
+145,2021-12-30,Interior/Exterior Window Cleaning,70.0,Roberto Isais,53.0,9757758
+145,2021-12-30,Inside Partition Glass Cleaning,55.0,Roberto Isais,53.0,9757758
+145,2022-03-31,Interior/Exterior Window Cleaning,70.0,Roberto Isais,53.0,9758084
+145,2022-03-31,Inside Partition Glass Cleaning,55.0,Roberto Isais,53.0,9758084
+145,2022-06-21,Interior/Exterior Window Cleaning,70.0,Roberto Isais,53.0,9758350
+145,2022-06-21,Inside Partition Glass Cleaning,55.0,Roberto Isais,53.0,9758350
+145,2022-10-06,Interior/Exterior Window Cleaning,70.0,None,53.0,
+145,2022-10-06,Inside Partition Glass Cleaning,55.0,None,53.0,
 145,2023-01-06,Interior/Exterior Window Cleaning,70.0,Roberto Isais,53.0,9759014
 145,2023-01-06,Inside Partition Glass Cleaning,55.0,Roberto Isais,53.0,9759014
-145,2023-03-27,Interior/Exterior Window Cleaning,85.0,None,90.0,
-145,2023-03-27,Inside Partition Glass Cleaning,65.0,None,90.0,
+145,2023-03-27,Interior/Exterior Window Cleaning,85.0,Roberto Isais,90.0,
+145,2023-03-27,Inside Partition Glass Cleaning,65.0,Roberto Isais,90.0,
 145,2023-06-26,Interior/Exterior Window Cleaning,85.0,None,90.0,
 145,2023-06-26,Inside Partition Glass Cleaning,65.0,None,90.0,
 145,2023-09-25,Interior/Exterior Window Cleaning,85.0,None,90.0,
@@ -2680,8 +2680,8 @@
 9911,2022-12-05,Interior/Exterior Window Cleaning,100.0,Devony Dettman,25.0,9758951
 9911,2023-01-12,Interior/Exterior Window Cleaning,100.0,Devony Dettman,32.0,9759039
 9911,2023-02-01,Interior/Exterior Window Cleaning,100.0,Devony Dettman,32.0,9759078
-9911,2023-03-02,Interior/Exterior Window Cleaning,100.0,Devony Dettman,61.0,
-9911,2023-04-05,Interior/Exterior Window Cleaning,100.0,None,61.0,
+9911,2023-03-02,Interior/Exterior Window Cleaning,100.0,Devony Dettman,27.0,9759170
+9911,2023-04-05,Interior/Exterior Window Cleaning,100.0,Devony Dettman,61.0,
 9911,2023-05-03,Interior/Exterior Window Cleaning,100.0,None,61.0,
 9911,2023-06-07,Interior/Exterior Window Cleaning,100.0,None,61.0,
 9911,2023-07-05,Interior/Exterior Window Cleaning,100.0,None,61.0,
@@ -2953,10 +2953,9 @@
 9671,2023-01-26,Exterior Window Cleaning,8.0,Isais,,
 9671,2023-02-09,Interior/Exterior Window Cleaning,15.0,Isais,21.0,9759107
 9671,2023-03-01,Exterior Window Cleaning,8.0,Roberto Isais,,
-9671,2023-03-07,Interior/Exterior Window Cleaning,15.0,Isais,,
-9671,2023-03-24,Exterior Window Cleaning,8.0,None,,
-9671,2023-04-07,Interior/Exterior Window Cleaning,15.0,None,,
-9671,2023-04-21,Exterior Window Cleaning,8.0,None,,
+9671,2023-03-07,Exterior Window Cleaning,8.0,Isais,8.0,9759182
+9671,2023-03-24,Exterior Window Cleaning,8.0,Roberto Isais,,
+9671,2023-04-04,Interior/Exterior Window Cleaning,15.0,Isais,,
 9671,2023-05-05,Interior/Exterior Window Cleaning,15.0,None,,
 9671,2023-05-19,Exterior Window Cleaning,8.0,None,,
 9671,2023-06-02,Interior/Exterior Window Cleaning,15.0,None,,
@@ -3039,7 +3038,7 @@
 9802,2023-01-16,Exterior Window Cleaning,100.0,Devony Dettman,75.0,
 9802,2023-02-16,Exterior Window Cleaning,100.0,Isais,19.0,9759139
 9802,2023-03-16,Exterior Window Cleaning,100.0,Isais,75.0,
-9802,2023-04-12,Exterior Window Cleaning,100.0,None,75.0,
+9802,2023-04-12,Exterior Window Cleaning,100.0,Roberto Isais,75.0,
 9802,2023-05-10,Exterior Window Cleaning,100.0,None,75.0,
 9802,2023-06-07,Exterior Window Cleaning,100.0,None,75.0,
 9802,2023-07-05,Exterior Window Cleaning,100.0,None,75.0,
@@ -3202,8 +3201,8 @@
 27,2022-12-14,Exterior Window Cleaning,30.0,Isais,18.0,
 27,2023-01-12,Exterior Window Cleaning,30.0,Roberto Isais,20.0,9759035
 27,2023-02-08,Exterior Window Cleaning,30.0,Roberto Isais,20.0,9759104
-27,2023-03-09,Exterior Window Cleaning,30.0,Isais,12.0,
-27,2023-04-06,Exterior Window Cleaning,30.0,None,12.0,
+27,2023-03-10,Exterior Window Cleaning,30.0,Isais,12.0,9759195
+27,2023-04-04,Exterior Window Cleaning,30.0,Isais,12.0,
 27,2023-05-02,Interior Only Window Cleaning,25.0,None,,
 27,2023-05-04,Exterior Window Cleaning,30.0,None,12.0,
 27,2023-06-01,Exterior Window Cleaning,30.0,None,12.0,
@@ -3555,7 +3554,7 @@
 125,2022-09-15,Exterior Window Cleaning,42.0,Isais,60.0,9758678
 125,2022-12-05,Exterior Window Cleaning,42.0,Roberto Isais,60.0,9758946
 125,2023-02-28,Interior/Exterior Window Cleaning,85.0,Isais,60.0,
-125,2023-03-28,Exterior Window Cleaning,40.0,None,30.0,
+125,2023-03-27,Exterior Window Cleaning,40.0,Roberto Isais,30.0,
 125,2023-05-23,Exterior Window Cleaning,40.0,None,30.0,
 125,2023-05-23,Interior/Exterior Window Cleaning,85.0,None,60.0,
 125,2023-06-20,Exterior Window Cleaning,40.0,None,30.0,
@@ -3717,7 +3716,7 @@
 102,2023-01-16,Exterior Window Cleaning,25.0,Roberto Isais,11.0,9759046
 102,2023-02-13,Exterior Window Cleaning,25.0,Roberto Isais,12.0,9759119
 102,2023-03-14,Exterior Window Cleaning,25.0,Isais,11.0,
-102,2023-04-11,Exterior Window Cleaning,25.0,None,11.0,
+102,2023-04-10,Exterior Window Cleaning,25.0,Roberto Isais,11.0,
 102,2023-05-09,Exterior Window Cleaning,25.0,None,11.0,
 102,2023-06-06,Exterior Window Cleaning,25.0,None,11.0,
 102,2023-07-04,Exterior Window Cleaning,25.0,None,11.0,
@@ -3883,8 +3882,8 @@
 9667,2023-01-05,Interior/Exterior Window Cleaning,20.0,Isais,,
 9667,2023-02-03,Interior/Exterior Window Cleaning,20.0,Roberto Isais,,
 9667,2023-03-03,Interior/Exterior Window Cleaning,20.0,Roberto Isais,,
-9667,2023-03-30,Interior/Exterior Window Cleaning,20.0,None,,
-9667,2023-04-27,Interior/Exterior Window Cleaning,20.0,None,,
+9667,2023-03-31,Interior/Exterior Window Cleaning,20.0,Isais,,
+9667,2023-04-28,Interior/Exterior Window Cleaning,20.0,Devony Dettman,,
 9667,2023-05-25,Interior/Exterior Window Cleaning,20.0,None,,
 9667,2023-06-22,Interior/Exterior Window Cleaning,20.0,None,,
 9667,2023-07-20,Interior/Exterior Window Cleaning,20.0,None,,
@@ -4124,10 +4123,10 @@
 1660,2023-01-26,Interior/Exterior Window Cleaning,50.0,Isais,,
 1660,2023-02-09,Interior/Exterior Window Cleaning,50.0,Isais,38.0,9759108
 1660,2023-03-01,Interior/Exterior Window Cleaning,50.0,Roberto Isais,,
-1660,2023-03-09,Interior/Exterior Window Cleaning,50.0,Isais,,
-1660,2023-03-21,Interior/Exterior Window Cleaning,50.0,None,,
-1660,2023-04-04,Interior/Exterior Window Cleaning,50.0,None,,
-1660,2023-04-18,Interior/Exterior Window Cleaning,50.0,None,,
+1660,2023-03-10,Interior/Exterior Window Cleaning,50.0,Isais,,9759192
+1660,2023-03-23,Interior/Exterior Window Cleaning,50.0,Isais,,
+1660,2023-04-04,Interior/Exterior Window Cleaning,50.0,Isais,,
+1660,2023-04-19,Interior/Exterior Window Cleaning,50.0,Devony Dettman,,
 1660,2023-05-02,Interior/Exterior Window Cleaning,50.0,None,,
 1660,2023-05-16,Interior/Exterior Window Cleaning,50.0,None,,
 1660,2023-05-30,Interior/Exterior Window Cleaning,50.0,None,,
@@ -4425,8 +4424,8 @@
 9698,2023-01-05,Interior/Exterior Window Cleaning,20.0,Isais,,
 9698,2023-02-02,Exterior Window Cleaning,10.0,Isais,2.0,9759086
 9698,2023-02-27,Exterior Window Cleaning,10.0,Roberto Isais,2.0,9759164
-9698,2023-03-31,Interior/Exterior Window Cleaning,20.0,None,,
-9698,2023-04-28,Interior/Exterior Window Cleaning,20.0,None,,
+9698,2023-03-30,Interior/Exterior Window Cleaning,20.0,Isais,,
+9698,2023-04-27,Interior/Exterior Window Cleaning,20.0,Devony Dettman,,
 9698,2023-05-26,Interior/Exterior Window Cleaning,20.0,None,,
 9698,2023-06-23,Interior/Exterior Window Cleaning,20.0,None,,
 9698,2023-07-21,Interior/Exterior Window Cleaning,20.0,None,,
@@ -4556,7 +4555,7 @@
 81,2023-01-16,Exterior Window Cleaning,20.0,Devony Dettman,,
 81,2023-02-16,Exterior Window Cleaning,20.0,Isais,,
 81,2023-03-16,Exterior Window Cleaning,20.0,Isais,,
-81,2023-04-20,Exterior Window Cleaning,20.0,None,,
+81,2023-04-21,Exterior Window Cleaning,20.0,Devony Dettman,,
 81,2023-05-18,Exterior Window Cleaning,20.0,None,,
 81,2023-06-15,Exterior Window Cleaning,20.0,None,,
 81,2023-07-20,Exterior Window Cleaning,20.0,None,,
@@ -4726,7 +4725,7 @@
 241,2023-01-12,Exterior Window Cleaning,225.0,Devony Dettman,174.0,
 241,2023-02-10,Exterior Window Cleaning,225.0,Devony Dettman,,
 241,2023-03-03,Exterior Window Cleaning,225.0,Devony Dettman,,
-241,2023-04-07,Exterior Window Cleaning,225.0,None,,
+241,2023-04-05,Exterior Window Cleaning,225.0,Devony Dettman,,
 241,2023-05-05,Exterior Window Cleaning,225.0,None,,
 241,2023-06-02,Exterior Window Cleaning,225.0,None,,
 241,2023-07-07,Exterior Window Cleaning,225.0,None,,
@@ -4904,8 +4903,8 @@
 75,2023-01-25,Exterior Window Cleaning,300.0,Isais,165.0,9759063
 75,2023-02-21,Interior/Exterior Window Cleaning,500.0,Isais,172.0,9759156
 75,2023-02-21,Inside Partition Glass Cleaning,100.0,Isais,172.0,9759156
-75,2023-03-20,Exterior Window Cleaning,300.0,None,195.0,
-75,2023-04-17,Exterior Window Cleaning,300.0,None,195.0,
+75,2023-03-21,Exterior Window Cleaning,300.0,Isais,195.0,
+75,2023-04-18,Exterior Window Cleaning,300.0,Devony Dettman,195.0,
 75,2023-05-24,Interior/Exterior Window Cleaning,500.0,None,,
 75,2023-05-24,Inside Partition Glass Cleaning,100.0,None,,
 75,2023-06-12,Exterior Window Cleaning,300.0,None,195.0,
@@ -5262,12 +5261,12 @@
 162,2023-01-04,High lobby windows,35.0,None,,
 162,2023-01-31,Exterior Window Cleaning,225.0,Devony Dettman,240.0,9759073
 162,2023-01-31,High lobby windows,35.0,Devony Dettman,240.0,9759073
-162,2023-03-02,Exterior Window Cleaning,225.0,Isais,,
-162,2023-03-02,High lobby windows,35.0,Isais,,
-162,2023-03-29,Exterior Window Cleaning,225.0,None,,
-162,2023-03-29,High lobby windows,35.0,None,,
-162,2023-04-26,Exterior Window Cleaning,225.0,None,,
-162,2023-04-26,High lobby windows,35.0,None,,
+162,2023-03-02,Exterior Window Cleaning,225.0,Isais,93.0,
+162,2023-03-02,High lobby windows,35.0,Isais,93.0,
+162,2023-03-28,Exterior Window Cleaning,225.0,Isais,,
+162,2023-03-28,High lobby windows,35.0,Isais,,
+162,2023-04-25,Exterior Window Cleaning,225.0,Devony Dettman,,
+162,2023-04-25,High lobby windows,35.0,Devony Dettman,,
 162,2023-05-24,Exterior Window Cleaning,225.0,None,,
 162,2023-05-24,High lobby windows,35.0,None,,
 162,2023-06-21,Exterior Window Cleaning,225.0,None,,
@@ -5421,11 +5420,9 @@
 37,2022-09-01,Interior/Exterior Window Cleaning,13.0,Isais,19.0,9758633
 37,2022-09-26,Interior/Exterior Window Cleaning,13.0,Roberto Isais,19.0,9758721
 37,2022-11-22,Interior/Exterior Window Cleaning,13.0,Isais,19.0,9758922
-37,2022-12-22,Interior/Exterior Window Cleaning,13.0,None,12.0,
-37,2023-01-16,Interior/Exterior Window Cleaning,13.0,Roberto Isais,12.0,
 37,2023-02-13,Interior/Exterior Window Cleaning,13.0,Roberto Isais,16.0,9759120
 37,2023-03-14,Interior/Exterior Window Cleaning,13.0,Isais,12.0,
-37,2023-04-11,Interior/Exterior Window Cleaning,13.0,None,12.0,
+37,2023-04-10,Interior/Exterior Window Cleaning,13.0,Roberto Isais,12.0,
 37,2023-05-09,Interior/Exterior Window Cleaning,13.0,None,12.0,
 37,2023-06-06,Interior/Exterior Window Cleaning,13.0,None,12.0,
 37,2023-07-04,Interior/Exterior Window Cleaning,13.0,None,12.0,
@@ -5535,9 +5532,9 @@
 9668,2022-12-09,Interior/Exterior Window Cleaning,30.0,Roberto Isais,11.0,
 9668,2023-01-05,Interior/Exterior Window Cleaning,30.0,Isais,,
 9668,2023-02-03,Exterior Window Cleaning,15.0,Roberto Isais,11.0,9759094
-9668,2023-03-03,Interior/Exterior Window Cleaning,30.0,Roberto Isais,,
-9668,2023-03-30,Interior/Exterior Window Cleaning,30.0,None,,
-9668,2023-04-27,Interior/Exterior Window Cleaning,30.0,None,,
+9668,2023-03-03,Interior/Exterior Window Cleaning,30.0,Roberto Isais,,9759177
+9668,2023-03-31,Interior/Exterior Window Cleaning,30.0,Isais,,
+9668,2023-04-28,Interior/Exterior Window Cleaning,30.0,Devony Dettman,,
 9668,2023-05-25,Interior/Exterior Window Cleaning,30.0,None,,
 9668,2023-06-22,Interior/Exterior Window Cleaning,30.0,None,,
 9668,2023-07-20,Interior/Exterior Window Cleaning,30.0,None,,
@@ -5715,7 +5712,7 @@
 263,2022-07-28,Exterior Window Cleaning,82.0,Isais,32.0,9758500
 263,2022-10-18,Exterior Window Cleaning,82.0,Isais,32.0,9758789
 263,2023-01-31,Exterior Window Cleaning,82.0,Roberto Isais,32.0,9759069
-263,2023-04-25,Exterior Window Cleaning,82.0,None,,
+263,2023-04-24,Exterior Window Cleaning,82.0,Devony Dettman,,
 263,2023-07-25,Exterior Window Cleaning,82.0,None,,
 263,2023-10-31,Exterior Window Cleaning,82.0,None,,
 263,2024-01-30,Exterior Window Cleaning,82.0,None,,
@@ -5855,7 +5852,7 @@
 3762,2022-03-10,Interior/Exterior Window Cleaning,170.0,Oliver Munroe,,
 3762,2022-06-29,Interior/Exterior Window Cleaning,170.0,2 and 3,63.0,9758378
 3762,2022-11-11,Interior/Exterior Window Cleaning,170.0,Devony Dettman,158.0,9758865
-3762,2023-03-08,Interior/Exterior Window Cleaning,170.0,Devony Dettman,,
+3762,2023-03-08,Interior/Exterior Window Cleaning,170.0,Devony Dettman,102.0,9759188
 3762,2023-07-14,Interior/Exterior Window Cleaning,170.0,None,,
 3762,2023-11-10,Interior/Exterior Window Cleaning,170.0,None,,
 3762,2024-03-08,Interior/Exterior Window Cleaning,170.0,None,,
@@ -6010,8 +6007,8 @@
 169,2023-01-04,Interior/Exterior Window Cleaning,17.0,None,,
 169,2023-01-31,Interior/Exterior Window Cleaning,17.0,Devony Dettman,20.0,
 169,2023-03-02,Interior/Exterior Window Cleaning,17.0,Isais,,
-169,2023-03-30,Interior/Exterior Window Cleaning,17.0,None,,
-169,2023-04-27,Interior/Exterior Window Cleaning,17.0,None,,
+169,2023-03-28,Interior/Exterior Window Cleaning,17.0,Isais,,
+169,2023-04-25,Interior/Exterior Window Cleaning,17.0,Devony Dettman,,
 169,2023-05-25,Interior/Exterior Window Cleaning,17.0,None,,
 169,2023-06-22,Interior/Exterior Window Cleaning,17.0,None,,
 169,2023-07-20,Interior/Exterior Window Cleaning,17.0,None,,
@@ -6143,7 +6140,7 @@
 78,2023-01-16,Exterior Window Cleaning,41.0,Devony Dettman,17.0,9759043
 78,2023-02-16,Exterior Window Cleaning,41.0,Isais,17.0,9759135
 78,2023-03-16,Exterior Window Cleaning,41.0,Isais,,
-78,2023-04-19,Exterior Window Cleaning,41.0,None,,
+78,2023-04-21,Exterior Window Cleaning,41.0,Devony Dettman,,
 78,2023-05-17,Exterior Window Cleaning,41.0,None,,
 78,2023-06-21,Exterior Window Cleaning,41.0,None,,
 78,2023-07-19,Exterior Window Cleaning,41.0,None,,
@@ -6481,8 +6478,8 @@
 47,2022-12-30,Exterior Window Cleaning,70.0,Isais,42.0,9759012
 47,2023-01-24,Interior/Exterior Window Cleaning,170.0,Isais,56.0,9759058
 47,2023-02-20,Exterior Window Cleaning,70.0,Roberto Isais,42.0,9759150
-47,2023-03-21,Exterior Window Cleaning,70.0,None,33.0,
-47,2023-04-18,Exterior Window Cleaning,70.0,None,33.0,
+47,2023-03-22,Exterior Window Cleaning,70.0,Roberto Isais,33.0,
+47,2023-04-17,Exterior Window Cleaning,70.0,Devony Dettman,33.0,
 47,2023-05-16,Exterior Window Cleaning,70.0,None,33.0,
 47,2023-06-13,Exterior Window Cleaning,70.0,None,33.0,
 47,2023-07-11,Exterior Window Cleaning,70.0,None,33.0,
@@ -6627,8 +6624,8 @@
 95,2022-12-30,Exterior Window Cleaning,70.0,None,,
 95,2023-01-25,Exterior Window Cleaning,70.0,Isais,29.0,9759062
 95,2023-02-22,Exterior Window Cleaning,70.0,Roberto Isais,,
-95,2023-03-20,Exterior Window Cleaning,70.0,None,,
-95,2023-04-17,Exterior Window Cleaning,70.0,None,,
+95,2023-03-21,Exterior Window Cleaning,70.0,Isais,,
+95,2023-04-18,Exterior Window Cleaning,70.0,Devony Dettman,,
 95,2023-05-15,Exterior Window Cleaning,70.0,None,,
 95,2023-06-12,Exterior Window Cleaning,70.0,None,,
 95,2023-06-12,Interior/Exterior Window Cleaning,0.0,None,60.0,
@@ -6765,8 +6762,8 @@
 30,2022-12-30,Exterior Window Cleaning,45.0,Isais,20.0,9759011
 30,2023-01-24,Exterior Window Cleaning,45.0,Isais,20.0,9759059
 30,2023-02-22,Exterior Window Cleaning,45.0,Roberto Isais,20.0,
-30,2023-03-21,Exterior Window Cleaning,45.0,None,20.0,
-30,2023-04-18,Exterior Window Cleaning,45.0,None,20.0,
+30,2023-03-22,Exterior Window Cleaning,45.0,Roberto Isais,20.0,
+30,2023-04-17,Exterior Window Cleaning,45.0,Devony Dettman,20.0,
 30,2023-05-16,Exterior Window Cleaning,45.0,None,20.0,
 30,2023-06-13,Exterior Window Cleaning,45.0,None,20.0,
 30,2023-07-11,Exterior Window Cleaning,45.0,None,20.0,
@@ -6940,8 +6937,8 @@
 9703,2023-01-05,Exterior Window Cleaning,35.0,Isais,,
 9703,2023-02-02,Exterior Window Cleaning,35.0,Isais,12.0,9759085
 9703,2023-02-27,Exterior Window Cleaning,35.0,Roberto Isais,11.0,9759163
-9703,2023-03-31,Exterior Window Cleaning,35.0,None,,
-9703,2023-04-28,Exterior Window Cleaning,35.0,None,,
+9703,2023-03-30,Exterior Window Cleaning,35.0,Isais,,
+9703,2023-04-27,Exterior Window Cleaning,35.0,Devony Dettman,,
 9703,2023-05-26,Exterior Window Cleaning,35.0,None,,
 9703,2023-06-23,Exterior Window Cleaning,35.0,None,,
 9703,2023-07-21,Exterior Window Cleaning,35.0,None,,
@@ -7096,66 +7093,92 @@
 9657,2021-03-03,invoice,35.0,None,,
 9657,2021-03-31,invoice,35.0,None,,
 9657,2021-04-29,Interior/Exterior Window Cleaning,35.0,Roberto Isais,37.0,9756719
-9657,2021-05-27,Interior/Exterior Window Cleaning,35.0,Roberto Isais,37.0,9756850
-9657,2021-06-23,Interior/Exterior Window Cleaning,35.0,Roberto Isais,37.0,9756981
+9657,2021-05-27,Interior/Exterior Window Cleaning,35.0,Roberto Isais,13.0,9756850
+9657,2021-06-23,Interior/Exterior Window Cleaning,35.0,Roberto Isais,13.0,9756981
 9657,2021-07-23,Interior/Exterior Window Cleaning,35.0,Roberto Isais,,9757119
 9657,2021-08-20,Interior/Exterior Window Cleaning,35.0,Brandon Foster,30.0,9757256
 9657,2021-09-18,Interior/Exterior Window Cleaning,35.0,Brandon Foster,35.0,9757361
-9657,2021-10-12,Interior/Exterior Window Cleaning,35.0,Roberto Isais,37.0,9757449
-9657,2021-11-10,Interior/Exterior Window Cleaning,35.0,Roberto Isais,37.0,9757566
-9657,2021-12-08,Interior/Exterior Window Cleaning,35.0,Roberto Isais,37.0,9757681
+9657,2021-10-12,Interior/Exterior Window Cleaning,35.0,Roberto Isais,13.0,9757449
+9657,2021-11-10,Interior/Exterior Window Cleaning,35.0,Roberto Isais,13.0,9757566
+9657,2021-12-08,Interior/Exterior Window Cleaning,35.0,Roberto Isais,13.0,9757681
 9657,2022-01-05,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2022-02-02,Interior/Exterior Window Cleaning,35.0,Roberto Isais,37.0,9757864
+9657,2022-02-02,Interior/Exterior Window Cleaning,35.0,Roberto Isais,13.0,9757864
 9657,2022-02-28,Interior/Exterior Window Cleaning,35.0,3 and 4,,9757975
-9657,2022-03-29,Interior/Exterior Window Cleaning,35.0,Roberto Isais,37.0,9758074
+9657,2022-03-29,Interior/Exterior Window Cleaning,35.0,Roberto Isais,13.0,9758074
 9657,2022-04-27,Interior/Exterior Window Cleaning,35.0,2 and 3,,9758139
 9657,2022-05-26,Interior/Exterior Window Cleaning,35.0,Adam Ruiz,,
 9657,2022-06-23,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2022-07-20,Interior/Exterior Window Cleaning,35.0,Roberto Isais,37.0,9758467
+9657,2022-07-20,Interior/Exterior Window Cleaning,35.0,Roberto Isais,13.0,9758467
 9657,2022-08-18,Interior/Exterior Window Cleaning,35.0,Isais,,
-9657,2022-09-14,Interior/Exterior Window Cleaning,35.0,Roberto Isais,37.0,9758668
+9657,2022-09-14,Interior/Exterior Window Cleaning,35.0,Roberto Isais,13.0,9758668
 9657,2022-10-14,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2022-11-10,Interior/Exterior Window Cleaning,35.0,Isais,37.0,9758853
+9657,2022-11-10,Interior/Exterior Window Cleaning,35.0,Isais,13.0,9758853
 9657,2022-12-08,Interior/Exterior Window Cleaning,35.0,Isais,13.0,
 9657,2023-01-05,Interior/Exterior Window Cleaning,35.0,Isais,,
 9657,2023-02-02,Interior/Exterior Window Cleaning,35.0,Isais,16.0,9759083
 9657,2023-02-27,Interior/Exterior Window Cleaning,35.0,Roberto Isais,13.0,9759162
-9657,2023-03-29,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2023-04-26,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2023-05-24,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2023-06-21,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2023-07-19,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2023-08-16,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2023-09-13,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2023-10-11,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2023-11-08,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2023-12-06,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2024-01-03,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2024-01-31,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2024-02-28,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2024-03-27,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2024-04-24,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2024-05-22,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2024-06-19,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2024-07-17,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2024-08-14,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2024-09-11,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2024-10-09,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2024-11-06,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2024-12-04,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2025-01-01,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2025-01-29,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2025-02-26,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2025-03-26,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2025-04-23,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2025-05-21,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2025-06-18,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2025-07-16,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2025-08-13,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2025-09-10,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2025-10-08,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2025-11-05,Interior/Exterior Window Cleaning,35.0,None,,
-9657,2025-12-03,Interior/Exterior Window Cleaning,35.0,None,,
+9657,2023-03-30,Interior/Exterior Window Cleaning,35.0,Isais,,
+9657,2023-04-27,Interior/Exterior Window Cleaning,35.0,Devony Dettman,15.0,
+9657,2023-05-24,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2023-06-21,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2023-07-19,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2023-08-16,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2023-09-13,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2023-10-11,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2023-11-08,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2023-12-06,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2024-01-03,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2024-01-31,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2024-02-28,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2024-03-27,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2024-04-24,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2024-05-22,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2024-06-19,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2024-07-17,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2024-08-14,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2024-09-11,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2024-10-09,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2024-11-06,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2024-12-04,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-01-01,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-01-29,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-02-26,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-03-26,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-04-23,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-05-21,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-06-18,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-07-16,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-08-13,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-09-10,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-10-08,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-11-05,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-12-03,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2025-12-31,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2026-01-28,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2026-02-25,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2026-03-25,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2026-04-22,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2026-05-20,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2026-06-17,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2026-07-15,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2026-08-12,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2026-09-09,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2026-10-07,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2026-11-04,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2026-12-02,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2026-12-30,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2027-01-27,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2027-02-24,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2027-03-24,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2027-04-21,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2027-05-19,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2027-06-16,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2027-07-14,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2027-08-11,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2027-09-08,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2027-10-06,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2027-11-03,Interior/Exterior Window Cleaning,35.0,None,15.0,
+9657,2027-12-01,Interior/Exterior Window Cleaning,35.0,None,15.0,
 3919,2018-04-23,Interior/Exterior Window Cleaning,0.0,Skyler Gibbs,,
 3919,2018-05-16,Exterior Window Cleaning,40.0,None,,
 3919,2018-06-11,Exterior Window Cleaning,40.0,None,,
@@ -7192,19 +7215,19 @@
 3919,2021-04-14,Interior/Exterior Window Cleaning,90.0,Roberto Isais,43.0,9756662
 3919,2021-05-10,Exterior Window Cleaning,40.0,Roberto Isais,43.0,9756768
 3919,2021-06-08,Exterior Window Cleaning,40.0,Roberto Isais,43.0,9756905
-3919,2021-07-07,Interior/Exterior Window Cleaning,90.0,Roberto Isais,43.0,9757045
-3919,2021-08-03,Exterior Window Cleaning,40.0,Roberto Isais,43.0,9757197
+3919,2021-07-07,Interior/Exterior Window Cleaning,90.0,Roberto Isais,20.0,9757045
+3919,2021-08-03,Exterior Window Cleaning,40.0,Roberto Isais,20.0,9757197
 3919,2021-08-30,Exterior Window Cleaning,40.0,Brandon Foster,21.0,9757297
 3919,2021-10-01,Exterior Window Cleaning,40.0,None,,9757623
-3919,2021-11-22,Exterior Window Cleaning,40.0,Roberto Isais,43.0,
-3919,2021-12-23,Exterior Window Cleaning,40.0,Roberto Isais,43.0,
-3919,2022-02-18,Exterior Window Cleaning,40.0,Roberto Isais,43.0,
-3919,2022-03-15,Exterior Window Cleaning,40.0,Roberto Isais,43.0,9757948
-3919,2022-05-10,Exterior Window Cleaning,40.0,Roberto Isais,43.0,9758189
-3919,2022-06-07,Exterior Window Cleaning,40.0,Roberto Isais,43.0,9758284
-3919,2022-08-03,Exterior Window Cleaning,40.0,Roberto Isais,43.0,9758542
-3919,2022-09-01,Exterior Window Cleaning,40.0,Isais,43.0,9758632
-3919,2022-11-23,Exterior Window Cleaning,40.0,Isais,43.0,9758925
+3919,2021-11-22,Exterior Window Cleaning,40.0,Roberto Isais,20.0,
+3919,2021-12-23,Exterior Window Cleaning,40.0,Roberto Isais,20.0,
+3919,2022-02-18,Exterior Window Cleaning,40.0,Roberto Isais,20.0,
+3919,2022-03-15,Exterior Window Cleaning,40.0,Roberto Isais,20.0,9757948
+3919,2022-05-10,Exterior Window Cleaning,40.0,Roberto Isais,20.0,9758189
+3919,2022-06-07,Exterior Window Cleaning,40.0,Roberto Isais,20.0,9758284
+3919,2022-08-03,Exterior Window Cleaning,40.0,Roberto Isais,20.0,9758542
+3919,2022-09-01,Exterior Window Cleaning,40.0,Isais,15.0,9758632
+3919,2022-11-23,Exterior Window Cleaning,40.0,Isais,15.0,9758925
 3919,2022-12-21,Interior/Exterior Window Cleaning,80.0,Roberto Isais,48.0,9759013
 3919,2023-02-15,Exterior Window Cleaning,40.0,Roberto Isais,20.0,9759128
 3919,2023-03-15,Exterior Window Cleaning,40.0,Roberto Isais,,
@@ -7444,9 +7467,9 @@
 15,2022-12-01,Interior/Exterior Window Cleaning,35.0,Roberto Isais,,9758937
 15,2022-12-27,Exterior Window Cleaning,17.0,Isais,,9758997
 15,2023-01-26,Interior/Exterior Window Cleaning,35.0,Isais,17.0,
-15,2023-03-01,Interior/Exterior Window Cleaning,35.0,Roberto Isais,17.0,
-15,2023-03-23,Interior/Exterior Window Cleaning,35.0,None,17.0,
-15,2023-04-20,Interior/Exterior Window Cleaning,35.0,None,17.0,
+15,2023-03-01,Interior/Exterior Window Cleaning,35.0,Roberto Isais,18.0,9759178
+15,2023-03-23,Interior/Exterior Window Cleaning,35.0,Isais,17.0,
+15,2023-04-19,Interior/Exterior Window Cleaning,35.0,Devony Dettman,17.0,
 15,2023-05-18,Interior/Exterior Window Cleaning,35.0,None,17.0,
 15,2023-06-15,Interior/Exterior Window Cleaning,35.0,None,17.0,
 15,2023-07-13,Interior/Exterior Window Cleaning,35.0,None,17.0,
@@ -7617,7 +7640,7 @@
 9693,2023-01-17,Exterior Window Cleaning,70.0,Isais,24.0,9759050
 9693,2023-02-14,Exterior Window Cleaning,70.0,Isais,24.0,9759127
 9693,2023-03-17,Exterior Window Cleaning,70.0,Roberto Isais,,
-9693,2023-04-13,Exterior Window Cleaning,70.0,None,,
+9693,2023-04-11,Exterior Window Cleaning,70.0,Isais,,
 9693,2023-05-11,Exterior Window Cleaning,70.0,None,,
 9693,2023-06-08,Exterior Window Cleaning,70.0,None,,
 9693,2023-07-06,Exterior Window Cleaning,70.0,None,,
@@ -7732,8 +7755,8 @@
 3113,2020-10-27,Exterior Window Cleaning,76.0,Roberto Isais,,9756244
 10071,2022-11-21,Exterior Window Cleaning,110.0,Devony Dettman,75.0,9758906
 10071,2023-02-07,Exterior Window Cleaning,110.0,Devony Dettman,89.0,9759097
-10071,2023-03-16,Exterior Window Cleaning,110.0,Devony Dettman,79.0,
-10071,2023-04-10,Exterior Window Cleaning,110.0,None,79.0,
+10071,2023-03-21,Exterior Window Cleaning,110.0,Devony Dettman,79.0,
+10071,2023-04-04,Exterior Window Cleaning,110.0,Devony Dettman,79.0,
 10071,2023-05-08,Exterior Window Cleaning,110.0,None,79.0,
 10071,2023-06-12,Exterior Window Cleaning,110.0,None,79.0,
 10071,2023-07-10,Exterior Window Cleaning,110.0,None,79.0,
@@ -7938,8 +7961,8 @@
 76,2023-02-16,Interior Only Window Cleaning,5.0,Isais,14.0,9759141
 76,2023-03-16,Exterior Window Cleaning,60.0,Isais,1140.0,
 76,2023-03-16,Interior Only Window Cleaning,5.0,Isais,1140.0,
-76,2023-04-19,Exterior Window Cleaning,60.0,None,1140.0,
-76,2023-04-19,Interior Only Window Cleaning,5.0,None,1140.0,
+76,2023-04-21,Exterior Window Cleaning,60.0,Devony Dettman,1140.0,
+76,2023-04-21,Interior Only Window Cleaning,5.0,Devony Dettman,1140.0,
 76,2023-05-17,Exterior Window Cleaning,60.0,None,1140.0,
 76,2023-05-17,Interior Only Window Cleaning,5.0,None,1140.0,
 76,2023-06-21,Exterior Window Cleaning,60.0,None,1140.0,
@@ -8060,12 +8083,12 @@
 731,2022-02-18,Inside Partition Glass Cleaning,150.0,Justin Smith,148.0,9757937
 731,2022-05-20,Interior/Exterior Window Cleaning,100.0,Devony Dettman,174.0,9758221
 731,2022-05-20,Inside Partition Glass Cleaning,150.0,Devony Dettman,174.0,9758221
-731,2022-08-26,Interior/Exterior Window Cleaning,100.0,Roberto Isais,,9758614
-731,2022-08-26,Inside Partition Glass Cleaning,150.0,Roberto Isais,,9758614
+731,2022-08-26,Interior/Exterior Window Cleaning,100.0,Roberto Isais,117.0,9758614
+731,2022-08-26,Inside Partition Glass Cleaning,150.0,Roberto Isais,117.0,9758614
 731,2022-10-06,Interior/Exterior Window Cleaning,100.0,Devony Dettman,194.0,9758757
 731,2022-10-06,Inside Partition Glass Cleaning,150.0,Devony Dettman,194.0,9758757
-731,2022-11-18,Interior/Exterior Window Cleaning,100.0,Devony Dettman,,9758899
-731,2022-11-18,Inside Partition Glass Cleaning,150.0,Devony Dettman,,9758899
+731,2022-11-18,Interior/Exterior Window Cleaning,100.0,Devony Dettman,117.0,9758899
+731,2022-11-18,Inside Partition Glass Cleaning,150.0,Devony Dettman,117.0,9758899
 731,2023-02-17,Interior/Exterior Window Cleaning,100.0,Devony Dettman,117.0,9759146
 731,2023-02-17,Inside Partition Glass Cleaning,150.0,Devony Dettman,117.0,9759146
 731,2023-05-19,Interior/Exterior Window Cleaning,100.0,None,,
@@ -8312,13 +8335,13 @@
 167,2022-12-20,Exterior Window Cleaning,20.0,Isais,8.0,
 167,2023-01-04,Interior/Exterior Window Cleaning,27.0,Devony Dettman,38.0,9759008
 167,2023-01-17,Exterior Window Cleaning,20.0,Devony Dettman,,9759047
-167,2023-01-31,Interior/Exterior Window Cleaning,27.0,Devony Dettman,30.0,9759079
+167,2023-01-31,Interior/Exterior Window Cleaning,27.0,Devony Dettman,10.0,9759079
 167,2023-02-14,Exterior Window Cleaning,20.0,Isais,8.0,9759122
-167,2023-03-02,Interior/Exterior Window Cleaning,27.0,Isais,,
-167,2023-03-13,Exterior Window Cleaning,20.0,Roberto Isais,,
-167,2023-03-28,Interior/Exterior Window Cleaning,27.0,None,,
-167,2023-04-11,Exterior Window Cleaning,20.0,None,,
-167,2023-04-25,Interior/Exterior Window Cleaning,27.0,None,,
+167,2023-03-02,Interior/Exterior Window Cleaning,27.0,Isais,18.0,9759169
+167,2023-03-13,Exterior Window Cleaning,20.0,Roberto Isais,12.0,9759198
+167,2023-03-28,Interior/Exterior Window Cleaning,27.0,Isais,,
+167,2023-04-11,Exterior Window Cleaning,20.0,Isais,,
+167,2023-04-25,Interior/Exterior Window Cleaning,27.0,Devony Dettman,,
 167,2023-05-09,Exterior Window Cleaning,20.0,None,,
 167,2023-05-23,Interior/Exterior Window Cleaning,27.0,None,,
 167,2023-06-06,Exterior Window Cleaning,20.0,None,,
@@ -8472,7 +8495,7 @@
 4548,2023-01-16,Interior/Exterior Window Cleaning,10.0,Devony Dettman,,
 4548,2023-02-16,Interior/Exterior Window Cleaning,10.0,Isais,,9759136
 4548,2023-03-16,Interior/Exterior Window Cleaning,10.0,Isais,,
-4548,2023-04-05,Interior/Exterior Window Cleaning,10.0,None,,
+4548,2023-04-21,Interior/Exterior Window Cleaning,10.0,Devony Dettman,,
 4548,2023-05-03,Interior/Exterior Window Cleaning,10.0,None,,
 4548,2023-05-31,Interior/Exterior Window Cleaning,10.0,None,,
 4548,2023-06-28,Interior/Exterior Window Cleaning,10.0,None,,
@@ -8657,9 +8680,8 @@
 248,2022-12-01,Interior/Exterior Window Cleaning,90.0,Roberto Isais,,
 248,2022-12-27,Interior/Exterior Window Cleaning,90.0,Isais,,
 248,2023-01-23,Interior/Exterior Window Cleaning,90.0,Roberto Isais,,
-248,2023-03-09,Interior/Exterior Window Cleaning,90.0,Isais,,
-248,2023-03-27,Interior/Exterior Window Cleaning,90.0,None,,
-248,2023-04-24,Interior/Exterior Window Cleaning,90.0,None,,
+248,2023-03-10,Interior/Exterior Window Cleaning,90.0,Isais,,
+248,2023-03-23,Interior/Exterior Window Cleaning,90.0,Isais,,
 248,2023-05-22,Interior/Exterior Window Cleaning,90.0,None,,
 248,2023-06-26,Interior/Exterior Window Cleaning,90.0,None,,
 248,2023-07-24,Interior/Exterior Window Cleaning,90.0,None,,
@@ -8701,7 +8723,7 @@
 9723,2022-05-02,Interior/Exterior Window Cleaning,25.0,2 and 3,,9758158
 9723,2022-07-25,Interior/Exterior Window Cleaning,25.0,Roberto Isais,9.0,9758483
 9723,2023-01-09,Interior/Exterior Window Cleaning,25.0,Roberto Isais,9.0,9759021
-9723,2023-04-05,Interior/Exterior Window Cleaning,25.0,None,,
+9723,2023-04-04,Interior/Exterior Window Cleaning,25.0,Isais,,
 9723,2023-06-28,Interior/Exterior Window Cleaning,25.0,None,,
 9723,2023-09-20,Interior/Exterior Window Cleaning,25.0,None,,
 9723,2023-12-13,Interior/Exterior Window Cleaning,25.0,None,,
@@ -8766,25 +8788,25 @@
 9691,2021-08-06,Interior/Exterior Window Cleaning,28.0,Roberto Isais,30.0,9757184
 9691,2021-09-02,Interior/Exterior Window Cleaning,28.0,Brandon Foster,35.0,9757314
 9691,2021-09-30,Interior/Exterior Window Cleaning,28.0,Brandon Foster,34.0,9757407
-9691,2021-10-28,Interior/Exterior Window Cleaning,28.0,Roberto Isais,30.0,9757516
+9691,2021-10-28,Interior/Exterior Window Cleaning,28.0,Roberto Isais,24.0,9757516
 9691,2021-11-24,Interior/Exterior Window Cleaning,28.0,Roberto Isais,30.0,
 9691,2021-12-23,Interior/Exterior Window Cleaning,28.0,Brandon Foster,26.0,9757741
-9691,2022-01-20,Interior/Exterior Window Cleaning,28.0,Roberto Isais,30.0,9757815
-9691,2022-02-14,Interior/Exterior Window Cleaning,28.0,Roberto Isais,30.0,9757915
+9691,2022-01-20,Interior/Exterior Window Cleaning,28.0,Roberto Isais,24.0,9757815
+9691,2022-02-14,Interior/Exterior Window Cleaning,28.0,Roberto Isais,24.0,9757915
 9691,2022-03-17,Interior/Exterior Window Cleaning,28.0,3 and 4,,9758036
 9691,2022-04-15,Interior/Exterior Window Cleaning,28.0,None,,
-9691,2022-05-12,Interior/Exterior Window Cleaning,28.0,Roberto Isais,30.0,9758202
+9691,2022-05-12,Interior/Exterior Window Cleaning,28.0,Roberto Isais,24.0,9758202
 9691,2022-06-08,Interior/Exterior Window Cleaning,28.0,2 and 3,22.0,9758287
 9691,2022-07-08,Interior/Exterior Window Cleaning,28.0,Adam Ruiz,19.0,9758416
-9691,2022-08-05,Interior/Exterior Window Cleaning,28.0,Roberto Isais,30.0,9758536
+9691,2022-08-05,Interior/Exterior Window Cleaning,28.0,Roberto Isais,24.0,9758536
 9691,2022-09-09,Interior/Exterior Window Cleaning,28.0,Roberto Isais,30.0,
 9691,2022-09-29,Interior/Exterior Window Cleaning,28.0,Isais,30.0,9758736
-9691,2022-11-25,Interior/Exterior Window Cleaning,28.0,Roberto Isais,30.0,9758927
+9691,2022-11-25,Interior/Exterior Window Cleaning,28.0,Roberto Isais,24.0,9758927
 9691,2022-12-22,Interior/Exterior Window Cleaning,28.0,None,,
 9691,2023-01-16,Interior/Exterior Window Cleaning,28.0,Devony Dettman,50.0,9759042
 9691,2023-02-16,Interior/Exterior Window Cleaning,28.0,Isais,24.0,9759134
 9691,2023-03-16,Interior/Exterior Window Cleaning,28.0,Isais,,
-9691,2023-04-12,Interior/Exterior Window Cleaning,28.0,None,,
+9691,2023-04-12,Interior/Exterior Window Cleaning,28.0,Roberto Isais,,
 9691,2023-05-10,Interior/Exterior Window Cleaning,28.0,None,,
 9691,2023-06-07,Interior/Exterior Window Cleaning,28.0,None,,
 9691,2023-07-05,Interior/Exterior Window Cleaning,28.0,None,,
@@ -9499,7 +9521,7 @@
 9712,2023-01-17,Interior/Exterior Window Cleaning,30.0,Isais,,
 9712,2023-02-14,Interior/Exterior Window Cleaning,30.0,Isais,,
 9712,2023-03-17,Interior/Exterior Window Cleaning,30.0,Roberto Isais,,
-9712,2023-04-13,Interior/Exterior Window Cleaning,30.0,None,,
+9712,2023-04-11,Interior/Exterior Window Cleaning,30.0,Isais,,
 9712,2023-05-11,Interior/Exterior Window Cleaning,30.0,None,,
 9712,2023-06-08,Interior/Exterior Window Cleaning,30.0,None,,
 9712,2023-07-06,Interior/Exterior Window Cleaning,30.0,None,,
@@ -10011,13 +10033,13 @@
 156,2023-03-28,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
 156,2023-03-30,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
 156,2023-04-04,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
-156,2023-04-06,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
+156,2023-04-06,Exterior Window Cleaning,0.0,Everyone,390.0,
 156,2023-04-11,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
-156,2023-04-13,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
-156,2023-04-18,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
+156,2023-04-13,Exterior Window Cleaning,0.0,Devony Dettman,390.0,
+156,2023-04-18,Exterior Window Cleaning,0.0,Justin Smith,390.0,
 156,2023-04-20,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
-156,2023-04-25,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
-156,2023-04-27,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
+156,2023-04-25,Exterior Window Cleaning,0.0,Justin Smith,390.0,
+156,2023-04-27,Exterior Window Cleaning,0.0,Justin Smith,390.0,
 156,2023-05-02,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
 156,2023-05-04,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
 156,2023-05-09,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
@@ -10025,7 +10047,7 @@
 156,2023-05-16,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
 156,2023-05-18,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
 156,2023-05-23,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
-156,2023-05-25,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
+156,2023-05-25,Exterior Window Cleaning,0.0,Devony Dettman,390.0,
 156,2023-05-30,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
 156,2023-06-01,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
 156,2023-06-06,Exterior Window Cleaning,0.0,La Costa Crew,390.0,
@@ -10107,7 +10129,7 @@
 9717,2023-01-17,Exterior Window Cleaning,35.0,Isais,,
 9717,2023-02-14,Exterior Window Cleaning,35.0,Isais,15.0,9759125
 9717,2023-03-17,Exterior Window Cleaning,35.0,Roberto Isais,,
-9717,2023-04-13,Exterior Window Cleaning,35.0,None,,
+9717,2023-04-11,Exterior Window Cleaning,35.0,Isais,,
 9717,2023-05-11,Exterior Window Cleaning,35.0,None,,
 9717,2023-06-08,Exterior Window Cleaning,35.0,None,,
 9717,2023-07-06,Exterior Window Cleaning,35.0,None,,
@@ -10293,7 +10315,7 @@
 9669,2023-01-17,Exterior Window Cleaning,15.0,Isais,,
 9669,2023-02-17,Exterior Window Cleaning,15.0,Roberto Isais,,
 9669,2023-03-13,Exterior Window Cleaning,15.0,Roberto Isais,,
-9669,2023-04-14,Exterior Window Cleaning,15.0,None,,
+9669,2023-04-12,Exterior Window Cleaning,15.0,Roberto Isais,,
 9669,2023-05-12,Exterior Window Cleaning,15.0,None,,
 9669,2023-06-09,Exterior Window Cleaning,15.0,None,,
 9669,2023-07-07,Exterior Window Cleaning,15.0,None,,
@@ -10454,8 +10476,8 @@
 42,2022-10-18,Exterior Window Cleaning,70.0,Isais,,9758790
 42,2023-01-16,Exterior Window Cleaning,80.0,Roberto Isais,,
 42,2023-02-13,Exterior Window Cleaning,80.0,Roberto Isais,,
-42,2023-03-14,Exterior Window Cleaning,80.0,Isais,,
-42,2023-04-21,Exterior Window Cleaning,80.0,None,,
+42,2023-03-14,Exterior Window Cleaning,80.0,Isais,,9759202
+42,2023-04-17,Exterior Window Cleaning,80.0,Devony Dettman,,
 42,2023-05-19,Exterior Window Cleaning,80.0,None,,
 42,2023-06-16,Exterior Window Cleaning,80.0,None,,
 42,2023-07-21,Exterior Window Cleaning,80.0,None,,
@@ -10653,7 +10675,7 @@
 93,2023-01-16,Interior/Exterior Window Cleaning,32.0,Devony Dettman,,
 93,2023-02-16,Interior/Exterior Window Cleaning,32.0,Isais,33.0,9759138
 93,2023-03-16,Interior/Exterior Window Cleaning,32.0,Isais,,
-93,2023-04-19,Interior/Exterior Window Cleaning,32.0,None,,
+93,2023-04-21,Interior/Exterior Window Cleaning,32.0,Devony Dettman,,
 93,2023-05-17,Interior/Exterior Window Cleaning,32.0,None,,
 93,2023-06-21,Interior/Exterior Window Cleaning,32.0,None,,
 93,2023-07-19,Interior/Exterior Window Cleaning,32.0,None,,
@@ -10977,7 +10999,7 @@
 9981,2023-01-16,Exterior Window Cleaning,20.0,Roberto Isais,15.0,
 9981,2023-02-13,Exterior Window Cleaning,20.0,Roberto Isais,15.0,
 9981,2023-03-14,Exterior Window Cleaning,20.0,Isais,15.0,
-9981,2023-04-11,Exterior Window Cleaning,20.0,None,15.0,
+9981,2023-04-10,Exterior Window Cleaning,20.0,Roberto Isais,15.0,
 9981,2023-05-09,Exterior Window Cleaning,20.0,None,15.0,
 9981,2023-06-06,Exterior Window Cleaning,20.0,None,15.0,
 9981,2023-07-04,Exterior Window Cleaning,20.0,None,15.0,
@@ -11091,10 +11113,10 @@
 9919,2023-02-03,Exterior Window Cleaning,10.0,Roberto Isais,7.0,
 9919,2023-02-17,Interior/Exterior Window Cleaning,20.0,Roberto Isais,12.0,9759147
 9919,2023-03-03,Interior/Exterior Window Cleaning,20.0,Roberto Isais,15.0,
-9919,2023-03-13,Interior/Exterior Window Cleaning,20.0,Roberto Isais,15.0,
-9919,2023-03-31,Interior/Exterior Window Cleaning,20.0,None,15.0,
-9919,2023-04-14,Interior/Exterior Window Cleaning,20.0,None,15.0,
-9919,2023-04-28,Interior/Exterior Window Cleaning,20.0,None,15.0,
+9919,2023-03-13,Exterior Window Cleaning,10.0,Roberto Isais,10.0,
+9919,2023-03-31,Interior/Exterior Window Cleaning,20.0,Isais,15.0,
+9919,2023-04-12,Interior/Exterior Window Cleaning,20.0,Roberto Isais,15.0,
+9919,2023-04-28,Interior/Exterior Window Cleaning,20.0,Devony Dettman,15.0,
 9919,2023-05-12,Interior/Exterior Window Cleaning,20.0,None,15.0,
 9919,2023-05-26,Interior/Exterior Window Cleaning,20.0,None,15.0,
 9919,2023-06-09,Interior/Exterior Window Cleaning,20.0,None,15.0,
@@ -11182,7 +11204,6 @@
 136,2020-10-30,Exterior Window Cleaning,110.0,Jose Perez,90.0,9756249
 136,2021-04-30,Exterior Window Cleaning,110.0,None,90.0,
 136,2021-10-29,Exterior Window Cleaning,110.0,None,90.0,
-136,2023-04-28,Exterior Window Cleaning,110.0,None,90.0,
 136,2023-10-27,Exterior Window Cleaning,110.0,None,90.0,
 136,2024-04-26,Exterior Window Cleaning,110.0,None,60.0,
 136,2024-10-25,Exterior Window Cleaning,110.0,None,60.0,
@@ -11369,7 +11390,7 @@
 184,2023-01-16,Exterior Window Cleaning,22.0,Devony Dettman,,
 184,2023-02-16,Exterior Window Cleaning,22.0,Isais,,9759137
 184,2023-03-16,Exterior Window Cleaning,22.0,Isais,,
-184,2023-04-19,Exterior Window Cleaning,22.0,None,,
+184,2023-04-21,Exterior Window Cleaning,22.0,Devony Dettman,,
 184,2023-05-17,Exterior Window Cleaning,22.0,None,,
 184,2023-06-21,Exterior Window Cleaning,22.0,None,,
 184,2023-07-19,Exterior Window Cleaning,22.0,None,,
@@ -11524,11 +11545,11 @@
 246,2022-11-11,Interior/Exterior Window Cleaning,155.0,Devony Dettman,200.0,9758866
 246,2022-12-16,Interior/Exterior Window Cleaning,155.0,Devony Dettman,124.0,9758966
 246,2023-01-06,Interior/Exterior Window Cleaning,155.0,Devony Dettman,129.0,9759019
-246,2023-02-09,Interior/Exterior Window Cleaning,155.0,Devony Dettman,,9759106
-246,2023-03-01,Interior/Exterior Window Cleaning,155.0,Devony Dettman,,9759167
-246,2023-03-30,Interior/Exterior Window Cleaning,155.0,None,,
-246,2023-04-27,Interior/Exterior Window Cleaning,155.0,None,,
-246,2023-05-25,Interior/Exterior Window Cleaning,155.0,None,,
+246,2023-02-09,Interior/Exterior Window Cleaning,155.0,Devony Dettman,113.0,9759106
+246,2023-03-01,Interior/Exterior Window Cleaning,155.0,Devony Dettman,100.0,9759167
+246,2023-03-31,Interior/Exterior Window Cleaning,155.0,Devony Dettman,,
+246,2023-04-25,Interior/Exterior Window Cleaning,155.0,Justin Smith,,
+246,2023-05-26,Interior/Exterior Window Cleaning,155.0,Devony Dettman,,
 246,2023-06-22,Interior/Exterior Window Cleaning,155.0,None,,
 246,2023-07-20,Interior/Exterior Window Cleaning,155.0,None,,
 246,2023-08-17,Interior/Exterior Window Cleaning,155.0,None,,
@@ -11594,7 +11615,7 @@
 9968,2023-01-17,Interior/Exterior Window Cleaning,20.0,Isais,,
 9968,2023-02-17,Interior/Exterior Window Cleaning,20.0,Roberto Isais,,
 9968,2023-03-13,Interior/Exterior Window Cleaning,20.0,Roberto Isais,15.0,
-9968,2023-04-14,Interior/Exterior Window Cleaning,20.0,None,15.0,
+9968,2023-04-12,Interior/Exterior Window Cleaning,20.0,Roberto Isais,15.0,
 9968,2023-05-12,Interior/Exterior Window Cleaning,20.0,None,15.0,
 9968,2023-06-09,Interior/Exterior Window Cleaning,20.0,None,15.0,
 9968,2023-07-07,Interior/Exterior Window Cleaning,20.0,None,15.0,
@@ -11780,9 +11801,9 @@
 68,2022-12-30,Interior/Exterior Window Cleaning,75.0,Devony Dettman,60.0,
 68,2023-01-27,Interior/Exterior Window Cleaning,75.0,Devony Dettman,60.0,9759131
 68,2023-02-24,Interior/Exterior Window Cleaning,75.0,None,60.0,
-68,2023-03-31,Interior/Exterior Window Cleaning,75.0,None,60.0,
-68,2023-04-28,Interior/Exterior Window Cleaning,75.0,None,60.0,
-68,2023-05-26,Interior/Exterior Window Cleaning,75.0,None,60.0,
+68,2023-03-31,Interior/Exterior Window Cleaning,75.0,Everyone,60.0,
+68,2023-04-28,Interior/Exterior Window Cleaning,75.0,Devony Dettman,60.0,
+68,2023-05-26,Interior/Exterior Window Cleaning,75.0,Devony Dettman,60.0,
 68,2023-06-30,Interior/Exterior Window Cleaning,75.0,None,60.0,
 68,2023-07-28,Interior/Exterior Window Cleaning,75.0,None,60.0,
 68,2023-08-25,Interior/Exterior Window Cleaning,75.0,None,60.0,
@@ -12054,8 +12075,8 @@
 59,2022-12-30,Exterior Window Cleaning,85.0,Devony Dettman,36.0,9759003
 59,2023-01-27,Exterior Window Cleaning,85.0,Roberto Isais,50.0,
 59,2023-02-21,Exterior Window Cleaning,85.0,Devony Dettman,43.0,9759153
-59,2023-03-23,Exterior Window Cleaning,85.0,None,50.0,
-59,2023-04-20,Exterior Window Cleaning,85.0,None,,
+59,2023-03-22,Exterior Window Cleaning,85.0,Devony Dettman,50.0,
+59,2023-04-21,Exterior Window Cleaning,85.0,Justin Smith,,
 59,2023-05-18,Exterior Window Cleaning,85.0,None,,
 59,2023-06-15,Exterior Window Cleaning,85.0,None,,
 59,2023-07-13,Exterior Window Cleaning,85.0,None,,
@@ -12205,8 +12226,8 @@
 9730,2022-12-27,Interior/Exterior Window Cleaning,180.0,Isais,120.0,
 9730,2023-01-26,Interior/Exterior Window Cleaning,180.0,Isais,120.0,
 9730,2023-03-01,Interior/Exterior Window Cleaning,180.0,Roberto Isais,120.0,
-9730,2023-03-24,Interior/Exterior Window Cleaning,180.0,None,120.0,
-9730,2023-04-21,Interior/Exterior Window Cleaning,180.0,None,120.0,
+9730,2023-03-24,Interior/Exterior Window Cleaning,180.0,Roberto Isais,120.0,
+9730,2023-04-21,Interior/Exterior Window Cleaning,180.0,Devony Dettman,120.0,
 9730,2023-05-19,Interior/Exterior Window Cleaning,180.0,None,120.0,
 9730,2023-06-16,Interior/Exterior Window Cleaning,180.0,None,120.0,
 9730,2023-07-14,Interior/Exterior Window Cleaning,180.0,None,120.0,
@@ -12296,8 +12317,8 @@
 19,2021-03-05,Interior/Exterior Window Cleaning,160.0,Roberto Isais,120.0,9756553
 10136,2023-01-26,Interior/Exterior Window Cleaning,55.0,Isais,30.0,
 10136,2023-03-01,Interior/Exterior Window Cleaning,55.0,Roberto Isais,30.0,
-10136,2023-03-21,Interior/Exterior Window Cleaning,55.0,None,30.0,
-10136,2023-04-18,Interior/Exterior Window Cleaning,55.0,None,30.0,
+10136,2023-03-23,Interior/Exterior Window Cleaning,55.0,Isais,30.0,
+10136,2023-04-19,Interior/Exterior Window Cleaning,55.0,Devony Dettman,30.0,
 10136,2023-05-16,Interior/Exterior Window Cleaning,55.0,None,30.0,
 10136,2023-06-13,Interior/Exterior Window Cleaning,55.0,None,30.0,
 10136,2023-07-11,Interior/Exterior Window Cleaning,55.0,None,30.0,
@@ -12414,8 +12435,8 @@
 9696,2022-12-30,Interior/Exterior Window Cleaning,45.0,None,,
 9696,2023-01-26,Interior/Exterior Window Cleaning,45.0,Isais,29.0,
 9696,2023-02-21,Interior/Exterior Window Cleaning,45.0,Isais,24.0,9759155
-9696,2023-03-23,Interior/Exterior Window Cleaning,45.0,None,,
-9696,2023-04-20,Interior/Exterior Window Cleaning,45.0,None,,
+9696,2023-03-20,Interior/Exterior Window Cleaning,45.0,Roberto Isais,,
+9696,2023-04-21,Interior/Exterior Window Cleaning,45.0,Devony Dettman,,
 9696,2023-05-18,Interior/Exterior Window Cleaning,45.0,None,,
 9696,2023-06-15,Interior/Exterior Window Cleaning,45.0,None,,
 9696,2023-07-13,Interior/Exterior Window Cleaning,45.0,None,,
@@ -12544,8 +12565,8 @@
 771,2022-12-01,Exterior Window Cleaning,50.0,Devony Dettman,36.0,9758936
 771,2023-01-11,Exterior Window Cleaning,50.0,Devony Dettman,35.0,9759027
 771,2023-02-01,Interior/Exterior Window Cleaning,150.0,Devony Dettman,67.0,9759076
-771,2023-03-02,Exterior Window Cleaning,50.0,Devony Dettman,,
-771,2023-04-06,Exterior Window Cleaning,50.0,None,,
+771,2023-03-02,Exterior Window Cleaning,50.0,Devony Dettman,25.0,9759168
+771,2023-04-04,Exterior Window Cleaning,50.0,Devony Dettman,,
 771,2023-05-01,Interior/Exterior Window Cleaning,150.0,None,,
 771,2023-05-01,Interior/Exterior Window Cleaning,50.0,None,,
 771,2023-06-01,Exterior Window Cleaning,50.0,None,,
@@ -12614,11 +12635,11 @@
 4556,2021-09-08,Exterior Window Cleaning,150.0,Jose Perez,92.0,9757331
 4556,2021-11-29,Exterior Window Cleaning,150.0,Brandon Foster,134.0,9757645
 4556,2022-03-25,Exterior Window Cleaning,150.0,None,104.0,
-4556,2022-05-27,Exterior Window Cleaning,150.0,Roberto Isais,104.0,9758245
-4556,2022-08-26,Exterior Window Cleaning,150.0,Roberto Isais,104.0,9758615
+4556,2022-05-27,Exterior Window Cleaning,150.0,Roberto Isais,85.0,9758245
+4556,2022-08-26,Exterior Window Cleaning,150.0,Roberto Isais,80.0,9758615
 4556,2022-12-05,Exterior Window Cleaning,150.0,Devony Dettman,90.0,9758952
-4556,2023-03-03,Exterior Window Cleaning,150.0,Devony Dettman,104.0,
-4556,2023-05-22,Exterior Window Cleaning,150.0,None,104.0,
+4556,2023-03-03,Exterior Window Cleaning,150.0,Devony Dettman,76.0,9759173
+4556,2023-05-26,Exterior Window Cleaning,150.0,Devony Dettman,104.0,
 4556,2023-08-28,Exterior Window Cleaning,150.0,None,104.0,
 4556,2023-11-27,Exterior Window Cleaning,150.0,None,104.0,
 4556,2024-02-26,Exterior Window Cleaning,150.0,None,104.0,
@@ -12741,8 +12762,8 @@
 9737,2022-11-17,Interior/Exterior Window Cleaning,22.0,Isais,9.0,9758898
 9737,2023-01-12,Interior/Exterior Window Cleaning,22.0,Isais,9.0,9759038
 9737,2023-02-09,Interior/Exterior Window Cleaning,22.0,Isais,12.0,9759110
-9737,2023-03-07,Interior/Exterior Window Cleaning,22.0,Isais,,
-9737,2023-04-07,Interior/Exterior Window Cleaning,22.0,None,,
+9737,2023-03-03,Interior/Exterior Window Cleaning,22.0,Roberto Isais,12.0,9759174
+9737,2023-04-12,Interior/Exterior Window Cleaning,22.0,Roberto Isais,,
 9737,2023-05-05,Interior/Exterior Window Cleaning,22.0,None,,
 9737,2023-06-02,Interior/Exterior Window Cleaning,22.0,None,,
 9737,2023-06-30,Interior/Exterior Window Cleaning,22.0,None,,
@@ -13134,8 +13155,8 @@
 9678,2022-12-27,Interior/Exterior Window Cleaning,75.0,Isais,78.0,9759000
 9678,2023-01-26,Interior/Exterior Window Cleaning,75.0,Isais,78.0,
 9678,2023-03-01,Interior/Exterior Window Cleaning,75.0,Roberto Isais,60.0,
-9678,2023-03-24,Interior/Exterior Window Cleaning,75.0,None,60.0,
-9678,2023-04-21,Interior/Exterior Window Cleaning,75.0,None,60.0,
+9678,2023-03-24,Interior/Exterior Window Cleaning,75.0,Roberto Isais,60.0,
+9678,2023-04-21,Interior/Exterior Window Cleaning,75.0,Devony Dettman,60.0,
 9678,2023-05-19,Interior/Exterior Window Cleaning,75.0,None,60.0,
 9678,2023-06-16,Interior/Exterior Window Cleaning,75.0,None,60.0,
 9678,2023-07-14,Interior/Exterior Window Cleaning,75.0,None,60.0,
@@ -13448,8 +13469,8 @@
 211,2023-01-31,Safety /sales meeting,0.0,Everyone,,
 211,2023-02-24,Safety /sales meeting,0.0,None,,
 211,2023-02-28,Safety meeting,0.0,Everyone,30.0,
-211,2023-03-30,Safety /sales meeting,0.0,Everyone,,
-211,2023-04-04,Safety /sales meeting,0.0,Everyone,,
+211,2023-03-31,Safety /sales meeting,0.0,Everyone,,
+211,2023-04-28,Safety /sales meeting,0.0,Everyone,,
 211,2023-05-02,Safety /sales meeting,0.0,Everyone,,
 211,2023-06-06,Safety /sales meeting,0.0,Everyone,,
 211,2023-07-04,Safety /sales meeting,0.0,Everyone,,
@@ -13577,27 +13598,27 @@
 9658,2021-06-24,Exterior Window Cleaning,22.0,Roberto Isais,,
 9658,2021-07-22,Exterior Window Cleaning,22.0,Roberto Isais,15.0,9757114
 9658,2021-08-18,Exterior Window Cleaning,22.0,Roberto Isais,15.0,9757246
-9658,2021-09-17,Exterior Window Cleaning,22.0,Brandon Foster,15.0,9757350
+9658,2021-09-17,Exterior Window Cleaning,22.0,Brandon Foster,11.0,9757350
 9658,2021-10-15,Exterior Window Cleaning,22.0,Roberto Isais,,9757463
-9658,2021-11-11,Exterior Window Cleaning,22.0,Roberto Isais,15.0,9757576
+9658,2021-11-11,Exterior Window Cleaning,22.0,Roberto Isais,14.0,9757576
 9658,2021-12-09,Exterior Window Cleaning,22.0,Roberto Isais,,
 9658,2022-01-06,Exterior Window Cleaning,22.0,None,,
-9658,2022-02-04,Exterior Window Cleaning,22.0,Roberto Isais,15.0,9757884
+9658,2022-02-04,Exterior Window Cleaning,22.0,Roberto Isais,11.0,9757884
 9658,2022-03-03,Exterior Window Cleaning,22.0,3 and 4,14.0,9757990
-9658,2022-04-01,Exterior Window Cleaning,22.0,Roberto Isais,15.0,9758086
+9658,2022-04-01,Exterior Window Cleaning,22.0,Roberto Isais,14.0,9758086
 9658,2022-04-28,Exterior Window Cleaning,22.0,2 and 3,,9758148
-9658,2022-06-23,Exterior Window Cleaning,22.0,Roberto Isais,15.0,9758357
+9658,2022-06-23,Exterior Window Cleaning,22.0,Roberto Isais,11.0,9758357
 9658,2022-07-21,Exterior Window Cleaning,22.0,Isais,,9758478
-9658,2022-08-19,Exterior Window Cleaning,22.0,Roberto Isais,15.0,9758586
-9658,2022-09-16,Exterior Window Cleaning,22.0,Roberto Isais,15.0,9758686
-9658,2022-10-14,Exterior Window Cleaning,22.0,Roberto Isais,15.0,9758780
-9658,2022-11-09,Exterior Window Cleaning,22.0,Roberto Isais,15.0,9758845
-9658,2022-12-09,Exterior Window Cleaning,22.0,Roberto Isais,15.0,9758960
+9658,2022-08-19,Exterior Window Cleaning,22.0,Roberto Isais,11.0,9758586
+9658,2022-09-16,Exterior Window Cleaning,22.0,Roberto Isais,11.0,9758686
+9658,2022-10-14,Exterior Window Cleaning,22.0,Roberto Isais,11.0,9758780
+9658,2022-11-09,Exterior Window Cleaning,22.0,Roberto Isais,11.0,9758845
+9658,2022-12-09,Exterior Window Cleaning,22.0,Roberto Isais,11.0,9758960
 9658,2023-01-05,Exterior Window Cleaning,22.0,Isais,,
 9658,2023-02-03,Exterior Window Cleaning,22.0,Roberto Isais,11.0,9759093
-9658,2023-03-03,Exterior Window Cleaning,22.0,Roberto Isais,,
-9658,2023-03-30,Exterior Window Cleaning,22.0,None,,
-9658,2023-04-27,Exterior Window Cleaning,22.0,None,,
+9658,2023-03-03,Exterior Window Cleaning,22.0,Roberto Isais,,9759175
+9658,2023-03-31,Exterior Window Cleaning,22.0,Isais,,
+9658,2023-04-28,Exterior Window Cleaning,22.0,Devony Dettman,,
 9658,2023-05-25,Exterior Window Cleaning,22.0,None,,
 9658,2023-06-22,Exterior Window Cleaning,22.0,None,,
 9658,2023-07-20,Exterior Window Cleaning,22.0,None,,
@@ -13708,8 +13729,8 @@
 9664,2022-12-23,Interior/Exterior Window Cleaning,32.0,Roberto Isais,17.0,9758991
 9664,2023-01-17,Interior/Exterior Window Cleaning,32.0,Isais,17.0,9759051
 9664,2023-02-17,Interior/Exterior Window Cleaning,32.0,Roberto Isais,23.0,9759145
-9664,2023-03-13,Interior/Exterior Window Cleaning,32.0,Roberto Isais,,
-9664,2023-04-14,Interior/Exterior Window Cleaning,32.0,None,,
+9664,2023-03-13,Exterior Window Cleaning,22.0,Roberto Isais,16.0,
+9664,2023-04-12,Interior/Exterior Window Cleaning,32.0,Roberto Isais,,
 9664,2023-05-12,Interior/Exterior Window Cleaning,32.0,None,,
 9664,2023-06-09,Interior/Exterior Window Cleaning,32.0,None,,
 9664,2023-07-07,Interior/Exterior Window Cleaning,32.0,None,,
@@ -13844,8 +13865,8 @@
 9744,2022-12-16,Exterior Window Cleaning,55.0,Roberto Isais,21.0,9758971
 9744,2023-01-09,Exterior Window Cleaning,55.0,Roberto Isais,21.0,9759023
 9744,2023-02-07,Exterior Window Cleaning,55.0,Isais,21.0,9759100
-9744,2023-03-07,Exterior Window Cleaning,55.0,Isais,,
-9744,2023-04-05,Exterior Window Cleaning,55.0,None,,
+9744,2023-03-07,Exterior Window Cleaning,55.0,Isais,21.0,9759179
+9744,2023-04-04,Exterior Window Cleaning,55.0,Isais,,
 9744,2023-05-03,Exterior Window Cleaning,55.0,None,,
 9744,2023-05-31,Exterior Window Cleaning,55.0,None,,
 9744,2023-06-28,Exterior Window Cleaning,55.0,None,,
@@ -13952,8 +13973,8 @@
 9746,2023-01-05,Interior/Exterior Window Cleaning,18.0,Isais,,
 9746,2023-02-03,Interior/Exterior Window Cleaning,18.0,Roberto Isais,12.0,
 9746,2023-03-03,Interior/Exterior Window Cleaning,18.0,Roberto Isais,,
-9746,2023-03-30,Interior/Exterior Window Cleaning,18.0,None,,
-9746,2023-04-27,Interior/Exterior Window Cleaning,18.0,None,,
+9746,2023-03-31,Interior/Exterior Window Cleaning,18.0,Isais,,
+9746,2023-04-28,Interior/Exterior Window Cleaning,18.0,Devony Dettman,,
 9746,2023-05-25,Interior/Exterior Window Cleaning,18.0,None,,
 9746,2023-06-22,Interior/Exterior Window Cleaning,18.0,None,,
 9746,2023-07-20,Interior/Exterior Window Cleaning,18.0,None,,
@@ -14110,8 +14131,8 @@
 66,2022-12-30,Exterior Window Cleaning,20.0,Devony Dettman,13.0,9759004
 66,2023-01-27,Exterior Window Cleaning,20.0,Roberto Isais,12.0,
 66,2023-02-21,Exterior Window Cleaning,20.0,Devony Dettman,12.0,9759152
-66,2023-03-23,Exterior Window Cleaning,20.0,None,12.0,
-66,2023-04-20,Exterior Window Cleaning,20.0,None,12.0,
+66,2023-03-22,Exterior Window Cleaning,20.0,Devony Dettman,12.0,
+66,2023-04-21,Exterior Window Cleaning,20.0,Justin Smith,12.0,
 66,2023-05-18,Exterior Window Cleaning,20.0,None,12.0,
 66,2023-06-15,Exterior Window Cleaning,20.0,None,12.0,
 66,2023-07-13,Exterior Window Cleaning,20.0,None,12.0,
@@ -14277,8 +14298,7 @@
 9992,2023-01-20,Exterior Window Cleaning,80.0,Devony Dettman,32.0,9759052
 9992,2023-02-17,Exterior Window Cleaning,80.0,Devony Dettman,23.0,9759144
 9992,2023-03-17,Exterior Window Cleaning,80.0,Devony Dettman,60.0,
-9992,2023-03-20,Interior/Exterior Window Cleaning,0.0,None,120.0,
-9992,2023-04-21,Exterior Window Cleaning,80.0,None,60.0,
+9992,2023-04-27,Exterior Window Cleaning,80.0,Justin Smith,60.0,
 9992,2023-05-19,Exterior Window Cleaning,80.0,None,60.0,
 9992,2023-06-16,Exterior Window Cleaning,80.0,None,60.0,
 9992,2023-06-19,Interior/Exterior Window Cleaning,0.0,None,120.0,
@@ -14528,11 +14548,11 @@
 101,2023-01-16,Exterior Window Cleaning,25.0,Roberto Isais,14.0,9759045
 101,2023-01-31,Exterior Window Cleaning,25.0,Roberto Isais,11.0,9759072
 101,2023-02-13,Exterior Window Cleaning,25.0,Roberto Isais,11.0,9759118
-101,2023-02-28,Exterior Window Cleaning,25.0,Isais,8.0,
+101,2023-02-28,Exterior Window Cleaning,25.0,Isais,14.0,
 101,2023-03-14,Exterior Window Cleaning,25.0,Isais,8.0,
-101,2023-03-28,Exterior Window Cleaning,25.0,None,8.0,
-101,2023-04-11,Exterior Window Cleaning,25.0,None,8.0,
-101,2023-04-25,Exterior Window Cleaning,25.0,None,8.0,
+101,2023-03-27,Exterior Window Cleaning,25.0,Roberto Isais,8.0,
+101,2023-04-10,Exterior Window Cleaning,25.0,Roberto Isais,8.0,
+101,2023-04-24,Exterior Window Cleaning,25.0,Devony Dettman,8.0,
 101,2023-05-09,Exterior Window Cleaning,25.0,None,8.0,
 101,2023-05-23,Exterior Window Cleaning,25.0,None,8.0,
 101,2023-06-06,Exterior Window Cleaning,25.0,None,8.0,
@@ -14916,8 +14936,8 @@
 64,2022-12-30,in and out of lobby windows,30.0,Devony Dettman,21.0,9759005
 64,2023-01-27,in and out of lobby windows,30.0,Roberto Isais,12.0,
 64,2023-02-21,in and out of lobby windows,30.0,Devony Dettman,16.0,9759154
-64,2023-03-23,in and out of lobby windows,30.0,None,12.0,
-64,2023-04-20,in and out of lobby windows,30.0,None,12.0,
+64,2023-03-22,in and out of lobby windows,30.0,Devony Dettman,12.0,
+64,2023-04-21,in and out of lobby windows,30.0,Justin Smith,12.0,
 64,2023-05-18,in and out of lobby windows,30.0,None,12.0,
 64,2023-05-24,Interior/Exterior Window Cleaning,1195.0,None,,
 64,2023-06-15,in and out of lobby windows,30.0,None,12.0,
@@ -15098,7 +15118,7 @@
 2266,2022-09-15,Interior/Exterior Window Cleaning,160.0,Isais,,9758684
 2266,2022-11-14,Interior/Exterior Window Cleaning,160.0,Devony Dettman,216.0,9758872
 2266,2023-01-13,Interior/Exterior Window Cleaning,160.0,Roberto Isais,57.0,9759041
-2266,2023-03-07,Interior/Exterior Window Cleaning,160.0,Isais,,
+2266,2023-03-07,Interior/Exterior Window Cleaning,160.0,Isais,44.0,9759181
 2266,2023-05-17,Interior/Exterior Window Cleaning,875.0,None,,
 2266,2023-05-17,Inside Partition Glass Cleaning,175.0,None,,
 2266,2023-07-12,Interior/Exterior Window Cleaning,160.0,None,,
@@ -15137,7 +15157,6 @@
 183,2016-03-16,Exterior Window Cleaning,38.0,1 and 3,,
 183,2016-04-20,Exterior Window Cleaning,38.0,Marlene Estrada,,
 183,2016-05-18,Exterior Window Cleaning,38.0,Evans Richie,,
-10152,2023-03-15,Exterior Window Cleaning,1300.0,1 and 4,360.0,
 1,2015-04-13,Window Cleaning,85.0,Justin Smith,,
 1,2015-05-02,Window Cleaning,85.0,Justin Smith,60.0,
 1,2015-05-12,Window Cleaning,85.0,Danny Steinweg,60.0,
@@ -15344,11 +15363,11 @@
 1,2023-01-18,Window Cleaning,85.0,Roberto Isais,,
 1,2023-01-30,Window Cleaning,85.0,Roberto Isais,,
 1,2023-02-15,Window Cleaning,85.0,Roberto Isais,44.0,
-1,2023-03-01,Window Cleaning,85.0,Roberto Isais,,
+1,2023-03-01,Window Cleaning,85.0,Roberto Isais,42.0,
 1,2023-03-15,Window Cleaning,85.0,Roberto Isais,,
-1,2023-03-28,Window Cleaning,85.0,None,,
-1,2023-04-11,Window Cleaning,85.0,None,,
-1,2023-04-25,Window Cleaning,85.0,None,,
+1,2023-03-29,Window Cleaning,85.0,Roberto Isais,,
+1,2023-04-12,Window Cleaning,85.0,Roberto Isais,,
+1,2023-04-28,Window Cleaning,85.0,Justin Smith,,
 1,2023-05-09,Window Cleaning,85.0,None,,
 1,2023-05-23,Window Cleaning,85.0,None,,
 1,2023-06-06,Window Cleaning,85.0,None,,
@@ -15612,9 +15631,9 @@
 73,2023-02-15,Interior/Exterior Window Cleaning,125.0,Roberto Isais,43.0,
 73,2023-02-28,Interior/Exterior Window Cleaning,125.0,Isais,,
 73,2023-03-15,Interior/Exterior Window Cleaning,125.0,Roberto Isais,,
-73,2023-03-28,Interior/Exterior Window Cleaning,125.0,None,,
-73,2023-04-11,Interior/Exterior Window Cleaning,125.0,None,,
-73,2023-04-25,Interior/Exterior Window Cleaning,125.0,None,,
+73,2023-03-29,Interior/Exterior Window Cleaning,125.0,Roberto Isais,,
+73,2023-04-12,Interior/Exterior Window Cleaning,125.0,Roberto Isais,,
+73,2023-04-28,Interior/Exterior Window Cleaning,125.0,Justin Smith,,
 73,2023-05-09,Interior/Exterior Window Cleaning,125.0,None,,
 73,2023-05-23,Interior/Exterior Window Cleaning,125.0,None,,
 73,2023-06-06,Interior/Exterior Window Cleaning,125.0,None,,
@@ -16040,11 +16059,11 @@
 106,2023-01-16,Interior/Exterior Window Cleaning,35.0,Roberto Isais,28.0,9759044
 106,2023-01-31,Interior/Exterior Window Cleaning,35.0,Roberto Isais,28.0,9759070
 106,2023-02-13,Interior/Exterior Window Cleaning,35.0,Roberto Isais,28.0,9759116
-106,2023-02-28,Interior/Exterior Window Cleaning,35.0,Isais,18.0,
-106,2023-03-14,Interior/Exterior Window Cleaning,35.0,Isais,18.0,
-106,2023-03-28,Interior/Exterior Window Cleaning,35.0,None,18.0,
-106,2023-04-11,Interior/Exterior Window Cleaning,35.0,None,18.0,
-106,2023-04-25,Interior/Exterior Window Cleaning,35.0,None,18.0,
+106,2023-02-28,Interior/Exterior Window Cleaning,35.0,Isais,28.0,
+106,2023-03-14,Interior/Exterior Window Cleaning,35.0,Isais,18.0,9759201
+106,2023-03-27,Interior/Exterior Window Cleaning,35.0,Roberto Isais,18.0,
+106,2023-04-10,Interior/Exterior Window Cleaning,35.0,Roberto Isais,18.0,
+106,2023-04-24,Interior/Exterior Window Cleaning,35.0,Devony Dettman,18.0,
 106,2023-05-09,Interior/Exterior Window Cleaning,35.0,None,18.0,
 106,2023-05-23,Interior/Exterior Window Cleaning,35.0,None,18.0,
 106,2023-06-06,Interior/Exterior Window Cleaning,35.0,None,18.0,
@@ -16217,8 +16236,8 @@
 9697,2023-01-05,Exterior Window Cleaning,15.0,Isais,,
 9697,2023-02-02,Exterior Window Cleaning,15.0,Isais,11.0,9759088
 9697,2023-02-27,Exterior Window Cleaning,15.0,Roberto Isais,,
-9697,2023-03-31,Exterior Window Cleaning,15.0,None,,
-9697,2023-04-28,Exterior Window Cleaning,15.0,None,,
+9697,2023-03-30,Exterior Window Cleaning,15.0,Isais,,
+9697,2023-04-27,Exterior Window Cleaning,15.0,Devony Dettman,,
 9697,2023-05-26,Exterior Window Cleaning,15.0,None,,
 9697,2023-06-23,Exterior Window Cleaning,15.0,None,,
 9697,2023-07-21,Exterior Window Cleaning,15.0,None,,
@@ -16267,12 +16286,12 @@
 10085,2023-02-01,Exterior Window Cleaning,50.0,Roberto Isais,30.0,9759081
 10085,2023-02-01,Interior/Exterior Window Cleaning,100.0,Roberto Isais,93.0,
 10085,2023-02-01,Mirror Cleaning,30.0,Roberto Isais,93.0,
-10085,2023-03-13,Interior/Exterior Window Cleaning,100.0,Roberto Isais,60.0,
-10085,2023-03-13,Mirror Cleaning,30.0,Roberto Isais,60.0,
-10085,2023-03-28,Interior/Exterior Window Cleaning,100.0,None,60.0,
-10085,2023-03-28,Mirror Cleaning,30.0,None,60.0,
-10085,2023-04-25,Interior/Exterior Window Cleaning,100.0,None,60.0,
-10085,2023-04-25,Mirror Cleaning,30.0,None,60.0,
+10085,2023-03-13,Interior/Exterior Window Cleaning,100.0,Roberto Isais,107.0,9759197
+10085,2023-03-13,Mirror Cleaning,30.0,Roberto Isais,107.0,9759197
+10085,2023-03-28,Interior/Exterior Window Cleaning,100.0,Isais,60.0,
+10085,2023-03-28,Mirror Cleaning,30.0,Isais,60.0,
+10085,2023-04-25,Interior/Exterior Window Cleaning,100.0,Devony Dettman,60.0,
+10085,2023-04-25,Mirror Cleaning,30.0,Devony Dettman,60.0,
 10085,2023-05-23,Interior/Exterior Window Cleaning,100.0,None,60.0,
 10085,2023-05-23,Mirror Cleaning,30.0,None,60.0,
 10085,2023-06-20,Interior/Exterior Window Cleaning,100.0,None,60.0,
@@ -16389,7 +16408,7 @@
 9701,2022-05-02,Exterior Window Cleaning,60.0,2 and 3,60.0,9758159
 9701,2022-07-25,Exterior Window Cleaning,60.0,Roberto Isais,35.0,9758484
 9701,2023-01-09,Exterior Window Cleaning,60.0,Roberto Isais,35.0,9759022
-9701,2023-04-05,Exterior Window Cleaning,60.0,None,60.0,
+9701,2023-04-04,Exterior Window Cleaning,60.0,Isais,60.0,
 9701,2023-06-28,Exterior Window Cleaning,60.0,None,60.0,
 9701,2023-09-20,Exterior Window Cleaning,60.0,None,60.0,
 9701,2023-12-13,Exterior Window Cleaning,60.0,None,60.0,
@@ -16560,8 +16579,8 @@
 9692,2023-01-05,Interior/Exterior Window Cleaning,25.0,Isais,,
 9692,2023-02-02,Interior/Exterior Window Cleaning,25.0,Isais,16.0,9759084
 9692,2023-02-27,Interior/Exterior Window Cleaning,25.0,Roberto Isais,15.0,9759161
-9692,2023-03-29,Interior/Exterior Window Cleaning,25.0,None,,
-9692,2023-04-26,Interior/Exterior Window Cleaning,25.0,None,,
+9692,2023-03-30,Interior/Exterior Window Cleaning,25.0,Isais,,
+9692,2023-04-27,Interior/Exterior Window Cleaning,25.0,Devony Dettman,,
 9692,2023-05-24,Interior/Exterior Window Cleaning,25.0,None,,
 9692,2023-06-21,Interior/Exterior Window Cleaning,25.0,None,,
 9692,2023-07-19,Interior/Exterior Window Cleaning,25.0,None,,
@@ -16662,8 +16681,8 @@
 9700,2023-01-05,Interior/Exterior Window Cleaning,65.0,Isais,,
 9700,2023-02-02,Interior/Exterior Window Cleaning,65.0,Isais,17.0,9759087
 9700,2023-02-27,Interior/Exterior Window Cleaning,65.0,Roberto Isais,15.0,9759165
-9700,2023-03-31,Interior/Exterior Window Cleaning,65.0,None,,
-9700,2023-04-28,Interior/Exterior Window Cleaning,65.0,None,,
+9700,2023-03-30,Interior/Exterior Window Cleaning,65.0,Isais,,
+9700,2023-04-27,Interior/Exterior Window Cleaning,65.0,Devony Dettman,,
 9700,2023-05-26,Interior/Exterior Window Cleaning,65.0,None,,
 9700,2023-06-23,Interior/Exterior Window Cleaning,65.0,None,,
 9700,2023-07-21,Interior/Exterior Window Cleaning,65.0,None,,
@@ -16763,8 +16782,8 @@
 9993,2022-12-14,Interior/Exterior Window Cleaning,85.0,Isais,31.0,
 9993,2023-01-12,Interior/Exterior Window Cleaning,85.0,Isais,31.0,9759032
 9993,2023-02-09,Interior/Exterior Window Cleaning,85.0,Isais,35.0,9759109
-9993,2023-03-09,Interior/Exterior Window Cleaning,85.0,Isais,60.0,
-9993,2023-04-12,Interior/Exterior Window Cleaning,85.0,None,60.0,
+9993,2023-03-10,Interior/Exterior Window Cleaning,85.0,Isais,60.0,9759191
+9993,2023-04-19,Interior/Exterior Window Cleaning,85.0,Devony Dettman,60.0,
 9993,2023-05-10,Interior/Exterior Window Cleaning,85.0,None,60.0,
 9993,2023-06-14,Interior/Exterior Window Cleaning,85.0,None,60.0,
 9993,2023-07-12,Interior/Exterior Window Cleaning,85.0,None,60.0,
@@ -17045,10 +17064,10 @@
 69,2023-01-23,Interior/Exterior Window Cleaning,55.0,Roberto Isais,,
 69,2023-02-09,Exterior Window Cleaning,40.0,Isais,25.0,
 69,2023-02-27,Interior/Exterior Window Cleaning,55.0,Roberto Isais,23.0,
-69,2023-03-09,Exterior Window Cleaning,40.0,Isais,,
-69,2023-03-23,Interior/Exterior Window Cleaning,55.0,None,,
-69,2023-04-06,Exterior Window Cleaning,40.0,None,,
-69,2023-04-20,Interior/Exterior Window Cleaning,55.0,None,,
+69,2023-03-10,Exterior Window Cleaning,40.0,Isais,16.0,
+69,2023-03-23,Interior/Exterior Window Cleaning,55.0,Isais,,
+69,2023-04-04,Exterior Window Cleaning,40.0,Isais,,
+69,2023-04-19,Interior/Exterior Window Cleaning,55.0,Devony Dettman,,
 69,2023-05-04,Exterior Window Cleaning,40.0,None,,
 69,2023-05-18,Interior/Exterior Window Cleaning,55.0,None,,
 69,2023-06-01,Exterior Window Cleaning,40.0,None,,
@@ -17354,10 +17373,10 @@
 70,2023-01-23,Interior/Exterior Window Cleaning,145.0,Roberto Isais,51.0,
 70,2023-02-09,Interior/Exterior Window Cleaning,145.0,Isais,51.0,
 70,2023-02-27,Interior/Exterior Window Cleaning,145.0,Roberto Isais,56.0,
-70,2023-03-09,Interior/Exterior Window Cleaning,145.0,Isais,,
-70,2023-03-24,Interior/Exterior Window Cleaning,145.0,None,,
-70,2023-04-07,Interior/Exterior Window Cleaning,145.0,None,,
-70,2023-04-21,Interior/Exterior Window Cleaning,145.0,None,,
+70,2023-03-10,Interior/Exterior Window Cleaning,145.0,Isais,,
+70,2023-03-23,Interior/Exterior Window Cleaning,145.0,Isais,,
+70,2023-04-04,Interior/Exterior Window Cleaning,145.0,Isais,,
+70,2023-04-19,Interior/Exterior Window Cleaning,145.0,Devony Dettman,,
 70,2023-05-05,Interior/Exterior Window Cleaning,145.0,None,,
 70,2023-05-19,Interior/Exterior Window Cleaning,145.0,None,,
 70,2023-06-02,Interior/Exterior Window Cleaning,145.0,None,,
@@ -17671,11 +17690,11 @@
 56,2023-01-31,Interior/Exterior Window Cleaning,95.0,Roberto Isais,45.0,
 56,2023-02-02,Interior/Exterior Window Cleaning,2200.0,1 and 4,,
 56,2023-02-13,Exterior Window Cleaning,45.0,Roberto Isais,32.0,
-56,2023-02-28,Interior/Exterior Window Cleaning,95.0,Isais,,
+56,2023-02-28,Interior/Exterior Window Cleaning,95.0,Isais,44.0,
 56,2023-03-14,Exterior Window Cleaning,45.0,Isais,,
-56,2023-03-29,Interior/Exterior Window Cleaning,95.0,None,,
-56,2023-04-13,Exterior Window Cleaning,45.0,None,,
-56,2023-04-26,Interior/Exterior Window Cleaning,95.0,None,,
+56,2023-03-27,Interior/Exterior Window Cleaning,95.0,Roberto Isais,,
+56,2023-04-10,Exterior Window Cleaning,45.0,Roberto Isais,,
+56,2023-04-24,Interior/Exterior Window Cleaning,95.0,Devony Dettman,,
 56,2023-05-11,Exterior Window Cleaning,45.0,None,,
 56,2023-05-24,Interior/Exterior Window Cleaning,95.0,None,,
 56,2023-06-08,Exterior Window Cleaning,45.0,None,,
@@ -17952,11 +17971,11 @@
 14,2023-01-17,Window Cleaning,70.0,Devony Dettman,,
 14,2023-02-01,Window Cleaning,70.0,Roberto Isais,45.0,
 14,2023-02-14,Window Cleaning,70.0,Isais,45.0,
-14,2023-03-02,Window Cleaning,70.0,Isais,,
-14,2023-03-13,Window Cleaning,70.0,Roberto Isais,,
-14,2023-03-28,Window Cleaning,70.0,None,,
-14,2023-04-11,Window Cleaning,70.0,None,,
-14,2023-04-25,Window Cleaning,70.0,None,,
+14,2023-03-02,Window Cleaning,70.0,Isais,25.0,
+14,2023-03-13,Window Cleaning,70.0,Roberto Isais,38.0,
+14,2023-03-28,Window Cleaning,70.0,Isais,,
+14,2023-04-11,Window Cleaning,70.0,Isais,,
+14,2023-04-25,Window Cleaning,70.0,Devony Dettman,,
 14,2023-05-09,Window Cleaning,70.0,None,,
 14,2023-05-23,Window Cleaning,70.0,None,,
 14,2023-06-06,Window Cleaning,70.0,None,,
@@ -18359,11 +18378,11 @@
 46,2023-01-16,Interior/Exterior Window Cleaning,200.0,Devony Dettman,74.0,
 46,2023-02-02,Interior/Exterior Window Cleaning,200.0,Isais,52.0,
 46,2023-02-16,Interior/Exterior Window Cleaning,200.0,Isais,50.0,
-46,2023-02-28,Interior/Exterior Window Cleaning,200.0,Devony Dettman,,
+46,2023-02-28,Interior/Exterior Window Cleaning,200.0,Devony Dettman,83.0,
 46,2023-03-16,Interior/Exterior Window Cleaning,200.0,Isais,,
-46,2023-03-28,Interior/Exterior Window Cleaning,200.0,None,,
-46,2023-04-11,Interior/Exterior Window Cleaning,200.0,None,,
-46,2023-04-25,Interior/Exterior Window Cleaning,200.0,None,,
+46,2023-03-30,Interior/Exterior Window Cleaning,200.0,Isais,,
+46,2023-04-11,Interior/Exterior Window Cleaning,200.0,Devony Dettman,,
+46,2023-04-27,Interior/Exterior Window Cleaning,200.0,Devony Dettman,,
 46,2023-05-09,Interior/Exterior Window Cleaning,200.0,None,,
 46,2023-05-23,Interior/Exterior Window Cleaning,200.0,None,,
 46,2023-06-06,Interior/Exterior Window Cleaning,200.0,None,,
@@ -18614,8 +18633,8 @@
 161,2022-12-22,Interior/Exterior Window Cleaning,120.0,Devony Dettman,39.0,
 161,2023-01-24,Interior/Exterior Window Cleaning,120.0,Devony Dettman,54.0,
 161,2023-02-21,Interior/Exterior Window Cleaning,120.0,Devony Dettman,32.0,
-161,2023-03-16,Interior/Exterior Window Cleaning,120.0,Devony Dettman,,
-161,2023-04-05,Interior/Exterior Window Cleaning,120.0,None,,
+161,2023-03-20,Interior/Exterior Window Cleaning,120.0,Devony Dettman,,
+161,2023-04-18,Interior/Exterior Window Cleaning,120.0,Justin Smith,,
 161,2023-05-03,Interior/Exterior Window Cleaning,120.0,None,,
 161,2023-05-31,Interior/Exterior Window Cleaning,120.0,None,,
 161,2023-06-28,Interior/Exterior Window Cleaning,120.0,None,,
@@ -18884,11 +18903,11 @@
 5,2023-01-18,Window Cleaning,77.0,Roberto Isais,27.0,
 5,2023-01-30,Window Cleaning,77.0,Roberto Isais,27.0,
 5,2023-02-15,Window Cleaning,77.0,Roberto Isais,38.0,
-5,2023-03-01,Window Cleaning,77.0,Roberto Isais,,
+5,2023-03-01,Window Cleaning,77.0,Roberto Isais,37.0,
 5,2023-03-15,Window Cleaning,77.0,Roberto Isais,,
-5,2023-03-28,Window Cleaning,77.0,None,,
-5,2023-04-11,Window Cleaning,77.0,None,,
-5,2023-04-25,Window Cleaning,77.0,None,,
+5,2023-03-29,Window Cleaning,77.0,Roberto Isais,,
+5,2023-04-12,Window Cleaning,77.0,Roberto Isais,,
+5,2023-04-28,Window Cleaning,77.0,Justin Smith,,
 5,2023-05-09,Window Cleaning,77.0,None,,
 5,2023-05-23,Window Cleaning,77.0,None,,
 5,2023-06-06,Window Cleaning,77.0,None,,
@@ -19151,9 +19170,9 @@
 67,2023-02-17,Interior/Exterior Window Cleaning,140.0,Roberto Isais,50.0,
 67,2023-03-03,Interior/Exterior Window Cleaning,140.0,Roberto Isais,,
 67,2023-03-17,Interior/Exterior Window Cleaning,140.0,Roberto Isais,,
-67,2023-03-30,Interior/Exterior Window Cleaning,140.0,None,,
-67,2023-04-14,Interior/Exterior Window Cleaning,140.0,None,,
-67,2023-04-27,Interior/Exterior Window Cleaning,140.0,None,,
+67,2023-03-31,Interior/Exterior Window Cleaning,140.0,Isais,,
+67,2023-04-11,Interior/Exterior Window Cleaning,140.0,Justin Smith,,
+67,2023-04-28,Interior/Exterior Window Cleaning,140.0,Devony Dettman,,
 67,2023-05-12,Interior/Exterior Window Cleaning,140.0,None,,
 67,2023-05-25,Interior/Exterior Window Cleaning,140.0,None,,
 67,2023-06-09,Interior/Exterior Window Cleaning,140.0,None,,
@@ -19416,11 +19435,11 @@
 172,2023-01-20,Interior/Exterior Window Cleaning,95.0,Devony Dettman,49.0,
 172,2023-02-01,Interior/Exterior Window Cleaning,95.0,Devony Dettman,41.0,
 172,2023-02-17,Interior/Exterior Window Cleaning,95.0,Devony Dettman,42.0,
-172,2023-03-02,Interior/Exterior Window Cleaning,95.0,Devony Dettman,,
+172,2023-03-02,Interior/Exterior Window Cleaning,95.0,Devony Dettman,34.0,
 172,2023-03-17,Interior/Exterior Window Cleaning,95.0,Devony Dettman,,
-172,2023-03-30,Interior/Exterior Window Cleaning,95.0,None,,
-172,2023-04-13,Interior/Exterior Window Cleaning,95.0,None,,
-172,2023-04-27,Interior/Exterior Window Cleaning,95.0,None,,
+172,2023-03-30,Interior/Exterior Window Cleaning,95.0,Devony Dettman,,
+172,2023-04-12,Interior/Exterior Window Cleaning,95.0,Devony Dettman,,
+172,2023-04-27,Interior/Exterior Window Cleaning,95.0,Justin Smith,,
 172,2023-05-11,Interior/Exterior Window Cleaning,95.0,None,,
 172,2023-05-25,Interior/Exterior Window Cleaning,95.0,None,,
 172,2023-06-08,Interior/Exterior Window Cleaning,95.0,None,,
@@ -19708,10 +19727,10 @@
 159,2023-01-27,In/Out entry ways,65.0,Devony Dettman,45.0,
 159,2023-02-08,Interior/Exterior Window Cleaning,175.0,Devony Dettman,94.0,
 159,2023-02-20,In/Out entry ways,65.0,Devony Dettman,20.0,
-159,2023-03-08,Interior/Exterior Window Cleaning,175.0,Devony Dettman,,
-159,2023-03-21,In/Out entry ways,65.0,None,,
-159,2023-04-07,Interior/Exterior Window Cleaning,175.0,None,,
-159,2023-04-18,In/Out entry ways,65.0,None,,
+159,2023-03-08,Interior/Exterior Window Cleaning,175.0,Devony Dettman,85.0,
+159,2023-03-23,In/Out entry ways,65.0,Devony Dettman,,
+159,2023-04-06,Interior/Exterior Window Cleaning,175.0,Devony Dettman,,
+159,2023-04-20,In/Out entry ways,65.0,Devony Dettman,,
 159,2023-05-05,Interior/Exterior Window Cleaning,175.0,None,,
 159,2023-05-16,In/Out entry ways,65.0,None,,
 159,2023-06-02,Interior/Exterior Window Cleaning,175.0,None,,
@@ -20008,11 +20027,11 @@
 158,2023-01-26,Exterior Window Cleaning,45.0,Devony Dettman,22.0,
 158,2023-02-10,Interior/Exterior Window Cleaning,90.0,Devony Dettman,35.0,
 158,2023-02-21,Exterior Window Cleaning,45.0,Devony Dettman,18.0,
-158,2023-03-01,Interior/Exterior Window Cleaning,90.0,Devony Dettman,,
-158,2023-03-24,Exterior Window Cleaning,45.0,None,,
-158,2023-03-30,Interior/Exterior Window Cleaning,90.0,None,,
-158,2023-04-21,Exterior Window Cleaning,45.0,None,,
-158,2023-04-27,Interior/Exterior Window Cleaning,90.0,None,,
+158,2023-03-01,Interior/Exterior Window Cleaning,90.0,Devony Dettman,39.0,
+158,2023-03-22,Exterior Window Cleaning,45.0,Devony Dettman,,
+158,2023-03-31,Interior/Exterior Window Cleaning,90.0,Devony Dettman,,
+158,2023-04-21,Exterior Window Cleaning,45.0,Justin Smith,,
+158,2023-05-01,Interior/Exterior Window Cleaning,90.0,None,,
 158,2023-05-19,Exterior Window Cleaning,45.0,None,,
 158,2023-05-25,Interior/Exterior Window Cleaning,90.0,None,,
 158,2023-06-16,Exterior Window Cleaning,45.0,None,,
@@ -20264,10 +20283,10 @@
 3754,2023-01-24,Interior/Exterior Window Cleaning,200.0,Isais,60.0,
 3754,2023-02-06,Interior/Exterior Window Cleaning,200.0,Roberto Isais,60.0,
 3754,2023-02-22,Interior/Exterior Window Cleaning,200.0,Roberto Isais,59.0,
-3754,2023-03-07,Interior/Exterior Window Cleaning,200.0,Isais,,
-3754,2023-03-21,Interior/Exterior Window Cleaning,200.0,None,,
-3754,2023-04-04,Interior/Exterior Window Cleaning,200.0,None,,
-3754,2023-04-18,Interior/Exterior Window Cleaning,200.0,None,,
+3754,2023-03-07,Interior/Exterior Window Cleaning,200.0,Isais,56.0,
+3754,2023-03-22,Interior/Exterior Window Cleaning,200.0,Roberto Isais,,
+3754,2023-04-03,Interior/Exterior Window Cleaning,200.0,Roberto Isais,,
+3754,2023-04-17,Interior/Exterior Window Cleaning,200.0,Devony Dettman,,
 3754,2023-05-02,Interior/Exterior Window Cleaning,200.0,None,,
 3754,2023-05-16,Interior/Exterior Window Cleaning,200.0,None,,
 3754,2023-05-30,Interior/Exterior Window Cleaning,200.0,None,,
@@ -20581,11 +20600,11 @@
 53,2023-01-24,Exterior Window Cleaning,43.0,Isais,12.0,
 53,2023-01-31,Exterior Window Cleaning,43.0,Roberto Isais,16.0,
 53,2023-02-13,Exterior Window Cleaning,43.0,Roberto Isais,19.0,
-53,2023-02-28,Exterior Window Cleaning,43.0,Isais,,
+53,2023-02-28,Exterior Window Cleaning,43.0,Isais,15.0,
 53,2023-03-14,Exterior Window Cleaning,43.0,Isais,,
-53,2023-03-29,Exterior Window Cleaning,43.0,None,,
-53,2023-04-12,Exterior Window Cleaning,43.0,None,,
-53,2023-04-26,Exterior Window Cleaning,43.0,None,,
+53,2023-03-27,Exterior Window Cleaning,43.0,Roberto Isais,,
+53,2023-04-10,Exterior Window Cleaning,43.0,Roberto Isais,,
+53,2023-04-24,Exterior Window Cleaning,43.0,Devony Dettman,,
 53,2023-05-10,Exterior Window Cleaning,43.0,None,,
 53,2023-05-24,Exterior Window Cleaning,43.0,None,,
 53,2023-06-07,Exterior Window Cleaning,43.0,None,,
@@ -20847,9 +20866,9 @@
 165,2023-02-17,Exterior Window Cleaning,42.0,Devony Dettman,21.0,
 165,2023-03-03,Interior/Exterior Window Cleaning,85.0,Devony Dettman,,
 165,2023-03-17,Exterior Window Cleaning,42.0,Devony Dettman,,
-165,2023-03-29,Interior/Exterior Window Cleaning,85.0,None,,
-165,2023-04-13,Exterior Window Cleaning,42.0,None,,
-165,2023-04-26,Interior/Exterior Window Cleaning,85.0,None,,
+165,2023-03-28,Interior/Exterior Window Cleaning,85.0,Devony Dettman,,
+165,2023-04-13,Exterior Window Cleaning,42.0,Devony Dettman,,
+165,2023-04-26,Interior/Exterior Window Cleaning,85.0,Devony Dettman,,
 165,2023-05-11,Exterior Window Cleaning,42.0,None,,
 165,2023-05-24,Interior/Exterior Window Cleaning,85.0,None,,
 165,2023-06-08,Exterior Window Cleaning,42.0,None,,
@@ -21051,7 +21070,6 @@
 82,2023-01-16,Interior/Exterior Window Cleaning,22.0,Devony Dettman,11.0,
 82,2023-02-16,Interior/Exterior Window Cleaning,22.0,Isais,10.0,9759140
 82,2023-03-16,Interior/Exterior Window Cleaning,22.0,Isais,11.0,
-82,2023-04-19,Interior/Exterior Window Cleaning,22.0,None,11.0,
 82,2023-05-17,Interior/Exterior Window Cleaning,22.0,None,11.0,
 82,2023-06-21,Interior/Exterior Window Cleaning,22.0,None,11.0,
 82,2023-07-19,Interior/Exterior Window Cleaning,22.0,None,11.0,
@@ -21193,8 +21211,8 @@
 190,2022-12-05,Interior/Exterior Window Cleaning,125.0,Devony Dettman,58.0,
 190,2023-01-11,Interior/Exterior Window Cleaning,125.0,Devony Dettman,63.0,
 190,2023-02-01,Interior/Exterior Window Cleaning,125.0,Devony Dettman,38.0,
-190,2023-03-02,Interior/Exterior Window Cleaning,125.0,Devony Dettman,75.0,
-190,2023-04-05,Interior/Exterior Window Cleaning,125.0,None,75.0,
+190,2023-03-02,Interior/Exterior Window Cleaning,125.0,Devony Dettman,56.0,
+190,2023-04-05,Interior/Exterior Window Cleaning,125.0,Devony Dettman,75.0,
 190,2023-05-03,Interior/Exterior Window Cleaning,125.0,None,75.0,
 190,2023-06-07,Interior/Exterior Window Cleaning,125.0,None,75.0,
 190,2023-07-05,Interior/Exterior Window Cleaning,125.0,None,75.0,
@@ -21664,11 +21682,11 @@
 185,2023-01-16,Exterior Window Cleaning,25.0,Roberto Isais,,
 185,2023-01-31,Exterior Window Cleaning,25.0,Roberto Isais,15.0,9759071
 185,2023-02-13,Exterior Window Cleaning,25.0,Roberto Isais,15.0,9759117
-185,2023-02-28,Exterior Window Cleaning,25.0,Isais,,9759166
-185,2023-03-14,Exterior Window Cleaning,25.0,Isais,,
-185,2023-03-28,Exterior Window Cleaning,25.0,None,,
-185,2023-04-11,Exterior Window Cleaning,25.0,None,,
-185,2023-04-25,Exterior Window Cleaning,25.0,None,,
+185,2023-02-28,Exterior Window Cleaning,25.0,Isais,15.0,9759166
+185,2023-03-14,Exterior Window Cleaning,25.0,Isais,,9759200
+185,2023-03-27,Exterior Window Cleaning,25.0,Roberto Isais,,
+185,2023-04-10,Exterior Window Cleaning,25.0,Roberto Isais,,
+185,2023-04-24,Exterior Window Cleaning,25.0,Devony Dettman,,
 185,2023-05-09,Exterior Window Cleaning,25.0,None,,
 185,2023-05-23,Exterior Window Cleaning,25.0,None,,
 185,2023-06-06,Exterior Window Cleaning,25.0,None,,
@@ -22112,6 +22130,8 @@
 207,2021-12-21,Inside Partition Glass Cleaning,200.0,Roberto Isais,240.0,
 207,2022-06-02,Interior/Exterior Window Cleaning,200.0,Roberto Isais,240.0,
 207,2022-06-02,Inside Partition Glass Cleaning,200.0,Roberto Isais,240.0,
+207,2023-03-29,Interior/Exterior Window Cleaning,200.0,Roberto Isais,240.0,
+207,2023-03-29,Inside Partition Glass Cleaning,200.0,Roberto Isais,240.0,
 244,2015-07-16,Inside Partition Glass Cleaning,225.0,Justin Smith,,
 244,2016-06-01,Inside Partition Glass Cleaning,225.0,Justin Smith,,
 244,2016-06-01,Interior/Exterior Window Cleaning,160.0,Justin Smith,,
@@ -22225,8 +22245,8 @@
 252,2022-12-02,Exterior Window Cleaning,30.0,Devony Dettman,27.0,9758939
 252,2022-12-30,Exterior Window Cleaning,30.0,Devony Dettman,20.0,9759006
 252,2023-02-09,Exterior Window Cleaning,30.0,Devony Dettman,19.0,9759112
-252,2023-03-02,Exterior Window Cleaning,30.0,Devony Dettman,,
-252,2023-04-07,Exterior Window Cleaning,30.0,None,,
+252,2023-03-02,Exterior Window Cleaning,30.0,Devony Dettman,26.0,9759171
+252,2023-04-05,Exterior Window Cleaning,30.0,Devony Dettman,,
 252,2023-05-05,Exterior Window Cleaning,30.0,None,,
 252,2023-06-02,Exterior Window Cleaning,30.0,None,,
 252,2023-07-07,Exterior Window Cleaning,30.0,None,,
@@ -22433,7 +22453,7 @@
 384,2021-09-08,Exterior Window Cleaning,65.0,Jose Perez,,9757327
 384,2022-05-31,Exterior Window Cleaning,65.0,Adam Ruiz,,9758264
 384,2022-12-08,Exterior Window Cleaning,65.0,Devony Dettman,,
-384,2023-03-08,Exterior Window Cleaning,65.0,Devony Dettman,,
+384,2023-03-08,Exterior Window Cleaning,65.0,Devony Dettman,38.0,9759185
 384,2023-06-01,Exterior Window Cleaning,65.0,None,,
 384,2023-09-07,Exterior Window Cleaning,65.0,None,,
 384,2023-12-07,Exterior Window Cleaning,65.0,None,,
@@ -22461,8 +22481,8 @@
 10112,2023-02-14,Mirror Cleaning,25.0,Isais,24.0,9759123
 10112,2023-03-17,Interior/Exterior Window Cleaning,25.0,Roberto Isais,30.0,
 10112,2023-03-17,Mirror Cleaning,25.0,Roberto Isais,30.0,
-10112,2023-04-06,Interior/Exterior Window Cleaning,25.0,None,30.0,
-10112,2023-04-06,Mirror Cleaning,25.0,None,30.0,
+10112,2023-04-11,Interior/Exterior Window Cleaning,25.0,Isais,30.0,
+10112,2023-04-11,Mirror Cleaning,25.0,Isais,30.0,
 10112,2023-05-04,Interior/Exterior Window Cleaning,25.0,None,30.0,
 10112,2023-05-04,Mirror Cleaning,25.0,None,30.0,
 10112,2023-06-01,Interior/Exterior Window Cleaning,25.0,None,30.0,

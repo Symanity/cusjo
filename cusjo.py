@@ -37,6 +37,12 @@ def printEvaluations(evaluations, customer_id = None):
 if len(sys.argv) > 1:
     theCase = sys.argv[1]
 
+    if theCase == "help" or theCase == "-h":
+        print("1. Import file into res folder")
+        print("2. Build CF database with 'build' keyword")
+        print("3. Convert the CF database with 'convert' keyword")
+        print("4. Create evaluations with 'evalutate' keyword")
+
     if str(sys.argv[1]) == "build":                             # BUILD THE CUSTOMER FACTOR DATABASE
         if len(sys.argv) > 2:
             try:
